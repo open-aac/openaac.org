@@ -14,6 +14,13 @@ in the past, most material was created by vendors whose primary goal is to drive
 
 And more. The OpenAAC Initiative will be a place to find and share open-licensed tools and applications. We are in the process of organizing an advisory board to drive the strategy for this initiative, but in the mean time you can review the existing tools and resources. Remember, all of these initiatives are released with an open license, and are free to use, share and build on top of.
 
+### Resources
+
+- [AAC Systems](aac.md)
+- [Symbol Libraries](symbols.md)
+- [Learning Resources](learning.md)
+- [Developer Tools](developers.md)
+
 ### Contact Us
 
 Right now this project is in its early stages. If you would like to learn more or contribute, please [contact us](mailto: brian@mycoughdrop.com) for more information.
