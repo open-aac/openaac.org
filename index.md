@@ -1,8 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome to The OpenAAC Initiative
 
-You can use the [editor on GitHub](https://github.com/CoughDrop/openaac.org/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+What is OpenAAC? OpenAAC is an initiative to encourage the sharing and reuse of resources meant to serve communicators and supporters using Augmentative and Alternative Communication (AAC). As the international AAC community continues to grow, groups and organizations from around the world are collecting and building repositories and tools that can be used for free by anyone who can benefit from them.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+in the past, most material was created by vendors to support their specific format, and to encourage "lock-in" where users will stay with them because they have no choice. We believe in a better way forward: 
+
+- Users should be free to export their vocabulary sets if they need to switch to a different AAC system ([the Open Board Format](https://openboardformat.org)). 
+- People should have access to robust pre-made vocabulary sets without having to spend hundreds of dollars. 
+- Support teams should be free to share symbol-based classroom materials without worrying about copyright lawsuits ([opensymbols.org](https://www.opensymbols.org)).
+- Third parties should be able to integrate tools into AAC systems in a standardized way ([AAC Shim](https://tools.openaac.org)).
+- Teachers and families should be able to find free ideas for modeling with and supporting communicators their learning ([Communication Workshop](https://workshop.openaac.org)).
+- Communicators should have access to free, high-quality voice output options.
+- Communicators should have an options for free, flexible online AAC tools and systems.
+
+And more. The OpenAAC Initiative will be a place to find and share open-licensed tools and applications. We are in the process of organizing an advisory board to drive the strategy for this initiative, but in the mean time you can review the existing tools and resources. Remember, all of these initiatives are released with an open license, and are free to use, share and build on top of.
 
 ### Markdown
 
