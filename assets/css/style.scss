@@ -18,10 +18,12 @@ header {
   box-shadow: 0 5px 20px #47aeff, inset 0px -10px 20px -5px #47aeff;
 }
 header h1 {
-  font-size: 55px;
+  font-size: 45px;
   color: #ffbdbd;
   text-shadow: 2px 2px 0 #ff3131, -2px -2px 0 #ff3131, 2px -2px 0 #ff3131, -2px 2px 0 #ff3131, 4px 4px 5px #ff3131;
   letter-spacing: 2px;
   font-family: sans-serif;
   font-weight: 100;
+  padding-top: 5px;
+  margin-bottom: -5px;  
 }
