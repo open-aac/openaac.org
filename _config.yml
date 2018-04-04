@@ -1,1 +1,11 @@
+---
+title: Openaac.Org
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 theme: jekyll-theme-architect
