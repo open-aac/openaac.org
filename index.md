@@ -8,7 +8,7 @@ in the past, most material was created by vendors whose primary goal is to drive
 - Communicators should have an option for a free, flexible AAC system.
 - Users should be free to export their vocabulary sets if they need to switch to a different AAC system ([the Open Board Format](https://openboardformat.org)). 
 - People should have access to free, robust, pre-made vocabulary sets that they can import into the system that works best for them.
-- Therapists and education teams should be free create and share classroom materials that use the same symbols available on AAC systems ([opensymbols.org](https://www.opensymbols.org)).
+- Therapists and education teams should be free to create and share classroom materials that use the same symbols available on AAC systems ([opensymbols.org](https://www.opensymbols.org)).
 - Teachers and families should have access to free learning resources and ideas for modeling with and supporting communicator learning ([Communication Workshop](https://workshop.openaac.org)).
 - Communicators should have a range of free, high-quality voice output options.
 - Third parties should be able to integrate tools into AAC systems in a standardized way ([AAC Shim](https://tools.openaac.org)).
