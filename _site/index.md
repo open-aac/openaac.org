@@ -1,9 +1,20 @@
 ## Welcome to The OpenAAC Initiative
 
-<img src='openaac.svg' style='height: 110px; float: left; margin: 0 10px 10px 0;'/> 
-What is OpenAAC? OpenAAC is an initiative to encourage the sharing and reuse of resources meant to serve communicators and supporters using Augmentative and Alternative Communication (AAC). As the international AAC community continues to grow, groups and organizations from around the world are collecting and building repositories and tools that can be used for free by anyone who can benefit from them. This is a wonderful thing!
+<img src='openaac.svg' style='height: 150px; float: left; margin: 0 10px 10px 0;'/> 
+OpenAAC is an initiative to create and encourage open-licensed
+resources and tools to support AAC (Augmentative and Alternative
+Communication) users. We believe that AAC users should have 
+flexibility and control over their communication modalities.
+It is important for companies to create sustainable business
+models that can reliably support AAC users, but business 
+practices that interfere with AAC user freedoms are inappropriate.
 
-In the past, most materials were created by vendors whose primary goal is to drive people to purchase their specific apps, and to encourage "lock-in" where users will stay with them because they have no choice. We are parents, therapists, vendors and developers who believe in a better way forward. We believe that users should have control and be able to mix and match to create the experience that works best for them. Here are some of our beliefs:
+There is a growing international effort to create open-licensed
+materials and tools with the goal of communicator autonomy, and
+we are proud to contribute to this work!
+
+We are parents, therapists, vendors and developers who believe
+that users should have control and be able to mix and match to create the experience that works best for them. Here are some of our beliefs:
 
 ### Goals
 1. __Open Systems__ Communicators should have an option for a free, flexible AAC system.
