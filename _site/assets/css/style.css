@@ -397,9 +397,9 @@ header { background: #000000; border-bottom: 5px solid #a2d6ff; box-shadow: 0 5p
 
 header h1 { font-size: 45px; color: #ffbdbd; letter-spacing: 2px; font-family: sans-serif; font-weight: 500; padding-top: 5px; margin-bottom: -5px; }
 
-#main-content h2:before { font-size: 50px; content: "\01F9FA"; }
+#main-content h2:before { font-size: 50px; content: "\01F9FA"; margin-left: -25px; }
 
-#main-content h3:before { font-size: 50px; content: "\01F4AC"; }
+#main-content h3:before { font-size: 50px; content: "\01F4AC"; margin-left: -25px; }
 
 ol strong { font-size: 20px; display: block; }
 ol li { margin-bottom: 10px; }
