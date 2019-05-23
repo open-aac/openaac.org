@@ -57,7 +57,7 @@ into systems that won't ever let you get it back out!
 <div id="team">
   <div class='team_member'>
     <strong>Brian Whitmer</strong>
-    <img src="http://m3.goeshow.com/atia/orlando/2018/profile.cfm?profile_name=download&xtemplate&image=e:\docs\_clientuploads\BA9169FE-6282-47F9-B765-CBA15651FB5B\survey\beccadad_1.jpg"/>
+    <img src="https://m3.goeshow.com/atia/orlando/2018/profile.cfm?profile_name=download&xtemplate&image=e:\docs\_clientuploads\BA9169FE-6282-47F9-B765-CBA15651FB5B\survey\beccadad_1.jpg"/>
     Brian is the founder of CoughDrop and the father of an AAC user.
   </div>
 </div>
