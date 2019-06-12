@@ -1,61 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <link rel="shortcut icon" type="image/x-icon" href="openaac.svg.ico">
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod
+-->
+<html>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-{% seo %}
-  </head>
+  {% include head.html %}
 
   <body>
-    <header>
-      <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>The OpenAAC Initiative</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <span class='side btu'>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}"><img src="github.svg" alt='Contribute on GitHub'/></a>
-          <a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LWE2ODZlMWEyNmIyMWIwMzYyNzIyZmNlZWM2MDc4YzEwNWNmNWZlYTViYzBmMjZiNjcwNDkyZjRkNzUzNzg0OTA"><img src="slack.svg" alt='Chat on Slack'/></a>
-        {% endif %}
-        </span>
-      </div>
-    </header>
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          {{ content }}
-        </section>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
 
-        <aside id="sidebar">
-          <a href="https://www.opensymbols.org" class="button">OpenSymbols</a>
-          <a href="https://www.openboardformat.org" class="button">Open Board Format</a>
-          <a href="https://www.coreworkshop.org" class="button">Communication Workshop</a>
-          <a href="https://tools.openaac.org" class="button">AAC Shim</a>
-        </aside>
-      </div>
+      {% include header.html %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+      {% include scripts.html %}
+
     </div>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
   </body>
+
 </html>

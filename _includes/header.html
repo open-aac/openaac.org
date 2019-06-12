@@ -1,0 +1,32 @@
+<!-- Header -->
+<header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
+  <h1><a href="{{ site.baseurl }}/index.html">
+    <img src="/openaac.svg" style='border-radius: 5px; height: 80px; float: left;'>
+    {{ site.title }}</a>
+  </h1>
+  <nav id="nav">
+    <a href="participate.html"><span>How to Help</span></a> <span style='color: rgba(255, 255, 255, 0.5);'>|</span>
+    <a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LWE2ODZlMWEyNmIyMWIwMzYyNzIyZmNlZWM2MDc4YzEwNWNmNWZlYTViYzBmMjZiNjcwNDkyZjRkNzUzNzg0OTA"><span>Chat</span></a>
+    <ul style='display: inline;'>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a target='_blank' href="https://www.opensymbols.org/">OpenSymbols</a></li>
+            <li><a target='_blank' href="https://www.openboardformat.org/">OpenBoardFormat</a></li>
+            <li><a target='_blank' href="https://www.coreworkshop.org/">Communication Workshop</a></li>
+            <li><a target='_blank' href="https://tools.openaac.org/">AAC Shim</a></li>
+            <li><a target='_blank' href="https://github.com/open-aac/openaac.org">GitHub</a></li>
+
+            {% for my_page in site.pages %}
+            {% if my_page.include_nav %}
+            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>

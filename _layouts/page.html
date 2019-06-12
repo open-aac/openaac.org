@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header class="bg{{page.bg}}">
+    {% if page.page_title %}
+      <h2>{{ page.page_title }}</h2>
+    {% else %}
+      <h2>{{ page.title }}</h2>
+    {% endif %}
+    <p style='max-width: 800px; margin: auto;'>{{page.description}}</p>
+  </header>
+
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+    </div>
+  </section>
+
+</article>

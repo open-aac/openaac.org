@@ -1,0 +1,75 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+.link_list {
+  width: 400px;
+  margin: 10px auto;
+  li {
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 0;
+  }
+}
+.grade {
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
+  .a {
+    color: rgb(50, 255, 50);
+    text-shadow: 2px 2px 5px #000;
+  }
+  .b {
+    color: rgb(150, 255, 50);
+    text-shadow: 2px 2px 5px #000;
+  }
+  .c {
+    color: rgb(255, 255, 50);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+  }
+  .d {
+    color: rgb(255, 100, 50);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+  }
+  .f {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000;
+  }
+}
+.helping {
+
+}
+.features li {
+  width: 100%;
+}
+.features .example {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  object-position: center;
+  float: right;
+  margin-left: 30px;
+}
+.participate_pic {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  object-position: center;
+  float: left;
+  margin-right: 10px;
+}
+.swing {
+  animation: swing 3s ease-in-out 3, swing-home 1s 9s ease-in-out;
+  transform-origin: 63px 18px; 
+}
+@keyframes swing {
+  0%, 100% { transform: rotate(20deg);  }
+  50% { transform: rotate(-20deg); }
+}
+  
+@keyframes swing-home {
+  0% { transform: rotate(20deg);  }
+  100% { transform: rotate(0deg); }
+}

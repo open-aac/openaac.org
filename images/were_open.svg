@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="119.32332mm"
+   height="83.966339mm"
+   viewBox="0 0 119.32332 83.966339"
+   version="1.1"
+   id="svg2415"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="were_open.svg">
+  <defs
+     id="defs2409">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3011">
+      <stop
+         style="stop-color:#de0000;stop-opacity:1;"
+         offset="0"
+         id="stop3007" />
+      <stop
+         style="stop-color:#c10000;stop-opacity:1"
+         offset="1"
+         id="stop3009" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter3003"
+       x="-0.01002061"
+       width="1.0200412"
+       y="-0.014953865"
+       height="1.0299077">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.44748451"
+         id="feGaussianBlur3005" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3011"
+       id="linearGradient3013"
+       x1="101.35423"
+       y1="106.42667"
+       x2="109.77802"
+       y2="172.38351"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="175.08924"
+     inkscape:cy="203.27967"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1313"
+     inkscape:window-height="787"
+     inkscape:window-x="259"
+     inkscape:window-y="123"
+     inkscape:window-maximized="0"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata2412">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.06604,-97.269848)">
+    <rect
+       style="opacity:1;fill:url(#linearGradient3013);fill-opacity:1;stroke:none;stroke-width:0.25576186;stroke-opacity:1"
+       id="rect2971"
+       width="101.9729"
+       height="66.962418"
+       x="49.760483"
+       y="105.64041"
+       ry="2.9399648" />
+    <rect
+       ry="3.1531658"
+       y="103.34381"
+       x="47.140003"
+       height="71.818413"
+       width="107.17539"
+       id="rect2975"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.27154592;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="114.92051"
+       y="124.3063"
+       id="text2979"><tspan
+         sodipodi:role="line"
+         id="tspan2977"
+         x="114.92051"
+         y="124.3063"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">WE'RE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="54.309433"
+       y="165.27222"
+       id="text2983"><tspan
+         sodipodi:role="line"
+         id="tspan2981"
+         x="54.309433"
+         y="165.27222"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.33333206px;font-family:'Arial Narrow';-inkscape-font-specification:'Arial Narrow Bold';letter-spacing:-2.16693759px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         dx="0">OPEN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="39.310188"
+       y="132.98866"
+       id="text2987"
+       transform="rotate(-7.2707559)"><tspan
+         sodipodi:role="line"
+         id="tspan2985"
+         x="39.310188"
+         y="132.98866"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.16666603px;font-family:SignPainter;-inkscape-font-specification:SignPainter;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332">Come in</tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.126599,131.29289 c 5.545005,-2.22087 22.397994,-5.905 32.296363,-6.6833 13.948408,-1.09675 23.731468,-1.60029 23.456838,0.242 -0.0185,1.49565 -12.643759,0.77887 -23.65729,1.86929 -5.450729,0.53966 -27.860514,3.92179 -32.095911,4.57201 z"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscsc" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.27154592;stroke-opacity:1;filter:url(#filter3003)"
+       id="rect3001"
+       width="107.17539"
+       height="71.818413"
+       x="47.140003"
+       y="103.34381"
+       ry="3.1531658" />
+  </g>
+</svg>

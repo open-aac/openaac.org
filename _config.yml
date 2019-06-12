@@ -1,11 +1,20 @@
----
-title: Openaac.Org
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-theme: jekyll-theme-architect
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: OpenAAC
+description: Communication Supports are Essential<br/>  Open Standards and Resources for Everyone
+owner: OpenAAC # or company name
+first_published: 2019 # if migrating another site, the year of your first publish
+email: info@coughdrop.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.openaac.org" # the base hostname & protocol for your site
+social:
+  github: https://github.com/openaac.org
+  slack: https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LWE2ODZlMWEyNmIyMWIwMzYyNzIyZmNlZWM2MDc4YzEwNWNmNWZlYTViYzBmMjZiNjcwNDkyZjRkNzUzNzg0OTA
+  youtube-square: https://www.youtube.com/c/myCoughDropAAC
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
