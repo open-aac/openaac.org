@@ -848,16 +848,16 @@ body.is-mobile.landing #footer { background-color: #1d242a; }
   100% { opacity: 1.0; } }
 .backpic { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; z-index: -1; animation: imageFade 30s linear infinite 10s; }
 .backpic#back1 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/scot.jpg"); animation-delay: 30s; opacity: 1; }
-.backpic#back2 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca.jpg"); animation-delay: 20s; opacity: 1; }
-.backpic#back3 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie.jpg"); opacity: 1; }
+.backpic#back2 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca_smile.jpg"); animation-delay: 20s; opacity: 1; }
+.backpic#back3 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie_sit.jpg"); opacity: 1; }
 
-.landing_1 .backpic#back1 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca.jpg"); }
-.landing_1 .backpic#back2 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie.jpg"); }
+.landing_1 .backpic#back1 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca_smile.jpg"); }
+.landing_1 .backpic#back2 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie_sit.jpg"); }
 .landing_1 .backpic#back3 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/scot.jpg"); }
 
-.landing_2 .backpic#back1 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie.jpg"); }
+.landing_2 .backpic#back1 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/ellie_sit.jpg"); }
 .landing_2 .backpic#back2 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/scot.jpg"); }
-.landing_2 .backpic#back3 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca.jpg"); }
+.landing_2 .backpic#back3 { background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/becca_smile.jpg"); }
 
 body.is-mobile .backpic { background-attachment: scroll; }
 
