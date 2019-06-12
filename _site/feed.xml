@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OpenAAC</title>
-    <description>Alternative and Augmentative Communication&lt;br/&gt;Open Standards and Resources for Everyone</description>
+    <description>Communication Supports are Essential&lt;br/&gt;  Open Standards are for Everyone</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Jun 2019 14:02:44 -0600</pubDate>
-    <lastBuildDate>Wed, 12 Jun 2019 14:02:44 -0600</lastBuildDate>
+    <pubDate>Wed, 12 Jun 2019 14:35:00 -0600</pubDate>
+    <lastBuildDate>Wed, 12 Jun 2019 14:35:00 -0600</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
   </channel>

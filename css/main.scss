@@ -1931,21 +1931,21 @@ $baseurl: '{{ site.baseurl }}/images';
       
     }
     &#back2 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca_smile.jpg"); 
       animation-delay: 20s;
       opacity: 1;
     }
     &#back3 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
       opacity: 1;
     }
   }
   .landing_1 {
     .backpic#back1 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca_smile.jpg"); 
     }
     .backpic#back2 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
     }
     .backpic#back3 {
       background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/scot.jpg"); 
@@ -1953,13 +1953,13 @@ $baseurl: '{{ site.baseurl }}/images';
   }
   .landing_2 {
     .backpic#back1 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/ellie_sit.jpg"); 
     }
     .backpic#back2 {
       background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/scot.jpg"); 
     }
     .backpic#back3 {
-      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca.jpg"); 
+      background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("/images/becca_smile.jpg"); 
     }
   }
 	body.is-mobile .backpic {
