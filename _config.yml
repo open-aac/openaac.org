@@ -10,8 +10,8 @@ email: info@coughdrop.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.openaac.org" # the base hostname & protocol for your site
 social:
-  github: https://github.com/openaac.org
-  slack: https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LWE2ODZlMWEyNmIyMWIwMzYyNzIyZmNlZWM2MDc4YzEwNWNmNWZlYTViYzBmMjZiNjcwNDkyZjRkNzUzNzg0OTA
+  github: https://github.com/open-aac
+  slack: https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc
   youtube-square: https://www.youtube.com/c/myCoughDropAAC
 
 # Build settings
