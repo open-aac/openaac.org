@@ -21,7 +21,7 @@ that users should have control and be able to mix and match to create the experi
 1. __Open Systems__ Communicators should have an option for a free, dynamic, flexible AAC system ([Open AAC Systems](aac.md)).
 2. __Open Exports__ Users should be free to export their vocabulary sets if they need to switch to a different AAC system ([the Open Board Format](https://openboardformat.org)). 
 3. __Open Vocabularies__ Communicators should have access to free, robust, pre-made vocabulary sets that they can import into the system that works best for them ([Open Board Format Examples](https://openboardformat.org/examples)).
-4. __Open Symbols__ Therapists and education teams should be free create and share classroom materials that use the same symbols available on AAC systems ([opensymbols.org](https://www.opensymbols.org)).
+4. __Open Symbols__ Therapists and education teams should be free to create and share classroom materials that use the same symbols available on AAC systems ([opensymbols.org](https://www.opensymbols.org)).
 5. __Open Lessons__ Teachers and families should have access to free learning resources and ideas for modeling with and supporting communicator learning ([Communication Workshop](https://www.coreworkshop.org)).
 6. __Open Voices__ Communicators should have access to a range of free, high-quality voice output options.
 7. __Open Integrations__ Third party companies, web sites and developers should have tools that allow them to make their solutions available to AAC users in a standardized way ([AAC Shim](https://tools.openaac.org)).
