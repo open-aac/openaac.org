@@ -60,10 +60,36 @@
   float: left;
   margin-right: 10px;
 }
+.participate_preview_pic {
+  width: 250px;
+  object-fit: contain;
+  object-position: top center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  float: right;
+  margin-left: 10px;
+  margin-top: -30px;
+}
+p a {
+  font-weight: bold;
+}
+
 .swing {
   animation: swing 3s ease-in-out 3, swing-home 1s 9s ease-in-out;
   transform-origin: 63px 18px; 
 }
+
+@media (max-width: 725px) {
+  .participate_pic {
+    height: 100px;
+    width: 100px;
+    }
+  .participate_preview_pic {
+    display: none;
+  }    
+}
+
 @keyframes swing {
   0%, 100% { transform: rotate(20deg);  }
   50% { transform: rotate(-20deg); }

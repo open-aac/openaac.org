@@ -1,0 +1,177 @@
+---
+layout: landing
+---
+<script>
+  var wall_members = [
+    ["CoughDrop", "https://www.coughdrop.com"],
+    ["Ace Centre", "https://acecentre.org.uk/"],
+    ["Global Symbols", "https://globalsymbols.com/"],
+    ["Co-VidSpeak", "https://www.covidspeak.org"],
+    ["StartConvo", "http://startconvo.co.uk/"],
+    ["SpeakBook", "https://github.com/acecentre/SpeakBook#README"],
+    ["Dasher", "https://dasher-site.netlify.app/"],
+    ["Cordova Face", "https://github.com/open-aac/cordova_face"],
+    ["Webgazer.js", "https://webgazer.cs.brown.edu/"],
+  ];
+</script>
+<style>
+  #wall {
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.11);
+    padding: 20px 30px;
+    max-width: 700px;
+    margin: 0 auto;
+    white-space: normal;
+    line-height: 40px;
+  }
+  #wall a {
+    color: #fff;
+    margin: 0 10px;
+    white-space: nowrap;
+  }
+</style>
+
+					<section id="banner">
+						<div class="inner">
+							<h2>
+								<img src='openaac.svg' class='swing' style='height: 150px; margin: 0 10px 10px 0;' alt='OpenAAC'/> 
+							</h2>
+							<p style='margin-top: 0px;'>OpenAAC Advocates<br/>Helping Provide Access for All</p>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+				<section id="one" class="wrapper style1 special">
+					<div class='inner'>
+					<header class="major">
+						<h2>You Just Found an OpenAAC Supporter!</h2>
+            
+
+						<img src='https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hello.png' style='height: 300px; float: right; margin: 0 10px 10px 0;'/> 
+						<p>
+              The person or group who linked to this page
+              is helping spread the word about the importance
+              of Openness for AAC users, families and practitioners!
+            </p>
+						
+						<p>
+              AAC (short for Agumentative and Alternative Communication) are tools,
+              apps and strategies that can help people with disabilities or inconsistent
+              speech to still get their message across. Speech-generating apps, or printed
+              boards or cards are good examples of AAC.
+            </p>
+            
+            <p>
+              OpenAAC is about advocating for more access,
+              flexibility and support for AAC users. Too many
+              AAC solutions right now are proprietary, limited
+              to a specific solution, or not respectful of the
+              communicator's right to choose. OpenAAC is about
+              gathering the resources and solutions to change all
+              that, and the project, group or person who sent
+              you here is helping to get the word out! You can
+              too! 
+            </p>
+					</header>
+					</div>
+					<div style='width: 400px; margin: 0 auto;'>
+            <a href="developers.html#advocate" class="button fit special" style='font-size: 20px; height: 100px; line-height: 25px; padding: 5px 10px;'>
+              Add the OpenAAC Badge
+              <div style='margin: 5px;'>
+                <img src="/images/OpenAAC-chat-red.svg" style='vertical-align: middle;'/>
+                <img src="/images/OpenAAC-advocate-blue.svg" style='vertical-align: middle;'/>
+              </div>
+              to Your Site/Project
+            </a>
+					</div>
+				</section>
+
+				<!-- Two -->
+				<section id="two" class="wrapper style2 special">
+					<div class="inner">
+						<header class="major">
+							<h2>OpenAAC Wall of Fame</h2>
+							<p>Below are a collection of projects, organizations and
+                individuals who have endorsed or contributed to the OpenAAC movement:
+              </p>
+            </header>
+            <div id='wall'>
+            </div>
+            <script>
+              (function() {
+                function shuffle(array) {
+                  var currentIndex = array.length, temporaryValue, randomIndex;
+
+                  // While there remain elements to shuffle...
+                  while (0 !== currentIndex) {
+
+                    // Pick a remaining element...
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex -= 1;
+
+                    // And swap it with the current element.
+                    temporaryValue = array[currentIndex];
+                    array[currentIndex] = array[randomIndex];
+                    array[randomIndex] = temporaryValue;
+                  }
+
+                  return array;
+                }
+                var wall = document.querySelector('#wall');
+                shuffle(wall_members).forEach(function(member) {
+                  var link = document.createElement('a');
+                  link.innerText = member[0];
+                  link.href = member[1];
+                  wall.appendChild(link);
+                  var span = document.createElement('span');
+                  span.innerText = ' ';
+                  wall.appendChild(span);
+                })
+              })();
+            </script>
+            <p></p>
+					</div>
+				</section>			
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Get Involved!
+								</h2>
+								<p>Our team is small but we have big plans. We can use your help, and it's easier than you think to contribute!</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc" class="button fit special">Join Chat</a></li>
+								<li><a href="participate.html" class="button fit ">How to Help</a></li>
+							</ul>
+						</div>
+					</section>
+
+        <div id="video_player" style='display: none; position: fixed; top: 5vh; left: 5vw; width: 90vw; height: 90vh; background: rgba(255, 255, 255, 0.8); border-radius: 5px; z-index: 99999;'>
+          <iframe frameborder='0' id='video_frame' style='background: #fff; width: calc(90vw - 20px); height: calc(90vh - 20px - 85px); margin: 10px;'></iframe>
+          <div style='margin: -5px 10px 5px;'>
+            <a href="#" class='button special big' id='close_video_player' style='vertical-align: middle;'>Close</a>
+            <span id='video_player_times' style='display: none; color: #444; font-size: 20px; margin-left: 20px; background: #fff; box-shadow: rgb(255, 255, 255) 0px 0px 30px 15px; border-radius: 5px; padding: 5px;'>
+              <span id='video_player_time'></span> / 
+              <span id='video_player_duration'></span>
+            </span>
+          </div>
+        </div>
+        
+<script>
+  (function() {
+    var loady = function() {
+      var videos = document.getElementsByTagName('video');
+      for(var idx = 0; idx < videos.length; idx++) {
+        var vid = videos[idx];
+        if(vid.getAttribute('rel') && !vid.getAttribute('src')) {
+          vid.setAttribute('src', vid.getAttribute('rel'));
+        }
+      }
+    };
+    window.addEventListener('load', loady);
+    setTimeout(loady, 10000);
+  })();
+</script>
