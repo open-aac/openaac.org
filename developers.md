@@ -44,7 +44,7 @@ include_nav: false
 
 <h3>Be An Advocate!</h3>
   <p>Already bought in? Add an OpenAAC Badge (<img src="/images/OpenAAC-chat-red.svg" style='vertical-align: middle;'/> or <img src="/images/OpenAAC-advocate-blue.svg" style='vertical-align: middle;'/>)
-  to your GitHub project!</p>
+  to your site or GitHub project!</p>
   
   <code><img src="/images/OpenAAC-chat-red.svg" style='vertical-align: middle;'/> - anyone can embed this badge to support open AAC principles!<br/>// For GitHub embed/Markdown
   [![OpenAAC](https://www.openaac.org/images/OpenAAC-chat-red.svg)](https://www.openaac.org/advocates.html)
@@ -52,7 +52,7 @@ include_nav: false
   &lt;a href="https://www.openaac.org/advocates.html" target="_blank"&gt;&lt;img src="https://www.openacc.org/images/OpenAAC-chat-red.svg" alt='I support OpenAAC'/&gt;&lt;/a&gt;
   </code>
   <br/>
-  <code><img src="/images/OpenAAC-advocate-blue.svg" style='vertical-align: middle;'/> - this badge is for projects/groups that have signed the <a href="#">OpenAAC Advocacy Pledge</a>
+  <code><img src="/images/OpenAAC-advocate-blue.svg" style='vertical-align: middle;'/> - this badge is for projects/groups that have signed the <a href="https://docs.google.com/forms/d/e/1FAIpQLSc05iowVgztxwFo0_KxA0jdQbeVn82MxlV-0-i-YUtOfZkSxg/viewform?usp=sf_link">OpenAAC Advocacy Pledge</a>
   <br/>Once you have filled out the agreemeent we will send you instructions for adding this badge to your project/site.
   <!--[![OpenAAC](https://www.openaac.org/images//OpenAAC-advocate-blue.svg)](https://www.openaac.org/advocates.html)
   <br/>// Raw HTML
