@@ -15,6 +15,20 @@ include_nav: false
     padding: 15px 10px;
   }
 </style>
+<h2>Developing AAC Apps</h2>
+<p>
+  AAC app development is a noble endeavor, and can provide enormous value
+  to people who can will from technology supports. It is important, when
+  supporting those who use AAC, that you understand the expectations of
+  AAC users, and can build something long-term and robust. We want to
+  help make that happen!
+</p><p>
+  If you are interested in, or planning on, implementing an AAC app,
+  we have collected <a href="/considerations">a list of considerations</a>
+  that you should factor in to your development plans. 
+</p>
+
+
 <h2>Developing Accessible Projects</h2>
 <p>
   Accessibility is something we are starting to see baked
