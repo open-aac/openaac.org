@@ -1110,6 +1110,9 @@ compelling to offer.
   - play music
   - make a copy of a vocabulary
   - custom button shape
+  - fishing on hover
+  - font face customization
+  - abbreviation expansion
 -->
 <script>
   document.addEventListener('click', function(event) {

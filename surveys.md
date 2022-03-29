@@ -31,9 +31,16 @@ surveys or research we conduct. You can review any of the
 results of current or past survyes using the provided links.
 
 ### Current Surveys
+- <a class='survey' href="https://docs.google.com/forms/d/e/1FAIpQLSfReu2IXXUuMoJAv-krJEhFfiH9pVaONiK8bOU3MfYBd9RN4w/viewform?usp=sf_link"><b><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5e3.svg'/>Communication Partner Profile</b></a> 
+For practitioners, families and users. We are looking for feedback on a 
+self-reflection tool that beginning or experienced communication partners
+(people who interact with or support AAC users) can fill out to help 
+discover areas where they could improve in their efforts.
+(Survey Results Pending)
+
 - <a class='survey' href="https://forms.gle/1WZTtHAKJDnGcb4A9"><b><img src='https://app.covidspeak.org/icons/clipboard-data.svg'/>AAC Vocabulary Selection</b></a> For all AAC practitioners, families, and users. We are collecting responses on the criteria
 and perspectives of those who are selecting from among the
-large pool of possible AAC vocabularies. ([Survey Results](https://forms.gle/1WZTtHAKJDnGcb4A9))
+large pool of possible AAC vocabularies. (Survey Results Pending)
 
 - <a class='survey' href="https://forms.gle/FBuikSWn9vet4PFp6"><b><img src='https://app.covidspeak.org/icons/card-image.svg'/>Open Symbols Questionnaire</b></a> For all AAC practitioners, families, and users. We are looking for feedback on current expectations around
 AAC symbol libraries, as well as recruiting participants
