@@ -9,13 +9,15 @@ include_nav: false
 ## AAC Systems
 
 There are many varied assessment tools used to evaluate an AAC user's
-development, either as a one-time assessmet or over time. Some
-assessments are interactive, some are paper-based, etc. Most,
+development. Some
+assessments are interactive, some are paper-based, etc. Many,
 however, are proprietary and require either an up-front purchase,
-or a subscription. We don't intend to replace all of these
-resources, many of which can be very helpful as support teams
-looks for opportunities to help AAC users develop their
-communication skills based on their individual needs.
+or a subscription. In line with our initiative at OpenAAC to provide
+free, open-licensed resources for families and practitioners, we are 
+developing and collecting a library of free assessment tools, based 
+on industry best practices. Our goal, as always, is to provide
+resources that can help AAC users be enabled and empowered in 
+their personal communication strategy.
 
 ### Communication Partner Profile (CPP v1)
 
@@ -39,3 +41,9 @@ as long as you provide proper attribution.
 If you have suggestions or feedback, <a href="https://forms.gle/Ve6UuETYksWD5drn7">please share them with 
 us</a>. We are continuing to improve upon the CPP and appreciate
 additional perspectives.
+
+### More to Come
+
+If you know of free assessment tools which should be included, or you
+would like to be involved in the development of additional tools, please
+<a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc">join our chat channel</a> and let us know how you'd like to contribute!
