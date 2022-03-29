@@ -16,17 +16,20 @@ include_nav: false
   }
 </style>
 <h2>Developing AAC Apps</h2>
+<a href="/considerations"><img src="/images/considerations.png" style='max-width: 300px; border-left: 5px solid #a00; float: left; margin-right: 15px;'/></a>
 <p>
   AAC app development is a noble endeavor, and can provide enormous value
   to people who can will from technology supports. It is important, when
   supporting those who use AAC, that you understand the expectations of
   AAC users, and can build something long-term and robust. We want to
   help make that happen!
-</p><p>
+</p>
+<p>
   If you are interested in, or planning on, implementing an AAC app,
   we have collected <a href="/considerations">a list of considerations</a>
   that you should factor in to your development plans. 
 </p>
+<div style='clear: left;'></div>
 
 
 <h2>Developing Accessible Projects</h2>
