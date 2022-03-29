@@ -19,7 +19,7 @@ communication skills based on their individual needs.
 
 ### Communication Partner Profile (CPP v1)
 
-<a href="/assets/cppv1.pdf"><img src="/images/cpp_preview.png" style='max-width: 100%;'/></a>
+<a href="/assets/cppv1.pdf"><img src="/images/cpp_preview.png" style='max-width: 100%; border-left: 5px solid #a00;'/></a>
 
 OpenAAC's first Open Assessment project is the 
 <a href="/assets/cppv1.pdf">Communication Partner Profile</a> 

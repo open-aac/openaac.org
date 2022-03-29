@@ -41,7 +41,7 @@ include_nav: false
     display: none;
   }
 </style>
-**AAC App Development**
+== AAC App Development
 
 Welcome to the world of AAC app development!
 When developing a new app, it's always a good idea to make sure you
@@ -58,7 +58,7 @@ If you are going to release something, please make sure you understand
 who you are trying to serve and how you can ensure their long-term
 success.
 
-**User Stories and Feedback**
+== User Stories and Feedback
 
 It's important to collect feedback from real-world users. You may
 have decided to start out in a particular niche or to focus on
@@ -69,7 +69,7 @@ if your plan requires commercial viability to succeed. Find a
 diverse range of potential users and collect their feedback and input
 early and often.
 
-**AAC Features**
+== AAC Features
 
 Once developers begin to see adoption of their product, they often 
 discover use cases that fit outside of their original expectation. 
@@ -1071,7 +1071,7 @@ and we would be happy to discuss them with you.
   app to operate essentially as a keyboard by sending system
   events that could then be used in arbitrary apps.</span></hint>
 
-***Other Considerations:***
+=== Other Considerations:
 
 If people adopt your program, many of them will be using it as an 
 integral part of their daily life. Some of your users may have motor 
