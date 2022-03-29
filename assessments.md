@@ -2,7 +2,7 @@
 layout: page
 title: Open Assessments 
 page_title: Open Assessments
-description: Tools for tracking communicator and team development
+description: Tools for evaluating communicator and team development
 include_nav: false
 ---
 
