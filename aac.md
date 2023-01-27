@@ -7,3 +7,4 @@
 - [pasco](https://acecentre.github.io/pasco/) - open source AAC createe by the Ace Center
 - [Otsimo AAC](http://github.com/otsimo/aac) - open source phrase building supported AAC [commercial site](https://otsimo.com/en/game/aac/)
 - [Leeloo AAC](https://github.com/btk/aac-native) - open source simplified mobile AAC
+- [LifeCompanionAAC](https://lifecompanionaac.org/) - open source Windows AAC and digital accessibility tool
