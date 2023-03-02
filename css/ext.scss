@@ -14,25 +14,46 @@
 .grade {
   color: rgba(255, 255, 255, 0.7);
   font-style: italic;
+  font-weight: bold;
+  line-height: 10px;
+  margin-bottom: 15px;
+  span {
+    font-size: 40px;    
+  }
   .a {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
     color: rgb(50, 255, 50);
     text-shadow: 2px 2px 5px #000;
   }
   .b {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;  
     color: rgb(150, 255, 50);
     text-shadow: 2px 2px 5px #000;
   }
   .c {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
     color: rgb(255, 255, 50);
     font-weight: bold;
     text-shadow: 2px 2px 5px #000;
   }
   .d {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
     color: rgb(255, 100, 50);
     font-weight: bold;
     text-shadow: 2px 2px 5px #000;
   }
   .f {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 10px;
     color: rgb(255, 0, 0);
     font-weight: bold;
     text-shadow: 2px 2px 5px #000;

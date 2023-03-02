@@ -1099,6 +1099,7 @@ which is why these apps tend to be more expensive. They will have
 a user disadvantage to being with, so make sure you have something 
 compelling to offer.
 
+<!-- TODO: note about telling people if TTS is synthesized on-device or not, and why they'd care>
 <!-- TODO:
   - ios app
   - web photo search
