@@ -91,6 +91,8 @@ include_nav: false
 <h3>AAC Coding Supports</h3>
 
 <ul>
+<li><a href="https://github.com/open-aac">OpenAAC GitHub Repos</a></li>
+<li><a href="https://tools.openaac.org/inflections/inflections.html">Language Support Models for AAC</a> - word and inflection rule sets for simpler language-aware support in AAC systems</li>
 <li><a href="https://www.opensymbols.org">OpenSymbols</a> - library of open-licensed icons and symbols that can be used to implement AAC</li>
 <li><a href="https://tools.openaac.org">AAC Shim</a> - JavaScript utility to make web pages and apps accessible and launchable from within an AAC system</li>
 <li><a href="https://www.openboardformat.org">The Open Board Format</a> - an open file format and parsing libraries to import and export AAC vocabulary or board sets</li>
