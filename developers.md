@@ -61,7 +61,10 @@ include_nav: false
 
 <h3>Be An Advocate!</h3>
   <p>Already bought in? Add an OpenAAC Badge (<img src="/images/OpenAAC-chat-red.svg" style='vertical-align: middle;'/> or <img src="/images/OpenAAC-advocate-blue.svg" style='vertical-align: middle;'/>)
-  to your site or GitHub project!</p>
+  to your site or GitHub project! Once you've added it, let
+  us know and we can add you to our 
+
+  <a href="/advocates.html">list of advocates!</a></p>
   
   <code><img src="/images/OpenAAC-chat-red.svg" style='vertical-align: middle;'/> - anyone can embed this badge to support open AAC principles!<br/>// For GitHub embed/Markdown
   [![OpenAAC](https://www.openaac.org/images/OpenAAC-chat-red.svg)](https://www.openaac.org/advocates.html)

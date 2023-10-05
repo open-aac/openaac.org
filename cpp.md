@@ -24,8 +24,9 @@ Anyone can fill out the CPP, share it in their communities, or use it for person
 
 <a href="/assets/cppv1.pdf"><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/noun-project/Download-595be86518.svg' style='width: 100px; float: left;'/></a>
 Try it for yourself! The CPP is <b>free to use and share</b> so please distribute it
-to those who could benefit! The CPP is available as a downloadable
-pdf (128Kb) but can also be added to any online assessment tools
+to those who could benefit! The CPP is available as a 
+<a href="/assets/cppv1.pdf">downloadable
+pdf (128Kb)</a> but can also be added to any online assessment tools
 as long as you provide proper attribution.
 <div style='clear: left; margin-bottom: 20px;'></div>
 
