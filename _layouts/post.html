@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article id="main">
+
+  <header class='post'>
+    {% if page.image %}
+      <img src="{{ page.image}}" />
+    {% endif %}
+    {% if page.page_title %}
+      <h2>{{ page.page_title }}</h2>
+    {% else %}
+      <h2>{{ page.title }}</h2>
+    {% endif %}
+    <p style='margin-top: -20px; margin-bottom: 10px; color: #666;'>{{ page.date | date_to_string }} {% if page.author %}- {{ page.author }}{% endif %}</p>
+    <p style='max-width: 800px; margin: auto; color: #666;'>{{page.description}}</p>
+  </header>
+
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+    </div>
+  </section>
+
+  <section id="cta" class="wrapper style4">
+    <div class="inner">
+      <header>
+        <h2>Help Us Grow!
+        </h2>
+        <p>OpenAAC needs donations like yours to expand our reach 
+          and continue to provide meaningful resources that will help
+          everyone at every point on their AAC journey.
+        </p>
+      </header>
+      <ul class="actions vertical">
+        <li><a href="https://www.paypal.com/donate/?hosted_button_id=A9MV8D8M2QVCA" class="button fit special">Donate</a></li>
+      </ul>
+    </div>
+  </section>
+</article>

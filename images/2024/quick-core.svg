@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3689"
+   sodipodi:docname="quick-core-60.svg"
+   inkscape:export-filename="./LibertyBudget.com_apple-software-selection-icon.png"
+   viewBox="0 0 300 300"
+   inkscape:export-xdpi="90"
+   version="1.1"
+   inkscape:export-ydpi="90"
+   inkscape:version="0.48.5 r10040"
+   width="100%"
+   height="100%">
+  <title
+     id="title2994">LibertyBudget.com Apple Software Selection Icon</title>
+  <sodipodi:namedview
+     id="namedview19"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     guidetolerance="10"
+     pagecolor="#ffffff"
+     gridtolerance="10"
+     inkscape:window-maximized="0"
+     inkscape:zoom="0.25790968"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:current-layer="layer1"
+     inkscape:cx="97.000775"
+     inkscape:cy="139.50328"
+     inkscape:window-y="1"
+     inkscape:window-x="0"
+     inkscape:window-width="1464"
+     showgrid="false"
+     inkscape:pageopacity="0"
+     inkscape:window-height="839" />
+  <defs
+     id="defs3691">
+    <radialGradient
+       id="radialGradient3643"
+       gradientUnits="userSpaceOnUse"
+       cy="634.88"
+       cx="760.39"
+       gradientTransform="matrix(-1.6558 .39273 -1.6338 -1.2538 2424.6 1270.8)"
+       r="6.594">
+      <stop
+         id="stop3639"
+         stop-color="#28170b"
+         offset="0"
+         style="stop-color:#d59568;stop-opacity:1;" />
+      <stop
+         id="stop3641"
+         stop-color="#28170b"
+         stop-opacity="0"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       id="radialGradient3633"
+       gradientUnits="userSpaceOnUse"
+       cy="863.26"
+       cx="1562.6"
+       gradientTransform="matrix(-1.9412 .83603 -.77233 -1.5779 3898.5 926.05)"
+       r="108.52">
+      <stop
+         id="stop3629"
+         stop-color="#f00"
+         offset="0"
+         style="stop-color:#fff058;stop-opacity:1;" />
+      <stop
+         id="stop3631"
+         stop-color="#333"
+         stop-opacity="0"
+         offset="1"
+         style="stop-color:#fff51c;stop-opacity:1;" />
+    </radialGradient>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-4.0529,-750.13)">
+    <path
+       id="path3645"
+       style="fill:#89bb89;stroke:#000000;stroke-opacity:1;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m130.04 836.74c-0.42045-5.3155-0.72699-10.612-0.10562-15.75 4.2247-10.89 14.011-17.419 19.533-20.289 7.7487-4.3333 19.703-10.137 29.075-22.136 10.783-14.781 9.1512-20.993 9.7795-26.32 3.3318 8.8572 7.1604 14.785 7.1365 28.75 0.33423 12.968-8.3512 33.706-22.731 38.333l-31.586 18.357-10.837 4.994-0.26428-5.9389z" />
+    <path
+       id="path3611"
+       style="fill:#c67237;stroke:#000000;stroke-opacity:1;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m124.81 836.64 5.7068 1.1432c-0.85841-21.318-1.8719-39.265 7.3542-57.607-4.4096 1.0533-9.7517-0.8666-13.836-4.5686-5.0446 13.871-4.3375 40.097 0.77515 61.032z" />
+    <path
+       id="path3605"
+       sodipodi:nodetypes="cccccccscsccc"
+       style="stroke:#800000;stroke-width:3.4022;fill:#800000"
+       inkscape:connector-curvature="0"
+       d="m131.77 837.78c-32.249-3.7927-64.015-3.0008-79.038 9.8069-29.037 26.554-24.697 51.212-17.564 75.71 14.017 40.629 40.613 77.585 75.693 101.6 17.208 13.765 34.791 19.783 53.11 10.591 16.715-10.905 27.083-8.7125 38.473-8.63 23.995 3.8061 36.963-6.9695 48.929-21.968 25.386-61.765 16.241-102.2 9.3991-99.651-27.38 10.212-54.996-12.737-57.577-26.82-3.0597-13.135-4.257-46.992 38.75-52.929 3.0836-0.42568-11.328-17.705-38.664-17.128-29.749 2.0428-52.905 12.744-71.51 29.421z" />
+    <path
+       id="path3613"
+       style="stroke:#28170b;stroke-width:1.1341;fill:#502d16"
+       inkscape:connector-curvature="0"
+       d="m138.46 778.57c-0.10434 2.1836-3.3302 3.1652-7.2052 2.1924-3.8749-0.97289-6.9316-3.5318-6.8272-5.7154 0.10434-2.1836 3.3302-3.1652 7.2052-2.1924 3.8749 0.97289 6.9316 3.5317 6.8272 5.7154z" />
+    <path
+       id="path3625"
+       sodipodi:nodetypes="cccccccscsccc"
+       style="fill:url(#radialGradient3633);stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       d="m 131.77,837.78 c -32.249,-3.7927 -62.447,-2.3143 -79.038,9.8069 -29.037,26.554 -24.697,51.212 -17.564,75.71 14.017,40.629 40.613,77.585 75.693,101.6 17.208,13.765 34.791,19.783 53.11,10.591 16.715,-10.905 27.083,-8.7125 38.473,-8.63 23.995,3.8061 36.963,-6.9695 48.929,-21.968 24.184,-34.218 18.95099,-99.20803 11.743,-99.914 -16.86221,-1.65153 -33.31969,-15.13542 -35.35869,-26.26542 -3.6819,-15.806 -4.73569,-42.62463 14.42069,-51.90758 8.0892,-3.91993 -14.404,-18.958 -38.896,-18.441 -29.749,2.0428 -52.905,12.744 -71.51,29.421 z" />
+    <path
+       id="path3635"
+       style="stroke:#28170b;stroke-width:5;fill:#c67237;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       d="m138.46 778.57c-0.10434 2.1836-3.3302 3.1652-7.2052 2.1924-3.8749-0.97289-6.9316-3.5318-6.8272-5.7154 0.10434-2.1836 3.3302-3.1652 7.2052-2.1924 3.8749 0.97289 6.9316 3.5317 6.8272 5.7154z" />
+    <g
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:0.5043478;font-family:Sans"
+       id="text3764">
+      <path
+         d="m 107.11624,934.57041 c 0,-6.65999 5.04001,-11.52 11.25,-11.52 6.39,0 11.43,4.86001 11.43,11.52 0,6.47999 -4.86,11.25 -11.43,11.25 -6.56999,0 -11.25,-4.77001 -11.25,-11.25 m 32.49,-50.4 -20.88,0 -17.46,20.79 c -7.73999,10.52999 -11.699998,16.56001 -11.699998,29.61 0,14.21999 12.960018,25.2 29.609998,25.2 13.40999,0 27.54,-7.65002 27.54,-25.2 0,-17.27998 -13.50001,-26.01 -23.67,-26.01 -3.41999,0 -5.31,1.08 -5.31,1.08 l 21.87,-25.47"
+         style="font-size:90px;font-variant:normal;font-stretch:normal;stroke:#ffffff;font-family:Hussar;-inkscape-font-specification:Hussar"
+         id="path6573" />
+      <path
+         d="m 169.07702,921.34041 c 0,-14.93998 4.95001,-23.67 13.14,-23.67 8.1,0 13.05,8.64002 13.05,23.67 0,16.01998 -4.95,23.58 -13.05,23.58 -8.18999,0 -13.14,-7.56002 -13.14,-23.58 m -17.1,0 c 0,27.53997 14.31002,38.43 30.24,38.43 15.92999,0 30.15,-10.89003 30.15,-38.43 0,-25.73997 -14.22001,-38.52 -30.15,-38.52 -15.92998,0 -30.24,12.78003 -30.24,38.52"
+         style="font-size:90px;font-variant:normal;font-stretch:normal;stroke:#ffffff;font-family:Hussar;-inkscape-font-specification:Hussar"
+         id="path6575" />
+    </g>
+  </g>
+  <metadata
+     id="metadata19">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>LibertyBudget.com Apple Software Selection Icon</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

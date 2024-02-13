@@ -1731,7 +1731,26 @@ $baseurl: '{{ site.baseurl }}/images';
 			&.bg3 {
   			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/door2.jpg")'));
 			}
-
+			&.post {
+				background-image: none;
+				padding-top: 3em;
+				padding-bottom: 1em;
+				background-color: #a8b0b8;
+				border-top: 5px solid #616a73;
+				border-bottom: 5px solid rgb(205, 212, 219);
+				img {
+					max-width: 1000px;
+					width: 100%;
+					max-height: 400px;
+					object-fit: contain;
+					object-position: center;
+					margin-bottom: 1em;
+				}
+				h2 {
+					color: #222;
+				}
+			}
+	
 			h2 {
 				font-size: 1.75em;
 				margin: 0 0 (_size(element-margin) * 0.25) 0;
@@ -1767,6 +1786,11 @@ $baseurl: '{{ site.baseurl }}/images';
 					font-size: 1.25em;
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
 				}
+			}
+		}
+		section {
+			h2 {
+				margin-left: -20px;
 			}
 		}
 	}

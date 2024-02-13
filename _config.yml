@@ -3,7 +3,7 @@
 
 # Site settings
 title: OpenAAC
-description: Communication Supports are Essential<br/>  Open Standards are for Everyone
+description: Fostering AAC adoption through social awareness, global supports, and open standards
 owner: OpenAAC # or company name
 first_published: 2019 # if migrating another site, the year of your first publish
 email: info@coughdrop.com
@@ -12,7 +12,8 @@ url: "https://www.openaac.org" # the base hostname & protocol for your site
 social:
   github: https://github.com/open-aac
   slack: https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc
-  youtube-square: https://www.youtube.com/c/myCoughDropAAC
+  twitter: https://www.twitter.com/Open_AAC
+  facebook: https://www.facebook.com/profile.php?id=61555874252282
 
 # Build settings
 markdown: kramdown

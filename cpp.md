@@ -3,6 +3,7 @@ layout: page
 title: Communication Partner Profile
 page_title: Communication Partner Profile
 description: Self-assessment form for evaluating<br/>and improving your AAC efforts
+image: /images/cpp_preview.png
 include_nav: false
 ---
 ### Communication Partner Profile (CPP v1)

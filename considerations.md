@@ -92,8 +92,8 @@ and we would be happy to discuss them with you.
   <ul style='margin-bottom: 10px;'>
     <li>🟢 Standard Across Apps</li>
     <li>✅ Most Apps Have</li>
-    <li>🟨 Top Apps Have</li>
-    <li>🐝 Often Requested</li>
+    <li>⭐ Top Apps Have</li>
+    <li>💡 Often Requested</li>
     <li>💜 Specialization</li>
   </ul>
 </div>
@@ -141,20 +141,20 @@ and we would be happy to discuss them with you.
   <hint><span>To encourage literacy, some people suggest putting
   the word above the symbol on each button, but other users prefer
   to have the word below the symbol.</span></hint>
-- 🟨 skin tone selection for symbols with people
+- ⭐ skin tone selection for symbols with people
   <hint><span>In the past many symbol libraries only offered light-colored
   skin tones for people-related symbols, and it was generally
   tolerated because there weren't a lot of options, but many
   proprietary symbol libraries have now added skin tone options,
   so the expectation of supporting skin tones is more common.</span></hint>
-- 🟨 high contrast option for all symbols
+- ⭐ high contrast option for all symbols
   <hint><span>Some users may have visual impairments which can
   make it difficult for them to see photographs or even symbols
   with a broad range of colors. Many symbol libraries include
   high-contrast alternatives, which tend to have a black background,
   thicker and less-details lintes, and limit the symbol to only a 
   few, high-saturation colors at a time.</span></hint>
-- 🐝 non-grid layout
+- 💡 non-grid layout
   <hint><span>Many AAC systems rely on a grid-based layout for 
   simplicity and consistency, but not all. Being able to have
   alternative layouts or even just having some buttons that span
@@ -213,26 +213,26 @@ and we would be happy to discuss them with you.
   buttons that have the same fill or border color. Additionally,
   some apps will auto-color buttons based on their part of speech
   (see: Fitzgerald Key for an example of this).</span></hint>
-- 🟨 search through symbol library for images
+- ⭐ search through symbol library for images
   <hint><span>Having a default symbol available for each word
   can be useful, but there are times when the user may want to select
   an alternative option, such as a green instead of a red apple, to 
   more closely match their personal experience, or to find a 
   closest match for a word that doesn't already have a default 
   symbol.</span></hint>
-- 🟨 add photos from device/camera
+- ⭐ add photos from device/camera
   <hint><span>Users will want to use personalized images, such
   as those found on their camera roll, for personal locations
   or people, or to better match words based on their personal
   experience.</span></hint>
-- 🟨 easily switch symbol sets
+- ⭐ easily switch symbol sets
   <hint><span>Some apps support multiple symbol libraries, and
   it can be useful to quickly switch between them in batch.
   Some school districts or educational programs center
   their material around a particular symbol library, so being
   able to match AAC symbols to those used in other contexts
   is an oft-requested feature.</span></hint>
-- 🟨 color coding of buttons by word type
+- ⭐ color coding of buttons by word type
   <hint><span>This is often done with a variation of the
   Fitzgerald Key, and words of different parts of speech
   are colored differently. The benefits are twofold: it
@@ -240,13 +240,13 @@ and we would be happy to discuss them with you.
   AAC user, and because words are often clustered by
   word type, it creates regions of color which help 
   organize an potentially-large grid of options.</span></hint>
-- 🐝 quick access to hide/show buttons
+- 💡 quick access to hide/show buttons
   <hint><span>Sometimes called a "Babble" function, this
   allows the user, for a single session, to turn on all hidden
   buttons. This provides value for those who are exploring
   a new system but who, for varied regions, may not be
   best served by seeing all buttons all the time.</span></hint>
-- 🐝 option to lock editing behind an access code
+- 💡 option to lock editing behind an access code
   <hint><span>It is important to respect the AAC user, and
   ideally they would have control over their own vocabulary, but
   there may be cases where the AAC user is not proficient 
@@ -256,7 +256,7 @@ and we would be happy to discuss them with you.
   or deleting buttons as a method of communication and may feel
   they are being silenced or forcibly-controlled if they are
   locked out of this type of interface.</span></hint>
-- 🐝 offline backup
+- 💡 offline backup
   <hint><span>Devices break and get reset. Sometimes administrators
   run a wipe of all campus devices without realizing the
   full repercussions, for example. It is important to provide users
@@ -264,12 +264,12 @@ and we would be happy to discuss them with you.
   have on their device to a remote location. Some apps have their
   own cloud storage, others rely on storage provides like Apple,
   DropBox, etc.</span></hint>
-- 🐝 sharing vocabulary sets across users
+- 💡 sharing vocabulary sets across users
   <hint><span>The amount of work it takes to create or modify an
   AAC vocabulary is significant. Once someone has worked to create
   a vocabulary, there is often value in sharing it, either with 
   other known users, or publicly for others to use.</span></hint>
-- 🐝 different-sized buttons
+- 💡 different-sized buttons
   <hint><span>Some layouts work better with mostly-small buttons
   and some larger buttons, such as a keyboard with word suggestions.
   Additionally, some AAC vocabulary creators prefer to draw extra
@@ -319,12 +319,12 @@ and we would be happy to discuss them with you.
     finger down on the device, but then once it's stable they can
     more easily move it to the correct location and lift on the
     correct target.</span></hint>
-  - 🟨 hold to select
+  - ⭐ hold to select
     <hint><span>Some people may accidentally tap, and prefer to
     select based on them holding their finger or stylus on the
     correct target for a user-defined period of time (milliseconds,
     for example).</span></hint>
-  - 🟨 user-defined hold duration
+  - ⭐ user-defined hold duration
     <hint><span>Make sure that the "hold to select" duration
     isn't just a pre-defined timeout, but can be configured by
     the user (milliseconds is the typical unit).</span></hint>
@@ -337,7 +337,7 @@ and we would be happy to discuss them with you.
     Holding a hand upright may be fatiguing for some people, or covering
     the screen with their hand may be difficult.
     </span></hint>
-- 🟨 scanning
+- ⭐ scanning
   <hint><span>"Scanning" is a term used in AAC for a visual scan
   that people can use to select buttons. Typically a highlight border
   jumps from target to target (or region to region) and the user hits
@@ -353,28 +353,28 @@ and we would be happy to discuss them with you.
   targets are often clustered into regions and the person picks a region
   first, then from all the targets in that region.
   </span></hint>
-  - 🟨 row scanning
+  - ⭐ row scanning
     <hint><span>This is the most common option. Often the sentence
     box is its own row, then each row of buttons. The sentence
     box may instead come at the end of the list instead of the
     beginning. Once the correct row is selected, scanning moves
     through all the items in that row.</span></hint>
-  - 🟨 column scanning
+  - ⭐ column scanning
     <hint><span>Similar to row scanning, but with columns.</span></hint>
-  - 🟨 accept on select
+  - ⭐ accept on select
     <hint><span>The default expectation is that when a person hits
     the "choose" button then the current target is selected. This can
     be done when the person presses down on the button, or
     when the push down and up in fast succession.</span></hint>
-  - 🟨 accept on release
+  - ⭐ accept on release
     <hint><span>People may have trouble getting the button pushed down
     at the correct time, and have an easier time timing the "release"
     of the button as their selection action.</span></hint>
-  - 🟨 advance on select
+  - ⭐ advance on select
     <hint><span>If the person has more than one button, they might
     use one for select, and another for "next" so they can control
     the speed in which options are scanned through.</span></hint>
-  - 🟨 accept on no-click
+  - ⭐ accept on no-click
     <hint><span>Some people prefer to use a "next" button to 
     advance through the targets, and rather than needing a second
     "select" button, they can just *not* hit the "next" button
@@ -383,11 +383,11 @@ and we would be happy to discuss them with you.
     automatically until after the person has hit "next" at least
     once, otherwise non-action will result in the first button
     being hit over and over.</span></hint>
-  - 🟨 cancel on select
+  - ⭐ cancel on select
     <hint><span>Some people want an additional "cancel" or "go back"
     button that allows them to start over or drill back out more
     quickly.</span></hint>
-  - 🟨 auditory scanning
+  - ⭐ auditory scanning
     <hint><span>As the scanning interface runs through potential 
     targets, it can also optionally read off those targets, so 
     that those who need help focusing or who cannot see as well,
@@ -395,7 +395,7 @@ and we would be happy to discuss them with you.
     auditory scanning interfaces will read these options in a
     different voice (or through a headphone output) than the
     person's preferred speech output voice.</span></hint>
-  - 🐝 region scanning
+  - 💡 region scanning
     <hint><span>In addition to row/column scanning, some apps offer
     configurable region scanning. Regions could be defined as # of
     rows & columns, or some apps also allow vocabulary authors to
@@ -417,7 +417,7 @@ and we would be happy to discuss them with you.
   - 💜 double/triple tap/hold to change action
     <hint><span>Some apps support extra actions by double- or triple-tapping the button. This can give a person more
     flexibility without requiring too many separate buttons.</span></hint>
-- 🐝 mouse control
+- 💡 mouse control
   <hint><span>Mouse control may be easier for some people, but
   it also encompasses a number of alternative tracking modes
   that emulate mouse events or show an on-screen cursor like a mouse
@@ -428,12 +428,12 @@ and we would be happy to discuss them with you.
     actual mouse, or some from a secondary device like a
     button that would be used for scanning (and may be programmed
     instead to trigger a keyboard event).</span></hint>
-  - 🐝 dwell to select
+  - 💡 dwell to select
     <hint><span>As an alternative to "click", the person may
     find it easier to steer the cursor to the location of a button
     and then keep it there inside the button. This would be
     considered a "dwell" selection.</span></hint>
-  - 🐝 double/right click for special action
+  - 💡 double/right click for special action
     <hint><span>Some mouse interfaces use double-click or right-click
     to trigger specialty actions, such as popping up a sub-menu
     or extra options.</span></hint>
@@ -441,7 +441,7 @@ and we would be happy to discuss them with you.
     <hint><span>Some people may not be able to see the standard
     mouse cursor very well, and can benefit from alternative cursor
     icons like a larger pointer, colored dot, etc.</span></hint>
-- 🐝 eye gaze/head control/joystick
+- 💡 eye gaze/head control/joystick
   <hint><span>These control methods may operate similar to a
   mouse control, showing an on-screen cursor and using a button
   to select, but they may also rely on dwelling on a target
@@ -456,7 +456,7 @@ and we would be happy to discuss them with you.
   Note that iOS and Android both have head tracking libraries to
   make this more automated. You can see examples of using these
   libraries in the <a href="https://github.com/open-aac/cordova_face">cordova_face</a> library.</span></hint>
-  - 🐝 dwell to select
+  - 💡 dwell to select
     <hint><span>Dwell-to-select is the more-common option for eye
     tracking interfaces, and for some head-tracking interfaces, since
     it takes enough focus to select the target that then hitting
@@ -464,11 +464,11 @@ and we would be happy to discuss them with you.
     feels natural for eye tracking interfaces. The amount of time
     required for a dwell action to trigger should be user-configurable,
     and is often but not always less than one second.</span></hint>
-  - 🐝 keyboard/button press to select
+  - 💡 keyboard/button press to select
     <hint><span>With tracking interfaces, some people prefer
     hitting a button, screen or key for selection rather than
     waiting for a dwell timeout.</span></hint>
-  - 🐝 head as joystick vs head as pointer
+  - 💡 head as joystick vs head as pointer
     <hint><span>For head tracking (and potentially for joystick
     tracking) there are two common ways of controlling the cursor.
     The first, "head as pointer" would be like taping a laser
@@ -480,24 +480,24 @@ and we would be happy to discuss them with you.
     cursor will start sliding to the right. If they tilt far up, the
     cursor will move quickly up. If they center their head, the cursor
     will stop moving.</span></hint>
-  - 🐝 pause tracking
+  - 💡 pause tracking
     <hint><span>Because these interfaces often rely on head or eye
     gaze position, they can become tiring and will misfire if the
     person's attention is on something else. It can be vaulable
     to have a "pause" button or region the person can use to
     temporarily disable tracking.</span></hint>
-  - 🐝 expression to select
+  - 💡 expression to select
     <hint><span>Because some eye- and head-tracking users may
     not be in a position to use other interfaces like a button,
     the most obvious selection technique is dwell, but this can
     take a long time, so another option is to track facial
     expressions as a way to select the current target.</span></hint>
-    - 🐝 blink
-    - 🐝 wink
-    - 🐝 tongue
-    - 🐝 open-mouth
-    - 🐝 smile
-    - 🐝 eyebrows
+    - 💡 blink
+    - 💡 wink
+    - 💡 tongue
+    - 💡 open-mouth
+    - 💡 smile
+    - 💡 eyebrows
 - ✅ adaptations
   <hint><span>As users select buttons, there can be different
   accommodations based on the needs of the individual user that
@@ -521,12 +521,12 @@ and we would be happy to discuss them with you.
     <hint><span>Some people prefer to build their sentences in
     private and only have the device speak once they have completed
     their statement.</span></hint>
-  - 🟨 click sound on select
+  - ⭐ click sound on select
     <hint><span>Some apps optionally make a clicking sound as the
     person navigates their vocabulary or builds sentences. This can
     help others know when a person is actively working on saying
     something, but is seen as a nuisance by some AAC users.</span></hint>
-  - 🟨 option for button spacing, border size
+  - ⭐ option for button spacing, border size
     <hint><span>Getting to the intended button can be difficult
     for some, or at some times, and being able to configure the size
     or the gutters between buttons, or the size of the edges of the
@@ -534,13 +534,13 @@ and we would be happy to discuss them with you.
     get to it with less difficulty. Note that this is often a
     global preference rather than for a specific board or button.
     </span></hint>
-  - 🐝 highlight on select
+  - 💡 highlight on select
     <hint><span>There is some research showing that visual highlights,
     especially popping up just the word as it is spoken, can help
     improve literacy. Additionally, some users, such as those with 
     auditory issues or who use AAC in louder environments, may prefer
     a visual indication that the button was selected.</span></hint>
-  - 🐝 swipe to scroll between pages
+  - 💡 swipe to scroll between pages
     <hint><span>For some touch-based users, accidentally sliding across
     the screen can essentially move the entire interface. Additionally,
     if they've learned where specific buttons are on the screen, swiping
@@ -548,7 +548,7 @@ and we would be happy to discuss them with you.
     would feel). However, some users prefer swiping to scroll through
     more options than would fit on a single screen, or as an alternative
     form of navigation to jup between different views.</span></hint>
-  - 🐝 auditory fishing
+  - 💡 auditory fishing
     <hint><span>If a user has processng or visual difficulties, then
     they may find themselves struggling to find or select the intended
     target. Auditory fishing is an approach where the device speaks
@@ -597,7 +597,7 @@ and we would be happy to discuss them with you.
   phrases (think "give me a minute to respond", "I use this device to 
   speak", etc.). Often these quick access phrases will speak a 
   message without adding the message to the sentence box.</span></hint>
-- 🟨 option to include images
+- ⭐ option to include images
   <hint><span>Some apps have a text-only sentence box, which allows
   for building longer or larger statements. Additionally, some apps 
   will show the sequence of buttons, so for each button it will show
@@ -605,13 +605,13 @@ and we would be happy to discuss them with you.
   the sequence of images used to get to that button -- though note
   that there are some patents related specifically to that behavior
   which may be an issue).</span></hint>
-- 🟨 saved phrases
+- ⭐ saved phrases
   <hint><span>In addition to quick-access phrases, it can be useful
   if, as people build statements in the sentence box, they have an
   easy way to save the current statement for later. This could be a
   short-term stash, or a longer-term "I will use this phrase often"
   sort of action.</span></hint>
-- 🟨 hold that thought
+- ⭐ hold that thought
   <hint><span>Because it takes time to craft a complete sentence,
   people may get interrupted mid-statement. If this happens, they may
   want to pause their current statement, craft a different response,
@@ -619,18 +619,18 @@ and we would be happy to discuss them with you.
   "hold that thought" because it allows a person to temporarily pin
   their current statement, craft something completely different,
   and then resume the original statement.</span></hint>
-- 🟨 repeat louder
+- ⭐ repeat louder
   <hint><span>If a person feels like they weren't heard, it can be
   useful to be able to temporarily increase their volume and
   repeat what they just said for others to hear.</span></hint>
-- 🟨 share sentence externally
+- ⭐ share sentence externally
   <hint><span>Mobile apps often have "Share" tools that allow sending
   text or material between apps. In this way a person could quickly
   share their message via text, social media, etc. It is worth noting
   that while a user may have used images to help them craft their
   message, some AAC users prefer not to have those images included
   in their message when they share it externally.</span></hint>
-- 🐝 flip text to show someone else
+- 💡 flip text to show someone else
   <hint><span>If a person wants to share their message with someone else
   in a noisy environment, or in a situation where reading makes more 
   sense, then the person can set the device down so both parties can
@@ -685,7 +685,7 @@ and we would be happy to discuss them with you.
   3x5 (15 cells) or 4x6 (24 cells). Some users may require even larger
   buttons than that, but supporting them may require different 
   layout approaches.</span></hint>
-- 🟨 motor planning-based layout option
+- ⭐ motor planning-based layout option
   <hint><span>"Motor planning" is a term used in the AAC community,
   and it is similar to the idea of muscle memory. We may take for
   granted how easy it is to get our bodies to lift a hand, point a 
@@ -697,7 +697,7 @@ and we would be happy to discuss them with you.
   can improve speed and require less cognitive load, so some apps
   automatically return to the starting board whenever a
   non-linked word is selected.</span></hint>
-- 🟨 option to auto-return to home board
+- ⭐ option to auto-return to home board
   <hint><span>Being able to always hit the same sequence 
   to say the same thing
   can improve speed and require less cognitive load, so some apps
@@ -707,7 +707,7 @@ and we would be happy to discuss them with you.
   they manually return to the home view. The style of vocabulary
   layout may also affect whether auto-return is ideal or not.
   </span></hint>
-- 🐝 semantic compaction functionality (patented)
+- 💡 semantic compaction functionality (patented)
   <hint><span>An additional idea in AAC is the concept of 
   semantic compaction. Briefly, this is a way to organize vocabularies
   with the intent of making it easier to learn and remember where
@@ -725,7 +725,7 @@ and we would be happy to discuss them with you.
   patents registered in this area which should be considered
   before implementing a semantic compaction-style layout or app.
   </span></hint>
-- 🐝 adult topics
+- 💡 adult topics
   <hint><span>Many AAC apps are adopted by both younth and adults.
   When school programs or parents adopt an AAC app for someone they
   support, they may feel reluctant to give the person access to
@@ -746,7 +746,7 @@ and we would be happy to discuss them with you.
   <hint><span>In addition to saving time, having word prediction
   in any in-app keyboards can provide literacy instruction for
   those who are still learning to type or spell.</span></hint>
-- 🟨 punctuation keys
+- ⭐ punctuation keys
   <hint><span>Some AAC apps provide a full alphabet for the person
   to spell wit, but forget to include punctuation. A spacebar
   allows the person to spell more than one word at a time (and also
@@ -757,30 +757,30 @@ and we would be happy to discuss them with you.
   the app automatically speaks the full sentence that was just completed.
   So if there were two sentence in the sentence box, it wouldn't
   speak the whole sentence box, just the second sentence.</span></hint>
-- 🟨 capitalization
+- ⭐ capitalization
   <hint><span>Capitalization is another feature that is sometimes
   neglected even in apps with keyboards. Being able to capitalize
   (at least on the keyboard, but ideally for all words in the 
   vocabulary as well) can help the person craft more
   grammatically-correct statements.</span></hint>
-- 🟨 personalized word prediction results
+- ⭐ personalized word prediction results
   <hint><span>As a user spends more time in the app, either spelling
   or using other buttons, the app has the opportunity to generate
   a personal word prediction model. This is especially useful for
   specialized vocabulary that the person uses regularly without adding 
   a specific button for it.</span></hint>
-- 🟨 read last sentence on punctuation end
+- ⭐ read last sentence on punctuation end
   <hint><span>In many
   apps when the user select a sentence-ending punctionuation,
   the app automatically speaks the full sentence that was just completed.
   So if there were two sentence in the sentence box, it wouldn't
   speak the whole sentence box, just the second sentence.
   </span></hint>
-- 🐝 option to use native on-screen keyboard
+- 💡 option to use native on-screen keyboard
   <hint><span>If an app provides a specialized keyboard, it is
   useful to allow users to opt instead to use the device-native 
   keyboard, as some users prefer these keyboards.</span></hint>
-- 🐝 audio output options (phonics sounds of each letter vs. saying letter name)
+- 💡 audio output options (phonics sounds of each letter vs. saying letter name)
   <hint><span>When spelling words, there are different options for
   audio feedback that can be applied: speaking the name of the letter
   as it is typed, speaking the partially-spelled word as it currently
@@ -817,32 +817,32 @@ and we would be happy to discuss them with you.
   (Google, Amazon Polly, etc.),
   you will need some kind of fallback for when the person isn't
   in a location with a clear data signal.</span></hint>
-- 🟨 alternate scanning voice
+- ⭐ alternate scanning voice
   <hint><span>When users enable scanning-based selection or
   auditory fishing, it can be difficult to tell what a user is 
   selecting vs. what they're reading read to them. It can be useful
   if there is a distinction in voice style, volume, output, etc.
   to help separate prompts from words the person has actually
   selected.</span></hint>
-- 🟨 alternate audio fishing voice
+- ⭐ alternate audio fishing voice
   <hint><span>When users enable scanning-based selection or
   auditory fishing, it can be difficult to tell what a user is 
   selecting vs. what they're reading read to them. It can be useful
   if there is a distinction in voice style, volume, output, etc.
   to help separate prompts from words the person has actually
   selected.</span></hint>
-- 🟨 adjust rate, pitch, volume for TTS
+- ⭐ adjust rate, pitch, volume for TTS
   <hint><span>Even with a variety of synthesized voices, it can
   be hard to perfectly match a user's actual or preferred
   voice sound. Being able to adjust things like rate, pitch
   or volume, can help better match synthesized voices to the
   person's preferencs.</span></hint>
-- 🟨 child voices
+- ⭐ child voices
   <hint><span>Some premium voice libraries also include
   child or youth voices. This can help younger people feel
   more comfortable using AAC because it sounds closer to their
   natural speech or to the speech of their peers.</span></hint>
-- 🐝 message banking
+- 💡 message banking
   <hint><span>Some people come to AAC later in life, when they
   are beginning to lose their natural speech for various
   reasons. When a person has speech but it is limited or may
@@ -853,7 +853,7 @@ and we would be happy to discuss them with you.
   process easier, or to make it easier to batch-import
   collections of audio files, can make an AAC app more appealing
   to people in this category.</span></hint>
-- 🐝 voice banking
+- 💡 voice banking
   <hint><span>A step up from message banking, voice banking is
   a system that allows the user to record their own speech and use
   that material to generate a synthesized voice based on their
@@ -876,7 +876,7 @@ and we would be happy to discuss them with you.
   device's speaker instead.</span></hint>
 
 ***Language & Inflections:***
-- 🟨 support for multiple languages
+- ⭐ support for multiple languages
   <hint><span>Many apps start in a specific language, and only later
   add support for other languages or locales. This is a fine approach,
   but you may find demand for additional languages showing up sooner
@@ -884,20 +884,20 @@ and we would be happy to discuss them with you.
   sense to at the very least prepare your app for multiple languages
   so that supporthing them in the future will not be such
   an enormous undertaking.</span></hint>
-- 🐝 multiple languages on same board
+- 💡 multiple languages on same board
   <hint><span>Many AAC users find themselves exposed to different
   languages at different times (Spanish at home, English at school,
   for example), so having a vocabulary that contains both 
   language sets can make it easier for the person to speak in 
   both settings without having to learn two different layouts.
   </span></hint>
-- 🐝 switch between languages
+- 💡 switch between languages
   <hint><span>Once a vocabulary supports multiple languages, it
   makes sense to be able to switch between them without too
   much effort. Additionally, some apps have the option to show
   the text for both languages at the same time, allow for better
   translation when there are language barriers.</span></hint>
-- 🐝 option to bring up inflections/variants
+- 💡 option to bring up inflections/variants
   <hint><span>This is often implemented as a long-press option.
   Many AAC vocabularies do not show all inflections, tenses, etc.
   by default, sometimes considering grammatical rules less 
@@ -908,7 +908,7 @@ and we would be happy to discuss them with you.
   their own inflections, as they can use this feature as an
   extensible way to create personalized shortcuts.
   </span></hint>
-- 🐝 automatic grammatical tenses
+- 💡 automatic grammatical tenses
   <hint><span>In addition to supporting inflections, if an app
   has enough of a lanugage model included, then it can make automated
   suggestions for grammatical tenses. Keep in mind that this always
@@ -945,48 +945,48 @@ and we would be happy to discuss them with you.
   tracking, and some offer tracking across all sessions. Note that
   this option should be user-configurable, and should require
   AAC user consent before being activated.</span></hint>
-- 🟨 easily-reachable "alert" button
+- ⭐ easily-reachable "alert" button
   <hint><span>People can benefit from having quick, constant access
   to an attention-getting tool like an alert button or sound.
   </span></hint>
-- 🟨 shortcut for current day/month/etc. in spoken content
+- ⭐ shortcut for current day/month/etc. in spoken content
   <hint><span>If someone wants to say "Today is March 3" or
   "Today is Friday" then they may want to program these 
   phrases onto specific buttons, but constantly updating
   them to keep the phrase accurate would be untenable, so some
   apps offer shortcuts that can be replaced in real-time
   by the AAC system.</span></hint>
-- 🟨 navigation sidebar
+- ⭐ navigation sidebar
   <hint><span>Some apps have a navigation sidebar where helper
   methods or interfaces can be configured to be readily available
   regardless of where the user has currently navigated within
   the interface.</span></hint>
-- 🟨 find a button
+- ⭐ find a button
   <hint><span>When people are learning a new vocabulary, or trying
   to teach someone a new vocabulary, they often don't know where words
   are located yet. Many apps offer a "find a button"-style interface
   to help people know what words are available. Additionally, some
   apps also allow you to select a search result and get visual
   indicators of how to navigate to the desired button.</span></hint>
-- 🟨 print vocabulary to pdf
+- ⭐ print vocabulary to pdf
   <hint><span>Sometimes people find themselves in a place where a 
   computer isn't ideal (think, swimming pool), or they want to
   have a paper-based backup in case of technical issues. Being
   able to export the vocabulary to a printable format like
   a pdf (preferably with page numbers for linked buttons) gives
   the person more freedom.</span></hint>
-- 🐝 import and export obf/obz
+- 💡 import and export obf/obz
   <hint><span>There is a brand-agnostic file format for
   AAC vocabularies called the <a href="https://www.openboardformat.org">Open Board Format</a> which can be used to import
   public vocabularies, or export for transfer from one AAC
   product to another.</span></hint>
-- 🐝 shared reading resources
+- 💡 shared reading resources
   <hint><span></span></hint>
-- 🐝 "show me how to get there" for find-a-button
+- 💡 "show me how to get there" for find-a-button
   <hint><span></span></hint>
-- 🐝 easily-reachable "oops" button
+- 💡 easily-reachable "oops" button
   <hint><span></span></hint>
-- 🐝 remote editing
+- 💡 remote editing
   <hint><span>Some users are very protective of their AAC systems,
   and they may be reluctant or even hostile to the idea of someone
   else touching their system. Additionally, therapists may not have time
@@ -994,7 +994,7 @@ and we would be happy to discuss them with you.
   vocabulary remotely, the only alternative would be to take the
   AAC user's device away from them in order to make changes.
   </span></hint>
-- 🐝 remote tracking/control
+- 💡 remote tracking/control
   <hint><span>With a web connection, it's possible for an AAC user's
   screen to be monitored or even directed remotely. In an AAC system,
   that could include visual prompts or hints that can be triggered
@@ -1002,25 +1002,25 @@ and we would be happy to discuss them with you.
   be sure to consider user privacy and autonomy. Remote control
   of a user's communication system should at the very least be opt-in.
   </span></hint>
-- 🐝 environmental control
+- 💡 environmental control
   <hint><span>Some older devices included an IR emitter that
   could be used to communicate with environmental control and 
   home automation systems. System AAC apps can accomplish similar
   features using web-based integrations.</span></hint>
-- 🐝 spinner/dice to use in spoken content
+- 💡 spinner/dice to use in spoken content
   <hint><span>Some apps have specialized actions like choosing
   a random number. This can be useful for users who, for example, 
   want to participate in games but can't roll dice or spin 
   a wheel on their own.</span></hint>
-- 🐝 abbreviation auto-expansion
+- 💡 abbreviation auto-expansion
   <hint><span>Some users can benefit from custom shortcut
   combinations to more easily generate longer or more specialized
   words or phrases.</span></hint>
-- 🐝 auto-contractions
+- 💡 auto-contractions
   <hint><span>English contractions are much more natural-sounding,
   so some apps automatically generate them ("are" "not" to "aren't").
   </span></hint>
-- 🐝 sentence repairs
+- 💡 sentence repairs
   <hint><span>Being able to "repair" a sentence is valuable for
   many AAC users. Examples of repairs could be: reordering the
   words in the sentence box after they are entered, manually typing
