@@ -1,0 +1,26 @@
+---
+layout: page
+title: Blog
+page_title: OpenAAC Blog
+description: Latest posts and updates from our team
+include_nav: true
+---
+<style>
+  #posts li {
+    list-style-type: none;;
+  }
+</style>
+<h2>Latest Posts</h2>
+
+<ul id='posts'>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.image %}
+        <img src="{{post.image}}" style='max-width: 100%; max-height: 80px; float: right; margin: 0 0 10px 15px; border: 1px solid #aaa; padding: 5px; border-radius: 10px;'/>
+      {% endif %}
+      {{ post.excerpt | strip_html }}
+      <span style='clear: left;'></span>
+    </li>
+  {% endfor %}
+</ul>
