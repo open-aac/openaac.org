@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 .link_list {
-  width: 400px;
+  max-width: 400px;
   margin: 10px auto;
   li {
     text-align: left;
@@ -73,6 +73,16 @@
   float: right;
   margin-left: 30px;
 }
+@media screen and (max-width: 736px) {
+  .features li .example {
+    width: 150px;
+    height: 150px;
+  }
+  .big_pic {
+    display: block;
+    width: 100%;
+  }
+}
 .participate_pic {
   height: 150px;
   width: 150px;
@@ -101,6 +111,10 @@ p a {
   transform-origin: 63px 18px; 
 }
 
+.hold-line {
+  white-space: nowrap;
+}
+
 @media (max-width: 725px) {
   .participate_pic {
     height: 100px;
@@ -108,7 +122,10 @@ p a {
     }
   .participate_preview_pic {
     display: none;
-  }    
+  }  
+  .hold-line {
+    white-space: normal;
+  }
 }
 
 @keyframes swing {

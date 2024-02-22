@@ -1,6 +1,11 @@
 ---
 layout: landing
 ---
+<style>
+	ul.features li {
+		text-align: left;
+	}
+</style>
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
@@ -19,7 +24,7 @@ layout: landing
 						<h2>Welcome to The OpenAAC Initiative</h2>
 						<div style='font-size: 22px; font-style: italic; margin-top: 40px; margin-bottom: 70px;'>
 							Fostering AAC adoption 
-							<span style='white-space: nowrap;'>
+							<span class='hold-line'>
 								through
 								<div style='display: inline-block; vertical-align: top; text-align: left; border-left: 1px dotted #888; padding-left: 10px; font-weight: bold;'>
 									<a href='#awareness'>social awareness</a><br/>
@@ -29,7 +34,7 @@ layout: landing
 							</span>	
 						</div>
 
-						<img src='/images/were_open.svg' style='height: 300px; float: right; margin: 0 10px 10px 0;'/> 
+						<img src='/images/were_open.svg' class='big_pic' style='height: 300px; max-width: 100%; float: right; margin: 0 10px 10px 0;'/> 
 						<p>Everyone deserves to be able to communicate, but for
 							some people it can take a little extra work. OpenAAC is an initiative to get AAC 
 							(Augmentative and Alternative Communication) into the hands of
@@ -67,7 +72,7 @@ layout: landing
 						-->
 					</header>
 					</div>
-					<div style='width: 400px; margin: 0 auto;'>
+					<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
 						<a href="https://www.paypal.com/donate/?hosted_button_id=A9MV8D8M2QVCA" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Donate to<br/>OpenAAC!</a>
 						<a href="https://docs.google.com/forms/d/e/1FAIpQLSc05iowVgztxwFo0_KxA0jdQbeVn82MxlV-0-i-YUtOfZkSxg/viewform" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Take the Advocacy<br/>Pledge</a>
 						<a href="/surveys" class="button fit special" style='display: none; font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Participate in Our<br/>Open Surveys</a>
@@ -90,7 +95,7 @@ layout: landing
 									materials to help everyone get on the same page.
 								</p>
 								<a href="2024/02/13/state-of-aac-2024.html">
-									<img src="/images/state-of-aac.svg" style='max-width: 80%; border-radius: 10px; margin: 0 auto;' alt="State of AAC 2024"/>
+									<img src="/images/state-of-aac.svg" style='width: 100%; max-width: 830px; border-radius: 10px; margin: 0 auto;' alt="State of AAC 2024"/>
 								</a>
 								<p>It's hard to know where you're going, if you don't know
 									where you've been. We worked with AAC users, therapists,
@@ -121,7 +126,7 @@ layout: landing
 									and support people at every phase of their AAC journey.
 								</p>
 								<a href="/cpp">
-									<img src="/images/cpp_preview.png" style='max-width: 80%; border-radius: 10px; margin: 0 auto;' alt="CPP Preview"/>
+									<img src="/images/cpp_preview.png" style='max-width: 600px; width: 100%; border-radius: 10px; margin: 0 auto;' alt="CPP Preview"/>
 								</a>
 								<p>One of the most effective tools we've created
 									is the Communication Partner Profile, a self-reflection
@@ -130,7 +135,7 @@ layout: landing
 									AAC users. Check it out for yourself, and feel free to
 									share it with anyone who you think could benefit!
 								</p>
-								<a href="/cpp" class="button fit special" style='height: 90px; line-height: 25px; padding: 20px 10px; width: 300px; margin: 0 auto;'>Try Our Self-Assessment<br/>Form For Yourself</a>
+								<a href="/cpp" class="button fit special" style='height: 90px; line-height: 25px; padding: 20px 10px; max-width: 300px; margin: 0 auto;'>Try Our Self-Assessment<br/>Form For Yourself</a>
 							</header>
 						</div>
 				</section>					
@@ -145,65 +150,65 @@ layout: landing
 						</header>
 						<ul class="features">
 							<li class="icon fa-tablet">
-								<img src='/images/modeling_ideas.svg' class='example'/>
 								<h3><a href="aac.html">Open Systems</a></h3>
+								<img src='/images/modeling_ideas.svg' class='example'/>
 								<p>Communicators should have an option for a free, dynamic, flexible AAC system.</p>
 								<div class='grade'>Current Grade: <span class='a'>A-</span></div>
 								<div class='helping'>How to Help: <a href="aac.html">Explore Open AAC systems</a></div>
 							</li>
 							<li class="icon fa-image">
-								<img src='/images/symbols.svg' class='example'/>
 								<h3><a href="symbols.html">Open Symbols</a></h3>
+								<img src='/images/symbols.svg' class='example'/>
 								<p>Therapists and education teams should be free to create and share classroom materials that use the same symbols available on AAC systems.</p>
 								<div class='grade'>Current Grade: <span class='c'>C+</span></div>
 								<div class='helping'>How to Help: <a href="https://www.opensymbols.org">Advocate for & use open symbols</a></div>
 							</li>
 							<li class="icon fa-download">
-								<img src='/images/exports.svg' class='example'/>
 								<h3><a href="https://www.openboardformat.org">Open Exports</a></h3>
+								<img src='/images/exports.svg' class='example'/>
 								<p>Users should be free to export their vocabulary sets if they need to switch to a different AAC system.</p>
 								<div class='grade'>Current Grade: <span class='d'>D</span></div>
 								<div class='helping'>Related Standards: <a href="https://www.openboardformat.org/docs">obf File Format</a></div>
 								<div class='helping'>How to Help: <a href="participate.html">Demand Change from Vendors</a></div>
 							</li>
 							<li class="icon fa-comment">
-								<img src='https://s3.amazonaws.com/opensymbols/libraries/extras/quick-core-60.svg' class='example'/>
 								<h3><a href="https://www.openboardformat.org/examples">Open Vocabularies</a></h3>
+								<img src='https://s3.amazonaws.com/opensymbols/libraries/extras/quick-core-60.svg' class='example'/>
 								<p>Communicators should have access to free, robust, pre-made vocabulary sets that they can import into the system that works best for them.</p>
 								<div class='grade'>Current Grade: <span class='b'>C</span></div>
 								<div class='helping'>How to Help: <a href="participate.html">Demand Change from Vendors</a></div>
 							</li>
 							<li class="icon fa-lightbulb-o">
-								<img src='/images/lesson.png' class='example'/>
 								<h3><a href="https://www.coreworkshop.org">Open Lessons</a></h3>
+								<img src='/images/lesson.png' class='example'/>
 								<p>Teachers and families should have access to free learning resources and ideas for modeling with and supporting communicator learning.</p>
 								<div class='grade'>Current Grade: <span class='b'>B-</span></div>
 								<div class='helping'>How to Help: <a href="https://www.coreworkshop.org">Contribute Lesson Ideas!</a></div>
 							</li>
 							<li class="icon fa-check-square">
-								<img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg' class='example'/>
 								<h3><a href="/assessments">Open Assessments</a></h3>
+								<img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg' class='example'/>
 								<p>Families and organizations shoud have access to assessment options that can help guide their supports without having to pay for access to helpful assessment tools.</p>
 								<div class='grade'>Current Grade: <span class='c'>C</span></div>
 								<div class='helping'>How to Help: <a href="/assessments">Share and Provide Feedback on Open Assessments!</div>
 							</li>
 							<li class="icon fa-flask">
-								<img src='/images/log.png' class='example'/>
 								<h3><a href="https://www.openboardformat.org/docs">Open Research</a></h3>
+								<img src='/images/log.png' class='example'/>
 								<p>AAC usage data should be available in a vendor-neutral format that can be safely colllected and used for industry research.</p>
 								<div class='grade'>Current Grade: <span class='d'>D</span></div>
 								<div class='helping'>How to Help: <a href="https://docs.google.com/document/d/1KpC82nQc8RscgYZWKQo-y_LlKSwd8VsuvhnjrIve2f4/edit">Review and Share the Open Logging Format</a> specification</div>
 							</li>
 							<li class="icon fa-link">
-								<img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4bb.svg' class='example'/>
 								<h3><a href="https://tools.openaac.org/">Open Integrations</a></h3>
+								<img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4bb.svg' class='example'/>
 								<p>Third party companies, web sites and developers should have tools that allow them to make their solutions available to AAC users in a standardized way.</p>
 								<div class='grade'>Current Grade: <span class='f'>F</span></div>
 								<div class='helping'>How to Help: <a href="https://tools.openaac.org">Help Develop Web Integrations</a></div>
 							</li>
 							<li class="icon fa-volume-up">
-								<img src='/openaac.svg' class='example'/>
 								<h3><a href="/voices">Open Voices</a></h3>
+								<img src='/openaac.svg' class='example'/>
 								<p>Communicators should have access to a range of free, high-quality voice output options that they can personally identify with.</p>
 								<div class='grade'>Current Grade: <span class='c'>C-</span></div>
 								<div class='helping'><a href="/voices">Help Develop Mobile-Compatible Voice Engines</a></div>
