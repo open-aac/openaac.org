@@ -549,7 +549,7 @@ and we would be happy to discuss them with you.
     more options than would fit on a single screen, or as an alternative
     form of navigation to jup between different views.</span></hint>
   - 💡 auditory fishing
-    <hint><span>If a user has processng or visual difficulties, then
+    <hint><span>If a user has processing or visual difficulties, then
     they may find themselves struggling to find or select the intended
     target. Auditory fishing is an approach where the device speaks
     the button when it is selected (optionally in a different voice
@@ -1096,7 +1096,7 @@ Many groups are reluctant to adopt a new app until it has prove
 of value, or that it will be around for more than a year or two. 
 The AAC market is much smaller than more mainstream markets, 
 which is why these apps tend to be more expensive. They will have 
-a user disadvantage to being with, so make sure you have something 
+a user count disadvantage to begin with, so make sure you have something 
 compelling to offer.
 
 <!-- TODO: note about telling people if TTS is synthesized on-device or not, and why they'd care>

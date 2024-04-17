@@ -109,11 +109,13 @@
 	  });
 	}
 	var vp = document.getElementById('close_video_player');
-	vp.addEventListener('click', function(event) {
-	  event.preventDefault();
-    document.getElementById('video_player').style.display = 'none';
-    document.getElementById('video_frame').src = 'about:blank';
-	});
+	if(vp) {
+		vp.addEventListener('click', function(event) {
+			event.preventDefault();
+			document.getElementById('video_player').style.display = 'none';
+			document.getElementById('video_frame').src = 'about:blank';
+		});	
+	}
 	window.addEventListener('message', function(event) {
 	  var time_string = function(num) {
 	    if(num >= 60) {
@@ -144,5 +146,6 @@
       }
     }
 	});
+
 
 })(jQuery);

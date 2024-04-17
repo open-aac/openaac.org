@@ -18,4 +18,18 @@
   <meta property="og:site_name" content="{{ site.title }}" />
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 100 }}{% if page.excerpt %} - {{ page.excerpt | strip_html | strip_newlines | truncate: 100 }}{% endif %}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{page.image | prepend: site.baseurl | prepend: site.url}}{% else %}{{'/images/logo.png' | prepend: site.baseurl | prepend: site.url}}{% endif %}" />  
+  <script>
+    window.app_list = [
+      {
+        name: "CoughDrop", 
+        id: "coughdrop", 
+        rank: 1, 
+        url: "https://www.coughdrop.com", 
+        image_url: "/images/2024/coughdrop.png", 
+        video_id: "GOgzpO9_NwE",
+        desc: "CoughDrop is a cloud-based AAC app, available on popular app stores or on the web. CoughDrop provides robust vocabulary sets for a variety of functional levels, and includes built-in tools to help the vocabulary grow with the individual.\n\nCoughDrop allows the user to operate their AAC on multiple devices, and to share access with their support team. It includes training, reporting, tracking and assessment tools, and strict privacy controls to help the AAC user remain protected while also optimizing everyone's effort in supporting them.\n\nCoughDrop offers a free two-month trial for all users, followed by either one-time purchase or monthly subscription options.",
+        reviewed: 1713208175
+      }
+    ];
+  </script>
 </head>
