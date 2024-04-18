@@ -2,7 +2,6 @@
 layout: listing
 title: App
 page_title: App
-include_nav: true
 ---
 <style>
   #listing h2 {

@@ -4,6 +4,7 @@ title: Documents & Resources
 page_title: Documents & Resources
 description: OpenAAC-sponsored materials
 include_nav: false
+bg: 2
 ---
 <style>
   h2 {

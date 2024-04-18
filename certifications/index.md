@@ -4,6 +4,7 @@ title: Certifications
 page_title: Certifications
 description: Ensuring Quality Solutions for All
 include_nav: true
+bg: 3
 ---
 <style>
   a.caption {
