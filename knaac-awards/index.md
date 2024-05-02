@@ -13,15 +13,24 @@ bg: 5
   a need. We want to honor those folks, and help bring
   awareness to the high-quality solutions that exist
   in the world of AAC. To help with all of that, OpenAAC
-  hosts an annual awards ceremony for all things AAC.
+  hosts an annual awards program for all things AAC.
 </p>
 <h2>The knAAC Awards</h2>
 <img src='/images/2024/knaac/knaac-awards.png' class='preview' style='width: 200px; max-width: 30%; float: left; margin-right: 10px; margin-bottom: 5px;'/>
 <p>
   Short for "Keepers and Noteworthies in AAC", the knAAC Awards
-  are just that, a series of awards given to products, 
+  is not like most other awards programs. Like a lot of things 
+  related to AAC, the knAAC Awards may be different than you
+  expect. Most everyone working on AAC-related projects are
+  doing it for really good reasons, so it doesn't make sense to
+  pick and say "this one's the best". Instead, the knAAC awards
+  are a chance to highlight ALL of the nominees while giving
+  someone a chance to shine.
+</p>
+<p>
+  The knAAC Awards are given to products, 
   organizations, and individuals voted as "keepers" for their
-  long-term quality, or "noteworthies" for this current
+  long-term quality, or "noteworthies" for their current
   contributions -- or both! The goal, again, is to help bring
   attention to those who are making a difference for good
   in the AAC community on an ongoing basis.
@@ -39,14 +48,15 @@ bg: 5
   
 </p>
 <p>
-  Nominations are organized by the OpenAAC team, with feedback
-  from industry experts, and based on the results of our
+  Nominations are collected by the OpenAAC team, with feedback
+  from industry experts, and based partly on the results of our
   annual <a href="/2024/02/13/state-of-aac-2024">State of AAC</a> 
   data collection surveys.
-  Winners are chosen by ranked votes during the open voting
-  period. After the voting has closed, we will compute tallies
+  Highlights are chosen by ranked votes during the open voting
+  period, combined with selections from our judging team. 
+  After the voting has closed, we will compute tallies
   based on all the voted submitted and announce that year's 
-  winners in each category.
+  highlights in each category.
 </p>
 <p>
   Stay tuned for updates on the 2024 knAAC Awards nominees, and
