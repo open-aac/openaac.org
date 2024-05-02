@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: post
 title: The 2024 knAAC Awards
 page_title: The 2024 knAAC Awards
 description: Keepers and Noteworthies in AAC
+image: /images/2024/knaac/knaac-awards-banner.png
 bg: 4
 ---
 <style>
@@ -111,7 +112,8 @@ bg: 4
   contributions have helped AAC users. Our goal is not
   to start a popularity contest, but instead to try
   to bring attention to all of the nominees, and 
-  maybe have a little fun voting for our favorite superheroes.
+  maybe have a little fun like a chilli cook-off
+  or voting for our favorite superheroes.
 </p>
 <p>
   Anyone is welcome to vote on the nominees, please either
@@ -139,14 +141,14 @@ bg: 4
       <h4>Lydia Dawley</h4>
       <img src="/images/2024/knaac/lydiad.webp" class='photo' alt='' />
       <span class='sub'>
-      Lydia graduate with a B.S. from the University of Wisconsin. She is the founder and CEO of Click. Speak. Connect. She consults with Speech-Language Pathologists, teachers, parents in access methods, faster access, device experiences and language skills related to AAC, and also mentors other AAC users to work on social skills. She is the inventor oft he NadPen, an adapted stylus for touchscreen devices.
+      Lydia graduated with a B.S. from the University of Wisconsin. She is the founder and CEO of Click. Speak. Connect. She consults with Speech-Language Pathologists, teachers, parents in access methods, faster access, device experiences and language skills related to AAC, and also mentors other AAC users to work on social skills. She is the inventor of the NadPen, an adapted stylus for touchscreen devices.
       </span>
     </div>
     <div class='nominee'>
       <h4>Hannah Foley</h4>
       <img src="/images/2024/knaac/hannahf.webp" class='photo' alt='' />
       <span class='sub'>
-        Hannah Foley, B.A. is an Assistive Technology (AT) Specialist concentrating in augmentative and alternative communication (AAC). She focuses on AAC training and implementation to facilitate collaboration and effective implementation of AAC among all members of support teams of individuals with complex communication needs. Beyond her daily work, Hannah provides national-level consultation on AAC-related topics. In her current role as the Support and Implementation Specialist at Forbes AAC, Hannah delivers clinical support to optimize the implementation of AAC systems, with a particular emphasis on CoughDrop. She began her career with Forbes AAC as the Content Creator, developing training and implementation assets to facilitate effective implementation of AAC systems by various AAC stakeholders. 
+        Hannah Foley, B.A. is an Assistive Technology (AT) Specialist concentrating in augmentative and alternative communication (AAC). Beyond her daily work, Hannah provides national-level consultation on AAC-related topics. In her current role as the Support and Implementation Specialist at Forbes AAC, Hannah delivers clinical support to optimize the implementation of AAC systems, with a particular emphasis on CoughDrop. 
         Hannah earned her Bachelor of Arts in Communication from the University of Illinois Urbana-Champaign and received her Graduate Certificate in AT with concentration in AAC from the University of Illinois Chicago. She is a member of the United States Society for Augmentative and Alternative Communication (USSAAC) and is a member of USSAAC's Awareness Committee.
       </span>
     </div>
@@ -154,7 +156,7 @@ bg: 4
       <h4>endever* Corbin</h4>
       <img src="/images/2024/knaac/endeverc.webp" class='photo' alt='' />
       <span class='sub'>
-      endever* found AAC as an autistic adult, and their life has gotten so much better that now they are passionate about AAC advocacy. They present in a wide variety of settings, blog and Tweet about AAC, give feedback to therapists/teachers/families/peers, and make low tech AAC options for other people to use.
+      endever* corbin is a mostly-nonspeaking autistic self-advocate who is multiply disabled, trans, and queer. They enjoy sharing their lived experience and expertise as an AAC user with professionals, caregivers, and peers. Xe is also proud to contribute to academic work as a community research partner and as a presenter in a range of professional, preservice, and community settings. 
       </span>
     </div>
     <div class='nominee'>
@@ -177,18 +179,11 @@ bg: 4
 <div>
   <h3>AAC Presenter of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' style='display: none;'>
-      <h4>Rachel Madel</h4>
-      <img src="/images/2024/rachel-madel.jpeg" class='photo' alt='' />
-      <span class='sub'>
-      Rachel is the CEO and Founder of Rachel Madel Speech Therapy Inc., and also the co-founder and co-host of the AAC podcast, Talking with Tech. Rachel presents both nationally and abroad on how to utilize technology to support children with communication needs. She is the founder of a digital media company that provides educational resources, therapy materials and training videos to help support parents and professionals of children with complex communication needs.
-      </span>
-    </div>
     <div class='nominee'>
       <h4>Beth Poss</h4>
       <img src="/images/2024/knaac/beth-poss.jpeg" class='photo' alt='' />
       <span class='sub'>
-      Beth Poss is a faculty member for the Center on Technology and Disability and an early childhood special education administrator for Montgomery County Public Schools (MCPS) in Maryland. She has more than 30 years of experience in education, assistive technology, and educational technology
+      Beth Poss is an educational and technology consultant, accessibility and inclusion advocate, speech/language pathologist, former special education administrator, and former assistant principal. In addition to her independent consulting, she is the Director of Educational Programs for LessonPix. Beth is passionate about designing educational environments that support all students in accessing a rigorous curriculum and meeting educational outcomes. In her work with school districts, universities and national and state level organizations she focuses on literacy, augmentative and alternative communication, Universal Design for Learning and inclusive educational practices. She is one of the authors of Inclusive Learning 365: EdTech Strategies for Every Day of the Year, released in August 2021.
       </span>
     </div>
     <div class='nominee'>
@@ -205,14 +200,6 @@ bg: 4
       About. Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
       </span>
     </div>
-    <div class='nominee' style='display: none;'>
-      <h4>Chris Bugaj</h4>
-      <img src="/images/2024/chris-bugaj.jpeg" class='photo' alt='' />
-      <span class='sub'>
-      Christopher R. Bugaj, MA CCC‐SLP is a founding member of the Assistive Technology Team for Loudoun County Public Schools. Chris co-hosts the Talking With Tech podcast about AAC and has hosted The A.T.TIPSCAST; a multi‐award winning podcast featuring strategies to design educational experiences. 
-      Chris has presented over 650 live or digital sessions around the world.
-      </span>
-    </div>
     <div class='nominee'>
       <h4>Alyssa Hillary Zisk</h4>
       <img src="/images/2024/knaac/alyssaz.webp" class='photo' alt='' />
@@ -226,13 +213,6 @@ bg: 4
       <img src="/images/2024/kelly-fonner.jpeg" class='photo' alt='' />
       <span class='sub'>
       Kelly is a self-employed consultant and trainer in assistive and educational technology. Since 1986, she has presented to schools, universities & families in 48 US states & internationally in Australia, Canada and South Africa. She presents on a wide range of topics including technology integration, augmentative communication, computer access, literacy, electronic writing, organizers,assistive technology assessment and implementation strategies.
-      </span>
-    </div>
-    <div class='nominee' style='display: none;'>
-      <h4>Erin Sheldon</h4>
-      <img src="/images/2024/knaac/erins.webp" class='photo' alt='' />
-      <span class='sub'>
-      Erin Sheldon is a literacy and language development specialist for Assistiveware. She is the mother of a teenage daughter diagnosed with autism and Angelman syndrome. She is an advocate for inclusive schools and communities. She earned her Masters in Education studying the learning needs of students with complex disabilities.
       </span>
     </div>
   </div>
@@ -256,7 +236,7 @@ bg: 4
       <img src="/images/2024/lampwfl.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        LAMP Words for Life® is structured to enable early success and allow the client's vocabulary and communication skills to grow in a way that doesn't require re-learning along the way. Because this is a pre-programmed vocabulary program, Words for Life doesn't require extensive customization.LAMP Words for Life® is structured to enable early success and allow the client's vocabulary and communication skills to grow in a way that doesn't require re-learning along the way. Because this is a pre-programmed vocabulary program, Words for Life doesn't require extensive customization.
+        LAMP Words for Life® is structured to enable early success and allow the client's vocabulary and communication skills to grow in a way that doesn't require re-learning along the way. Because this is a pre-programmed vocabulary program, Words for Life doesn't require extensive customization.
       </span>
     </div>
     <div class='nominee'>
@@ -362,7 +342,7 @@ bg: 4
       <img src="/images/2024/knaac/talk-for-me.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Talk For Me - Text to Speech will help you to communicate with ease. Type in the main text area or tap one of the six main custom buttons and your iPhone or iPad will talk for you. Need to make a phone call or a FaceTime audio or video call? Automagically the spoken text will be heard on the other caller's phone or iPad when on a call. Want to set up more custom phrases? Swipe up for more pages with custom editable buttons. Need even more? Save phrases in an archive database. This is great for saving partial sentences or for temporary text in preparation for a phone call or meeting. A quick swipe left, select a sentence from your archive, and it will appear in the main window ready for you to complete or use. Can you type fast or need to spell a word? Turn on the Auto Speech Function to have every word or letter spoken as you enter it. Together with keyboard shortcuts, predictive text and your custom phrases, this app will allow you to communicate with ease.
+        Talk For Me - Text to Speech will help you to communicate with ease. Type in the main text area or tap one of the six main custom buttons and your iPhone or iPad will talk for you. Need to make a phone call or a FaceTime audio or video call? Automagically the spoken text will be heard on the other caller's phone or iPad when on a call. Want to set up more custom phrases? Swipe up for more pages with custom editable buttons. Need even more? Save phrases in an archive database. Can you type fast or need to spell a word? Turn on the Auto Speech Function to have every word or letter spoken as you enter it. Together with keyboard shortcuts, predictive text and your custom phrases, this app will allow you to communicate with ease.
       </span>
     </div>
     <div class='nominee'>
@@ -450,7 +430,13 @@ bg: 4
       <img src="/images/2024/grid.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        MIND’S EYE USES ARTIFICIAL INTELLIGENCE TO HELP YOU CREATE IMAGES TO BETTER EXPRESS YOURSELF, AND IT’S DESIGNED SPECIFICALLY FOR PEOPLE LIVING WITH MND WHO MAY HAVE DIFFICULTY MOVING. THIS APP REPLACES WHAT WOULD NORMALLY REQUIRE A LOT OF TYPING WITH A LIBRARY OF SUPERCHARGED WORDS AND PHRASES YOU CAN EASILY SELECT TO BUILD YOUR ART.      
+        Mind's Eye uses artificial intelligence to help you
+        create images to better express yourself, and it's
+        designed specifically for people living with MND who may
+        have difficulty moving. This app replaces what would
+        normally require a lot of typing with a library of
+        supercharged words and phrases you can easily select to
+        build your art.
       </span>
     </div>
     <div class='nominee'>
@@ -490,7 +476,7 @@ bg: 4
     </div>
     <div class='nominee'>
       <a href="https://www.facebook.com/groups/192898234141275/" target='_blank'>
-      <h4>Adult AAC User Community</h4>
+      <h4>Adult User Community</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       </a>
       <span class='sub'>
