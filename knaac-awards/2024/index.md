@@ -1180,6 +1180,14 @@ bg: 4
   <a href="https://forms.gle/5YXJ1MNMQqLYmHyj9" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Vote for the 2024<br/>knAAC Nominees</a>
 </div>
 
+<p>
+  Thank you for visiting! The knAAC Awards are one of the 
+  important projects we host as a non-profit in the AAC 
+  community. 
+  <a href="/donate">Please consider donating</a> to help
+  us continue funding this and other work to help
+  lift everyone in the world of AAC!
+</p>
 <script>
   var toggle = function(list) {
     list.classList.toggle('expanded');

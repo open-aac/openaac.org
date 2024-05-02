@@ -58,6 +58,10 @@ bg: 5
   based on all the voted submitted and announce that year's 
   highlights in each category.
 </p>
+<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
+  <a href="/knaac-awards/2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2024 Nominees</a>
+</div>
+
 <p>
   Stay tuned for updates on the 2024 knAAC Awards nominees, and
   opportunities to vote!
