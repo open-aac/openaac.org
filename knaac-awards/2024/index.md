@@ -245,7 +245,8 @@ bg: 4
       <img src="/images/2024/p2go.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Proloquo2Go is an app designed to help teachers and therapists empower kids who have limited or no speech with an alternative way to communicate. It uses an adaptable, multi-size grid format to present images and words on "buttons." Buttons represent different groups of items, actions, "little words," and more.
+        Trusted by hundreds of thousands worldwide, Proloquo2Go is the most popular AAC app for iPhone, iPad and Apple Watch. It is highly flexible and can be personalized to cater to individual needs and various disabilities. 
+        Customize, communicate and connect with Proloquo2Go!
       </span>
     </div>
     <div class='nominee'>
@@ -263,7 +264,8 @@ bg: 4
       <img src="/images/2024/proloquo.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Proloquo is a comprehensive AAC app available for iPad and iPhone, expertly crafted to fit everyone from toddlers to adults. It's more than just a communication tool; it's a gateway to language development and effective communication.
+      Proloquo is a comprehensive AAC app available for iPad and iPhone, expertly crafted to fit everyone from toddlers to adults. It’s more than just a communication tool; it's a gateway to language development and effective communication.
+      Proloquo offers an extensive vocabulary unmatched in size and efficiency that can support the growth of language skills at any age. With a user-friendly interface and innovative features, Proloquo ensures everyone can discover, learn and love language.
       </span>
     </div>
     <div class='nominee'>
@@ -296,7 +298,7 @@ bg: 4
       <img src="/images/2024/p4text.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Proloquo4Text is the leading AAC solution for literate adults, teens and children. It is used by people with a wide range of diagnoses, including developmental disabilities (like autism, apraxia, and cerebral palsy) and acquired disorders (like laryngectomy, ALS, stroke, or traumatic brain injury).
+        Proloquo4Text is an intuitive Text to Speech app for iPad, iPhone and Apple Watch designed for people who can write but cannot rely on speech. This app can fit a variety of communication settings - it is as useful for social interaction as for giving a presentation.
       </span>
     </div>
     <div class='nominee'>
@@ -1078,7 +1080,8 @@ bg: 4
       <img src="/images/2024/crescendo.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        The Crescendo™ vocabulary, part of Proloquo2Go, offers consistent core word placement, extensive fringe and flexibility. An updated version of Crescendo, called Crescendo Evolution, is the vocabulary used in the new Proloquo app.
+        Proloquo2Go’s main vocabulary, it offers consistent core word placement and extensive fringe words.
+        The robust and innovative vocabulary in Proloquo is developed with motor-planning at its heart and has more than 4 times the words of other AAC systems. Out of the box, it includes thousands of curriculum words to allow AAC users to fully participate in the classroom.
       </span>
     </div>
     <div class='nominee'>
@@ -1130,6 +1133,7 @@ bg: 4
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       </a>
       <span class='sub'>
+        The AssistiveWare Blog and Learn AAC offers a treasure trove of knowledge and resources for anyone in the AAC field. Available in English, Spanish, French and Dutch, it stand out as a platform for sharing expertise and advocating for the AAC community, empowering readers with practical strategies and inspiring stories. Its content is essential for educators, therapists, and family members seeking to support communication for those with speech disabilities, enhancing understanding and promoting advocacy.
       </span>
     </div>
     <div class='nominee'>
@@ -1138,6 +1142,11 @@ bg: 4
       <img src="/images/2024/coughdrop.png" class='img' alt='' />
       </a>
       <span class='sub'>
+        CoughDrop's blog includes updates about the
+        CoughDrop AAC app, strategic approaches to AAC,
+        and important topics that need to be both 
+        considered and addressed by the AAC community
+        at large.
       </span>
     </div>
     <div class='nominee'>
@@ -1146,6 +1155,10 @@ bg: 4
       <img src="/images/2024/knaac/smartbox.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
+        The SmartBox blog is a single source of news for
+        Grid updates as well as AAC in general. It includes
+        product updates and strategies, user stories, 
+        upcoming events and news, and more.
       </span>
     </div>
     <div class='nominee'>
@@ -1154,6 +1167,10 @@ bg: 4
       <img src="/images/2024/avaz.png" class='img' alt='' />
       </a>
       <span class='sub'>
+        The Avaz blog includes updates on the Avaz family
+        of products, as well as general AAC implementation
+        strategies and posts both from and about AAC
+        users through the "Avaz Megaphone" category.
       </span>
     </div>
   </div>
