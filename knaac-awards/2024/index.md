@@ -4,7 +4,7 @@ title: The 2024 knAAC Awards
 page_title: The 2024 knAAC Awards
 description: Keepers and Noteworthies in AAC
 display_image: /images/2024/knaac/knaac-awards-banner.png
-image: /images/2024/knaac/knaac-link.png
+image: /images/2024/knaac/knaac-fb-link.png
 bg: 4
 ---
 <style>

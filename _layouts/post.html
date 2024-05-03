@@ -4,7 +4,9 @@ layout: default
 <article id="main">
 
   <header class='post'>
-    {% if page.image %}
+    {% if page.display_image %}
+      <img src="{{ page.display_image}}" />
+    {% else if page.image %}
       <img src="{{ page.image}}" />
     {% endif %}
     {% if page.page_title %}
