@@ -134,8 +134,8 @@ bg: 4
       <h4>Alyssa Hillary Zisk</h4>
       <img src="/images/2024/knaac/alyssaz.webp" class='photo' alt='' />
       <span class='sub'>
-      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They participate in ongoing AAC research and are one of the moderators of the Facebook
-      group, Ask Me, I'm an AAC User. Alyssa completed their PhD in May 2021, working on brain-computer interfaces for people with ALS.
+      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned 
+      a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021.
       </span>
     </div>
     <div class='nominee'>
@@ -205,15 +205,16 @@ bg: 4
       <h4>Alyssa Hillary Zisk</h4>
       <img src="/images/2024/knaac/alyssaz.webp" class='photo' alt='' />
       <span class='sub'>
-      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They participate in ongoing AAC research and are one of the moderators of the Facebook
-      group, Ask Me, I'm an AAC User. Alyssa completed their PhD in May 2021, working on brain-computer interfaces for people with ALS.
+      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned 
+      a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021.
+
       </span>
     </div>
     <div class='nominee'>
       <h4>Kelly Fonner</h4>
-      <img src="/images/2024/kelly-fonner.jpeg" class='photo' alt='' />
+      <img src="/images/2024/knaac/kfonner.png" class='photo' alt='' />
       <span class='sub'>
-      Kelly is a self-employed consultant and trainer in assistive and educational technology. Since 1986, she has presented to schools, universities & families in 48 US states & internationally in Australia, Canada and South Africa. She presents on a wide range of topics including technology integration, augmentative communication, computer access, literacy, electronic writing, organizers,assistive technology assessment and implementation strategies.
+      Kelly is a self-employed consultant and trainer in assistive and educational technology. This is her 40th school year in providing Special Education services. Kelly has worked for non-profits, school districts and statewide organizations. She has taught in university programs including The Johns Hopkins University, University of Wisconsin-Milwaukee and for the California State University - Northridge's ATACP course. She has presented in 48 US states & internationally in Australia, Brazil, Canada and South Africa and has been a constant presence at both CTG and ATIA conferences. In addition to presenting, Kelly continues to teach several students online. She is a volunteer leader within the QIAT Community and the Wisconsin AAC Network.
       </span>
     </div>
   </div>
@@ -889,7 +890,7 @@ bg: 4
       <img src="/images/2024/knaac/proxtalker.webp" class='photo' alt='' />
       </a>
       <span class='sub'>
-        The Logan® ProxTalker® is the most advanced and adaptable recorded speech communication device available. It uses RFID (radio frequency identification) technology to enable independent verbal picture communication for non-verbal people of all ages.  This technology allows you to simply place any photo, symbol, or object on a sound tag card and have a voice! To trigger voice output place your sound tag card on any one of the 5 buttons and push.  Now silent picture users have easy access to voice output!  
+        The Logan® ProxTalker® is the most advanced and adaptable recorded speech communication device available. It uses RFID (radio frequency identification) technology to enable independent verbal picture communication for non-verbal people of all ages.  This technology allows you to simply place any photo, symbol, or object on a sound tag card and have a voice! To trigger voice output place your sound tag card on any one of the 5 buttons and push.  Now silent picture users have easy access to voice output. Life changing!  
       </span>
     </div>
     <div class='nominee'>
@@ -911,7 +912,7 @@ bg: 4
       </span>
     </div>
     <div class='nominee'>
-      <a href="https://specialsupplies.com/aac-communication-device-speech-therapy-talker-buddy-communication-device-for-non-verbal-kids-adults-autism-talking-aids-for-home-school-kids-communication-device-w-recording-option" target='_blank'>
+      <a href="https://specialsupplies.com/special-supplies-aac-communication-device-for-speech-therapy-talker-buddy-communication-device-for-non-verbal-kids-adults-autism-talking-aids-for-home-or-school-communication-device-w-travel-bag" target='_blank'>
       <h4>Talker Buddy</h4>
       <img src="/images/2024/knaac/talker-buddy.jpeg" class='photo' alt='' />
       </a>
@@ -1010,7 +1011,7 @@ bg: 4
       <img src="/images/2024/knaac/symbolstix.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        SymbolStix PRIME, the evidence‑based symbol communication tool, provides that lifeline, ensuring everyone has access to learning, language and self‑expression. Learning through effective communication is at the heart of n2y’s mission, and it’s what drove the development of the 60,000+ dynamic, engaging and personally relevant education symbols in the SymbolStix PRIME database. Teachers can also embrace their multicultural classrooms through the ability to easily change skin tones and generate symbols and text in English, Spanish and 10 other languages.
+        SymbolStix PRIME, the evidence‑based symbol communication tool, provides that lifeline, ensuring everyone has access to learning, language and self‑expression. Learning through effective communication is at the heart of n2y’s mission, and it’s what drove the development of the 100,000+ dynamic, engaging and personally relevant education symbols in the SymbolStix PRIME database. Teachers can also embrace their multicultural classrooms through the ability to easily change skin tones and generate symbols and text in English, Spanish and 7 other languages.
       </span>
     </div>
     <div class='nominee'>
