@@ -98,6 +98,14 @@ bg: 4
     max-width: none;
     color: #000;
   }
+  h3 {
+    font-weight: bold;
+  }
+  h3 img {
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
 </style>
 <p>
   Welcome to the 2024 knAAC Awards! Short for
@@ -124,10 +132,10 @@ bg: 4
   vote and selections from our judging team. Thank you again
   to the over 100 nominees in 18 different categories!
 </p>
-<h2>2024 knAAC Awards Nominees</h2>
+<h2>2024 knAAC Awards Nominees (voting link at the end)</h2>
 
 <div>
-  <h3>AAC Advocate of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <!-- TODO: collapse/expand link, show small previews when collapsed -->
   <div class='nominees'>
     <div class='nominee'>
@@ -178,7 +186,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC Presenter of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4f9.svg'/> AAC Presenter of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <h4>Beth Poss</h4>
@@ -221,7 +229,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Symbol-Centric AAC App of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5bc.svg'/> Symbol-Centric AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://touchchatapp.com/touchchat-hd-aac-with-wordpower" target='_blank'>
@@ -292,7 +300,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Text-Centric AAC App of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.assistiveware.com/products/proloquo4text" target='_blank'>
@@ -362,7 +370,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Up-And-Coming AAC App of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f331.svg'/> Up-And-Coming AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.weavechat.com/" target='_blank'>
@@ -413,7 +421,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Best New AAC Feature</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.avazapp.com/blog/expressive-tones-on-avaz-aac/" target='_blank'>
@@ -456,7 +464,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC User Community of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f91d.svg'/> AAC User Community of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.impaactvoices.org/" target='_blank'>
@@ -501,7 +509,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC Supporter Community of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/2139.svg'/> AAC Supporter Community of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.facebook.com/groups/1539830846285663/" target='_blank'>
@@ -564,7 +572,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC "Podcast" of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3a7.svg'/> AAC "Podcast" of the Year</h3>
   <div class='nominees'>
     <div class='nominee' style='display: none;'>
       <a href="https://www.talkingwithtech.org/" target='_blank'>
@@ -614,7 +622,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC Training Resource of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
@@ -672,7 +680,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC Community Site of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://praacticalaac.org/" target='_blank'>
@@ -741,7 +749,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Printable AAC Tool of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://lessonpix.com/" target='_blank'>
@@ -811,7 +819,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Lite-Tech AAC Product of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/261d-varxxxUNI.svg'/> Lite-Tech AAC Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.acciinc.com/eye-com-board/" target='_blank'>
@@ -864,7 +872,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Mid-Tech AAC Product of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f50a.svg'/> Mid-Tech AAC Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.ablenetinc.com/quicktalker-ft-12/" target='_blank'>
@@ -924,7 +932,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Alternative Access Product of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a8.svg'/> Alternative Access Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.ablenetinc.com/blue2-ft/" target='_blank'>
@@ -994,7 +1002,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Symbol Library of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c2.svg'/> Symbol Library of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://goboardmaker.com/pages/picture-communication-symbols" target='_blank'>
@@ -1054,7 +1062,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>AAC Vocabulary of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.inmaninnovations.com/InmanInnovationsWordPower.php" target='_blank'>
@@ -1127,7 +1135,7 @@ bg: 4
 </div>
 
 <div>
-  <h3>Vendor AAC Blog of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
     <div class='nominee'>
       <a href="https://www.assistiveware.com/blog" target='_blank'>
