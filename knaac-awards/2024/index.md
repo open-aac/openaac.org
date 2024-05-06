@@ -293,7 +293,7 @@ bg: 4
       <img src="/images/2024/grid.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Grid is used by children and adults with communication difficulties across the world, to have a voice and live more independently, available on Windows and iPad. For people who need symbols to support their communication, Grid includes a range of vocabularies, for people of all ages.        
+        Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.
       </span>
     </div>
   </div>
@@ -326,7 +326,7 @@ bg: 4
       <img src="/images/2024/knaac/alpha-core.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Alpha Core is a text-based AAC vocabulary, that will support you however your access method changes over time. You can swap to a more accessible layout without losing any phrases you've added or personal changes you've made to the vocabulary. Developed by SLP Amy Roman.
+        Designed by Amy Roman MS CCC-SLP, Alpha Core provides robust core vocabulary alongside text-based AAC. Intended for adults with changing access needs, it offers a range of keyboard layouts and text-entry strategies to maximize communication efficiency as your physical abilities evolve. Alpha Core provides quick access to prediction and phrases, a choice of keyboards, and is optimized for access.
       </span>
     </div>
     <div class='nominee'>
@@ -442,13 +442,7 @@ bg: 4
       <img src="/images/2024/grid.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Mind's Eye uses artificial intelligence to help you
-        create images to better express yourself, and it's
-        designed specifically for people living with MND who may
-        have difficulty moving. This app replaces what would
-        normally require a lot of typing with a library of
-        supercharged words and phrases you can easily select to
-        build your art.
+        Developed in partnership with Area 23 and the MND Association, Mind’s Eye is an accessible AI art tool that can be used with Grid AAC software. Creativity and self-expression are fundamental to personality, connection, introspection, and growth. Mind’s Eye provides that outlet for people using AAC and any form of physical access.
       </span>
     </div>
     <div class='nominee'>
@@ -904,10 +898,10 @@ bg: 4
     <div class='nominee'>
       <a href="https://www.attainmentcompany.com/gotalk-9" target='_blank'>
       <h4>Go Talk</h4>
-      <img src="/images/2024/knaac/go-talk.webp" class='photo' alt='' />
+      <img src="/images/2024/knaac/go-talk.png" class='photo' alt='' />
       </a>
       <span class='sub'>
-        This easy-to-use, 45 message, AAC device supports those with limited to no speech throughout their daily activities
+        The GoTalk 9+ Lite Touch is a powerful, lightweight, and portable voice output communication device to support individuals with limited to no speech. Durable like all GoTalks and provides fantastic sound with volume control, easy sequential recording, quick level erase, built-in overlay storage, record lock, level lock and a 2-year warranty. Record and store up to 45 personal messages in five levels and 3 additional core buttons for frequently used words or phrases across levels. In addition to these classic GoTalk features the GoTalk Lite Touch device is five times easier for individuals to activate and communicate messages throughout the day.
       </span>
     </div>
     <div class='nominee'>
@@ -953,7 +947,7 @@ bg: 4
       </span>
     </div>
     <div class='nominee'>
-      <a href="https://www.attainmentcompany.com/smoothie-switch" target='_blank'>
+      <a href="https://www.inclusive.com/uk/smoothie-switch.html" target='_blank'>
       <h4>Smoothie Switch</h4>
       <img src="/images/2024/knaac/smoothie.webp" class='photo' alt='' />
       </a>
@@ -1086,11 +1080,10 @@ bg: 4
     </div>
     <div class='nominee'>
       <a href="https://www.assistiveware.com/crescendo" target='_blank'>
-      <h4>Crescendo</h4>
-      <img src="/images/2024/crescendo.png" class='img' alt='' />
+      <h4>Crescendo Evolution</h4>
+      <img src="/images/2024/proloquo-vocab.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Proloquo2Go’s main vocabulary, it offers consistent core word placement and extensive fringe words.
         The robust and innovative vocabulary in Proloquo is developed with motor-planning at its heart and has more than 4 times the words of other AAC systems. Out of the box, it includes thousands of curriculum words to allow AAC users to fully participate in the classroom.
       </span>
     </div>
@@ -1105,7 +1098,7 @@ bg: 4
     </div>
     <div class='nominee'>
       <a href="https://www.openboardformat.org/examples" target='_blank'>
-      <h4>QuickCore</h4>
+      <h4>Quick Core</h4>
       <img src="/images/2024/quick-core.svg" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -1124,11 +1117,11 @@ bg: 4
     </div>
     <div class='nominee'>
       <a href="https://thinksmartbox.com/super-core/" target='_blank'>
-      <h4>SuperCore</h4>
+      <h4>Super Core</h4>
       <img src="/images/2024/super-core.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        SuperCore is a vocabulary set available in Grid. Quickly access over 3,500 of the most commonly used words and phrases – organised in a consistent and meaningful way to help you find the words you need. Activity-based grids make it easy to get started.
+        Super Core was specifically designed to support language, literacy and learning for children, teens, and adults. It provides quick, motorically consistent access to over 3,500 of the most commonly used words and phrases – organized in a predictable and meaningful way to help you find the words you need. With 50 cell, 30 cell, and Super Core Learning layouts available in many languages, Super Core provides an easy to personalize, comprehensive vocabulary.
       </span>
     </div>
   </div>
@@ -1161,11 +1154,11 @@ bg: 4
     </div>
     <div class='nominee'>
       <a href="https://thinksmartbox.com/news/" target='_blank'>
-      <h4>SmartBox</h4>
+      <h4>Smartbox</h4>
       <img src="/images/2024/knaac/smartbox.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        The SmartBox blog is a single source of news for
+        The Smartbox blog is a single source of news for
         Grid updates as well as AAC in general. It includes
         product updates and strategies, user stories, 
         upcoming events and news, and more.
