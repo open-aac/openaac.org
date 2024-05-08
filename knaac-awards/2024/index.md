@@ -237,7 +237,7 @@ bg: 4
       <img src="/images/2024/touchchat.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        TouchChat HD With WordPower is a full-featured communication solution for individuals who have difficulty using their natural voice. TouchChat is designed for individuals with Autism, Down Syndrome, ALS, apraxia, stroke, or other conditions that affect a person's ability to use natural speech.
+        Designed for individuals with autism, Down syndrome, ALS, apraxia, stroke, or other conditions that affect a person's ability to use natural speech, TouchChat uses the familiarity of iOS technology to provide a dynamic AAC solution for a lifetime of successful communication. With easy-to-customize features and a wide range of intuitive vocabularies (including the most comprehensive WordPower® options), languages, and voices, people who are non-speaking can experience the unlimited power of communication. TouchChat is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
       </span>
     </div>
     <div class='nominee'>
@@ -246,7 +246,7 @@ bg: 4
       <img src="/images/2024/lampwfl.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        LAMP Words for Life® is structured to enable early success and allow the client's vocabulary and communication skills to grow in a way that doesn't require re-learning along the way. Because this is a pre-programmed vocabulary program, Words for Life doesn't require extensive customization.
+        LAMP Words for Life is a renowned, motor-planning-focused language system for children with autism and other developmental disabilities. With an 84-button location grid and multi-meaning symbols, this iOS app combines the power of the Unity® vocabulary and Language Acquisition Motor Planning (LAMP™) approach. It includes developmentally progressive vocabulary files and features to scaffold language learning for each individual's current skill level with a clear path for unlimited language growth. Available in English as well as bilingual Spanish/English and Canadian French/English, LAMP Words for Life is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
       </span>
     </div>
     <div class='nominee'>
@@ -989,7 +989,7 @@ bg: 4
       <img src="/images/2024/knaac/hiru.jpg" class='photo' alt='' />
       </a>
       <span class='sub'>
-        Hiru is the first multiplatform eye-tracker in the world that works in Windows and iPadOS, indistinguishably
+        Irisbond, an eye-tracking company, specializes in Augmentative and Alternative Communication (AAC) and develops devices for assistive communication, such as Hiru. Hiru has been certified as Made for iPad, meeting Apple's performance standards, and is the world's first multiplatform eye-tracker that operates seamlessly on both Windows and iPadOS. As a team, our work has a significant social impact on various levels, and we take pride in that. We develop technology that goes beyond merely facilitating communication. Hiru, our eye-tracker, empowers individuals to express themselves, have fun, pursue their dreams, and be free —all through the power of their eyes.
       </span>
     </div>
   </div>
@@ -1074,8 +1074,7 @@ bg: 4
       <img src="/images/2024/unity.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        The Unity® language system is the most established AAC language system in the industry. It's used by tens of thousands of people using AAC and has been translated into more than a dozen languages. It's also the foundation of the LAMP Words for Life® and CoreScanner™ language systems.
-        The Unity language system is flexible and helps communicators of all skill levels learn quickly and build language skills for maximum independence. Individuals start with early first words and grow to sophisticated adult communication.
+        Unity® is the most established AAC language system in the industry. It's used by tens of thousands of individuals with apraxia, cerebral palsy, autism, Down syndrome, Rett syndrome, and other diagnoses that involve receptive or expressive language deficits. It's also the foundation of LAMP Words for Life® and CoreScanner™ vocabularies. Known for its multi-meaning symbols and consistent motor plans, Unity helps communicators of all ages, skill levels, and access methods learn quickly and build language skills for maximum independence. Bilingual options available.
       </span>
     </div>
     <div class='nominee'>
