@@ -137,3 +137,30 @@ p a {
   0% { transform: rotate(20deg);  }
   100% { transform: rotate(0deg); }
 }
+
+#listing h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+  letter-spacing: 4px;
+}
+#listing .subh2 {
+  margin-top: -10px;
+}
+#listing #status.active {
+  color: #41a631;
+}
+#listing #status.expired {
+  color: #b2a824;
+}
+#listing #status.unapproved {
+  color: #b2a824;
+}
+#listing #description {
+  white-space: pre-line;
+}
+#listing #cert_intro {
+  margin-bottom: 30px; 
+  font-style: italic; 
+  font-size: 13px; 
+  line-height: 20px;
+}
