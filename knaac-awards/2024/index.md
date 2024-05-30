@@ -433,7 +433,7 @@ bg: 4
   <div class='nominees'>
     <div class='nominee' data-rank='1'>
       <a href="https://www.weavechat.com/" target='_blank'>
-      <h4>WeaveChat</h4>
+      <h4>Weave Chat AAC</h4>
       <img src="/images/2024/weave.png" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -506,7 +506,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='2'>
       <a href="https://www.weavechat.com/" target='_blank'>
-      <h4>WeaveChat - Direct Messaging</h4>
+      <h4>Weave Chat - Direct Messaging</h4>
       <img src="/images/2024/weave.png" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -777,7 +777,7 @@ bg: 4
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Angela Moorad, MS, CCC-SLP. Over 34 years experience in AAC. OMazing Kids AAC and app consulting. Creator of several AAC Feature Matching resources (https://omazingkidsllc.com/omazing-kids-aac-resource-links/). Includes info about unique features to support Gestalt Language Processors
+        Angela Moorad, MS, CCC-SLP. Over 35 years experience in AAC. OMazing Kids AAC and app consulting. Creator of several AAC Feature Matching resources (https://omazingkidsllc.com/omazing-kids-aac-resource-links/). Includes info about unique features to support Gestalt Language Processors
       </span>
     </div>
     <div class='nominee' data-rank='3'>
