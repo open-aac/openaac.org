@@ -62,11 +62,6 @@ bg: 5
   <a href="/knaac-awards/2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2024 Nominees</a>
 </div>
 
-<p>
-  Stay tuned for updates on the 2024 knAAC Awards nominees, and
-  opportunities to vote!
-</p>
-
 <div style='width: 400px; margin: 0 auto; max-width: 100%; display: none;'>
   <a href="2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>On to the 2024<br/>knAAC Awards!</a>
 </div>
