@@ -91,10 +91,18 @@ while categories.any?{|cat, hash| hash['current'].length > 0}
     category_votes.each do |cat, hash|
       vote_hash = hash.except('done')
       # stop dropping when everyone left has tied for votes
+      total = vote_hash.to_a.map(&:last).sum
       lowest = vote_hash.to_a.map(&:last).sort.first
       highest = vote_hash.to_a.map(&:last).sort.last
       if lowest == highest
         category_votes[cat]['done'] = true
+      elsif highest.to_f / total >= 0.5
+        # stop if there's a majority winner
+        remaining = vote_hash.to_a.select{|cand, score| score == highest }.map(&:first)
+        dropped = vote_hash.to_a.map(&:first) - remaining
+        dropped.each do |cand|
+          category_votes[cat].delete(cand)
+        end
       else
         # find the lowest-voted candidate and remove them
         remaining = vote_hash.to_a.select{|cand, score| score > lowest }.map(&:first)
@@ -106,7 +114,7 @@ while categories.any?{|cat, hash| hash['current'].length > 0}
       # clear prior votes to prepare for the next round
       if !category_votes[cat]['done']
         category_votes[cat].each do |cand, val|
-          category_votes[cat][cand] = 0 unless cand == 'done'
+          #category_votes[cat][cand] = 0 unless cand == 'done'
         end
       end
     end

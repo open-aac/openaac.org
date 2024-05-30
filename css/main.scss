@@ -1754,6 +1754,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					object-fit: contain;
 					object-position: center;
 					margin-bottom: 1em;
+					box-shadow: 0 0 15px 2px #000;
 				}
 				h2 {
 					color: #222;

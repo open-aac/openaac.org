@@ -185,9 +185,9 @@ bg: 4
 </p>
 <p>
   Voting has ended, and the final results are 
-  displayed below. Highlights are selected based primarily
-  on popular vote with additional input provided
-  by our judging team. Congratulations to the 
+  displayed below! Highlights are selected based primarily
+  on popular vote, with additional input provided
+  by our judging team. Only the first two candidates are shown in ranked order. Congratulations to the 
   highlighted candidates and thank you again
   to the over 100 nominees in 18 different categories!
 </p>
@@ -265,7 +265,7 @@ bg: 4
       <h4>Kate Ahern</h4>
       <img src="/images/2024/kate-ahern.jpeg" class='photo' alt='' />
       <span class='sub'>
-      About. Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
+      Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -296,7 +296,7 @@ bg: 4
       <img src="/images/2024/touchchat.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Designed for individuals with autism, Down syndrome, ALS, apraxia, stroke, or other conditions that affect a person's ability to use natural speech, TouchChat uses the familiarity of iOS technology to provide a dynamic AAC solution for a lifetime of successful communication. With easy-to-customize features and a wide range of intuitive vocabularies (including the most comprehensive WordPower® options), languages, and voices, people who are non-speaking can experience the unlimited power of communication. TouchChat is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
+        TouchChat HD with WordPower - Designed for individuals with autism, Down syndrome, ALS, apraxia, stroke, or other conditions that affect a person's ability to use natural speech, TouchChat uses the familiarity of iOS technology to provide a dynamic AAC solution for a lifetime of successful communication. With easy-to-customize features and a wide range of intuitive vocabularies (including the most comprehensive WordPower® options), languages, and voices, people who are non-speaking can experience the unlimited power of communication. TouchChat is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -564,7 +564,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/2139.svg'/> AAC Supporter Community of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.facebook.com/groups/1539830846285663/" target='_blank'>
       <h4>AAC for the SLP</h4>
       <img src="/images/2024/knaac/aac-for-the-slp.jpeg" class='img' alt='' />
@@ -601,7 +601,7 @@ bg: 4
         AAC & Gestalt Language Processing - This group is designed to discuss AAC and Gestalt Language Processing! Many people have had success stories with these students, but we don't have one place to share all the information. This group is designed to do just that! Share ideas an collaborate as professionals, parents, and others.      
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.facebook.com/groups/AACthruMMM/" target='_blank'>
       <h4>AAC through Motivate...</h4>
       <img src="/images/2024/knaac/aac-through-motivate.jpeg" class='img' alt='' />
@@ -691,7 +691,7 @@ bg: 4
         The program is divided into 20 parts with the intention to complete one part a week. There are activities, resources and videos to guide you along the way. Our hope is that you find support and inspiration whether you are just getting started with AAC, seeking momentum or looking to learn more about AAC.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.sharedreader.org/professional-development/" target='_blank'>
       <h4>Tarheel Shared Reader</h4>
       <img src="/images/2024/knaac/tarheel-shared-reader.png" class='img' alt='' />
@@ -701,7 +701,7 @@ bg: 4
         Tar Heel Shared Reader strives to improve literacy, communication, language, and academic skills of this group of students. The goal is to empower teachers to use an evidence-based approach to shared reading to provide their students with interactive access to grade level content while improving their students’ communication and literacy skills.        
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.project-core.com/professional-development-modules/" target='_blank'>
       <h4>Project Core</h4>
       <img src="/images/2024/project-core.png" class='img' alt='' />
@@ -823,7 +823,7 @@ bg: 4
         With our free Board Builder and Symbol Creator, you can quickly create boards of symbols to help communication. Create boards for day-to-day activities, special occasions, special topics such as games or mealtimes etc. The templates are easy to use for making information sheets or any curtomised designs you want to create.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://goboardmaker.com/" target='_blank'>
       <h4>BoardMaker</h4>
       <img src="/images/2024/knaac/boardmaker.png" class='img' alt='' />
@@ -1123,8 +1123,8 @@ bg: 4
       <img src="/images/2024/wordpower.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        WordPower by Nancy Inman is a unique vocabulary design for an augmentative/alternative communication device. WordPower combines the features of core vocabulary, spelling and word prediction. The system takes advantage of the fact that while we may have a normal speaking vocabulary of between 10,000 and 30,000 words, a core of just 100 words accounts for approximately 50 percent of words spoken.
-        WordPower is available on multiple AAC systems, and was originally designed for an individual in need of an augmentative communication device based on words. A vocabulary based on pre-stored sentences would not meet his communication needs. Though he could see the advantage of a picture-based system with symbol sequencing, he did not want to learn the complex language coding system. At the same time, he wanted more than a system based on spelling and word prediction. WordPower provided him a fast and efficient language, with minimal time and effort required for learning the system.
+        WordPower by Nancy Inman is a unique vocabulary design for an augmentative/alternative communication device. WordPower combines the features of core vocabulary, spelling and word prediction. The system takes advantage of the fact that while we may have a normal speaking vocabulary of between 10,000 and 30,000 words, a core of just 100 words accounts for approximately 50 percent of words spoken.<br/><br/>
+        Nancy has customized WordPower for multiple AAC systems, and it was originally designed for an individual in need of an augmentative communication device based on words. A vocabulary based on pre-stored sentences would not meet his communication needs. Though he could see the advantage of a picture-based system with symbol sequencing, he did not want to learn the complex language coding system. At the same time, he wanted more than a system based on spelling and word prediction. WordPower provided him a fast and efficient language, with minimal time and effort required for learning the system.
       </span>
     </div>
     <div class='nominee' data-rank='2'>
@@ -1237,6 +1237,20 @@ bg: 4
   </div>
 </div>
 
+<div>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3c6.svg'/> Lifetime Achievement (Judges' Selection)</h3>
+  <div class='nominees'>
+    <div class='nominee' data-rank='1'>
+      <h4>Kate Ahern</h4>
+      <img src="/images/2024/kate-ahern.jpeg" class='photo' alt='' />
+      <span class='sub'>
+      Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
+      <br/><br/>Kate constantly advocates for and empowers AAC users no matter the severity of their disability, and regularly shares relatable, practical examples of how to support AAC users in their developing communication skills. She is an uncompromising inspiration to the AAC community, and we honor her for all of her ongoing efforts.
+      </span>
+    </div>
+  </div>
+</div>
+
 <div style='width: 400px; margin: 0 auto; max-width: 100%;'>
   <a href="/donate" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Donate to<br/>OpenAAC</a>
 </div>
@@ -1276,9 +1290,9 @@ bg: 4
       nom.final_rank = parseInt(nom.getAttribute('data-rank'), 10) || 10;
       list.push(nom);
       if(nom.getAttribute('data-rank') == '1') {
-        // nom.classList.add('winner');
+        nom.classList.add('winner');
       } else if(nom.getAttribute('data-rank') == '2') {
-        // nom.classList.add('runner-up');
+        nom.classList.add('runner-up');
       }
     });
     console.log(noms.parentNode.querySelector('h3').innerText);
