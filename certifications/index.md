@@ -48,7 +48,7 @@ bg: 3
   Part of OpenAAC's focus is to establish minimum standards of quality, and to do so in an openly-documented
   manner. We believe that standards can improve 
   technology for AAC users, developers, specialists, and 
-  everyone else. As part of that work, we release
+  everyone else. Toward that work, we release
   a set of minimum standards for different aspects of the
   AAC toolset, and certify annual compliance by participating
   vendors.
