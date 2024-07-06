@@ -86,11 +86,14 @@ bg: 3
   if(list.length == 0) {
     list.push({name: "None available", desc: " ", rank: 1});
   }
+  var start_num = ((new Date()).getDate() / 30) - 0.5;
   list = list.sort(function(a, b) {
     if(a.rank != b.rank) {
       return a.rank - b.rank;
     }
-    return Math.random() - 0.5;
+    start_num = start_num * -1;
+    return start_num;
+    // return Math.random() - 0.5;
     // return a.name.localeCompare(b.name);
   })
   list.forEach(function(item) {

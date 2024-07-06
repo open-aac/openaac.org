@@ -834,7 +834,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <a href="https://www.n2y.com/symbolstix-prime/" target='_blank'>
-      <h4>SymbolStix Prime</h4>
+      <h4>SymbolStix PRIME</h4>
       <img src="/images/2024/knaac/symbolstix.png" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -1068,7 +1068,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='2'>
       <a href="https://www.n2y.com/symbolstix-prime/" target='_blank'>
-      <h4>SymbolStix</h4>
+      <h4>SymbolStix PRIME</h4>
       <img src="/images/2024/knaac/symbolstix.png" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -1129,7 +1129,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='2'>
       <a href="https://www.prentrom.com/prc_advantage/unity-language-system/" target='_blank'>
-      <h4>Word For Life/Unity</h4>
+      <h4>Words For Life/Unity</h4>
       <img src="/images/2024/unity.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
