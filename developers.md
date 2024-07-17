@@ -15,6 +15,18 @@ include_nav: false
     padding: 15px 10px;
   }
 </style>
+<h2>Current OpenAAC Projects</h2>
+Below are some of the development projects being considered or worked on for OpenAAC. If any of these strike your fancy, please reach out in our chat channel for more information on how you can contribute.
+
+- Additional documentation/developer supporst at <a href="https://opensymbols.org">opensymbols.org</a>
+- Additional language datasets for the <a href="https://tools.openaac.org/inflections/inflections.html">Language Model</a>
+- Generative AI for picture symbol library
+- On-device next-gen speech output
+- <a href="https://docs.google.com/document/d/1ZJAt1JkpXcHgazEkWMFxxD_l117eD21p1uEFLMqjrjA/edit?usp=sharing">AAC Effort Score</a> summative metric, and support for additional popular libraries
+- Anonymized AAC usage data processing and reporting
+- Quantitative data output on knAAC Awards results
+- Mobile plugins to support AAC Shim functionality
+
 <h2>Developing AAC Apps</h2>
 <a href="/considerations"><img src="/images/considerations.png" style='max-width: 300px; border-left: 5px solid #a00; float: left; margin-right: 15px;'/></a>
 <p>
@@ -104,5 +116,4 @@ include_nav: false
   <li><a href="aac.html">Open AAC Systems</a></li>
   <li><a href="symbols.html">Open Symbol Libraries</a></li>
   <li><a href="learning.html">Open Learning Resources</a></li>
-  <li><a href="developers.html">Developer Tools</a></li>
 </ul>
