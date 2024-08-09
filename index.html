@@ -147,7 +147,7 @@ layout: landing
 									AAC users. Check it out for yourself, and feel free to
 									share it with anyone who you think could benefit!
 								</p>
-								<a href="/cpp" class="button fit special" style='height: 90px; line-height: 25px; padding: 20px 10px; max-width: 300px; margin: 0 auto;'>Try Our Self-Assessment<br/>Form For Yourself</a>
+								<a href="/cpp" class="button fit special" style='height: 90px; line-height: 25px; padding: 20px 10px; max-width: 400px; margin: 0 auto;'>Try Our Self-Assessment<br/>Form For Yourself</a>
 							</header>
 						</div>
 				</section>					
@@ -168,6 +168,13 @@ layout: landing
 							directory of certified AAC. Feel free to browse the
 							list to learn more about the quality solutions that exist
 							in the world of AAC!</p>
+						<div style='clear: both; margin-bottom: 20px;'>
+							<a id='apps_list' href="/certifications" style='text-decoration: none;'>
+								<span class="caption wide" style='display: none;'>
+									<img src="/images/2024/wordpower.jpeg" alt="" style='width: 80px; height: 80px; object-fit: contain; margin: 0 10px; background: #fff; border-radius: 10px; box-shadow: 0 0 5px #fff;'>
+								</span>
+							</a>								
+						</div>
 						<p>
 							Unfortunately there are some low-quality apps that
 							are peddled to the unaware, and sometimes app developers
@@ -268,6 +275,7 @@ layout: landing
 									<li><a href="aac.html">Open AAC Systems</a></li>
 									<li><a href="symbols.html">Open Symbol Libraries</a></li>
 									<li><a href="learning.html">Open Learning Resources</a></li>
+									<li><a href="photos.html">Open Photo Library</a></li>
 									<li><a href="developers.html">Developer Tools</a></li>
 								</ul>
 							</header>
@@ -315,4 +323,28 @@ layout: landing
     window.addEventListener('load', loady);
     setTimeout(loady, 10000);
   })();
+</script>
+<script>
+  var apps = document.getElementById('apps_list');
+  var app_template = apps.querySelectorAll('.caption')[0];
+  var list = [].concat(window.app_list || []);
+  if(list.length == 0) {
+    list.push({name: "None available", desc: " ", rank: 1});
+  }
+  var start_num = ((new Date()).getDate() / 30) - 0.5;
+  list = list.sort(function(a, b) {
+    if(a.rank != b.rank) {
+      return a.rank - b.rank;
+    }
+    start_num = start_num * -1;
+    return start_num;
+    // return Math.random() - 0.5;
+    // return a.name.localeCompare(b.name);
+  })
+  list.forEach(function(item) {
+    var app = app_template.cloneNode(true);
+    app.style.display = 'inline-block';
+    app.querySelectorAll('img')[0].setAttribute('src', item.image_url || '#');
+    apps.appendChild(app);
+  });
 </script>
