@@ -1751,7 +1751,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					max-width: 1000px;
 					width: 100%;
 					max-height: 400px;
-					object-fit: contain;
+					object-fit: cover;
 					object-position: center;
 					margin-bottom: 1em;
 					box-shadow: 0 0 15px 2px #000;

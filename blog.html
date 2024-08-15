@@ -15,13 +15,13 @@ bg: 5
 
 <ul id='posts'>
   {% for post in site.posts %}
-    <li>
+    <li style='min-height: 165px;'>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {% if post.image %}
         <img src="{{post.image}}" style='max-width: 100%; max-height: 80px; float: right; margin: 0 0 10px 15px; border: 1px solid #aaa; padding: 5px; border-radius: 10px;'/>
       {% endif %}
       {{ post.excerpt | strip_html }}
-      <span style='clear: left;'></span>
+      <span style='clear: both;'></span>
     </li>
   {% endfor %}
 </ul>

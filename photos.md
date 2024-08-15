@@ -16,7 +16,8 @@ include_nav: false
   }
   #previews .preview {
     float: left;
-    width: 400px;
+    width: 32%;
+    min-width: 200px;
     height: 300px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -52,7 +53,7 @@ include_nav: false
 <p>
 Many people have never seen someone actually using AAC. When people are first introduced to AAC, it can be hard to understand just how many different ways AAC can be used. Additionally, 
 AAC 
-coverage isn't common, and when people do go to write about
+news coverage isn't common, and when people do go to write about
 AAC use, they often have access to few (if any) images of
 real-world AAC users. This shortage of accessible materials
 can make it harder to raise awareness of the diversity of
@@ -63,11 +64,13 @@ At OpenAAC, we are collecting and sharing a library of photos
 and other resources that showcase AAC users from many different
 backgrounds, in many different environments. Our hope is to help people undertand all the ways and places AAC can be leveraged to aid in communication and interactions.
 </p>
+<a href="https://creativecommons.org/licenses/by/4.0/"><img src="/images/creative-commons.webp" class='pic left' style='width: 200px; padding: 20px;' /></a>
 <p>All images are
 released under a license which requires proper attribution but
 allows publishers to use the resources without needing to hunt
 down specific permissions.
 </p>
+<div style='clear: both;'></div>
 
 <h2>Contribute to the AAC Photo Library</h2>
 <p>If you have photos of AAC users, and are authorized by the
@@ -102,9 +105,23 @@ below to contribute to the photo library.</p>
       id: "1ERN8dEQ6O2Mh6dEqSXmw2E5H0pnK7TFt"
     },
     {
+      id: "1Lp2CnYPNc04PYKQAdPuVzVGDeHLXxbVN"
+    },
+    {
+      id: "1_3v6uVkQCZDPzoq-me9BpDIOd17JA9lJ"
+    },
+    {
+      id: "1LvyvZW-MGLJ6vUCtbPOAP-5RKE_QsCM5"
+    },
+    {
+      id: "1ZmsRUUBd2tYa_UWQ137846o5g7f0pGE3"
+    },
+    {
       id: "1rZavRf9YlSF4sXoT6zssyIroEmEay26z"
-    }
+    },
   ];
+  https://drive.google.com/file/d/1_3v6uVkQCZDPzoq-me9BpDIOd17JA9lJ/view?usp=sharing
+
   var template = document.querySelector('#previews .template');
   previews.forEach(function(preview) {
     var obj = template.cloneNode(true);
