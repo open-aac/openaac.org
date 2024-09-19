@@ -77,7 +77,7 @@ include_nav: false
 </style>
 <div id='index_view'>
   <h2>Open-Licensed AAC Photo Library</h2>
-  <img src="https://drive.google.com/thumbnail?id=1FZmxCiBnwWQBcBMYdBrGOE1LR9-czeI4&sz=w1000" class='pic right' style='width: 400px;'/>
+  <img src="/images/behind-aac.png" class='pic left' style='width: 300px;'/>
   <p>
   Many people have never seen someone actually using AAC. When people are first introduced to AAC, it can be hard to understand just how many different ways AAC can be used. Additionally, 
   AAC 
@@ -87,6 +87,7 @@ include_nav: false
   can make it harder to raise awareness of the diversity of
   users and modalities that leverage AAC.
   </p>
+  <img src="https://drive.google.com/thumbnail?id=1FZmxCiBnwWQBcBMYdBrGOE1LR9-czeI4&sz=w1000" class='pic right' style='width: 400px;'/>
   <p>
   At OpenAAC, we are collecting and sharing a library of photos
   and other resources that showcase AAC users from many different
@@ -101,14 +102,15 @@ include_nav: false
   <div style='clear: both;'></div>
 
   <h2>Contribute to the AAC Photo Library</h2>
+  <img src="/images/shadow-aac.png" class='pic left' style='width: 300px;'/>
   <p>If you have photos of AAC users, and are authorized by the
   subjects and by the photo author to release the images
   under a Creative Commons license, please visit the form
   below to contribute to the photo library.</p>
-
+  
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdnYtH4xxME0L-05nNN68_JTErY3Ctx4x0mgTYG0WekGCUvHg/viewform?usp=sf_link" class="button fit special" style='height: 90px; line-height: 25px; padding: 20px 10px; max-width: 400px; margin: 0 auto;'>Contribute Photos<br/>to the Library</a>
 
-  <div style='clear: left;'></div>
+  <div style='clear: left; margin-bottom: 30px;'></div>
 
 
   <h2>Showcased Photos</h2>
@@ -335,6 +337,27 @@ include_nav: false
       device: "Tobii-Dynavox i-Series",
     },
     {
+      id: "1xV-Mcrm5BAO2YnrfOiNi_ru4UEWIMsEP",
+      highlight: true,
+      author: "Samantha McKeown",
+      caption: "Sloane (3) trying out new wheelchair attachment for communication device",
+      diagnosis: "Rett Syndrome",
+      device: "Tobii-Dynavox Snap Core"
+    },
+    {
+      id: "1cwQ_9yXzO9pYbFSLEDGOm7Q_F05IS0qH",
+      highlight: true,
+      author: "Shell Bell",
+      device: "Printed Speech Board, SmartBox"
+    },
+    {
+      id: "1QTvJkQlN_7ZxgVh-nN0zxPhOQ0s8MHqU",
+      highlight: true,
+      caption: "Ciara using her device during a video call",
+      author: "Colette O'Loughlin",
+      device: "Tobii-Dynavox"
+    },
+    {
       id: "1rZavRf9YlSF4sXoT6zssyIroEmEay26z",
       highlight: true,
       caption: "Adam using AAC",
@@ -342,7 +365,6 @@ include_nav: false
       device: "iPad running CoughDrop"
     },
   ];
-  // { id: "1_3v6uVkQCZDPzoq-me9BpDIOd17JA9lJ" },
 
   var template = document.querySelector('.previews .template');
   previews.forEach(function(preview) {
@@ -358,6 +380,9 @@ include_nav: false
     }
     if(preview.caption) {
       caption = caption + " -  " + preview.caption;
+    }
+    if(preview.author) {
+      caption = caption + " -  " + preview.author;
     }
     obj.querySelector('.caption').innerText = caption;
     obj.style.display = 'block';
@@ -417,7 +442,7 @@ include_nav: false
       if(license_url) {
         json['license'] = license_url;
       }
-      json['creditText'] = "OpenAAC AAC Photo Library - " + (preview.caption || "") + " - " + (preview.device || "");
+      json['creditText'] = "AAC Photo Library - " + (preview.caption || "") + " - " + (preview.device || "") + " - OpenAAC";
       json['creator'] = {"@type": "Person", "name": preview.author};
       json['copyrightNotice'] = preview.author;
       script.innerText = JSON.stringify(json);
