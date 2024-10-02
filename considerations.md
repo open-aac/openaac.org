@@ -1092,7 +1092,7 @@ Please do a lot of beta testing. Many AAC apps are created
 initially to cater to a specific user or disability group, which 
 is a perfectly fine starting place, but you should find beta users 
 who can give you feedback based on their personal experience. 
-Many groups are reluctant to adopt a new app until it has prove 
+Many groups are reluctant to adopt a new app until it has proved 
 of value, or that it will be around for more than a year or two. 
 The AAC market is much smaller than more mainstream markets, 
 which is why these apps tend to be more expensive. They will have 

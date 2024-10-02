@@ -41,6 +41,11 @@ Below are some of the development projects being considered or worked on for Ope
   we have collected <a href="/considerations">a list of considerations</a>
   that you should factor in to your development plans. 
 </p>
+<p>
+  Additionally, you will want to <a href="/docs">review the 
+  developer specifications</a> which will make your life 
+  easier as you develop an AAC app.
+</p>
 <div style='clear: left;'></div>
 
 

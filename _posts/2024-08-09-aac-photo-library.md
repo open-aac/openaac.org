@@ -3,7 +3,7 @@ layout: post
 title: The AAC Photo Library
 include_nav: false
 description: Introducing the open-licensed library of images showing people using AAC
-image: https://drive.google.com/thumbnail?id=1rZavRf9YlSF4sXoT6zssyIroEmEay26z&sz=w1000
+image: https://drive.google.com/thumbnail?id=1rZavRf9YlSF4sXoT6zssyIroEmEay26z&sz=w500
 ---
 <style>
   img.pic {
@@ -57,7 +57,7 @@ image: https://drive.google.com/thumbnail?id=1rZavRf9YlSF4sXoT6zssyIroEmEay26z&s
     margin-top: 30px;
   }
 </style>
-<img src="https://drive.google.com/thumbnail?id=1Lp2CnYPNc04PYKQAdPuVzVGDeHLXxbVN&sz=w1000" class='pic right' style='width: 400px;'/>
+<img src="https://drive.google.com/thumbnail?id=1Lp2CnYPNc04PYKQAdPuVzVGDeHLXxbVN&sz=w500" class='pic right' style='width: 400px;'/>
 <p>At OpenAAC, we want everyone to be fully aware of AAC.
 Sometimes that means just knowing that AAC exists and that
 people use it as a valid tool for communication, but it can 
@@ -75,7 +75,7 @@ without first needing to wait for explicit permission, provided
 that they properly attribute the photos in their works.</p>
 
 <h2>Photos Raise Awareness</h2>
-<img src="https://drive.google.com/thumbnail?id=16xPdj4EvdNOEle2UY3JMVMgyolEFkX99&sz=w1000" class='pic left' style='width: 400px;'/>
+<img src="https://drive.google.com/thumbnail?id=16xPdj4EvdNOEle2UY3JMVMgyolEFkX99&sz=w500" class='pic left' style='width: 400px;'/>
 <p>Photos of people using AAC don't just benefit the 
 uninformed -- although it can be great for someone to see just
 how many ways and places AAC can be leveraged. The AAC 
