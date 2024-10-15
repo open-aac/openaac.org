@@ -18,11 +18,19 @@ bg: 3
     font-size: 13px;
     line-height: 18px;
   }
+  #vocabs .care.top {
+    font-size: 20px;
+    color: rgb(78, 72, 82);
+    white-space: nowrap;
+  }
   #vocabs .care div {
     font-size: 16px;
+    color: #999;
+    white-space: nowrap;
   }
   #vocabs .care div.top {
     font-size: 20px;
+    color: rgb(78, 72, 82);
   }
   a.caption {
     display: inline-block;
@@ -62,21 +70,41 @@ bg: 3
   }
 </style>
 <p>
-  Because 
-  Part of OpenAAC's focus is to establish minimum standards of quality, and to do so in an openly-documented
-  manner. We believe that standards can improve 
-  technology for AAC users, developers, specialists, and 
-  everyone else. Toward that work, we release
-  a set of minimum standards for different aspects of the
-  AAC toolset, and certify annual compliance by participating
-  vendors.
+  A lot of times we equate AAC <i>apps</i> with AAC
+  <i>vocabularies</i>, especially since some apps only offer
+  a single vocabulary. However, by focusing too much on the app,
+  we may forget to evaluate the effectiveness of the
+  vocabulary and organization used within those apps.
 </p>
+<p>
+  We have created an evaluation engine that measures the
+  efficiency of selecting a collection of core and fringe words,
+  specific sequenced sentences, and other criteria, to come
+  up with an apples-to-apples comparison of different AAC
+  vocabularies. We call this the <a href="https://www.openboardformat.org/analysis">CARE (Core, Access, Repeatability, Effort) Efficiency Score</a>, and we hope it can
+  provide value as people consider different AAC apps
+  and vocabularies for use.
+</p>
+<h2>AAC Vocabulary Types</h2>
+<p>If you haven't been involved in AAC for long, you may not 
+realize that there are different types, or styles, or vocabulary
+selection and organization. Some approaches work to include as
+many fringe words as possible, some focus on minimizing button hits or keeping organization intuitive.</p>
+
 <h2>AAC Vocabularies</h2>
+<!--
+  Vocabulary categories/approaches:
+    - semantic compaction
+    - core + motor planning
+    - core + categories
+    - natural sequencing
+    - pragmatic organization
+-->
 <table id='vocabs'>
   <thead>
     <tr>
       <th>Vocabulary</th>
-      <th>Available Apps</th>
+      <th>Apps</th>
       <th>License</th>
       <th>CARE Efficiency Score</th>
       <th>Description</th>
@@ -142,9 +170,10 @@ bg: 3
         vocab.querySelector('.care').appendChild(div);
       })
     } else {
+      vocab.querySelector('.care').classList.add('top');
       vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
     }
-    vocab.querySelector('.desc').innerText = item.description;
+    vocab.querySelector('.desc').innerText = item.summary;
     vocab.style.display = 'table-row';
     vocabs.querySelector('tbody').appendChild(vocab);
   });

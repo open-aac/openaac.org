@@ -58,8 +58,12 @@
         document.querySelectorAll('#status')[0].innerText = " - certification expired";
       }
     } else {
-      document.querySelectorAll('#reviewed')[0].innerText = "Unspecified";
-      document.querySelectorAll('#status')[0].classList.add('unapproved')
+      document.querySelectorAll('#reviewed')[0].innerText = "Never Reviewed";
+      document.querySelectorAll('#status')[0].classList.add('unapproved');
+      document.querySelectorAll('#status')[0].innerText = " - waiting for vendor request to review";
+      document.querySelectorAll('#img')[0].classList.add('unapproved');
+      document.querySelectorAll('#cert')[0].remove();
+      document.querySelectorAll('#description')[0].remove();
     }
   } else {
     location.href = "/certifications";

@@ -43,6 +43,29 @@ bg: 3
   #apps_list {
     margin: 20px 0;
   }
+  #other_apps_list {
+    margin: 20px 0;
+  }
+  #other_apps_list a.caption {
+    min-width: 125px;
+    max-width: 25%;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  #other_apps_list a.caption .name {
+    white-space: nowrap;
+    max-width: 100px;
+    overflow: hidden;
+    display: block;
+  }
+  #other_apps_list a.caption  img {
+    max-width: 125px;
+    height: 80px;
+  }
+  #other_apps_list a.caption  .sub {
+    display: none;
+  }
 </style>
 <p>
   Part of OpenAAC's focus is to establish minimum standards of quality, and to do so in an openly-documented
@@ -68,8 +91,7 @@ bg: 3
   and they can also certify under specializations
   for things like robust
   vocabulary or symbol library, or for accessibility. Below is
-  a list of all AAC applications that have certified in the last
-  18 months.
+  a list of common AAC applications, highlighting those that have certified in the last 18 months.
 </p>
 
 <div id='apps_list'>
@@ -79,8 +101,16 @@ bg: 3
   <span class="sub">Nancy Inman’s popular sequenced vocabulary is available on many apps</span>
 </a>
 </div>
+<div id='other_apps_list'>
+<a href="https://www.inmaninnovations.com/" class="caption wide" style='display: none;'>
+  <img src="/images/2024/wordpower.jpeg" alt="">
+  <span class='name'>WordPower</span>
+  <span class="sub">Nancy Inman’s popular sequenced vocabulary is available on many apps</span>
+</a>
+</div>
 <script>
   var apps = document.getElementById('apps_list');
+  var other_apps = document.getElementById('other_apps_list');
   var app_template = apps.querySelectorAll('.caption')[0];
   var list = [].concat(window.app_list || []);
   if(list.length == 0) {
@@ -96,6 +126,9 @@ bg: 3
     // return Math.random() - 0.5;
     // return a.name.localeCompare(b.name);
   })
+  var cert_cutoff = new Date();
+  cert_cutoff.setMonth(cert_cutoff.getMonth() - 18);
+  cert_cutoff = cert_cutoff.getTime() / 1000;
   list.forEach(function(item) {
     var app = app_template.cloneNode(true);
     app.setAttribute('href', "/certifications/apps/" + item.id); //item.url || '#');
@@ -103,7 +136,11 @@ bg: 3
     app.querySelectorAll('img')[0].setAttribute('src', item.image_url || '#');
     app.querySelectorAll('.name')[0].innerText = item.name || "App";
     app.querySelectorAll('.sub')[0].innerText = item.desc || "No Description";
-    apps.appendChild(app);
+    if(item.reviewed > cert_cutoff) {
+      apps.appendChild(app);
+    } else {
+      other_apps.appendChild(app);
+    }
   });
 </script>
 

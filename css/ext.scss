@@ -155,6 +155,10 @@ p a {
 #listing #status.unapproved {
   color: #b2a824;
 }
+#listing #img.unapproved {
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
 #listing #description {
   white-space: pre-line;
 }
