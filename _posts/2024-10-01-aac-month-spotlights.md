@@ -73,6 +73,26 @@ difficulties and setbacks. ALL of them deserve to be celebrated!
 Check back through the month or follow us to see
 the new spotlights as they are added through the month!</p>
 
+<a name="krista"></a>
+<h2 style='margin-bottom: 0;'>Krista</h2>
+<div style='margin-left: -20px; font-style: italic; margin-bottom: 15px;'>Adult in Arizona with Cerebral Palsy, 5+ yrs experience using AAC</div>
+<img src="https://drive.google.com/thumbnail?id=1WnTaOm249W6nWxQ3JG3fuJCmwmblgPrJ&sz=w500" class='pic left' style='width: 250px;'/>
+Krista is a phenomenal role model, parent, advocate and mentor to other AAC Users. As an AAC User, she has supported parents, teachers, SLPs, classroom aids, day program staff and other users of AAC in modeling AAC and sharing her journey. Krista is also enrolled in an SLPA program where she will soon become the first full-time user of AAC who is an SLPA. She is honestly already doing the work and will finally have the credentials to be paid what she deserves for her hard work. Krista is an international presenter who has generously shared her journey from a young girl and now into adulthood.
+
+Krista is a single mother, college graduate and phenomenal role model for many AAC users here in Arizona and abroad. 
+
+While in school, she still presents nationally and internationally, and works as an AAC mentor to several professionals who work with AAC users. She also still finds the time to reach out to friends with a quick text to ask how they are and say “I love you.” She is the definition of perseverance and kindness. 
+
+<a name="penelope"></a>
+<h2 style='margin-bottom: 0;'>Penelope</h2>
+<div style='margin-left: -20px; font-style: italic; margin-bottom: 15px;'>0-3yrs old in Colorado with Rett Syndrome, Autism, ESES & Epilepsy, &lt;6 months experience using AAC</div>
+<img src="https://drive.google.com/thumbnail?id=1B7F4dvUtvgjJqmZDk1cnL3KmKF4TzVEy&sz=w500" class='pic left' style='width: 250px;'/>
+When Penelope regressed due to Rett Syndrome, we initially feared she could no longer understand or express herself. She struggled with frustration and frequent meltdowns, and it was heartbreaking to see her try so hard without success. However, when we introduced an eye gaze device, we were amazed to discover that she is far more intelligent and aware than we had ever realized. 
+
+Watching her struggle to speak, knowing the words were just out of reach, was incredibly painful. But with her AAC device, a whole new world has opened up for her. She can now tell us what she wants, make choices, show her love, and, most importantly, demonstrate that she is capable of communicating in her own way. We never would have known that our sweet child, non-verbal and living with an incurable neurodevelopmental disorder, could express so much. She is bright, brilliant, and her resilience fills us with awe every day.
+
+Communication is the foundation of connection, and it’s why so many children thrive when given access to an AAC device. Every time we engage with Penelope through her device, we are reminded that she has as much potential as any other child. Her disability may mean that unlocking that potential looks a little different, but it’s there—waiting to be discovered. AAC is a lifeline that gives her the chance to shine in her own way. Every child should have that same opportunity—to be heard, to be seen, and to show just how much they’re capable of.
+
 <a name="jaron"></a>
 <h2 style='margin-bottom: 0;'>Jaron</h2>
 <div style='margin-left: -20px; font-style: italic; margin-bottom: 15px;'>Adult in Arizona with Cerebral Palsy, 5+ yrs experience using AAC</div>
@@ -82,6 +102,7 @@ Jaron has grown leaps and bounds over the past couple of years. He is dedicated 
 The first word Jaron learned to spell (independently and spontaneously) with word prediction was "kindness." This truly speaks to his heart and compassion for others.
 
 Jaron will be presenting and attending for the first time at an AAC conference this year at Closing the Gap 2024. He will be sharing his journey with sharing, storing and saving narratives to share with others.
+
 
 <a name="jt"></a>
 <h2 style='margin-bottom: 0;'>JT</h2>

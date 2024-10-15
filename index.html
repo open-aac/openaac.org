@@ -336,6 +336,9 @@ layout: landing
     list.push({name: "None available", desc: " ", rank: 1});
   }
   var start_num = ((new Date()).getDate() / 30) - 0.5;
+  var cert_cutoff = new Date();
+  cert_cutoff.setMonth(cert_cutoff.getMonth() - 18);
+  cert_cutoff = cert_cutoff.getTime() / 1000;
   list = list.sort(function(a, b) {
     if(a.rank != b.rank) {
       return a.rank - b.rank;
@@ -346,9 +349,11 @@ layout: landing
     // return a.name.localeCompare(b.name);
   })
   list.forEach(function(item) {
-    var app = app_template.cloneNode(true);
-    app.style.display = 'inline-block';
-    app.querySelectorAll('img')[0].setAttribute('src', item.image_url || '#');
-    apps.appendChild(app);
+		if(item.reviewed && item.reviewed > cert_cutoff) {
+			var app = app_template.cloneNode(true);
+			app.style.display = 'inline-block';
+			app.querySelectorAll('img')[0].setAttribute('src', item.image_url || '#');
+			apps.appendChild(app);
+		}
   });
 </script>
