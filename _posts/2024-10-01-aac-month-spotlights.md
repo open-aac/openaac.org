@@ -97,7 +97,7 @@ panel and driving her own educational experience based
 on her personal and medical needs. Becca currently serves
 as the president of her church youth group. She was 
 particularly proud of getting through The Scarlet Letter
-last year for school, which she really enjoyed.
+last year for school, which she really enjoyed, and she hosted her own art gallery over the summer.
 
 Becca typically only selects one or two words at a time
 to express her ideas and requests, then uses yes/no to
@@ -122,7 +122,8 @@ Keagan is a fun loving teen who loves Joan Jett and uses AAC. She has sought to 
 <div style='margin-left: -20px; font-style: italic; margin-bottom: 15px;'>Adult in California with Agenesis of the corpus callosum, 5+ yrs experience using AAC</div>
 <img src="https://drive.google.com/thumbnail?id=161dB16l9yWO9-M__4NrBqHoLDRnVNE4q&sz=w500" class='pic left' style='width: 300px;'/>
 
-Cristian has Advocated for himself in a dangerous living situation. Also giving presentations to teachers and SLPs. He also likes mariachi music and surfing. 
+<a href="https://www.youtube.com/watch?v=GKwW78pXhIg"><img src="https://img.youtube.com/vi/GKwW78pXhIg/0.jpg" class='pic right' style='width: 300px;'/></a>
+Cristian has advocated for himself in a dangerous living situation. He also giving presentations to teachers and SLPs, including presenting at AAC in the Cloud. He teachers people how to use AAC, and how to help people learn AAC. He enjoys making films about his life, assistive technology, and communication. He also likes mariachi music and surfing. 
 <div style='clear: both;'></div>
 
 <a name="andy"></a>
