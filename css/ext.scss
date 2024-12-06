@@ -168,3 +168,62 @@ p a {
   font-size: 13px; 
   line-height: 20px;
 }
+#obfset_holder {
+  line-height: 18px;
+  margin-bottom: 20px;
+  table {
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #1679a9;
+    background: #81b7d1
+  }
+  table td {
+    padding: 1px;
+  }
+  td > div {
+    border: 1px solid #1679a9;
+    border-radius: 3px;
+    margin: 1px;
+    min-height: 40px;
+    padding-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    height: 100%;
+    background: #fff;
+    width: 100%;
+    overflow: hidden;
+    &.link {
+      position: relative;
+      :after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background: #9bcfe9;
+        border-radius: 12px;
+      }
+    }
+    &.semantic {
+      background: #f2e6f7;
+    }
+    &.clone {
+      background: #ffffdf;
+    }
+    .effort_label {
+      white-space: nowrap;
+      font-size: 14px;
+    }
+    .effort {
+      color: #aaa;
+      visibility: hidden;
+      font-size: 12px;
+      font-style: italic;
+    }
+  }
+  td > div:hover {
+    background: #f2f2f2;
+  }
+}

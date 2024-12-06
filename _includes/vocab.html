@@ -1,0 +1,291 @@
+<style>
+  .small_header {
+    font-size: 16px;
+    font-style: italic;
+    color: #888;
+  }
+  #preview {
+    max-width: 800px;
+    max-height: 600px;
+    object-fit: contain;
+    object-position: center;
+    margin-bottom: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #888;
+  }
+</style>
+<div id="listing">
+  <div style='margin-top: -30px;'>
+    <div style='position: relative; float: left; width: 80px; margin-right: 5px;'>
+      <img src="#" id='img' style='width: 150px; max-height: 150px; object-fit: contain; object-position: center; margin: -50px 0 0 -50px;' />  
+      <img src="/images/check.png" style='position: absolute; bottom: 5px; left: 5px; width: 20px; display: none; filter: drop-shadow(0 0 0.5rem rgb(50, 50, 0))' id='approved_app'/>
+    </div>
+
+    <h2 id='name' style='margin-left: 120px;'>Vocab</h2>
+  </div>
+  <div style='clear: left; margin-top: 30px;'>
+    <div id="description"></div>
+    <div class='small_header'>Last Reviewed: <span id='reviewed'></span></div>
+    <!-- TODO: Specializations -->
+    <div id="more" style='margin: 50px 0;'>
+      <span class='small_header'>Available on the following platforms:</span>
+      <div id='platforms' style='margin-bottom: 20px;'></div>
+
+      <span class='small_header'>Available in the following apps:</span>
+      <div id='apps' style='margin-bottom: 20px;'></div>
+
+      <span class='small_header'>Preview:</span>
+      <img id='preview' style='display: none;' />
+      <div id='obfset_holder'></div>
+
+      <span class='small_header'>Grid Sizes:</span>
+      <table id='grids' class='table table-striped' style='margin-bottom: 20px;'>
+        <thead>
+          <tr>
+            <th>Rows x Cols</th>
+            <th>Boards</th>
+            <th>Buttons</th>
+            <th>CARE Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class='grid' style='display: none;'>
+            <td><a href="#" class='size'></a></td>
+            <td class='boards'></td>
+            <td class='buttons'></td>
+            <td class='care'></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div style='clear: left;'></div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GOgzpO9_NwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id='video' style='display: none; margin-top: 30px;'></iframe>
+    </div>
+    <div style='clear: both;'></div>
+    <div style='margin-top: 50px;'>Does any of this look 
+      incorrect to you? We do our best to report accurate results 
+      based on publicly-available information, but if you know
+      of anything that needs changing -- particularly if you represent
+      the vendor or author of this content -- please contact us!
+    </div>
+  </div>
+</div>
+<script>
+  var id = location.href.split(/\//).pop();
+  var vocab = window.vocab_list.find(function(item) { return item.id == id; });
+  var ObfSet = {};
+
+  // id: "qc",
+  //       image_url: "https://www.openaac.org/images/2024/quick-core-star.png",
+  //       name: "Quick Core",
+  //       apps: ["CoughDrop"],
+  //       platforms: ["iOS", "Android", "Windows", "Web"],
+  //       summary: "free, core+motor-planning, 5000ish words, mostly 2-levels",
+  //       license: "CC-By OpenAAC",
+  //       sizes: [
+  //         {
+
+  if(vocab) {
+    document.title = vocab.name + " - OpenAAC";
+    document.querySelectorAll('#name')[0].innerText = vocab.name;
+    document.querySelectorAll('#img')[0].src = vocab.image_url;
+    document.querySelectorAll('#description')[0].innerText = vocab.description || vocab.summary || "No Description";
+    document.querySelector('#platforms').innerText = (vocab.platforms || []).join(', ') || "None";
+    document.querySelector('#apps').innerText = (vocab.apps || []).join(', ') || "None";
+    if(!vocab.sizes) {
+      vocab.sizes = [vocab];
+    }
+    var size_template = document.querySelector('#grids .grid');
+    var load_grid = function(size) {
+      var obf_ref = size || vocab;
+      if(!size && vocab.sizes) {
+        var size = vocab.sizes.find(function(s) { return s.rows * s.columns > 50; });
+        size = size || vocab.sizes[vocab.sizes.length - 1];
+        obf_ref = size;
+      }
+      setTimeout(function() {
+        if(obf_ref.preview_url) {
+          document.querySelector('#preview').src = obf_ref.preview_url;
+          document.querySelector('#preview').style.display = 'block';
+        } else {
+          document.querySelector('#preview').style.display = 'none';
+        }
+        ObfSet.load(obf_ref.obf_id || obf_ref.id);
+      }, 100);
+    };
+    vocab.sizes.forEach(function(vs) {
+      var size = size_template.cloneNode(true);
+      size.querySelector('.size').innerText = (vs.rows || '?') + " x " + (vs.columns || '?');
+      size.querySelector('.size').addEventListener('click', function(e) {
+        e.preventDefault();
+        load_grid(vs);
+      });
+      size.querySelector('.boards').innerText = vs.boards || '?';
+      size.querySelector('.buttons').innerText = vs.buttons || '?';
+      size.querySelector('.care').innerText = vs.care_score || '?';
+      size.style.display = '';
+      size_template.parentNode.appendChild(size);
+    });
+    if(vocab.reviewed) {
+      var d = new Date(vocab.reviewed * 1000);
+      var str = d.toLocaleString('default', {month: 'long', year: 'numeric'})
+      document.querySelectorAll('#reviewed')[0].innerText = str;
+    } else {
+      document.querySelectorAll('#reviewed')[0].innerText = "Never Reviewed";
+      document.querySelectorAll('#description')[0].remove();
+      document.querySelectorAll('#more')[0].remove();
+    }
+
+    load_grid();
+  } else {
+    location.href = "/vocabularies";
+  }
+
+  (function() {
+  var current_board = null;
+  ObfSet.load = function(obf_id) {
+    document.querySelector('#obfset_holder').innerText = "Loading Preview...";
+    var json_err = function() {
+      document.querySelector('#obfset_holder').innerText = "Dynamic Preview Not Available";
+    };
+    var json_render = function(obfset) {
+      console.log("JSON", obfset);
+      ObfSet.obfset = obfset;
+      ObfSet.jump('home');
+    }
+    fetch("https://www.openboardformat.org/converter/analyze", {method: "POST", body: JSON.stringify({url: obf_id, comp: 'pc36'}), headers: {'Content-Type': 'application/json'}}).then(function(res) {
+      res.json().then(function(json) {
+        console.log("json", json.code);
+        if(json.code) {
+          console.log("setup check");
+          var check = function() {
+            console.log("checking...");
+            fetch("https://www.openboardformat.org/converter/status?code=" + json.code).then(function(res) {
+              res.json().then(function(json) {
+                if(json.status == 'pending') {
+                  setTimeout(check, 1500);
+                } else if(json.status == 'finished') {
+                  json_render(json.result.obfset);
+                } else {
+                  json_err();
+                }
+              }, function(err) {
+                json_err();
+              });
+            }, function(err) {
+              json_err();
+            });
+          };
+          setTimeout(check, 500);
+        };
+      }, function(err) {
+        json_err();
+      });
+    }, function(err) {
+      json_err();
+    });
+
+  };
+  ObfSet.init = function(ref) {
+    ObfSet.obfset = ref;
+    if(ref && ref[0]) {
+      current_board = ref[0];
+    }
+    ObfSet.render();
+  };
+  ObfSet.render = function(attempts) {
+    // wait for a dom element to exist, then render
+    attempts = attempts || 0;
+    if(attempts > 5) { return; }
+    var holder = document.querySelector('#obfset_holder')
+    if(!holder) {
+      setTimeout(function() {
+        ObfSet.render(attempts + 1);
+      }, 300);
+      return;
+    }
+    if(ObfSet.obfset) {
+      if(current_board) {
+        current_board.grid.rows
+        current_board.grid.columns
+        var grid = document.createElement('table');
+        for(var idx = 0; idx < current_board.grid.rows; idx++) {
+          var row = document.createElement('tr');
+          for(var jdx = 0; jdx < current_board.grid.columns; jdx++) {
+            (function(idx, jdx) {
+              var button = current_board.buttons.find(function(b) { return b.id == (current_board.grid.order[idx] || [])[jdx]});
+              var td = document.createElement('td');
+              var cell = document.createElement('div');
+              button = button || {};
+
+                var label = document.createElement('div');
+                label.classList.add('effort_label');
+                if(button.load_board) {
+                  cell.classList.add('link');
+                }
+                if(button.label) {
+                  label.innerText = button.label;
+                } else {
+                  label.innerHTML = "&nbsp;";
+                }
+                cell.appendChild(label);
+
+                if(button.clone_id) {
+                  cell.classList.add('clone');
+                }
+                if(button.semantic_id) {
+                  cell.classList.add('semantic');
+                }
+
+                var effort = document.createElement('div');
+                effort.classList.add('effort');
+                if(button.effort && (!button.load_board || button.load_board.add_to_sentence)) {
+                  effort.innerText = Math.round(button.effort * 100.0) / 100.0;
+                } else {
+                  effort.innerHTML = "&nbsp;";
+                }
+                cell.appendChild(effort);
+
+                cell.style.minHeight = '30px';
+                cell.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  if(button.load_board) {
+                    ObfSet.jump(button.load_board.id);
+                  } else {
+                    ObfSet.jump('home');
+                  }
+                });
+
+              td.appendChild(cell);
+              row.appendChild(td);  
+            })(idx, jdx);
+          }
+          grid.appendChild(row);
+        }
+        holder.innerHTML = "";
+        var width = Math.min(holder.getBoundingClientRect().width, 800);
+        grid.style.width = width + 'px';
+        grid.style.height = Math.round(width * 0.65) + 'px';
+        holder.appendChild(grid);
+      } else {
+        // board not found when expected
+      }
+    } else {
+      // nothing to show
+    }
+
+  };
+  ObfSet.jump = function(id) {
+    if(id == 'home' && ObfSet.obfset && ObfSet.obfset[0]) {
+      id = ObfSet.obfset[0].id;
+    }
+    console.log("PREVIEW OBF JUMP:", id);
+    var board = (ObfSet.obfset || []).find(function(b) { return b.id == id; });
+    current_board = board;
+    ObfSet.render();
+  };
+})();
+
+</script>

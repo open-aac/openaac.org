@@ -18,8 +18,11 @@ Please consider making a donation today to help us continue
 our work!</p>
 
 <h2>Donate Today</h2>
-<div style='width: 400px; max-width: 100%;'>
-  <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Donate to<br/>OpenAAC!</a>
+<div style='width: 400px; max-width: 100%; margin: 0 auto;'>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
+    <img src="/images/paypal.png" style='float: left; width: 80px;'/>
+    Donate to<br/>OpenAAC!
+  </a>
 </div>
 <p>A special thank-you to all of the people who contribute
 their time, energy and resources to help bring awareness to the
@@ -71,12 +74,14 @@ revenue, $1,000USD for $500k-$10M revenue, and $250USD for
 
 <h2>Additional Donation Opportunities</h2>
 <img src="https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/prize.png" class='participate_pic'/>
-<p><b>AAC Certifications</b> - As part of out work we provide
+<p><b><a href="/certifications/">AAC Certifications</a> </b> - As part of out work we provide
 certifications based on our standards of quality. These reviews
 are included for organization members, but others may also
 make a minimum donation to faciliate their certification review.
 The donation amount is $200USD for large organizations, $75USD
-for small organizations (< $500k annual revenue).
+for small organizations (< $500k annual revenue). Non-profit 
+organizations and fully free (no upselling) apps may certify
+for free.
 </p>
 
 <div style='margin-top: 50px; color: #888;'>

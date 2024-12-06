@@ -17,6 +17,7 @@ bg: 3
   #vocabs .apps {
     font-size: 13px;
     line-height: 18px;
+    margin-top: 10px;
   }
   #vocabs .care.top {
     font-size: 20px;
@@ -68,14 +69,43 @@ bg: 3
   #apps_list {
     margin: 20px 0;
   }
+  .vocab_preview {
+    width: 400px; 
+    max-width: 100%; 
+    max-height: 400px;
+    object-fit: contain;
+    object-position: center;
+    float: right; 
+    border: 1px solid #888; 
+    border-radius: 5px; 
+    padding: 5px;
+    margin: 5px; 
+  }
 </style>
+<h2>AAC Vocabulary</h2>
+<img id='pic1' class='vocab_preview' style='display: none; float: right;'/>
+<p>If you haven't been involved in AAC for long, you may not 
+realize just how different AAC layouts can be. 
+Some approaches work to include as
+many fringe words as possible, some focus on minimizing button hits or keeping organization intuitive. It's great to have
+variety! It's also important to understand what approaches
+are used where, which can affect which apps you choose
+to work with.</p>
+<div style='clear: both;'></div>
+<h2>Vocabularies aren't Apps</h2>
+<img id='pic2' class='vocab_preview' style='display: none; float: right;'/>
 <p>
-  A lot of times we equate AAC <i>apps</i> with AAC
+  Sometimes people start equating AAC <i>apps</i> with AAC
   <i>vocabularies</i>, especially since some apps only offer
-  a single vocabulary. However, by focusing too much on the app,
-  we may forget to evaluate the effectiveness of the
-  vocabulary and organization used within those apps.
+  a single vocabulary. It's important, though, to remember
+  that the organization and strategy of an AAC 
+  vocabulary is different than the technical features
+  of the apps that deliver the vocabulary. Thinking
+  vocabulary-specific helps us identify patterns and 
+  approaches that are used across apps, and that work
+  best for different use cases.
 </p>
+<img src='https://www.openboardformat.org/care_report.svg' style='float: left; margin-right: 10px; width: 100px;'/>
 <p>
   We have created an evaluation engine that measures the
   efficiency of selecting a collection of core and fringe words,
@@ -85,11 +115,7 @@ bg: 3
   provide value as people consider different AAC apps
   and vocabularies for use.
 </p>
-<h2>AAC Vocabulary Types</h2>
-<p>If you haven't been involved in AAC for long, you may not 
-realize that there are different types, or styles, or vocabulary
-selection and organization. Some approaches work to include as
-many fringe words as possible, some focus on minimizing button hits or keeping organization intuitive.</p>
+<div style='clear: both;'></div>
 
 <h2>AAC Vocabularies</h2>
 <!--
@@ -100,27 +126,29 @@ many fringe words as possible, some focus on minimizing button hits or keeping o
     - natural sequencing
     - pragmatic organization
 -->
+<div style='max-width: 100%; overflow: auto;'>
 <table id='vocabs'>
   <thead>
     <tr>
       <th>Vocabulary</th>
-      <th>Apps</th>
-      <th>License</th>
+      <th>License & Apps</th>
       <th>CARE Efficiency Score</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr class='template' style='display: none;'>
-      <td class='name'>Quick Core 24</td>
-      <td class='apps'>CoughDrop</td>
-      <td class='license'>CC-By</td>
+      <td><a class='name'>Quick Core 24</a></td>
+      <td>
+        <div class='license'>CC-By</div>
+        <div class='apps'>CoughDrop</div>
+      </td>
       <td class='care'>153.0</td>
       <td class='desc'>...</td>
     </tr>
   </tbody>
 </table>
-
+</div>
 <script>
   var vocabs = document.getElementById('vocabs');
   var template = vocabs.querySelectorAll('tr.template')[0];
@@ -138,8 +166,20 @@ many fringe words as possible, some focus on minimizing button hits or keeping o
     // return Math.random() - 0.5;
     // return a.name.localeCompare(b.name);
   })
-  list.forEach(function(item) {
+  var valids = list.filter(function(i) { return i.reviewed; });
+  if(valids[0]) {
+    var img = document.querySelector('#pic1');
+    img.src = (valids[0].sizes || [valids[0]])[0].preview_url;
+    img.style.display = 'inline';
+  }
+  if(valids[1]) {
+    var img = document.querySelector('#pic2');
+    img.src = (valids[1].sizes || [valids[1]])[0].preview_url;
+    img.style.display = 'inline';
+  }
+  valids.forEach(function(item) {
     var vocab = template.cloneNode(true);
+    vocab.querySelector('.name').setAttribute('href', "/vocabularies/" + item.id);
     vocab.querySelector('.name').innerText = item.name;
     if(item.image_url) {
       var img = document.createElement('img');
@@ -147,7 +187,16 @@ many fringe words as possible, some focus on minimizing button hits or keeping o
       vocab.querySelector('.name').appendChild(img);
     }
     vocab.querySelector('.apps').innerText = "";
-    (item.apps || []).forEach(function(app) {
+    var apps = [].concat(item.apps);
+    if(apps.length > 5) {
+      apps = apps.sort(function(a, b) {
+        start_num = start_num * -1;
+        return start_num;
+      });
+      apps = apps.slice(0, 5)
+      apps.push("...");
+    }
+    (apps || []).forEach(function(app) {
       var div = document.createElement('div');
       div.innerText = app;
       vocab.querySelector('.apps').appendChild(div);
@@ -179,9 +228,7 @@ many fringe words as possible, some focus on minimizing button hits or keeping o
   });
 </script>
 
-<p>Interested in certifying? Review our 
-<a href="https://docs.google.com/document/d/16cDEuHyfhb5xBk-UtEUOVpT0jrnEHwCabFACHM7DVGY/edit?usp=sharing">AAC Application Certification Requirements</a> for 
-more information on requirements and on the review process.</p>
-
-<h2>Additional Certifications</h2>
-<p>We plan to implement additional certifications in the near-term, but are beginning with AAC applications since they provide the most opportunity for an impact of change.</p>
+<p>Is your vocabulary missing from our list? Let us know
+and we'll get it added! Please consider providing a .obz file
+containing your vocabulary to make it easier for us to
+process it.</p>
