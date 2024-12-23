@@ -15,6 +15,12 @@
     padding: 5px;
     box-shadow: 5px 5px 5px #888;
   }
+  .care_score,.care_rating,.care_full {
+    font-weight: bold;
+  }
+  .care_full {
+    font-size: 26px;
+  }
 </style>
 <div id="listing">
   <div style='margin-top: -30px;'>
@@ -40,6 +46,17 @@
       <img id='preview' style='display: none;' />
       <div id='obfset_holder'></div>
 
+      <span class='small_header'>CARE Score:</span>
+      <div style='margin-left: 50px; margin-bottom: 30px;'>
+        <div style='font-size: 14px; color: #888;'>
+          Efficiency (Quantitative) Score: <span class='care_score'></span><br/>
+          Evaluation (Qualitative) Score: <span class='care_rating'></span><br/>
+        </div>
+        <div style='font-size: 22px;'>
+          Combined Score: <span class='care_full'></span>
+        </div>
+      </div>
+
       <span class='small_header'>Grid Sizes:</span>
       <table id='grids' class='table table-striped' style='margin-bottom: 20px;'>
         <thead>
@@ -47,7 +64,7 @@
             <th>Rows x Cols</th>
             <th>Boards</th>
             <th>Buttons</th>
-            <th>CARE Score</th>
+            <th>CARE Efficiency Score</th>
           </tr>
         </thead>
         <tbody>
@@ -115,6 +132,7 @@
         ObfSet.load(obf_ref.obf_id || obf_ref.id);
       }, 100);
     };
+    var care_score = vocab.care_score || 0;
     vocab.sizes.forEach(function(vs) {
       var size = size_template.cloneNode(true);
       size.querySelector('.size').innerText = (vs.rows || '?') + " x " + (vs.columns || '?');
@@ -125,9 +143,22 @@
       size.querySelector('.boards').innerText = vs.boards || '?';
       size.querySelector('.buttons').innerText = vs.buttons || '?';
       size.querySelector('.care').innerText = vs.care_score || '?';
+      if(vs.care_score > care_score) {
+        care_score = vs.care_score;
+      }
       size.style.display = '';
       size_template.parentNode.appendChild(size);
     });
+    var votes = 0;
+    var care_rating = 0;
+    if(vocab.care_rating) {
+      care_rating = vocab.care_rating[0] || 0;
+      votes = vocab.care_rating[1];
+    }
+    document.querySelector('.care_score').innerText = care_score;
+    document.querySelector('.care_rating').innerText = care_rating + " from " + votes + " evaluators";
+    document.querySelector('.care_full').innerText = Math.round((care_score + care_rating) * 100) / 100.0;
+
     if(vocab.reviewed) {
       var d = new Date(vocab.reviewed * 1000);
       var str = d.toLocaleString('default', {month: 'long', year: 'numeric'})
