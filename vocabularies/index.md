@@ -33,6 +33,17 @@ bg: 3
     font-size: 20px;
     color: rgb(78, 72, 82);
   }
+  #vocabs .care div.full {
+    font-size: 24px;
+    color: rgb(78, 72, 82);
+    margin-bottom: 10px;
+  }
+  #vocabs .care div.full > div {
+    font-size: 13px;
+    font-style: italic;
+    margin-top: -5px;
+    font-weight: normal;
+  }
   a.caption {
     display: inline-block;
     padding: 5px 10px;
@@ -125,6 +136,52 @@ to work with.</p>
     - core + categories
     - natural sequencing
     - pragmatic organization
+  Criteria
+    - max depth (quant)
+    - conjugation (quant)
+    - research behind vocab
+    - motor planning
+    - editability
+    - medical vocabulary (body parts, sexuality)
+    - adult vocabulary (life topics)
+    - disability advocacy vocabulary
+    - swear words
+
+
+I want to go home
+I need mom
+Where are we going now
+Thing Explainer examples
+Let's go! Can we go to the park now?
+One fish two fish red fish blue fish, other books
+My name is Donnie, my pronouns are they/them or xe/xem. I am a master's of public health student at [school name] and an autistic self-advocate. My research focuses on the needs of disabled adults in accessing sexual and reproductive health care. I work for my school's newspaper and I enjoy knitting, crochet, and graphic design in my spare time.
+I don't like pineapple on my pizza. 
+Can you show me how to do it? 
+Look what I see.
+I'm sad because my pet is dead
+Can you come to my house for tea?
+My head hurts. 
+She is pretty. 
+I don't like that. 
+Go away. 
+Put it in there. 
+My mom likes bread.
+I have something to say, 
+That's not what I meant
+Let me speak. 
+I use this device to speak. 
+I can speak for myself.
+A moment, please.
+*It takes me longer to type that it does you to speak.
+*I'm an adult. Treat me like one.
+*Don't touch my device/don't touch me at all.
+*I don't do eye contact.
+I didn’t mean to say that.
+Leave me alone.
+Don’t touch me.
+I can do it.
+abrupt, accept, hope, wish, meal, comply
+    - 
 -->
 <div style='max-width: 100%; overflow: auto;'>
 <table id='vocabs'>
@@ -132,7 +189,7 @@ to work with.</p>
     <tr>
       <th>Vocabulary</th>
       <th>License & Apps</th>
-      <th>CARE Efficiency Score</th>
+      <th>CARE Score</th>
       <th>Description</th>
     </tr>
   </thead>
@@ -202,12 +259,14 @@ to work with.</p>
       vocab.querySelector('.apps').appendChild(div);
     });
     vocab.querySelector('.license').innerText = item.license;
+    var max_score = 0;
     if(item.sizes) {
       vocab.querySelector('.care').innerText = "";
       var top = 0;
       item.sizes.forEach(function(size) {
         if(size.care_score > top) {
           top = size.care_score;
+          max_score = top;
         }
       });
       item.sizes.forEach(function(size) {
@@ -221,7 +280,22 @@ to work with.</p>
     } else {
       vocab.querySelector('.care').classList.add('top');
       vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
+      max_score = item.care_score || 0;
     }
+    var voters = 0;
+    if(item.care_rating) {
+      max_score = max_score + item.care_rating[0];
+      voters = item.care_rating[1] || 0;
+    }
+    
+    var div = document.createElement('div');
+    div.innerText = "Full: " + (Math.round(max_score * 100) / 100);
+    var d2 = document.createElement('div');
+    d2.innerText = "from " + voters + " reviews";
+    div.appendChild(d2);
+    div.classList.add('full');
+    vocab.querySelector('.care').prepend(div);
+
     vocab.querySelector('.desc').innerText = item.summary;
     vocab.style.display = 'table-row';
     vocabs.querySelector('tbody').appendChild(vocab);

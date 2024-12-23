@@ -23,6 +23,30 @@ bg: 5
   in the world of AAC. To help with all of that, OpenAAC
   hosts an annual awards program for all things AAC.
 </p>
+<div style='text-align: center;'>
+  <img src="/images/2024/knaac/alyssaz.webp" class='tease' />
+  <img src="/images/2024/lauren-enders-gonzales.jpg" class='tease' />
+  <img src="/images/2024/kate-ahern.jpeg" class='tease' />
+  <img src="/images/2024/knaac/omazing-kids.jpeg" class='tease' />
+  <img src="/images/2024/stepping.jpeg" class='tease' />
+  <img src="/images/2024/impaact.webp" class='tease' />
+  <img src="/images/2024/knaac/ask-me-im-an-aac-user.jpeg" class='tease' />
+  <img src="/images/2024/wordpower.jpeg" class='tease' />
+  <img src="/images/2024/touchchat.jpeg" class='tease' />
+  <img src="/images/2024/p4text.png" class='tease' />
+  <img src="/images/2024/weave.png" class='tease' />
+  <img src="/images/2024/avaz.png" class='tease' />
+  <img src="/images/2024/knaac/aac-in-the-cloud.png" class='tease' />
+  <img src="/images/2024/knaac/lessonpix.png" class='tease' />
+  <img src="/images/2024/knaac/picseepal.jpeg" class='tease' />
+  <img src="/images/2024/knaac/go-talk.png" class='tease' />
+  <img src="/images/2024/knaac/xbox-controller.png" class='tease' />
+  <img src="/images/2024/knaac/boardmaker.png" class='tease' />
+  <img src="/images/2024/assistiveware.svg" class='tease' />
+</div>
+<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
+  <a href="/knaac-awards/2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2024 Results</a>
+</div>
 <h2>The knAAC Awards</h2>
 <img src='/images/2024/knaac/knaac-awards.png' class='preview' style='width: 200px; max-width: 30%; float: left; margin-right: 10px; margin-bottom: 5px;'/>
 <p>
@@ -66,9 +90,6 @@ bg: 5
   based on all the voted submitted and announce that year's 
   highlights in each category.
 </p>
-<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
-  <a href="/knaac-awards/2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2024 Nominees</a>
-</div>
 
 <div style='width: 400px; margin: 0 auto; max-width: 100%; display: none;'>
   <a href="2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>On to the 2024<br/>knAAC Awards!</a>
