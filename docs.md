@@ -64,25 +64,25 @@ of helping identify areas of improvement in supporting AAC users.</p>
 <div style='margin-left: 50px; margin-bottom: 50px;'>
   <strong style='font-weight: bold;'>Additional Handouts and Resources</strong><br/>
   <div class='item'>
-    <a href="">
+    <a href="https://www.dropbox.com/scl/fi/ooybfkgshxgbh8p6gqzii/Partner-Assisted-Scanning.pdf?rlkey=zncyrscas4vrqyf22217vig21&dl=1">
     <img src='https://www.utaac.org/images/previews/choose.png'/>
     Partner-Assisted<br/>Scanning Handout
     </a>
   </div>
   <div class='item'>
-    <a href="">
+    <a href="https://www.dropbox.com/scl/fi/jmjfg3oe64cqqe178bvgc/Making-Choices-With-Me.pdf?rlkey=5385xcga0k899znix7j2q6bko&dl=1">
     <img src='https://www.utaac.org/images/previews/assist.png'/>
     Making Choices<br/>With Me Handout
     </a>
   </div>
   <div class='item'>
-    <a href="">
+    <a href="https://www.dropbox.com/scl/fi/hgvxhn3fcnhexw260iobl/Literacy-Starter.pdf?rlkey=ur3rgs7wc6pzemz6os1ji5ehh&dl=1">
     <img src='https://www.utaac.org/images/previews/literacy.png'/>
     AAC Literacy<br/>Starter Guide
     </a>
   </div>
   <div class='item'>
-    <a href="">
+    <a href="https://www.dropbox.com/scl/fi/5ifutdqdkkn91xrun9qxy/Interactive-Reading.pdf?rlkey=hghmudp85k2c85p7t9dkqsyu5&dl=1">
     <img src='https://www.utaac.org/images/previews/shared.png'/>
     Interactive Reading<br/>with AAC
     </a>
