@@ -6,6 +6,14 @@ description: Keepers and Noteworthies in AAC
 include_nav: true
 bg: 5
 ---
+<style>
+  img.tease {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+  }
+</style>
 <img src='/images/people-shots.png' class='preview' style='max-width: 30%; width: 250px; float: right; margin-left: 10px; margin-bottom: 5px;'/>
 <p>
   Some people have a knack for fixing problems or

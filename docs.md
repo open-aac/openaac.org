@@ -23,6 +23,24 @@ bg: 2
     height: 150px; 
     object-fit: contain;
   }
+  .item {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    width: 280px;
+    height: 270px;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .item img {
+    width: 260px;
+    height: 180px;
+    object-fit: contain;
+    object-position: bottom;
+  }
 </style>
 <p>Our main areas of focus at OpenAAC is to improve
 the lives of AAC users through openness and collaboration.
@@ -42,6 +60,36 @@ where they can!</p>
 <p style='margin-top: -20px;'>The CPP is a self-reflection form that can be filled out by
 any communication partner at any level, with the objective 
 of helping identify areas of improvement in supporting AAC users.</p>
+  <div style='clear: both;'></div>
+<div style='margin-left: 50px; margin-bottom: 50px;'>
+  <strong style='font-weight: bold;'>Additional Handouts and Resources</strong><br/>
+  <div class='item'>
+    <a href="">
+    <img src='https://www.utaac.org/images/previews/choose.png'/>
+    Partner-Assisted<br/>Scanning Handout
+    </a>
+  </div>
+  <div class='item'>
+    <a href="">
+    <img src='https://www.utaac.org/images/previews/assist.png'/>
+    Making Choices<br/>With Me Handout
+    </a>
+  </div>
+  <div class='item'>
+    <a href="">
+    <img src='https://www.utaac.org/images/previews/literacy.png'/>
+    AAC Literacy<br/>Starter Guide
+    </a>
+  </div>
+  <div class='item'>
+    <a href="">
+    <img src='https://www.utaac.org/images/previews/shared.png'/>
+    Interactive Reading<br/>with AAC
+    </a>
+  </div>
+
+  <div style='clear: both;'></div>
+</div>
 <div style='clear: left;'></div>
 <h2>Developer Resources</h2>
 <img src='/images/considerations_tight.png' class='preview' />
