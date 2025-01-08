@@ -292,6 +292,7 @@ abrupt, accept, hope, wish, meal, comply
     div.innerText = "Full: " + (Math.round(max_score * 100) / 100);
     var d2 = document.createElement('div');
     d2.innerText = "from " + voters + " reviews";
+    if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
     div.appendChild(d2);
     div.classList.add('full');
     vocab.querySelector('.care').prepend(div);

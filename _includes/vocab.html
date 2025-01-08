@@ -15,6 +15,24 @@
     padding: 5px;
     box-shadow: 5px 5px 5px #888;
   }
+  div.short {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+  }
+  div.short:after {
+    position: absolute;
+    bottom: 0;  
+    height: 50px;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+      rgba(255,255,255, 1) 20%, 
+      rgba(255,255,255, 0) 80%
+    );
+    display: block;
+    pointer-events: none;    
+  }
   .care_score,.care_rating,.care_full {
     font-weight: bold;
   }
@@ -29,10 +47,11 @@
       <img src="/images/check.png" style='position: absolute; bottom: 5px; left: 5px; width: 20px; display: none; filter: drop-shadow(0 0 0.5rem rgb(50, 50, 0))' id='approved_app'/>
     </div>
 
-    <h2 id='name' style='margin-left: 120px;'>Vocab</h2>
+    <h2 style='margin-left: 120px;'><span id='name'>Vocab</span> <span style='font-size: 20px;'>AAC Vocabulary</span></h2>
   </div>
   <div style='clear: left; margin-top: 30px;'>
     <div id="description"></div>
+    <div id='description_more' style='display: none; margin-left: 30px; margin-top: -5px; margin-bottom: 5px;'><a href='#'>show full</a></div>
     <div class='small_header'>Last Reviewed: <span id='reviewed'></span></div>
     <!-- TODO: Specializations -->
     <div id="more" style='margin: 50px 0;'>
@@ -45,6 +64,12 @@
       <span class='small_header'>Preview:</span>
       <img id='preview' style='display: none;' />
       <div id='obfset_holder'></div>
+      <div id='obfset_disclaimer' style='display: none; margin-top: -35px;margin-bottom: 35px;font-size: 12px;font-style: italic; margin-left: 30px; width: 740px; line-height: 15px;'>
+        This dynamic rendering is for educational purposes only. It includes only
+        the textual structure of the vocabuarly, to help with understanding
+        the vocabulary's efficiency scores. If you are interested in seeing
+        the vocabulary in action, please contact the vendor/author.
+      </div>
 
       <span class='small_header'>CARE Score:</span>
       <div style='margin-left: 50px; margin-bottom: 30px;'>
@@ -104,11 +129,19 @@
   //       sizes: [
   //         {
 
+  document.querySelector('#description_more').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#description_more').style.display = 'none';
+    document.querySelector('#description').classList.remove('short');
+  })
   if(vocab) {
-    document.title = vocab.name + " - OpenAAC";
+    document.title = vocab.name + ": AAC Vocabulary, About - OpenAAC";
     document.querySelectorAll('#name')[0].innerText = vocab.name;
     document.querySelectorAll('#img')[0].src = vocab.image_url;
-    document.querySelectorAll('#description')[0].innerText = vocab.description || vocab.summary || "No Description";
+    document.querySelectorAll('#description')[0].innerText = ((vocab.description || []).join("\n\n")) || vocab.summary || "No Description";
+    var height = document.querySelectorAll('#description')[0].getBoundingClientRect().height;
+    document.querySelectorAll('#description')[0].classList.toggle('short', height > 200);
+    document.querySelectorAll('#description_more')[0].style.display = (height > 200) ? 'block' : 'none';
     document.querySelector('#platforms').innerText = (vocab.platforms || []).join(', ') || "None";
     document.querySelector('#apps').innerText = (vocab.apps || []).join(', ') || "None";
     if(!vocab.sizes) {
@@ -177,9 +210,10 @@
   (function() {
   var current_board = null;
   ObfSet.load = function(obf_id) {
-    document.querySelector('#obfset_holder').innerText = "Loading Preview...";
+    document.querySelector('#obfset_holder').innerText = "Loading Effort Scores...";
+    document.querySelector('#obfset_disclaimer').style.display = 'none';
     var json_err = function() {
-      document.querySelector('#obfset_holder').innerText = "Dynamic Preview Not Available";
+      document.querySelector('#obfset_holder').innerText = "Dynamic View Not Available";
     };
     var json_render = function(obfset) {
       console.log("JSON", obfset);
@@ -300,6 +334,7 @@
         grid.style.width = width + 'px';
         grid.style.height = Math.round(width * 0.65) + 'px';
         holder.appendChild(grid);
+        document.querySelector('#obfset_disclaimer').style.display = 'block';
       } else {
         // board not found when expected
       }
