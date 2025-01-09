@@ -404,6 +404,7 @@ abrupt, accept, hope, wish, meal, comply
         vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
         max_score = item.care_score || 0;
       }
+      var max_care_score = max_score;
       var voters = 0;
       if(item.care_rating) {
         max_score = max_score + item.care_rating[0];
@@ -415,6 +416,7 @@ abrupt, accept, hope, wish, meal, comply
       var d2 = document.createElement('div');
       d2.innerText = "from " + voters + " reviews";
       if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
+      else if(!max_care_score) { d2.innerText = "incomplete"; }
       div.appendChild(d2);
       div.classList.add('full');
       vocab.querySelector('.care').prepend(div);
