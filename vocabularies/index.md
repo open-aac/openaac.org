@@ -183,13 +183,36 @@ I can do it.
 abrupt, accept, hope, wish, meal, comply
     - 
 -->
+<div style='margin-bottom: 10px;'>
+  Filter:
+  <select id='filter_category' style='display: inline-block; width: 250px;'>
+    <option value='all'>All Categories</option>
+    <option value='motor'>Motor Planning</option>
+    <option value='category'>Category-Based</option>
+    <option value='pragmatic'>Pragmatic</option>
+    <option value='keyboard'>Keyboard</option>
+  </select>
+  <select id='filter_grid' style='display: inline-block; width: 250px;'>
+    <option value='all'>All Grid Sizes</option>
+    <option value='0-19'>Under 20 Buttons</option>
+    <option value='20-40'>20-40 Buttons</option>
+    <option value='41-60'>41-60 Buttons</option>
+    <option value='61-999'>61+ Buttons</option>
+  </select>
+  <select id='filter_license' style='display: inline-block; width: 250px;'>
+    <option value='all'>All Licenses</option>
+    <option value='open'>Open Vocabularies</option>
+    <option value='closed'>Proprietary Vocabularies</option>
+  </select>
+  <a href="#" id='filter_clear'>clear filters</a>
+</div>
 <div style='max-width: 100%; overflow: auto;'>
 <table id='vocabs'>
   <thead>
     <tr>
-      <th>Vocabulary</th>
+      <th><a href="#" id='sort_vocab'>Vocabulary</a></th>
       <th>License & Apps</th>
-      <th>CARE Score</th>
+      <th><a href="#" id='sort_care'>CARE Score</a></th>
       <th>Description</th>
     </tr>
   </thead>
@@ -207,100 +230,201 @@ abrupt, accept, hope, wish, meal, comply
 </table>
 </div>
 <script>
-  var vocabs = document.getElementById('vocabs');
-  var template = vocabs.querySelectorAll('tr.template')[0];
-  var list = [].concat(window.vocab_list || []);
-  if(list.length == 0) {
-    list.push({name: "None available", desc: " ", rank: 1});
-  }
-  var start_num = ((new Date()).getDate() / 30) - 0.5;
-  list = list.sort(function(a, b) {
-    if(a.rank != b.rank) {
-      return a.rank - b.rank;
-    }
-    start_num = start_num * -1;
-    return start_num;
-    // return Math.random() - 0.5;
-    // return a.name.localeCompare(b.name);
-  })
-  var valids = list.filter(function(i) { return i.reviewed; });
-  if(valids[0]) {
-    var img = document.querySelector('#pic1');
-    img.src = (valids[0].sizes || [valids[0]])[0].preview_url;
-    img.style.display = 'inline';
-  }
-  if(valids[1]) {
-    var img = document.querySelector('#pic2');
-    img.src = (valids[1].sizes || [valids[1]])[0].preview_url;
-    img.style.display = 'inline';
-  }
-  valids.forEach(function(item) {
-    var vocab = template.cloneNode(true);
-    vocab.querySelector('.name').setAttribute('href', "/vocabularies/" + item.id);
-    vocab.querySelector('.name').innerText = item.name;
-    if(item.image_url) {
-      var img = document.createElement('img');
-      img.src = item.image_url;
-      vocab.querySelector('.name').appendChild(img);
-    }
-    vocab.querySelector('.apps').innerText = "";
-    var apps = [].concat(item.apps);
-    if(apps.length > 5) {
-      apps = apps.sort(function(a, b) {
-        start_num = start_num * -1;
-        return start_num;
-      });
-      apps = apps.slice(0, 5)
-      apps.push("...");
-    }
-    (apps || []).forEach(function(app) {
-      var div = document.createElement('div');
-      div.innerText = app;
-      vocab.querySelector('.apps').appendChild(div);
-    });
-    vocab.querySelector('.license').innerText = item.license;
-    var max_score = 0;
-    if(item.sizes) {
-      vocab.querySelector('.care').innerText = "";
-      var top = 0;
-      item.sizes.forEach(function(size) {
-        if(size.care_score > top) {
-          top = size.care_score;
-          max_score = top;
-        }
-      });
-      item.sizes.forEach(function(size) {
-        var div = document.createElement('div');
-        div.innerText = size.rows + "x" + size.columns + " - " + size.care_score;
-        if(top == size.care_score) {
-          div.classList.add('top');
-        }
-        vocab.querySelector('.care').appendChild(div);
-      })
-    } else {
-      vocab.querySelector('.care').classList.add('top');
-      vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
-      max_score = item.care_score || 0;
-    }
-    var voters = 0;
-    if(item.care_rating) {
-      max_score = max_score + item.care_rating[0];
-      voters = item.care_rating[1] || 0;
-    }
-    
-    var div = document.createElement('div');
-    div.innerText = "Full: " + (Math.round(max_score * 100) / 100);
-    var d2 = document.createElement('div');
-    d2.innerText = "from " + voters + " reviews";
-    if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
-    div.appendChild(d2);
-    div.classList.add('full');
-    vocab.querySelector('.care').prepend(div);
-
-    vocab.querySelector('.desc').innerText = item.summary;
-    vocab.style.display = 'table-row';
-    vocabs.querySelector('tbody').appendChild(vocab);
+  document.querySelector('#filter_category').addEventListener('change', function(e) {
+    render.filter_category = document.querySelector('#filter_category').value;
+    render();
   });
+  document.querySelector('#filter_grid').addEventListener('change', function(e) {
+    render.filter_grid = document.querySelector('#filter_grid').value;
+    render();
+  });
+  document.querySelector('#filter_license').addEventListener('change', function(e) {
+    render.filter_license = document.querySelector('#filter_license').value;
+    render();
+  });
+  document.querySelector('#filter_clear').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#filter_category').value = 'all';
+    document.querySelector('#filter_grid').value = 'all';
+    document.querySelector('#filter_license').value = 'all';
+    render.filter_category = false;
+    render.filter_grid = false;
+    render.filter_license = false;
+    render();
+  });
+  document.querySelector('#sort_vocab').addEventListener('click', function(e) {
+    e.preventDefault();
+    if(render.sort == 'vocaba') {
+      render.sort = 'vocabz';
+    } else {
+      render.sort = 'vocaba';
+    }
+    render();
+  });
+  document.querySelector('#sort_care').addEventListener('click', function(e) {
+    e.preventDefault();
+    if(render.sort == 'care9') {
+      render.sort = 'care0';
+    } else {
+      render.sort = 'care9';
+    }
+    render();
+  });
+  var rendered = false;
+  var render = function() {
+    var vocabs = document.getElementById('vocabs');
+    var template = vocabs.querySelectorAll('tr.template')[0];
+    vocabs.querySelectorAll('tbody tr:not(.template)').forEach(function(elem) {
+      elem.parentNode.removeChild(elem);
+    });
+    var list = [].concat(window.vocab_list || []);
+    if(list.length == 0) {
+      list.push({name: "None available", desc: " ", rank: 1});
+    }
+    var start_num = ((new Date()).getDate() / 30) - 0.5;
+    list.forEach(function(item) {
+      item.care_combined = (item.care_rating || [0])[0];
+      var sizes = item.sizes || [item];
+      var max_care = 0;
+      sizes.forEach(function(s) {
+        if(s.care_score) {
+          max_care = Math.max(max_care, s.care_score);
+        }
+      });
+      item.care_combined = item.care_combined + max_care;
+    });
+    list = list.sort(function(a, b) {
+      if(render.sort == 'vocaba') {
+        return a.name.localeCompare(b.name);
+      } else if(render.sort == 'vocabz') {
+        return b.name.localeCompare(a.name);
+      } else if(render.sort == 'care9') {
+        return b.care_combined - a.care_combined;
+        return ((b.care_score || 0) + (b.care_rating || [0])[0]) - ((a.care_score || 0) + (a.care_rating || [0])[0]);
+      } else if(render.sort == 'care0') {
+        return a.care_combined - b.care_combined;
+        return ((a.care_score || 0) + (a.care_rating || [0])[0]) - ((b.care_score || 0) + (b.care_rating || [0])[0]);
+      }
+      if(a.rank != b.rank) {
+        return a.rank - b.rank;
+      }
+      start_num = start_num * -1;
+      return start_num;
+      // return Math.random() - 0.5;
+      // return a.name.localeCompare(b.name);
+    })
+    var valids = list.filter(function(i) { 
+      if(render.filter_category && render.filter_category != 'all') {
+        if(!i.categories || i.categories.indexOf(render.filter_category) == -1) { 
+          return false;
+        }
+      }
+      if(render.filter_grid && render.filter_grid != 'all') {
+        var parts = render.filter_grid.split(/-/);
+        var min = parseInt(parts[0], 10);
+        var max = parseInt(parts[1], 10);
+        var sizes = i.sizes || [i];
+        var any_match = false;
+        sizes.forEach(function(s) {
+          var grid = s.rows * s.columns;
+          if(grid >= min && grid <= max) {
+            any_match = true;
+          }
+        });
+        if(!any_match) { return false; }
+      }
+      if(render.filter_license && render.filter_license != 'all') {
+        if(render.filter_license == 'open' && (i.license || 'Private').match(/private/i)) {
+          return false;
+        } else if(render.filter_license == 'closed' && !(i.license || 'Private').match(/private/i)) {
+          return false;
+        }
+      }
+      return i.reviewed; 
+    });
+    if(!rendered) {
+      if(valids[0]) {
+        var img = document.querySelector('#pic1');
+        img.src = (valids[0].sizes || [valids[0]])[0].preview_url;
+        img.style.display = 'inline';
+      }
+      if(valids[1]) {
+        var img = document.querySelector('#pic2');
+        img.src = (valids[1].sizes || [valids[1]])[0].preview_url;
+        img.style.display = 'inline';
+      }
+      rendered = true;
+    }
+    valids.forEach(function(item) {
+      var vocab = template.cloneNode(true);
+      vocab.classList.remove('template');
+      vocab.querySelector('.name').setAttribute('href', "/vocabularies/" + item.id);
+      vocab.querySelector('.name').innerText = item.name;
+      if(item.image_url) {
+        var img = document.createElement('img');
+        img.src = item.image_url;
+        vocab.querySelector('.name').appendChild(img);
+      }
+      vocab.querySelector('.apps').innerText = "";
+      var apps = [].concat(item.apps);
+      if(apps.length > 5) {
+        apps = apps.sort(function(a, b) {
+          start_num = start_num * -1;
+          return start_num;
+        });
+        apps = apps.slice(0, 5)
+        apps.push("...");
+      }
+      (apps || []).forEach(function(app) {
+        var div = document.createElement('div');
+        div.innerText = app;
+        vocab.querySelector('.apps').appendChild(div);
+      });
+      vocab.querySelector('.license').innerText = item.license;
+      var max_score = 0;
+      if(item.sizes) {
+        vocab.querySelector('.care').innerText = "";
+        var top = 0;
+        item.sizes.forEach(function(size) {
+          if(size.care_score > top) {
+            top = size.care_score;
+            max_score = top;
+          }
+        });
+        item.sizes.forEach(function(size) {
+          var div = document.createElement('div');
+          div.innerText = size.rows + "x" + size.columns + " - " + size.care_score;
+          if(top == size.care_score) {
+            div.classList.add('top');
+          }
+          vocab.querySelector('.care').appendChild(div);
+        })
+      } else {
+        vocab.querySelector('.care').classList.add('top');
+        vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
+        max_score = item.care_score || 0;
+      }
+      var voters = 0;
+      if(item.care_rating) {
+        max_score = max_score + item.care_rating[0];
+        voters = item.care_rating[1] || 0;
+      }
+      
+      var div = document.createElement('div');
+      div.innerText = "Full: " + ((Math.round(max_score * 100) / 100) || "N/A");
+      var d2 = document.createElement('div');
+      d2.innerText = "from " + voters + " reviews";
+      if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
+      div.appendChild(d2);
+      div.classList.add('full');
+      vocab.querySelector('.care').prepend(div);
+
+      vocab.querySelector('.desc').innerText = item.summary;
+      vocab.style.display = 'table-row';
+      vocabs.querySelector('tbody').appendChild(vocab);
+    });
+  };
+  render();
 </script>
 
 <p>Is your vocabulary missing from our list? Let us know
