@@ -525,7 +525,7 @@
         reviewed: 1736291412,
         license: "GPLv3 CBoard",
       },
-/*      {
+      {
         id: "cbu",
         image_url: "/images/2024/cboard.png",
         preview_url: "/images/2024/cboard-universal.png",
@@ -534,15 +534,15 @@
         summary: "free, category-based",
         start_year: 2023,
         platforms: ["iOS", "Android", "Windows", "Web"],
-        rows: 6,
+        rows: 5,
         columns: 11,
-        boards: 43,
-        buttons: 723,
+        boards: 6,
+        buttons: 134,
         care_rating: [0, 0],
-        care_score: 71.87,
+        care_score: 82.69,
         reviewed: 1736291412,
         license: "GPLv3 CBoard",
-      },*/
+      },
       {
         id: "ac99",
         image_url: "/images/2024/alpha-core.webp",
@@ -566,6 +566,62 @@
         care_score: 98.89,
         reviewed: 1736291412,
         license: "private, Amy Roman",
+      },
+      {
+        id: "coreword",
+        image_url: "/images/2024/coreword.avif",
+        name: "Core Word",
+        apps: ["CoughDrop", "ProSlate", "WinSlate"],
+        platforms: ["iOS", "Android", "Windows", "Web"],
+        categories: ['category'],
+        summary: "proprietary, core+categories",
+        description: [
+          "proprietary, core+categories, flexible grid sizes",
+          "From the Vendor: The CoreWord Language System provides AAC users with a powerful combination of core language, fringe vocabulary and banks of key phrases. The language system is divided into four distinct levels that correspond with vocabulary layouts: CoreWord 6, 12, 20, 40 and 60.",
+          "The layout and content within each level are derived from studies of individuals using AAC across their lifespan. CoreWord 6 and 20 contain words most frequently used by emergent communicators and those who require larger buttons for access. CoreWord 40 offers more complex content, grammar tools and rate enhancement features. The CoreWord Language System is expanding! Now available in our most robust language system offering, CoreWord 60 is here!",
+          "The CoreWord Language System features dynamic vocabulary layouts that automatically change as the user makes selections. Once a word has been selected, the layout updates to show only words that are likely to be used next. By offering these next words in plain view and removing unwanted vocabulary, users don’t have to waste time and energy searching for their next words, ensuring maximum efficiency with a minimal learning curve.",
+        ],
+        sizes: [
+          {
+            id: 'cw6',
+            rows: 2,
+            columns: 3,
+            preview_url: "/images/2024/screenshots/cw6.avif",
+            care_score: 57.8
+          },
+          {
+            id: 'cw12',
+            rows: 3,
+            columns: 4,
+            preview_url: "/images/2024/screenshots/cw12.avif",
+            care_score: "unknown"
+          },
+          {
+            id: 'cw20',
+            rows: 4,
+            columns: 5,
+            preview_url: "/images/2024/screenshots/cw20.avif",
+            care_score: 127.21
+          },
+          {
+            id: 'cw40',
+            rows: 5,
+            columns: 8,
+            preview_url: "/images/2024/screenshots/cw40.avif",
+            care_score: 164.47
+          },
+          {
+            id: 'cw60',
+            rows: 6,
+            columns: 10,
+            preview_url: "/images/2024/screenshots/cw60.avif",
+            care_score: 168.88
+          },
+        ],
+        start_year: 2020,
+        care_rating: [0, 0],
+        reviewed: 1736291412,
+        license: "private, Forbes AAC",
       },
       {
         id: "crescendo",
@@ -671,8 +727,8 @@
         image_url: "/images/2024/clicker.jpeg",
         preview_url: "/images/2024/screenshots/podd.png",
         name: "Clicker Communicator Vocabulary",
-        apps: ["TD Communicator", "SimPODD", "Grid"],
-        platforms: ["iOS", "Windows"],
+        apps: ["Clicker"],
+        platforms: ["iOS"],
         categories: ['category'],
         summary: "app-specific, core+categories, child/learner-focused vocabulary",
         description: [
@@ -709,9 +765,8 @@
         reviewed: 1736291412,
         license: "Private, Crick Software",
       },
-      // TODO: AlphaGrid, 
-      // Snap Core First, Snap Motor Plan
-      // Avaz, WeaveChat, CBoard, Clicker, GoTalk Now Plus
+      // TODO: Snap Core First, Snap Motor Plan
+      // Avaz, WeaveChat, CBoard, GoTalk Now Plus
     ];
   </script>
   <script>

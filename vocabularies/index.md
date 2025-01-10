@@ -185,21 +185,28 @@ abrupt, accept, hope, wish, meal, comply
 -->
 <div style='margin-bottom: 10px;'>
   Filter:
-  <select id='filter_category' style='display: inline-block; width: 250px;'>
-    <option value='all'>All Categories</option>
-    <option value='motor'>Motor Planning</option>
-    <option value='category'>Category-Based</option>
-    <option value='pragmatic'>Pragmatic</option>
-    <option value='keyboard'>Keyboard</option>
+  <select id='filter_platform' style='display: inline-block; width: 200px;'>
+    <option value='all'>All Platforms</option>
+    <option value='ios'>iOS</option>
+    <option value='windows'>Windows</option>
+    <option value='android'>Android</option>
+    <option value='web'>Web</option>
   </select>
-  <select id='filter_grid' style='display: inline-block; width: 250px;'>
+  <select id='filter_grid' style='display: inline-block; width: 200px;'>
     <option value='all'>All Grid Sizes</option>
     <option value='0-19'>Under 20 Buttons</option>
     <option value='20-40'>20-40 Buttons</option>
     <option value='41-60'>41-60 Buttons</option>
     <option value='61-999'>61+ Buttons</option>
   </select>
-  <select id='filter_license' style='display: inline-block; width: 250px;'>
+  <select id='filter_category' style='display: inline-block; width: 200px;'>
+    <option value='all'>All Categories</option>
+    <option value='motor'>Motor Planning</option>
+    <option value='category'>Category-Based</option>
+    <option value='pragmatic'>Pragmatic</option>
+    <option value='keyboard'>Keyboard</option>
+  </select>
+  <select id='filter_license' style='display: inline-block; width: 200px;'>
     <option value='all'>All Licenses</option>
     <option value='open'>Open Vocabularies</option>
     <option value='closed'>Proprietary Vocabularies</option>
@@ -210,7 +217,7 @@ abrupt, accept, hope, wish, meal, comply
 <table id='vocabs'>
   <thead>
     <tr>
-      <th><a href="#" id='sort_vocab'>Vocabulary</a></th>
+      <th><a href="#" id='sort_vocab'>Vocabulary</a> (<span id='result_count'></span>)</th>
       <th>License & Apps</th>
       <th><a href="#" id='sort_care'>CARE Score</a></th>
       <th>Description</th>
@@ -242,14 +249,20 @@ abrupt, accept, hope, wish, meal, comply
     render.filter_license = document.querySelector('#filter_license').value;
     render();
   });
+  document.querySelector('#filter_platform').addEventListener('change', function(e) {
+    render.filter_platform = document.querySelector('#filter_platform').value;
+    render();
+  });
   document.querySelector('#filter_clear').addEventListener('click', function(e) {
     e.preventDefault();
     document.querySelector('#filter_category').value = 'all';
     document.querySelector('#filter_grid').value = 'all';
     document.querySelector('#filter_license').value = 'all';
+    document.querySelector('#filter_platform').value = 'all';
     render.filter_category = false;
     render.filter_grid = false;
     render.filter_license = false;
+    render.filter_platform = false;
     render();
   });
   document.querySelector('#sort_vocab').addEventListener('click', function(e) {
@@ -344,6 +357,10 @@ abrupt, accept, hope, wish, meal, comply
           return false;
         }
       }
+      if(render.filter_platform && render.filter_platform != 'all') {
+        var match = (i.platforms).find(function(p) { return p.toLowerCase() == render.filter_platform; });
+        if(!match) { return false; }
+      }
       return i.reviewed; 
     });
     if(!rendered) {
@@ -360,6 +377,7 @@ abrupt, accept, hope, wish, meal, comply
       }
       rendered = true;
     }
+    document.querySelector('#result_count').innerText = valids.length;
     valids.forEach(function(item) {
       var vocab = template.cloneNode(true);
       vocab.classList.remove('template');
