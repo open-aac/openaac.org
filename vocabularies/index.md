@@ -282,6 +282,7 @@ abrupt, accept, hope, wish, meal, comply
       list.push({name: "None available", desc: " ", rank: 1});
     }
     var day = (new Date()).getDate();
+    list = window.shuffle(list, day);
     var start_num = (day / 31) - 0.5;
     if(day % 2 == 0) { start_num = start_num * -1; }
     list.forEach(function(item) {

@@ -331,7 +331,7 @@ layout: landing
 <script>
   var apps = document.getElementById('apps_list');
   var app_template = apps.querySelectorAll('.caption')[0];
-  var list = [].concat(window.app_list || []);
+  var list = window.shuffle(window.app_list || [], (new Date()).getDate());
   if(list.length == 0) {
     list.push({name: "None available", desc: " ", rank: 1});
   }
