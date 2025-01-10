@@ -190,7 +190,7 @@
     }
     document.querySelector('.care_score').innerText = care_score;
     document.querySelector('.care_rating').innerText = care_rating + " from " + votes + " evaluators";
-    document.querySelector('.care_full').innerText = Math.round((care_score + care_rating) * 100) / 100.0;
+    document.querySelector('.care_full').innerText = Math.round(((parseInt(care_score, 10) || 0) + (parseInt(care_rating, 10) || 0)) * 100) / 100.0;
 
     if(vocab.reviewed) {
       var d = new Date(vocab.reviewed * 1000);

@@ -281,14 +281,16 @@ abrupt, accept, hope, wish, meal, comply
     if(list.length == 0) {
       list.push({name: "None available", desc: " ", rank: 1});
     }
-    var start_num = ((new Date()).getDate() / 30) - 0.5;
+    var day = (new Date()).getDate();
+    var start_num = (day / 31) - 0.5;
+    if(day % 2 == 0) { start_num = start_num * -1; }
     list.forEach(function(item) {
       item.care_combined = (item.care_rating || [0])[0];
       var sizes = item.sizes || [item];
       var max_care = 0;
       sizes.forEach(function(s) {
         if(s.care_score) {
-          max_care = Math.max(max_care, s.care_score);
+          max_care = Math.max(max_care, parseInt(s.care_score, 10) || 0);
         }
       });
       item.care_combined = item.care_combined + max_care;
@@ -308,7 +310,8 @@ abrupt, accept, hope, wish, meal, comply
       if(a.rank != b.rank) {
         return a.rank - b.rank;
       }
-      start_num = start_num * -1;
+      start_num = start_num + 0.25;
+      if(start_num > 1.0) { start_num = -1; }
       return start_num;
       // return Math.random() - 0.5;
       // return a.name.localeCompare(b.name);
@@ -343,14 +346,15 @@ abrupt, accept, hope, wish, meal, comply
       return i.reviewed; 
     });
     if(!rendered) {
-      if(valids[0]) {
+      pics = valids.filter(function(i) { return i.sizes || i.preview_url; });
+      if(pics[0]) {
         var img = document.querySelector('#pic1');
-        img.src = (valids[0].sizes || [valids[0]])[0].preview_url;
+        img.src = (pics[0].sizes || [pics[0]])[0].preview_url;
         img.style.display = 'inline';
       }
-      if(valids[1]) {
+      if(pics[1]) {
         var img = document.querySelector('#pic2');
-        img.src = (valids[1].sizes || [valids[1]])[0].preview_url;
+        img.src = (pics[1].sizes || [pics[1]])[0].preview_url;
         img.style.display = 'inline';
       }
       rendered = true;
@@ -402,7 +406,7 @@ abrupt, accept, hope, wish, meal, comply
       } else {
         vocab.querySelector('.care').classList.add('top');
         vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
-        max_score = item.care_score || 0;
+        max_score = parseInt(item.care_score, 10) || 0;
       }
       var max_care_score = max_score;
       var voters = 0;
