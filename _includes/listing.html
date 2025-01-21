@@ -1,11 +1,106 @@
+<style>
+  #vocabs a {
+    display: inline-block;
+    margin-right: 30px;
+    white-space: nowrap;
+    font-size: 20px;
+  }
+  #vocabs a img {
+    vertical-align: middle;
+    max-width: 60px;
+    height: 50px;
+    object-fit: contain;
+    object-position: center;
+    margin-right: 5px;
+    float: left;
+  }
+  #vocabs a .care {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: -5px;
+    white-space: nowrap;
+  }
+  #preview img {
+    max-width: 800px;
+    max-height: 800px;
+    object-fit: contain;
+    object-position: left center;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #aaa;
+  }
+  #accessibility {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #accessibility > span {
+    padding: 10px 5px;
+  }
+  #accessibility > span.note {
+    grid-column: 1 / 4;
+    color: #888;
+    padding-top: 0;
+  }
+  @media (max-width: 725px) {
+    #accessibility {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    #accessibility > span.note {
+      grid-column: 1 / 3;
+    }
+  }
+  #accessibility > span.missing {
+    text-decoration: line-through;
+    color: #888;
+    display: none;
+  }
+  #accessibility.show_missing > span.missing {
+    display: block;
+  }
+  #accessibility > span.missing .fa {
+    text-decoration: line-through;
+  }
+  #accessibility .fa {
+    font-size: 25px;
+    width: 30px;
+    margin-right: 5px;
+  }
+  #video {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px #aaa;
+  }
+  #platforms span .fa {
+    padding-right: 5px;
+  }
+  #platforms span:after {
+    content: ", ";
+  }
+  #platforms span:last-child:after {
+    content: "";
+  }
+</style>
 <div id="listing">
+  <div style='margin-top: -50px; margin-bottom: 60px; margin-left: -40px;'>
+    <a href="/certifications">&larr; see all certifications</a>
+    <div style='clear: both;'></div>  
+  </div>
   <div style='margin-top: -30px;'>
-    <div style='position: relative; float: left; width: 80px; margin-right: 5px;'>
-      <img src="#" id='img' style='width: 80px; max-height: 150px; object-fit: contain; object-position: center;' />  
-      <img src="/images/check.png" style='position: absolute; bottom: 5px; left: 5px; width: 20px; display: none; filter: drop-shadow(0 0 0.5rem rgb(50, 50, 0))' id='approved_app'/>
+    <div style='position: relative; float: left; width: 120px; margin-right: 15px;'>
+      <img src="#" id='img' style='width: 120px; max-height: 150px; object-fit: contain; object-position: center;' />  
+      <img src="/images/check.png" style='position: absolute; bottom: 10px; left: 10px; width: 30px; display: none; border-radius: 20px; box-shadow: 0px 0px 5px 3px rgb(50, 50, 0); border: 3px solid rgb(220 233 41);' id='approved_app'/>
     </div>
 
-    <h2 id='name'>App</h2>
+    <h2>
+      <span id='name'>App</span> 
+      <span style='font-size: 20px;'>AAC App</span>
+    </h2>
+    <div class='subh2' style='margin-top: -15px; margin-bottom: 10px;'>
+      <a id='url' href="#">Vendor Website</a>
+    </div>
     <div class='subh2'>
       OpenAAC App Certification Status
       <span id='status'></span>
@@ -22,19 +117,58 @@
       Certifications must be renewed every year to remain active.
     </div>
   <div>
-    <img id='cert' style='float: left; width: 200px; margin-right: 15px;'/>
+    <img id='cert' style='float: left; width: 200px; margin-right: 15px; margin-bottom: 10px; filter: drop-shadow(2px 4px 6px black)'/>
     <div id="description"></div>
     <!-- TODO: Specializations -->
     <div style='clear: left;'></div>
+    <div id='extras' style='margin-top: 10px;'>
+      <div style='margin-bottom: 20px;'>
+        <div class='small_header'>Available Platforms:</div>
+        <div id='platforms'></div>
+      </div>
+
+      <div style='margin-bottom: 20px;'>
+        <div class='small_header'>Top Vocabulary CARE Score:</div>
+        <div id='care_max' style='font-size: 25px; font-weight: bold;'>Unknown</div>
+      </div>
+
+      <div style='margin-bottom: 30px;'>
+        <div class='small_header'>Accessibility Options</div>
+        <div id='accessibility'></div>
+        <a id='show_missing_ax' href="#" style='display: none; font-size: 14px; margin-left: 50px;'>show unsupported options</a>
+      </div>
+      <div style='margin-bottom: 20px;'>
+        <div class='small_header'>Pricing:</div>
+        <div id='trial'></div>
+        <div id='pricing'>Unspecified</div>
+      </div>
+      
+    </div>
+    <div id='vocabs' style='margin-top: 30px;'>
+      <div class='small_header'>Available Vocabularies:</div>
+    </div>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/GOgzpO9_NwE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id='video' style='display: none; margin-top: 30px;'></iframe>
+    <div id='preview'></div>
     <div style='clear: both;'></div>
+  </div>
+  <div style='margin-top: 50px;'>Does any of this look 
+    incorrect to you? We do our best to report accurate results 
+    based on publicly-available information, but if you know
+    of anything that needs changing -- particularly if you represent
+    the vendor or author of this content -- please contact us!
   </div>
 </div>
 <script>
   var id = location.href.split(/\//).pop();
   var app = window.app_list.find(function(item) { return item.id == id; });
+  var vocabs = (window.vocab_list || []).sort(function(a, b) { return b.care_combined - a.care_combined; });
+  document.querySelector('#show_missing_ax').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector('#accessibility').classList.add('show_missing');
+    document.querySelector('#show_missing_ax').style.display = 'none';
+  });
   if(app) {
-    document.title = app.name + " - OpenAAC Certification Status";
+    document.title = app.name + ": AAC App - OpenAAC Certification Status";
     document.querySelectorAll('#name')[0].innerText = app.name;
     document.querySelectorAll('#img')[0].src = app.image_url;
     document.querySelectorAll('#cert')[0].src = "/images/certs/" + app.id + "-app-cert.png"
@@ -43,6 +177,22 @@
       document.querySelectorAll('#video')[0].src = "https://www.youtube.com/embed/" + app.video_id;
       document.querySelectorAll('#video')[0].style.display = '';
     }
+    if(app.url) {
+      document.querySelector('#url').setAttribute('href', app.url);
+      document.querySelector('#url').style.display = 'inline';
+    }
+    if(app.preview_url) {
+      var img = document.createElement('img');
+      img.src = app.preview_url;
+      img.setAttribute('alt', "preview of app interface");
+      document.querySelector('#preview').appendChild(img);
+    }
+    var app_vocabs = [];
+    vocabs.forEach(function(vocab) {
+      if((vocab.apps || []).indexOf(app.id) != -1) {
+        app_vocabs.push(vocab);
+      }
+    });
     if(app.reviewed) {
       var d = new Date(app.reviewed * 1000);
       var cutoff = new Date();
@@ -65,6 +215,133 @@
       document.querySelectorAll('#cert')[0].remove();
       document.querySelectorAll('#description')[0].remove();
     }
+
+    document.querySelector('#extras').style.display = 'block';
+    document.querySelector('#pricing').innerText = app.pricing || "Unspecified";
+    if(app.trial) {
+      document.querySelector('#trial').innerText = app.trial;
+    }
+    var access_elem = document.querySelector('#accessibility');
+    var missing = [];
+    var accesses = {notes: {}};
+    var add_ax = function(ax, missing) {
+      var span = document.createElement('span');
+      if(missing) { span.classList.add('missing'); }
+      span.innerText = ax.label;
+      if(accesses[ax.id] && accesses[ax.id] !== true) {
+        span.innerText = span.innerText + accesses[ax.id].join('');
+      }
+      if(ax.id.match(/^!/)) {
+        span.classList.add('note');
+        span.innerText = accesses.notes[ax.id.replace(/!/, '')] + span.innerText;
+      } else {
+        var icon = document.createElement('span');
+        icon.classList.add('fa');
+        icon.classList.add(ax.icon);
+        span.prepend(icon);
+      }
+      access_elem.appendChild(span);
+    };
+    var asterics = ['*', '+', 'Δ', '◊', '‡', '§', '¶'];
+    (app.access || []).forEach(function(a) {
+      var parts = a.split(/!/);
+      var notes = true;
+      parts.forEach(function(p, idx) { 
+        if(idx > 0) {
+          if(!accesses.notes[p]) {
+          accesses.notes[p] = asterics.shift();
+          }
+          if(notes === true) { notes = []; }
+          notes.push(accesses.notes[p]);
+        }
+      });
+      accesses[parts[0]] = notes;
+      accesses.notes = accesses.notes || {};
+    });
+    (window.accessibility_options).forEach(function(ax) {
+      if(!ax.id.match(/^!/)) {
+        if(accesses[ax.id]) {
+          add_ax(ax);
+        } else {
+          missing.push(ax);
+        }
+      }
+    });
+    Object.keys(accesses.notes).forEach(function(n) {
+      var ax = window.accessibility_options.find(function(ax) { return ax.id == '!' + n; });
+      if(ax) { 
+        add_ax(ax);
+      }
+    });
+    if(missing.length > 0) {
+      document.querySelector('#show_missing_ax').style.display = 'inline-block';
+    }
+    missing.forEach(function(ax) {
+      add_ax(ax, true);
+    });
+    var platforms_elem = document.querySelector('#platforms');
+    (app.platforms || []).forEach(function(item) {
+      var span = document.createElement('span');
+      var elem = document.createElement('a');
+      elem.innerText = item[0];
+      elem.setAttribute('href', item[1]);
+      span.appendChild(elem);
+      if(item[0].match(/ios/i)) {
+        var ico = document.createElement('span');
+        ico.classList.add('fa');
+        ico.classList.add('fa-apple');
+        elem.prepend(ico);
+      } else if(item[0].match(/android/i)) {
+        var ico = document.createElement('span');
+        ico.classList.add('fa');
+        ico.classList.add('fa-android');
+        elem.prepend(ico);
+      } else if(item[0].match(/amazon/i)) {
+        var ico = document.createElement('span');
+        ico.classList.add('fa');
+        ico.classList.add('fa-amazon');
+        elem.prepend(ico);
+      } else if(item[0].match(/windows/i)) {
+        var ico = document.createElement('span');
+        ico.classList.add('fa');
+        ico.classList.add('fa-windows');
+        elem.prepend(ico);
+      } else if(item[0].match(/web/i)) {
+        var ico = document.createElement('span');
+        ico.classList.add('fa');
+        ico.classList.add('fa-chrome');
+        elem.prepend(ico);
+      }
+
+      platforms_elem.appendChild(span);
+    });
+    if(app_vocabs.length > 0) {
+      var list_elem = document.querySelector('#vocabs');
+      var max_care = 0;
+      app_vocabs.forEach(function(vocab) {
+        var elem = document.createElement('a');
+        elem.setAttribute('href', "/vocabularies/" + vocab.id);
+        elem.innerText = vocab.name;
+        max_care = Math.max(max_care, vocab.care_combined);
+        if(vocab.image_url) {
+          var img = document.createElement('img');
+          img.src = vocab.image_url;
+          img.setAttribute('alt', "");
+          elem.prepend(img);
+        }
+        if(vocab.care_combined) {
+          var care = document.createElement('div');
+          care.innerText = "CARE: " + vocab.care_combined;
+          care.classList.add('care');
+          elem.appendChild(care);
+        }
+        list_elem.appendChild(elem);
+      });
+      document.querySelector('#care_max').innerText = max_care || "Unknown";
+    } else {
+      document.querySelector('#vocabs').remove();
+    }
+
   } else {
     location.href = "/certifications";
   }

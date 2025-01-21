@@ -20,8 +20,9 @@ bg: 3
     margin-top: 10px;
   }
   #vocabs .care.top {
-    font-size: 20px;
-    color: rgb(78, 72, 82);
+    font-size: 18px;
+    color: #999
+    /*color: rgb(78, 72, 82);*/
     white-space: nowrap;
   }
   #vocabs .care div {
@@ -30,8 +31,8 @@ bg: 3
     white-space: nowrap;
   }
   #vocabs .care div.top {
-    font-size: 20px;
-    color: rgb(78, 72, 82);
+    font-size: 18px;
+    /* color: rgb(78, 72, 82); */
   }
   #vocabs .care div.full {
     font-size: 24px;
@@ -183,7 +184,7 @@ I can do it.
 abrupt, accept, hope, wish, meal, comply
     - 
 -->
-<div style='margin-bottom: 10px;'>
+<div style='margin-bottom: 25px;'>
   Filter:
   <select id='filter_platform' style='display: inline-block; width: 200px;'>
     <option value='all'>All Platforms</option>
@@ -219,7 +220,11 @@ abrupt, accept, hope, wish, meal, comply
     <tr>
       <th><a href="#" id='sort_vocab'>Vocabulary</a> (<span id='result_count'></span>)</th>
       <th>License & Apps</th>
-      <th><a href="#" id='sort_care'>CARE Score</a></th>
+      <th><a href="#" id='sort_care'>CARE Scores</a>
+        <a href="https://www.openboardformat.org/analysis" style='border-bottom: 0;'>
+          <span class='icon fa-info' style='display: inline-block; border: 2px solid #fff; color: #fff; background: rgba(0, 0, 0, 0.6); text-align: center; text-decoration: none; border-radius: 50px; width: 30px; height: 30px;'></span>
+        </a>
+      </th>
       <th>Description</th>
     </tr>
   </thead>
@@ -283,6 +288,10 @@ abrupt, accept, hope, wish, meal, comply
     }
     render();
   });
+  var apps_hash = {}
+  window.app_list.forEach(function(app) {
+    apps_hash[app.id] = app;
+  });
   var rendered = false;
   var render = function() {
     var vocabs = document.getElementById('vocabs');
@@ -298,17 +307,6 @@ abrupt, accept, hope, wish, meal, comply
     list = window.shuffle(list, day);
     var start_num = (day / 31) - 0.5;
     if(day % 2 == 0) { start_num = start_num * -1; }
-    list.forEach(function(item) {
-      item.care_combined = (item.care_rating || [0])[0];
-      var sizes = item.sizes || [item];
-      var max_care = 0;
-      sizes.forEach(function(s) {
-        if(s.care_score) {
-          max_care = Math.max(max_care, parseInt(s.care_score, 10) || 0);
-        }
-      });
-      item.care_combined = item.care_combined + max_care;
-    });
     list = list.sort(function(a, b) {
       if(render.sort == 'vocaba') {
         return a.name.localeCompare(b.name);
@@ -389,7 +387,11 @@ abrupt, accept, hope, wish, meal, comply
         vocab.querySelector('.name').appendChild(img);
       }
       vocab.querySelector('.apps').innerText = "";
-      var apps = [].concat(item.apps);
+      item.app_names = [];
+      (item.apps).forEach(function(app) {
+        item.app_names.push((apps_hash[app] || {name: app}).name);
+      });
+      var apps = [].concat(item.app_names);
       if(apps.length > 5) {
         apps = apps.sort(function(a, b) {
           start_num = start_num * -1;
@@ -406,7 +408,7 @@ abrupt, accept, hope, wish, meal, comply
       vocab.querySelector('.license').innerText = item.license;
       var max_score = 0;
       if(item.sizes) {
-        vocab.querySelector('.care').innerText = "";
+        vocab.querySelector('.care').innerHTML = "<div style='font-size: 12px; margin-bottom: -10px;'>Grid scores:<div>";
         var top = 0;
         item.sizes.forEach(function(size) {
           if(size.care_score > top) {
@@ -424,8 +426,8 @@ abrupt, accept, hope, wish, meal, comply
         })
       } else {
         vocab.querySelector('.care').classList.add('top');
-        vocab.querySelector('.care').innerText = item.rows + "x" + item.columns + " - " + item.care_score;
-        max_score = parseInt(item.care_score, 10) || 0;
+        vocab.querySelector('.care').innerHTML = "<div>" + item.rows + "x" + item.columns + " - " + item.care_score + "</div>";
+        max_score = parseFloat(item.care_score) || 0;
       }
       var max_care_score = max_score;
       var voters = 0;
@@ -439,7 +441,7 @@ abrupt, accept, hope, wish, meal, comply
       var d2 = document.createElement('div');
       d2.innerText = "from " + voters + " reviews";
       if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
-      else if(!max_care_score) { d2.innerText = "incomplete"; }
+      else if(!max_care_score) { d2.innerText = "incomplete grid score"; }
       div.appendChild(d2);
       div.classList.add('full');
       vocab.querySelector('.care').prepend(div);

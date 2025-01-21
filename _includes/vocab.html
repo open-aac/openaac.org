@@ -1,9 +1,4 @@
 <style>
-  .small_header {
-    font-size: 16px;
-    font-style: italic;
-    color: #888;
-  }
   #preview {
     max-width: 800px;
     max-height: 600px;
@@ -39,6 +34,26 @@
   .care_full {
     font-size: 26px;
   }
+  #apps span {
+    white-space: nowrap;
+  }
+  #apps span img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    object-position: center;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  #apps span:not(:first-child) {
+    padding-left: 10px;
+  }
+  #apps span:after {
+    content: ",";
+  }
+  #apps span:last-child:after {
+    content: "";
+  }
 </style>
 <div id="listing">
   <div style='margin-top: -90px; margin-bottom: 60px; margin-left: -40px;'>
@@ -50,12 +65,16 @@
       <img src="#" id='img' style='width: 150px; max-height: 150px; object-fit: contain; object-position: center; margin: -50px 0 0 -50px;' />  
       <img src="/images/check.png" style='position: absolute; bottom: 5px; left: 5px; width: 20px; display: none; filter: drop-shadow(0 0 0.5rem rgb(50, 50, 0))' id='approved_app'/>
     </div>
-    <h2 style='margin-left: 120px;'><span id='name'>Vocab</span> <span style='font-size: 20px;'>AAC Vocabulary</span></h2>
+    <h2 style='margin-left: 120px;'>
+      <span id='name'>Vocab</span> 
+      <span style='font-size: 20px;'>AAC Vocabulary</span>
+    </h2>
   </div>
   <div style='clear: left; margin-top: 30px;'>
     <div id="description"></div>
     <div id='description_more' style='display: none; margin-left: 30px; margin-top: -5px; margin-bottom: 5px;'><a href='#'>show full</a></div>
     <div class='small_header'>Last Reviewed: <span id='reviewed'></span></div>
+    <div class='small_header'>Created: <span id='created'></span></div>
     <!-- TODO: Specializations -->
     <div id="more" style='margin: 50px 0;'>
       <span class='small_header'>Available on the following platforms:</span>
@@ -63,16 +82,6 @@
 
       <span class='small_header'>Available in the following apps:</span>
       <div id='apps' style='margin-bottom: 20px;'></div>
-
-      <span class='small_header'>Preview:</span>
-      <img id='preview' style='display: none;' />
-      <div id='obfset_holder'></div>
-      <div id='obfset_disclaimer' style='display: none; margin-top: -35px;margin-bottom: 35px;font-size: 12px;font-style: italic; margin-left: 30px; width: 740px; line-height: 15px;'>
-        This dynamic rendering is for educational purposes only. It includes only
-        the textual structure of the vocabuarly, to help with understanding
-        the vocabulary's efficiency scores. If you are interested in seeing
-        the vocabulary in action, please contact the vendor/author.
-      </div>
 
       <span class='small_header'>CARE Score:</span>
       <div style='margin-left: 50px; margin-bottom: 30px;'>
@@ -85,6 +94,16 @@
         </div>
       </div>
 
+      <span class='small_header'>Preview:</span>
+      <img id='preview' style='display: none;' />
+      <div id='obfset_holder'></div>
+      <div id='obfset_disclaimer' style='display: none; margin-top: -35px;margin-bottom: 35px;font-size: 12px;font-style: italic; margin-left: 30px; width: 740px; line-height: 15px;'>
+        This dynamic rendering is for educational purposes only. It includes only
+        the textual structure of the vocabuarly, to help with understanding
+        the vocabulary's efficiency scores. If you are interested in seeing
+        the vocabulary in action, please contact the vendor/author.
+      </div>
+
       <span class='small_header'>Grid Sizes:</span>
       <table id='grids' class='table table-striped' style='margin-bottom: 20px;'>
         <thead>
@@ -92,6 +111,7 @@
             <th>Rows x Cols</th>
             <th>Boards</th>
             <th>Buttons</th>
+            <th>Unique Words</th>
             <th>CARE Efficiency Score</th>
           </tr>
         </thead>
@@ -100,7 +120,11 @@
             <td><a href="#" class='size'></a></td>
             <td class='boards'></td>
             <td class='buttons'></td>
-            <td class='care'></td>
+            <td class='words'></td>
+            <td>
+              <span class='care'></span>
+              <a href='#' class='care_link' style='display: none; font-size: 13px; margin-left: 5px;'>more details</a>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -146,7 +170,30 @@
     document.querySelectorAll('#description')[0].classList.toggle('short', height > 200);
     document.querySelectorAll('#description_more')[0].style.display = (height > 200) ? 'block' : 'none';
     document.querySelector('#platforms').innerText = (vocab.platforms || []).join(', ') || "None";
-    document.querySelector('#apps').innerText = (vocab.apps || []).join(', ') || "None";
+    var day = (new Date()).getDate();
+    var apps_hash = {};
+    window.app_list.forEach(function(app) {
+      apps_hash[app.id] = app;
+    });
+    var app_ids = shuffle(vocab.apps || [], day);
+    var apps = [];
+    app_ids.forEach(function(app_id) {
+      apps.push(apps_hash[app_id] || {name: app_id});
+    });
+    var apps_elem = document.querySelector('#apps');
+    apps.forEach(function(app) {
+      var cont = document.createElement('span');
+      var elem = document.createElement(app.id ? 'a' : 'span');
+      elem.innerText = app.name;
+      if(app.image_url) {
+        var img = document.createElement('img');
+        img.src = app.image_url;
+        elem.prepend(img);        
+      }
+      if(app.id) { elem.setAttribute('href', '/certifications/apps/' + app.id); }
+      cont.appendChild(elem);
+      apps_elem.appendChild(cont);
+    });
     if(!vocab.sizes) {
       vocab.sizes = [vocab];
     }
@@ -178,7 +225,12 @@
       });
       size.querySelector('.boards').innerText = vs.boards || '?';
       size.querySelector('.buttons').innerText = vs.buttons || '?';
+      size.querySelector('.words').innerText = vs.words || '?';
       size.querySelector('.care').innerText = vs.care_score || '?';
+      if(vs.care_score && vs.care_score > 0 && vs.id) {
+        size.querySelector('.care_link').setAttribute('href', "https://www.openboardformat.org/analyze?url=" + vs.id + "&comp=pc36")
+        size.querySelector('.care_link').style.display = 'inline';
+      }
       if(vs.care_score > care_score) {
         care_score = vs.care_score;
       }
@@ -193,8 +245,9 @@
     }
     document.querySelector('.care_score').innerText = care_score;
     document.querySelector('.care_rating').innerText = care_rating + " from " + votes + " evaluators";
-    document.querySelector('.care_full').innerText = Math.round(((parseInt(care_score, 10) || 0) + (parseInt(care_rating, 10) || 0)) * 100) / 100.0;
+    document.querySelector('.care_full').innerText = Math.round(((parseFloat(care_score) || 0) + (parseFloat(care_rating) || 0)) * 100) / 100.0;
 
+    document.querySelectorAll('#created')[0].innerText = (vocab.start_year || "Unknown") + " - " + (vocab.license || "private license");
     if(vocab.reviewed) {
       var d = new Date(vocab.reviewed * 1000);
       var str = d.toLocaleString('default', {month: 'long', year: 'numeric'})

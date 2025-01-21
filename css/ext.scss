@@ -105,6 +105,12 @@
 p a {
   font-weight: bold;
 }
+.small_header {
+  font-size: 16px;
+  font-style: italic;
+  color: #888;
+}
+
 
 .swing {
   animation: swing 3s ease-in-out 3, swing-home 1s 9s ease-in-out;

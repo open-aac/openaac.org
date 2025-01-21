@@ -19,6 +19,17 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 100 }}{% if page.excerpt %} - {{ page.excerpt | strip_html | strip_newlines | truncate: 100 }}{% endif %}{% else %}{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_html }}{% endif %}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{page.image | prepend: site.baseurl | prepend: site.url}}{% else %}{{'/images/logo.png' | prepend: site.baseurl | prepend: site.url}}{% endif %}" />  
   <script>
+      // accessibility options
+      //    'gaze', 'head', 'scan', 'prompt', 'fishing',
+      //    'highlight', 'dwell', 'hc', 'text', 'skin',
+      //    'asl', 'font-size', 'font', 'select', 'flip',
+      //    'swipe', 'kb', 'grammar', 'repairs', 'wait',
+      //    'oops', 'hold', 'find+', 'find',
+      // '!hw' = requires external hardware
+      // '!vend' = requires vendor-specific external hardware
+      // '!sys' = relies on platform-provided accessibility
+      // '!ipadpro' = requires iPad Pro models
+      // '!lim' = not available on all platforms
     window.app_list = [
       {
         name: "CoughDrop", 
@@ -26,7 +37,24 @@
         rank: 1, 
         url: "https://www.coughdrop.com", 
         image_url: "/images/2024/coughdrop.png", 
+        preview_url: "/images/2024/screenshots/qc60.png",
         video_id: "GOgzpO9_NwE",
+        trial: "2-month free trial for all users",
+        pricing: "$9 per month or $295 one-time fee, or $25 one-time supporter fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/coughdrop/id1021384570?ls=1"],
+          ['Android', "https://play.google.com/store/apps/details?id=com.mycoughdrop.coughdrop&pli=1"],
+          ['Amazon', "https://www.amazon.com/CoughDrop-Inc-AAC/dp/B01BU8RUEY/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1458589410&sr=1-1"],
+          ['Windows', "https://www.mycoughdrop.com/download"],
+          ['Web', "https://app.mycoughdrop.com"]
+        ],
+        access: [
+          'gaze', 'head', 'scan', 'prompt',
+          'highlight', 'dwell', 'hc', 'text', 'skin',
+          'font-size', 'font', 'select', 'flip',
+          'kb', 'grammar', 'repairs', 'wait',
+          'oops', 'hold', 'find+', 'find', 'keyboard'
+        ],
         desc: "CoughDrop is a cloud-based AAC app, available on popular app stores or on the web. CoughDrop provides robust vocabulary sets for a variety of functional levels, and includes built-in tools to help the vocabulary grow with the individual.\n\nCoughDrop allows the user to operate their AAC on multiple devices, and to share access with their support team. It includes training, reporting, tracking and assessment tools, and strict privacy controls to help the AAC user remain protected while also optimizing everyone's effort in supporting them.\n\nCoughDrop offers a free two-month trial for all users, followed by either one-time purchase or monthly subscription options.",
         reviewed: 1713208175
       },
@@ -36,7 +64,19 @@
         rank: 1, 
         url: "https://www.weavechat.com/", 
         image_url: "/images/2024/weave.png", 
-        video_id: "",
+        pricing: "free",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/weave-chat/id1579129212?amp%3Bitscg=30200&itsct=apps_box_badge"],
+          ['Android', "https://play.google.com/store/apps/details?id=com.weavechat.weavechat&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"],
+          ['Amazon', "https://www.amazon.com/gp/product/B0C9226JWP"],
+        ],
+        access: [
+          'text',
+          'font-size', 'font',
+          'swipe', 'kb', 'find', 'wait', 
+          'hold', 'find', 'keyboard', 'grammaer', 
+        ],
+        video_id: "i6-ik-pn1kk",
         desc: "Weave Chat AAC is a free and dynamic AAC application that can be used on iOS, Android (including Chromebooks), and Kindle devices. There are several boards to choose from, including the default “scrolling” board, which is designed to be used on a phone; additionally, there are a variety of grid boards, many of which are designed for the larger screen of a tablet. Features include custom buttons and phrases; record speech to a button; word finder; symbol or text-only functionality; in-app support; and individual & group texting with symbols and/or words. Spanish will be available in early 2025.",
         reviewed: 1715297412
       },
@@ -46,7 +86,19 @@
         rank: 1, 
         url: "https://speakforyourself.org/", 
         image_url: "/images/2024/sfy.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/sfy.png",
+        trial: "30-day free trial for all users",
+        pricing: "$299.99 one-time fee",
+        platforms: [
+          ['iOS', "https://itunes.apple.com/us/app/speak-for-yourself/id482508198?mt=8"],
+        ],
+        access: [
+          'text',
+          'font-size', 'font', 'select',
+          'kb', 'grammar', 'repairs',
+          'oops', 'hold', 'find', 'skin'
+        ],
+        video_id: "yiucOuLIcOI",
         desc: "Speak for Yourself (SfY) is an Augmentative and Alternative Communication (AAC) application that was created by speech-language pathologists.  This AAC app turns the iPad into a communication device. It gives a voice to adults and children who are not able to speak or are limited in their ability to express themselves verbally.",
         reviewed: 1716357600
       },
@@ -54,9 +106,20 @@
         name: "Grid", 
         id: "grid", 
         rank: 1, 
-        url: "https://thinksmartbox.com/", 
+        url: "https://thinksmartbox.com/grid/", 
         image_url: "/images/2024/grid.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/sc50.webp",
+        trial: "30-day free trial for all users",
+        pricing: "$10.99 per month or $299.99 one-time fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/gb/app/grid-for-ipad-subscription/id1064332378"],
+          ['Windows', "https://thinksmartbox.com/download-grid/"],
+        ],
+        access: [
+          'scan!vend', 'head!lim', 'font', 'font-size', 'hc',
+          'skin', 'kb', 'find', 'grammar', 'wait', 'repairs', 
+        ],
+        video_id: "5Ox4y1OrjdM",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 1715297412
       },
@@ -64,19 +127,39 @@
         name: "TouchChat HD",
         id: "touchchat",
         rank: 1,
-        url: "",
+        url: "https://touchchatapp.com/touchchat-hd-aac-with-wordpower",
         image_url: "/images/2024/touchchat.jpeg", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/wp80.png",
+        trial: "30-day free trial for all users",
+        pricing: "$299.99 one-time fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/touchchat-hd-aac-wordpower/id412351574"],
+        ],
+        access: [
+          'scan!vend', 'head', 'font', 'font-size', 'text',
+          'hc', 'skin', 'kb', 'find', 'grammar', 'wait', 'repairs', 
+        ],
+        video_id: "xj_t-BVIG3M",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
       {
-        name: "LAMP",
+        name: "LAMP Words for Life",
         id: "lamp",
         rank: 1,
-        url: "",
+        url: "https://lampwflapp.com/",
         image_url: "/images/2024/lampwfl.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/wfl.png",
+        trial: "trial available by contacting PRC-Saltillo consultant",
+        pricing: "$299.99 one-time fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/lamp-words-for-life/id551215116"],
+        ],
+        access: [
+          'scan!vend', 'head', 'kb', 'grammar', 
+          'font', 'font-size', 'find', 
+        ],
+        video_id: "VEfSVT5b5P4",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -84,9 +167,18 @@
         name: "Proloquo2Go",
         id: "p2go",
         rank: 1,
-        url: "",
+        url: "https://www.assistiveware.com/products/proloquo2go",
         image_url: "/images/2024/p2go.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/cres77.webp",
+        pricing: "$249.99 one-time fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/proloquo2go/id308368164?mt=8&at=11l5JI&pt=214921&ct=productpage"],
+        ],
+        access: [
+          'scan', 'font', 'font-size', 'skin', 'kb', 'find',
+          'grammar', 'wait', 'repairs',  
+        ],
+        video_id: "d3zKPHLk6-Q",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -94,9 +186,17 @@
         name: "Proloquo",
         id: "proloquo",
         rank: 1,
-        url: "",
+        url: "https://www.assistiveware.com/products/proloquo",
         image_url: "/images/2024/proloquo.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/crese60.png",
+        pricing: "$9.99 per month or $99.99 per year",
+        platforms: [
+          ['iOS', "https://apps.apple.com/app/apple-store/id1521978238?pt=214921&ct=ProductPage&mt=8"],
+        ],
+        access: [
+          'kb'
+        ],
+        video_id: "qLrjpA8Y0M4",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -104,9 +204,16 @@
         name: "PODD",
         id: "podd",
         rank: 1,
-        url: "",
+        url: "https://www.assistiveware.com/blog/what-is-podd",
         image_url: "/images/2024/podd.png", 
-        video_id: "",
+        preview_url: "/images/2024/screenshots/podd.png",
+        pricing: "$21.99 per month or $219.99 per year",
+        platforms: [
+          ['iOS (simPODD)', "https://apps.apple.com/app/simpodd/id1464489596?mt=8&at=11l5JI&pt=214921&ct=productpage&l=en"],
+          ['iOS (Grid)', "https://apps.apple.com/gb/app/grid-for-ipad-subscription/id1064332378"],
+          ['Windows (Grid)', "https://thinksmartbox.com/download-grid/"],
+        ],
+        video_id: "p87EqoE73q8",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -114,9 +221,19 @@
         name: "TD Snap",
         id: "td-snap",
         rank: 1,
-        url: "",
+        url: "https://us.tobiidynavox.com/pages/td-snap",
         image_url: "/images/2024/tdsnap.png", 
-        video_id: "",
+        trial: "30-day free trial for all users",
+        pricing: "$9.99 per month",
+        platforms: [
+          ['iOS', "https://apps.apple.com/us/app/td-snap/id1072799231"],
+        ],
+        access: [
+          'scan', 'fishing', 'gaze!vend',
+          'font', 'font-size', 'text', 'hc', 'skin',
+          'kb', 'find', 'grammar', 'wait', 'repairs', 
+        ],
+        video_id: "7rrC7MkQWHw",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -124,9 +241,17 @@
         name: "TD Communicator",
         id: "td-communicator",
         rank: 1,
-        url: "",
+        url: "https://us.tobiidynavox.com/pages/communicator-5",
         image_url: "/images/2024/tdcomm.png", 
-        video_id: "",
+        pricing: "$699 one-time fee",
+        platforms: [
+          ['iOS', "https://www.tobiidynavox.com/products/communicator-5"],
+        ],
+        access: [
+          'scan', 'gaze', 'head',
+          'font', 'font-size', 'text', 'kb'
+        ],
+        video_id: "h6aWGhAFpu0",
         desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
@@ -134,29 +259,37 @@
         name: "Avaz",
         id: "avaz",
         rank: 1,
-        url: "",
+        url: "https://avazapp.com/products/avaz-aac-app/",
         image_url: "/images/2024/avaz.png", 
-        video_id: "",
-        desc: "Grid is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
+        trial: "14-day free trial",
+        pricing: "$199 one-time fee",
+        platforms: [
+          ['iOS', "https://apps.apple.com/app/avaz-aac/id909574843"],
+          ['Android', "https://play.google.com/store/apps/details?id=com.avazapp.international.lite&referrer=utm_source%3Dwebsite%26utm_medium%3Dproduct-page"],
+        ],
+        access: [
+          'font-size', 'text', 'kb', 'find', 'grammaer',
+          'wait', 'repairs', 
+        ],
+        video_id: "HUK0ekwR0MQ",
+        desc: "Avaz is used by children and adults with communication difficulties across the world to have a voice and live more independently. Available on Windows and iPad, Grid always includes our premier symbol-centric vocabularies: Super Core, a research-based core vocabulary, and Voco Chat, a pragmatically organized symbol vocabulary. Grid can be used with a range of symbol libraries, including SymbolStix, PCS, and Widgit, with a wide variety of grid sets for all abilities and access modalities.",
         reviewed: 0
       },
+      // clicker: 'font-size', 'font', 'text', 'grammar', 'repairs'
       // Pasco (not approved yet)
-      // TouchChat, LAMP WFL, P2Go, Proloquo, TD Snap
-      // PODD, WeaveChat, TD Communicator, P4Text, Avaz
+      // Niki Talk 2 Pro, Talk Suite Pro
+      // simPODD, WeaveChat, P4Text, Clicker Communicator
       // Additional details to include:
-      // app store listings/OS options
       // specializations
       // types of alt access available
       // symbol libraries available
-      // price to purchase, addon costs 
-      // links to vocabs
     ];
     window.vocab_list = [
       {
         id: "qc",
         image_url: "/images/2024/quick-core-star.png",
         name: "Quick Core",
-        apps: ["CoughDrop"],
+        apps: ["coughdrop"],
         start_year: 2014,
         platforms: ["iOS", "Android", "Windows", "Web"],
         categories: ['motor'],
@@ -178,8 +311,9 @@
             id: "qc24",
             rows: 4,
             columns: 6,
-            buttons: 584,
+            buttons: 587,
             boards: 49,
+            words: 584,
             preview_url: "/images/2024/screenshots/qc24.png",
             care_score: 153.0,
           },
@@ -187,7 +321,8 @@
             id: "qc40",
             rows: 5,
             columns: 8,
-            buttons: 1624,
+            words: 1624,
+            buttons: 1630,
             boards: 63,
             preview_url: "/images/2024/screenshots/qc40.png",
             care_score: 187.7,
@@ -196,7 +331,8 @@
             id: "qc60",
             rows: 6,
             columns: 10,
-            buttons: 1959,
+            buttons: 1970,
+            words: 1959,
             boards: 61,
             preview_url: "/images/2024/screenshots/qc60.png",
             care_score: 197.8,
@@ -205,7 +341,8 @@
             id: "qc84",
             rows: 7,
             columns: 12,
-            buttons: 3832,
+            buttons: 3849,
+            words: 3832,
             boards: 77,
             preview_url: "/images/2024/screenshots/qc84.png",
             care_score: 214.4,
@@ -214,7 +351,8 @@
             id: "qc112",
             rows: 8,
             columns: 14,
-            buttons: 4349,
+            buttons: 4373,
+            words: 4349,
             boards: 78,
             preview_url: "/images/2024/screenshots/qc112.png",
             care_score: 216.8,
@@ -225,7 +363,7 @@
         id: "pc36",
         image_url: "/images/2024/project-core.png",
         name: "Universal Core",
-        apps: ["CoughDrop", "Speak For Yourself", "Proloquo2Go", "Avaz", "Clicker", "MindExpress", "Grid", "TD Snap"],
+        apps: ["coughdrop", "sfy", "p2go", "avaz", "Clicker", "MindExpress", "grid", "td-snap"],
         platforms: ["iOS", "Android", "Windows", "Web"],
         summary: "free, core list, 36 words, single-level meant as starting point\nNOTE: Project Core's CARE Score is provided as a reference point, its intended purpose differs from larger robust vocabularies and shouldn't be considered of lesser quality",
         care_rating: [72.50, 2],
@@ -234,15 +372,17 @@
         columns: 6,
         boards: 1,
         buttons: 36,
+        words: 36,
         preview_url: "/images/2024/screenshots/pc36.png",
         reviewed: 1732141244,
+        start_year: 2016,
         license: "CC-By, Project Core"
       },
       {
         id: "sfy",
         image_url: "/images/2024/sfy.png",
         name: "Speak For Yourself",
-        apps: ["Speak For Yourself"],
+        apps: ["sfy"],
         platforms: ["iOS"],
         categories: ['motor'],
         summary: "app-specific, core+motor-planning, 5,000+ words, all 2-levels, expansion without affecting motor plan",
@@ -254,18 +394,20 @@
         rows: 8,
         columns: 15,
         boards: 87,
-        buttons: 4993,
+        buttons: 5064,
+        words: 4993,
         preview_url: "/images/2024/screenshots/sfy.png",
         care_score: 203.7,
         care_rating: [101.49, 4],
         reviewed: 1732141244,
+        start_year: 2013,
         license: "Private, Speak For Yourself"
       },
       {
         id: "l84f",
         image_url: "/images/2024/lampwfl.png",
         name: "LAMP Words for Life",
-        apps: ["LAMP"],
+        apps: ["lamp"],
         platforms: ["iOS"],
         categories: ['motor'],
         summary: "proprietary, semantic compaction, 3-levels, 4000+ words, locations repeated for related concepts",
@@ -277,7 +419,8 @@
         rows: 7,
         columns: 12,
         boards: 480,
-        buttons: 4576,
+        buttons: 4579,
+        words: 4575,
         preview_url: "/images/2024/screenshots/wfl.png",
         care_rating: [96.40, 6],
         care_score: 198.2,
@@ -288,7 +431,7 @@
         id: "wp",
         image_url: "/images/2024/touchchat.jpeg",
         name: "WordPower",
-        apps: ["TouchChat", "Grid"],
+        apps: ["touchchat", "grid"],
         platforms: ["iOS", "Windows"],
         categories: ['category'],
         start_year: 2000,
@@ -306,8 +449,9 @@
             id: "wp20",
             rows: 4,
             columns: 5,
-            boards: 301,
-            buttons: 2085,
+            boards: 151,
+            buttons: 1306,
+            words: 1250,
             preview_url: "/images/2024/screenshots/wp20.png",
             care_score: 178.4
           },
@@ -315,8 +459,9 @@
             id: "wp42",
             rows: 6,
             columns: 7,
-            boards: 349,
-            buttons: 2462,
+            boards: 291,
+            buttons: 2266,
+            words: 2133,
             preview_url: "/images/2024/screenshots/wp42.png",
             care_score: 197.1
           },
@@ -324,8 +469,9 @@
             id: "wp60",
             rows: 6,
             columns: 10,
-            boards: 343,
-            buttons: 2658,
+            boards: 312,
+            buttons: 2565,
+            words: 2417,
             preview_url: "/images/2024/screenshots/wp60.png",
             care_score: 199.3
           },
@@ -334,7 +480,8 @@
             rows: 8,
             columns: 10,
             boards: 212,
-            buttons: 2460,
+            buttons: 2602,
+            words: 2459,
             preview_url: "/images/2024/screenshots/wp80.png",
             care_score: 184.9
           },
@@ -343,19 +490,21 @@
             rows: 9,
             columns: 12,
             boards: 212,
-            buttons: 2556,
+            buttons: 2703,
+            words: 2555,
             preview_url: "/images/2024/screenshots/wp108.png",
             care_score: 187.2
           },
         ],
         reviewed: 1732141244,
+        start_year: 2000,
         license: "Private, Inman Innovations"
       },
       {
         id: "vf",
         image_url: "/images/2024/vocal-flair-star.png",
         name: "Vocal Flair",
-        apps: ["CoughDrop"],
+        apps: ["coughdrop"],
         start_year: 2020,
         platforms: ["iOS", "Android", "Windows", "Web"],
         categories: ['category'],
@@ -376,6 +525,9 @@
             id: "vf24",
             rows: 4,
             columns: 6,
+            boards: 108,
+            buttons: 1603,
+            words: 1582,
             preview_url: "/images/2024/screenshots/vf24.png",
             care_score: 173.0,
           },
@@ -383,6 +535,9 @@
             id: "vf40",
             rows: 5,
             columns: 8,
+            boards: 96,
+            buttons: 1991,
+            words: 1968,
             preview_url: "/images/2024/screenshots/vf40.png",
             care_score: 186.8,
           },
@@ -390,6 +545,9 @@
             id: "vf60",
             rows: 6,
             columns: 10,
+            boards: 95,
+            buttons: 2515,
+            words: 2492,
             preview_url: "/images/2024/screenshots/vf60.png",
             care_score: 192.6,
           },
@@ -397,6 +555,9 @@
             id: "vf84",
             rows: 7,
             columns: 12,
+            boards: 98,
+            buttons: 2945,
+            words: 2912,
             preview_url: "/images/2024/screenshots/vf84.png",
             care_score: 191.7,
           },
@@ -411,6 +572,9 @@
             id: "vf112",
             rows: 8,
             columns: 14,
+            boards: 98,
+            buttons: 2975,
+            words: 2939,
             preview_url: "/images/2024/screenshots/vf112.png",
             care_score: 186.6,
           },
@@ -420,7 +584,7 @@
         id: "supercore",
         image_url: "/images/2024/super-core.png",
         name: "Super Core",
-        apps: ["Grid"],
+        apps: ["grid"],
         start_year: 2022,
         platforms: ["iOS", "Windows"],
         summary: "app-specific, core+categories, 3500+ words, multi-home, multi-levels",
@@ -433,12 +597,15 @@
         ],
         reviewed: 1736291412,
         care_rating: [80.0, 1],
-        license: "private, Smartbox",
+        license: "Private, Smartbox",
         sizes: [
           {
             id: "sc12",
             rows: 3,
             columns: 4,
+            boards: 75,
+            buttons: 450,
+            words: 284,
             preview_url: "/images/2024/screenshots/sc12.webp",
             care_score: 74.89,
           },
@@ -446,6 +613,9 @@
             id: "sc30",
             rows: 4,
             columns: 7,
+            buttons: 3163,
+            boards: 442,
+            words: 2887,
             preview_url: "/images/2024/screenshots/sc30.jpg",
             care_score: 184.06,
           },
@@ -453,6 +623,9 @@
             id: "sc50",
             rows: 6,
             columns: 9,
+            boards: 388,
+            buttons: 3173,
+            words: 2935,
             preview_url: "/images/2024/screenshots/sc50.webp",
             care_score: 183.76,
           },
@@ -462,7 +635,7 @@
         id: "vc12",
         image_url: "/images/2024/voco-chat.webp",
         name: "Voco Chat",
-        apps: ["Grid"],
+        apps: ["grid"],
         platforms: ["iOS", "Windows"],
         categories: ['pragmatic'],
         summary: "app-specific, pragmatic, 1000+ words/phrases, large-button contextually-sequenced layout",
@@ -473,18 +646,69 @@
         ],
         rows: 3,
         columns: 4,
+        boards: 367,
+        buttons: 1586,
+        words: 1457,
         start_year: 2020,
-        care_rating: [0, 0],
+        care_rating: [109,4, 1],
         care_score: 124.54,
         reviewed: 1736291412,
-        license: "private, Smartbox",
+        license: "Private, Smartbox",
       },
+      {
+        id: "bl99",
+        image_url: "/images/2024/beeline.webp",
+        preview_url: "/images/2024/screenshots/beeline.png",
+        name: "Beeline Touch",
+        apps: ["grid"],
+        platforms: ["iOS", "Windows"],
+        categories: ['motor'],
+        summary: "app-specific, core+motor planning, 1000+ words/phrases, 1- or 2-hit access to all words",
+        description: [
+          "app-specific, core+motor planning, 1000+ words/phrases, 1- or 2-hit access to all words",
+          "From the Vendor: A fast and efficient symbol communication grid set, giving access to the highest frequency core vocabulary in just one or two selections. With a rigid structure to support motor planning, vocabulary is organised logically, with words arranged in columns and grouped according to word meaning.",
+        ],
+        rows: 9,
+        columns: 11,
+        boards: 95,
+        buttons: 2131,
+        words: 1998,
+        start_year: 2020,
+        care_rating: [0, 0],
+        care_score: 158.79,
+        reviewed: 1736291412,
+        license: "Private, Sensory Software",
+      },
+      /*{
+        id: "st63",
+        image_url: "/images/2024/symbol-talker.webp",
+        preview_url: "/images/2024/screenshots/symbol-talker.png",
+        name: "Symbol Talker D",
+        apps: ["Grid"],
+        platforms: ["iOS", "Windows"],
+        categories: ['motor'],
+        summary: "app-specific, core+motor planning, 1000+ words/phrases, 1- or 2-hit access to all words",
+        description: [
+          "app-specific, core+motor planning, 1000+ words/phrases, 1- or 2-hit access to all words",
+          "From the Vendor: A fast and efficient symbol communication grid set, giving access to the highest frequency core vocabulary in just one or two selections. With a rigid structure to support motor planning, vocabulary is organised logically, with words arranged in columns and grouped according to word meaning.",
+        ],
+        rows: 9,
+        columns: 11,
+        boards: 95,
+        buttons: 2131,
+        words: 1998,
+        start_year: 2020,
+        care_rating: [0, 0],
+        care_score: 158.79,
+        reviewed: 1736291412,
+        license: "Private, Sensory Software",
+      },*/
       {
         id: "seq15",
         image_url: "/images/2024/sequoia-15.png",
         preview_url: "/images/2024/screenshots/seq15.png",
         name: "Sequoia",
-        apps: ["CoughDrop"],
+        apps: ["coughdrop"],
         categories: ['pragmatic'],
         summary: "free, pragmatic, 1500+ words/phrases, large-button contextually-sequenced layout",
         description: [
@@ -500,7 +724,8 @@
         rows: 3,
         columns: 5,
         boards: 247,
-        buttons: 1596,
+        buttons: 1650,
+        words: 1610,
         care_rating: [75.80, 1],
         care_score: 144.71,
         reviewed: 1736291412,
@@ -519,7 +744,8 @@
         rows: 3,
         columns: 6,
         boards: 43,
-        buttons: 723,
+        buttons: 731,
+        words: 723,
         care_rating: [50.80, 1],
         care_score: 81.56,
         reviewed: 1736291412,
@@ -538,9 +764,11 @@
         columns: 11,
         boards: 6,
         buttons: 134,
-        care_rating: [0, 0],
+        words: 134,
+        care_rating: [57, 1],
         care_score: 82.69,
         reviewed: 1736291412,
+        start_year: 2020,
         license: "GPLv3 CBoard",
       },
       {
@@ -562,16 +790,20 @@
         categories: ['keyboard'],
         rows: 3,
         columns: 5,
+        boards: 184,
+        buttons: 749,
+        words: 661,
         care_rating: [0, 0],
         care_score: 98.89,
         reviewed: 1736291412,
-        license: "private, Amy Roman",
+        start_year: 2000,
+        license: "Private, Amy Roman",
       },
       {
         id: "coreword",
         image_url: "/images/2024/coreword.avif",
         name: "Core Word",
-        apps: ["CoughDrop", "ProSlate", "WinSlate"],
+        apps: ["coughdrop", "ProSlate", "WinSlate"],
         platforms: ["iOS", "Android", "Windows", "Web"],
         categories: ['category'],
         summary: "proprietary, core+categories",
@@ -586,6 +818,9 @@
             id: 'cw6',
             rows: 2,
             columns: 3,
+            boards: 37,
+            buttons: 111,
+            words: 107,
             preview_url: "/images/2024/screenshots/cw6.avif",
             care_score: 57.8
           },
@@ -600,6 +835,9 @@
             id: 'cw20',
             rows: 4,
             columns: 5,
+            boards: 80,
+            buttons: 587,
+            words: 557,
             preview_url: "/images/2024/screenshots/cw20.avif",
             care_score: 127.21
           },
@@ -607,6 +845,9 @@
             id: 'cw40',
             rows: 5,
             columns: 8,
+            boards: 121,
+            buttons: 1248,
+            words: 1118,
             preview_url: "/images/2024/screenshots/cw40.avif",
             care_score: 164.47
           },
@@ -614,6 +855,9 @@
             id: 'cw60',
             rows: 6,
             columns: 10,
+            boards: 137,
+            buttons: 1384,
+            words: 1303,
             preview_url: "/images/2024/screenshots/cw60.avif",
             care_score: 168.88
           },
@@ -621,13 +865,13 @@
         start_year: 2020,
         care_rating: [0, 0],
         reviewed: 1736291412,
-        license: "private, Forbes AAC",
+        license: "Private, Forbes AAC",
       },
       {
         id: "crescendo",
         image_url: "/images/2024/p2go.png",
         name: "Crescendo",
-        apps: ["Proloquo2Go"],
+        apps: ["p2go"],
         platforms: ["iOS"],
         categories: ['category'],
         summary: "app-specific, core+categories",
@@ -661,14 +905,14 @@
         start_year: 2020,
         care_rating: [89.28, 5],
         reviewed: 1736291412,
-        license: "private, AssistiveWare",
+        license: "Private, AssistiveWare",
       },
       {
         id: "crescendo_evo",
         image_url: "/images/2024/crescendo-evolution.png",
         preview_url: "/images/2024/screenshots/crese60.png",
         name: "Crescendo Evolution",
-        apps: ["Proloquo"],
+        apps: ["proloquo"],
         platforms: ["iOS"],
         categories: ["category"],
         summary: "app-specific, core+categories, core layout is fixed for consistency",
@@ -686,14 +930,14 @@
         care_rating: [104.05, 2],
         care_score: "unknown",
         reviewed: 1736291412,
-        license: "private, AssistiveWare",
+        license: "Private, AssistiveWare",
       },
       {
         id: "podd",
         image_url: "/images/2024/podd.png",
         preview_url: "/images/2024/screenshots/podd.png",
         name: "PODD",
-        apps: ["TD Communicator", "SimPODD", "Grid"],
+        apps: ["TD Communicator", "SimPODD", "grid"],
         platforms: ["iOS", "Windows"],
         categories: ['pragmatic'],
         summary: "proprietary, pragmatic, paper-based with dynamic implementations",
@@ -726,7 +970,7 @@
         id: "clicker",
         image_url: "/images/2024/clicker.jpeg",
         preview_url: "/images/2024/screenshots/podd.png",
-        name: "Clicker Communicator Vocabulary",
+        name: "Clicker Communicator",
         apps: ["Clicker"],
         platforms: ["iOS"],
         categories: ['category'],
@@ -767,6 +1011,176 @@
       },
       // TODO: Snap Core First, Snap Motor Plan
       // Avaz, WeaveChat, CBoard, GoTalk Now Plus
+    ];
+    window.vocab_list.forEach(function(vocab) {
+      vocab.care_combined = (vocab.care_rating || [0])[0];
+      var sizes = vocab.sizes || [vocab];
+      var max_care = 0;
+      sizes.forEach(function(s) {
+        if(s.care_score) {
+          max_care = Math.max(max_care, parseFloat(s.care_score) || 0);
+        }
+      });
+      vocab.care_combined = Math.round((vocab.care_combined + max_care) * 10.0) / 10.0;
+      if(isNaN(vocab.care_combined)) { vocab.care_combined = null; }
+    });
+      // '!hw' = requires external hardware
+      // '!vend' = requires vendor-specific external hardware
+      // '!sys' = not implemented by app, relies on platform-provided accessibility
+      // '!ipadpro' = requires iPad Pro models
+      // '!lim' = not available on all platforms
+
+    window.accessibility_options = [
+      {
+        id: 'gaze',
+        icon: 'fa-eye',
+        label: "eye gaze for selection"
+      },
+      {
+        id: 'head',
+        icon: 'fa-user',
+        label: "head-tracking for selection"
+      },
+      {
+        id: 'scan',
+        icon: 'fa-bars',
+        label: "row/column-based scanning"
+      },
+
+      {
+        id: 'prompt',
+        icon: 'fa-volume-down',
+        label: "auditory prompts"
+      },
+      {
+        id: 'fishing',
+        icon: 'fa-headphones',
+        label: "auditory fishing"
+      },
+      {
+        id: 'highlight',
+        icon: 'fa-lightbulb-o',
+        label: "highlight on select"
+      },
+      {
+        id: 'dwell',
+        icon: 'fa-mouse-pointer',
+        label: "dwell selection options"
+      },
+
+      {
+        id: 'hc',
+        icon: 'fa-adjust',
+        label: "high-contrast symbols"
+      },
+      {
+        id: 'text',
+        icon: 'fa-arrows-v',
+        label: "text above or below symbols"
+      },
+      {
+        id: 'skin',
+        icon: 'fa-female',
+        label: "adjustable skin-tones"
+      },
+      {
+        id: 'asl',
+        icon: 'fa-hand-spock-o',
+        label: "ASL symbols"
+      },
+
+      {
+        id: 'font-size',
+        icon: 'fa-desktop',
+        label: "font size"
+      },
+      {
+        id: 'font',
+        icon: 'fa-font',
+        label: "multiple font styles"
+      },
+      {
+        id: 'select',
+        icon: 'fa-hand-pointer-o',
+        label: "select options/debounce"
+      },
+
+      {
+        id: 'flip',
+        icon: 'fa-rotate-left',
+        label: "flip sentence box"
+      },
+
+      {
+        id: 'swipe',
+        icon: 'fa-hand-o-left',
+        label: "scrolling/swiping"
+      },
+      {
+        id: 'kb',
+        icon: 'fa-keyboard-o',
+        label: "keyboard"
+      },
+      {
+        id: 'grammar',
+        icon: 'fa-commenting-o',
+        label: "grammar inflections"
+      },
+
+      {
+        id: 'repairs',
+        icon: 'fa-wrench',
+        label: "sentence repairs"
+      },
+      {
+        id: 'wait',
+        icon: 'fa-ellipsis-h',
+        label: "wait-while-I-type message"
+      },
+      {
+        id: 'oops',
+        icon: 'fa-times',
+        label: "\"oops\" button"
+      },
+      {
+        id: 'hold',
+        icon: 'fa-clock-o',
+        label: "hold-that-thought"
+      },
+
+      {
+        id: 'find',
+        icon: 'fa-search',
+        label: "find a button"
+      },
+      {
+        id: 'find+',
+        icon: 'fa-search-plus',
+        label: "find a button sequence"
+      },
+      {
+        id: '!hw',
+        label: "requires external hardware"
+      },
+      {
+        id: '!vend',
+        label: "requires vendor-specific external hardware"
+      },
+      {
+        id: '!sys',
+        label: "relies on platform-provided accessibility options"
+      },
+      {
+        id: '!ipadpro',
+        label: "requires iPad Pro models"
+      },
+      {
+        id: '!lim',
+        label: "not available on all platforms"
+      },
+      // TODO: message banking, personalized voice, phonics keyboard
+      // split repairs into social (I can give you a clue, etc.)
+      // and independent (revisions)
     ];
   </script>
   <script>
