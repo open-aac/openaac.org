@@ -21,7 +21,7 @@ our work!</p>
 <div style='width: 400px; max-width: 100%; margin: 0 auto;'>
   <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
     <img src="/images/paypal.png" style='float: left; width: 80px;'/>
-    Donate to<br/>OpenAAC!
+    Donate to<br/>OpenAAC
   </a>
 </div>
 <p>A special thank-you to all of the people who contribute

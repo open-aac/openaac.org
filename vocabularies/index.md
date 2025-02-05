@@ -387,16 +387,23 @@ abrupt, accept, hope, wish, meal, comply
         vocab.querySelector('.name').appendChild(img);
       }
       vocab.querySelector('.apps').innerText = "";
-      item.app_names = [];
+      item.apps_ranked = [];
+      // TODO: include 
       (item.apps).forEach(function(app) {
-        item.app_names.push((apps_hash[app] || {name: app}).name);
+        var app_ref = Object.assign({}, apps_hash[app] || {name: app});
+        if(app_ref.reviewed > 0) {
+          app_ref.rank = 1;
+        } else if(app_ref.reviewed === 0) {
+          app_ref.rank = 2;
+        } else {
+          app_ref.rank = 3;
+        }
+        item.apps_ranked.push(app_ref)
       });
-      var apps = [].concat(item.app_names);
+
+      item.apps_ranked = shuffle(item.apps_ranked, (new Date()).getDate()).sort(function(a, b) { return a.rank - b.rank; });
+      var apps = item.apps_ranked.map(function(a) { return a.name; });
       if(apps.length > 5) {
-        apps = apps.sort(function(a, b) {
-          start_num = start_num * -1;
-          return start_num;
-        });
         apps = apps.slice(0, 5)
         apps.push("...");
       }

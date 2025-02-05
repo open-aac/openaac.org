@@ -56,7 +56,7 @@
   }
 </style>
 <div id="listing">
-  <div style='margin-top: -90px; margin-bottom: 60px; margin-left: -40px;'>
+  <div style='margin-top: -30px; margin-bottom: 60px; margin-left: -40px;'>
     <a href="/vocabularies">&larr; see all vocabularies</a>
     <div style='clear: both;'></div>  
   </div>
@@ -178,9 +178,18 @@
     var app_ids = shuffle(vocab.apps || [], day);
     var apps = [];
     app_ids.forEach(function(app_id) {
-      apps.push(apps_hash[app_id] || {name: app_id});
+      var app_ref = Object.assign({}, apps_hash[app_id] || {name: app_id});
+      if(app_ref.reviewed > 0) {
+        app_ref.rank = 1;
+      } else if(app_ref.reviewed === 0) {
+        app_ref.rank = 2;
+      } else {
+        app_ref.rank = 3;
+      }
+      apps.push(app_ref);
     });
     var apps_elem = document.querySelector('#apps');
+    apps = shuffle(apps, (new Date()).getDate()).sort(function(a, b) { return a.rank - b.rank; });
     apps.forEach(function(app) {
       var cont = document.createElement('span');
       var elem = document.createElement(app.id ? 'a' : 'span');

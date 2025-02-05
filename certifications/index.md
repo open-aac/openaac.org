@@ -43,6 +43,9 @@ bg: 3
   #apps_list {
     margin: 20px 0;
   }
+  #apps_list a.caption {
+    box-shadow: 3px 3px 5px  #777;
+  }
   #other_apps_list {
     margin: 20px 0;
   }
