@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Vocabularies
-page_title: Vocabularies
+title: AAC Vocabularies Index
+page_title: AAC Vocabularies
 description: Apples-to-Apples Comparisons
 include_nav: true
 bg: 3
@@ -44,6 +44,9 @@ bg: 3
     font-style: italic;
     margin-top: -5px;
     font-weight: normal;
+  }
+  #vocabs .license {
+    line-height: 22px;
   }
   a.caption {
     display: inline-block;

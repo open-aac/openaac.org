@@ -70,7 +70,7 @@ as an ongoing OpenAAC sponsor, please contact us for
 more information. Membership fees are based on yours or
 your corporate parent's annual revenue: $2,500USD for >$25M
 revenue, $1,000USD for $500k-$10M revenue, and $250USD for
-<$500k revenue.</p>
+<$500k revenue. <i>Membership benefits are valued at ~$250USD per year</i>.</p>
 
 <h2>Additional Donation Opportunities</h2>
 <img src="https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/prize.png" class='participate_pic'/>
@@ -81,7 +81,7 @@ make a minimum donation to faciliate their certification review.
 The donation amount is $200USD for large organizations, $75USD
 for small organizations (< $500k annual revenue). Non-profit 
 organizations and fully free (no upselling) apps may certify
-for free.
+for free. <i>Certifications are valued at ~$25USD each</i>.
 </p>
 
 <div style='margin-top: 50px; color: #888;'>
