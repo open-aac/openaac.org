@@ -3,6 +3,7 @@ layout: post
 title: AAC GPA
 include_nav: false
 description: AAC Ecosystem's Grades for the Year 2024
+hidden: true
 image: /images/2025/state-of-aac.png
 ---
 
