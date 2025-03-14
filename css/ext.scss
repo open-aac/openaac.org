@@ -1,6 +1,9 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+html {
+  scrollbar-color: #888 rgba(255, 255, 255, 0.8);
+}
 .link_list {
   max-width: 400px;
   margin: 10px auto;

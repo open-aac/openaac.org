@@ -4,15 +4,21 @@ title: AAC GPA
 include_nav: false
 description: AAC Ecosystem's Grades for the Year 2024
 hidden: true
-image: /images/2025/state-of-aac.png
+image: /images/2025/gpa.png
+display_image: /images/2025/state-of-aac.png
 ---
 
 As part of this year's <a href="/2025/03/03/state-of-aac-2025.html">State of AAC report</a>, we wanted to do more than just report on industry happenings, but also try to look hard at where things are and how they could be better. There are a lot of areas that need to work well to have a healthy ecosystem, and we hope we can help raise the right conversations to keep things improving. We wanted something that would be easy to reference and compare year-to-year, so we settled on the idea of a report card. Check it out here:
 
 <style>
-  h2 {
+  .inner h2 {
     font-weight: bold;
     color: #347ab3 !important;
+  }
+  .named_link {
+    display: block;
+    margin-bottom: 50px;
+    visibility: hidden;
   }
   h3 {
     font-style: italic;
@@ -83,47 +89,47 @@ As part of this year's <a href="/2025/03/03/state-of-aac-2025.html">State of AAC
   <div style='margin-left: 10px; font-style: italic;'>How well are things working for...</div>
   <div class='grades'>
   <div>
-    <span>Community:</span> 
+    <span><a href="#community">Community:</a></span> 
     <span style='display: none;'>2.4</span>
     <span style='color: #c9bc00ff;'>C+</span>
   </div><div>
-    <span>Advocacy:</span>
+    <span><a href="#advocacy">Advocacy:</a></span>
     <span style='display: none;'>2.0 </span>
     <span style='color: #c9bc00ff;'>C</span>
   </div><div>
-    <span>Business:</span>
+    <span><a href="#business">Business:</a></span>
     <span style='display: none;'>2.2 </span>
     <span style='color: #c9bc00ff;'>C</span>
   </div><div>
-    <span>Research:</span>
+    <span><a href="#research">Research:</a></span>
     <span style='display: none;'>1.8 </span>
     <span style='color: #c9bc00ff;'>C-</span>
   </div><div>
-    <span>Individualization:</span>
+    <span><a href="#individualization">Individualization:</a></span>
     <span style='display: none;'>2.6 </span>
     <span style='color: #c9bc00ff;'>C+</span>
   </div><div>
-    <span>Families:</span>
+    <span><a href="#families">Families:</a></span>
     <span style='display: none;'>3.0 </span>
     <span style='color:rgb(122, 150, 0);'>B</span>
   </div><div>
-    <span>Practitioners:</span>
+    <span><a href="#practitioners">Practitioners:</a></span>
     <span style='display: none;'>2.2 </span>
     <span style='color: #c9bc00ff;'>C</span>
   </div><div>
-    <span>Marketing/Outreach:</span>
+    <span><a href="#marketing">Marketing/Outreach:</a></span>
     <span style='display: none;'>1.4 </span>
     <span style='color: #d27500;'>D+</span>
   </div><div>
-    <span>Education:</span>
+    <span><a href="#education">Education:</a></span>
     <span style='display: none;'>0.6 </span>
     <span style='color: #ea3838;'>F</span>
   </div><div>
-    <span>Funding:</span>
+    <span><a href="#funding">Funding:</a></span>
     <span style='display: none;'>1.6 </span>
     <span style='color: #d27500;'>D+</span>
   </div><div>
-    <span>Openness:</span>
+    <span><a href="#openness">Openness:</a></span>
     <span style='color: #c9bc00ff;'>C-</span>
   </div>
   </div>
@@ -133,7 +139,7 @@ For the report, we gathered ands selected from a pool of individuals who were re
 
 There is definitely overlap between the sections, but we figure that's ok. Please share your thoughts on how you'd suggest we adjust this list going forward -- the goal was to start with something and move ahead from here. For each section, we will summarize the general sentiment, potentially including direct quotes from one or more participants.
 
-
+<a class='named_link' name="community"></a>
 <h2>Community:</h2>
 <div class='aspect'>(engagement, collaboration, stewardship, getting questions answered, embracing of different opinions)</div>
 <div class='grade_box'>
@@ -164,6 +170,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - How do we foster a "big-tent" community where we can do better than just tolerate different ideas
   - We won't make progress by "just can't even"-ing with opposing viewpoints, but we also need to be sensitive to those who have experienced past trauma and aren't in a place to engage
 
+<a class='named_link' name="advocacy"></a>
 <h2>Advocacy:</h2>
 <div class='aspect'>(protecting AAC user rights, respecting AAC user autonomy and privacy, legal protections and accommodations, elevating AAC user voices, proper treatment in school settings)</div>
 <div class='grade_box'>
@@ -197,7 +204,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Industry discussions about navigating the tradeoffs between privacy and actionable data
   - Engage AAC users for *real* jobs, presentations, etc.
 
-  
+<a class='named_link' name="business"></a>  
 <h2>Business:</h2>
 <div class='aspect'>(healthy competition, innovation, affordability, broad adoption of good ideas, interoperability, responsiveness to support requests, overall market size)</div>
 <div class='grade_box'>
@@ -229,6 +236,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Hard look at whether our business models can sustain a healthy AAC market
   - Push for cross-product collaborations
 
+<a class='named_link' name="research"></a>
 <h2>Research:</h2>
 <div class='aspect'>(new research happening, ongoing work getting proper funding, research disseminated to drive best practices, AAC user voices are given proper weight)</div>
 <div class='grade_box'>
@@ -252,6 +260,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Where are AAC research projects aggregated and shared? How are AAC users recruited?
   - AAC users, due to barriers, seem more likely to pursue non-traditional avenues of research. If these are rejected for conferences out of hand, then there is a problem.
 
+<a class='named_link' name="individualization"></a>
 <h2>Individualization:</h2>
 <div class='aspect'>(diversity of options, access methods and vocabulary styles, ease of personalization, freedom of choice, user groups and mentoring happening)</div>
 <div class='grade_box'>
@@ -275,6 +284,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Examine industry opportunities for interoperability
   - Incorporate AAC supporter training into strategy so that everyone around each AAC user is proficient in their vocabulary
 
+<a class='named_link' name="families"></a>
 <h2>Families:</h2>
 <div class='aspect'>(knowledge of how to start with AAC, ongoing training and support, discoverability of options, empowerment)</div>
 <div class='grade_box'>
@@ -299,6 +309,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   <h3>Extra Credit:</h3>
   - How can we raise awareness of AAC for those who need it but don't know it's an option?
 
+<a class='named_link' name="practitioners"></a>
 <h2>Practitioners:</h2>
 <div class='aspect'>(continuing education, awareness of new and existing options, support materials available, adherence to best practices, AAC instruction at University)</div>
 <div class='grade_box'>
@@ -325,6 +336,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Film your work -- even if it makes you nervous! Don't fret if you do something wrong, we all need to learn more from each other and many people don't have anyone else to learn from!
   - How can we expand AAC expertise to underserved areas?
 
+<a class='named_link' name="marketing"></a>
 <h2>Marketing/Outreach:</h2>
 <div class='aspect'>(general population education, well-defined and well-understood best practices, awareness of new and existing options, people can find quality options over junk)</div>
 <div class='grade_box'>
@@ -351,6 +363,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - How do you know, other than by word of mouth, which apps are, say, easy to edit?
   - What disability communities can benefit from AAC but aren't generally aware?
 
+<a class='named_link' name="education"></a>
 <h2>Education:</h2>
 <div class='aspect'>(AAC communication is normalized and honored, literacy teaching, grade-level equivalent teaching, AAC user autonomy respected, opportunities for creativity)</div>
 <div class='grade_box'>
@@ -381,6 +394,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - Work toward whole-program initiatives that support literacy learning and exposure for AAC users
   - Examine how institutional pressure for measurable progress is particularly problematic for many AAC users
 
+<a class='named_link' name="funding"></a>
 <h2>Funding:</h2>
 <div class='aspect'>(insurance is funding devices with reasonable level of effort, charities are accessible and able to help, low-cost or free options exist, gatekeeping of purchases kept to a minimum)</div>
 <div class='grade_box'>
@@ -407,8 +421,9 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   - We need more pushback if districts or programs refuse to allow AAC devices to go home with the student
   - Is there a way to apply broad pressure on insurance companies for taking so long to approve AAC devices?
 
+<a class='named_link' name="openness"></a>
 <h2>Openness:</h2>
-<div class='aspect'>asdf</div>
+<div class='aspect'>(free and open alternatives, industry standards, interoperability, open-licensed content)</div>
 <div class='grade_box'>
   <span style='color: #c9bc00ff;'>C-</span>
 </div>
