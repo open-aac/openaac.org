@@ -17,10 +17,10 @@ bg: 5
   {% for post in site.posts %}
     {% if post.hidden %}
     {% else %}
-    <li style='min-height: 165px;'>
+    <li style='min-height: 165px; margin-bottom: 50px;'>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {% if post.image %}
-        <img src="{{post.image}}" style='max-width: 100%; max-height: 80px; float: right; margin: 0 0 10px 15px; border: 1px solid #aaa; padding: 5px; border-radius: 10px;'/>
+        <img src="{{post.image}}" style='max-width: 300px; max-height: 120px; float: right; margin: 0 0 10px 15px; border: 1px solid #aaa; padding: 5px; border-radius: 10px;'/>
       {% endif %}
       {{ post.excerpt | strip_html }}
       <span style='clear: both;'></span>
