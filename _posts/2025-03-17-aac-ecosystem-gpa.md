@@ -3,7 +3,6 @@ layout: post
 title: AAC GPA
 include_nav: false
 description: AAC Ecosystem's Grades for the Year 2024
-hidden: true
 image: /images/2025/gpa.png
 display_image: /images/2025/state-of-aac.png
 ---
@@ -42,6 +41,16 @@ As part of this year's <a href="/2025/03/03/state-of-aac-2025.html">State of AAC
   }
   .grades div {
     padding: 10px 0;
+  }
+  .grades div:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";    
   }
   .grades div:hover {
     background: #eee;
@@ -135,7 +144,7 @@ As part of this year's <a href="/2025/03/03/state-of-aac-2025.html">State of AAC
   </div>
 </div>
 
-For the report, we gathered ands selected from a pool of individuals who were recommended for having a broad perspective across the AAC ecosystem. The ongoing plan is to select a rotating subset from this list. Each participant filled out a basic likert-scale survey ("The situation in this aspect of the AAC ecosystem is healthy and working well.") and open-ended comments for different aspects of the AAC ecosystem. This first year we kept the number of participants on the small side as we get our feet under us.
+For the report, we gathered ands selected from a pool of individuals who were recommended for having a broad perspective across the AAC ecosystem. The ongoing plan is to select a rotating subset from this list. Each participant filled out a basic likert-scale survey ("The situation in this aspect of the AAC ecosystem is healthy and working well.") and open-ended comments for different aspects of the AAC ecosystem. The scores for each section are the average of these results across all participants and mapped to <a href="https://bigfuture.collegeboard.org/plan-for-college/get-started/how-to-convert-gpa-4.0-scale">a letter grade</a>. This first year we kept the number of participants on the small side as we get our feet under us.
 
 There is definitely overlap between the sections, but we figure that's ok. Please share your thoughts on how you'd suggest we adjust this list going forward -- the goal was to start with something and move ahead from here. For each section, we will summarize the general sentiment, potentially including direct quotes from one or more participants.
 
@@ -150,7 +159,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 
   <blockquote>"More and more people are using AAC, we need to have a good way to count how many people are using it and what types of AAC. This is a terrific problem to have, but we need to find out how many do we have to better serve them."</blockquote>
 
-  Based on the responses we received, the AAC currently has lots of communities serving different groups, with a healthy amount of engagement. There is a mixed quality of content when it comes to answers to questions, and differences of opinions are not always handles in a productive way.  
+  Based on the responses we received, the AAC currently has lots of communities serving different groups, with a healthy amount of engagement. There is a mixed quality of content when it comes to answers to questions, and differences of opinions are not always handled in a productive way.  
 
   <blockquote>"I think there are some serious shifts in our field and the lack of healthy, respectful discourse is not only disheartening but also preventing us from being able to really move forward with new ideas."</blockquote>
 
@@ -165,9 +174,9 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 
   <h3>Extra Credit:</h3>
   - Do we need a knowledge base people can reference for repeat questions?
-  - AAC User Census - Who could take on a project like that? How to safely assess the AAC population while honoring privacy?
+  - AAC User Census - Who could take on a project like that? How to safely assess the AAC population while honoring privacy? <a href="https://communicationfirst.org/aac-counts/">See also Communication First's work</a>.
   - How to call out misinformation without being confrontational
-  - How do we foster a "big-tent" community where we can do better than just tolerate different ideas
+  - How do we foster a "big-tent" community where we can do better than just tolerate different ideas?
   - We won't make progress by "just can't even"-ing with opposing viewpoints, but we also need to be sensitive to those who have experienced past trauma and aren't in a place to engage
 
 <a class='named_link' name="advocacy"></a>
@@ -228,10 +237,10 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   <h3>Make-Up Work Opportunities:</h3>
   - Vendors, update your vocabularies. If you need help, maybe ask a GenAI: "which words here are outdated"
   - If you wish something was different with an AAC app, say something!
-  - More scrutiny around AAC vocabularies (survey?)
+  - More scrutiny around AAC vocabularies
 
   <h3>Extra Credit:</h3>
-  - Apps should steal each others' features more often!
+  - Apps should copy each others' features more often!
   - We need to change the paradigm and stop thinking of AAC vocabularies as set in stone, we should expect them to be improved regularly
   - Hard look at whether our business models can sustain a healthy AAC market
   - Push for cross-product collaborations
@@ -252,7 +261,8 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
   With larger online communities, it's becoming possible to recruit more AAC users directly online, but sometimes this doesn't always happen in the best way. Our respondents reported that some survey work requires people to report their connection to the AAC field, and AAC users who are also researchers would be required to select "AAC User" OR "Researcher" instead of having an option to select both. Additionally, online recruiting runs the risk of skewing results when it's easier for part-time AAC users or keyboard-based AAC communicators to respond than the general population of AAC users.
 
   <h3>Make-Up Work Opportunities:</h3>
-  - When asking people what their role is, don't require them to select "AAC User" OR "Researcher" OR "Advocate".
+  - When asking people what their role is, don't require them to select "AAC User" OR "Researcher" OR "SLP", and don't ask other questions that forcibly shoe-horn respondents into an either-or situation
+  - Make sure your survey questions don't use exclusive language, and are worded in a way that applies to AAC users in addition to other interested parties
   - If you want to see more AAC presenters sharing their perspective, you need to attend more sessions by AAC users.
 
   <h3>Extra Credit:</h3>
@@ -308,6 +318,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 
   <h3>Extra Credit:</h3>
   - How can we raise awareness of AAC for those who need it but don't know it's an option?
+  - Better way to direct independent implementers to resources that can help them be successful
 
 <a class='named_link' name="practitioners"></a>
 <h2>Practitioners:</h2>
