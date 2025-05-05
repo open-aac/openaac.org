@@ -95,7 +95,7 @@ As part of this year's <a href="/2025/03/03/state-of-aac-2025.html">State of AAC
   <div style='text-align: center;'>
     <img src="/images/2025/gpa.png" style='max-width: 300px;'/>
   </div>
-  <div style='margin-left: 10px; font-style: italic;'>How well are things working for...</div>
+  <div style='margin-left: 10px; font-style: italic;'>How well  things are working for...</div>
   <div class='grades'>
   <div>
     <span><a href="#community">Community:</a></span> 
@@ -159,7 +159,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 
   <blockquote>"More and more people are using AAC, we need to have a good way to count how many people are using it and what types of AAC. This is a terrific problem to have, but we need to find out how many do we have to better serve them."</blockquote>
 
-  Based on the responses we received, the AAC currently has lots of communities serving different groups, with a healthy amount of engagement. There is a mixed quality of content when it comes to answers to questions, and differences of opinions are not always handled in a productive way.  
+  Based on the responses we received, the AAC ecosystem currently has lots of communities serving different groups, with a healthy amount of engagement. There is a mixed quality of content when it comes to answers to questions, and differences of opinions are not always handled in a productive way.  
 
   <blockquote>"I think there are some serious shifts in our field and the lack of healthy, respectful discourse is not only disheartening but also preventing us from being able to really move forward with new ideas."</blockquote>
 
@@ -324,7 +324,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 <h2>Practitioners:</h2>
 <div class='aspect'>(continuing education, awareness of new and existing options, support materials available, adherence to best practices, AAC instruction at University)</div>
 <div class='grade_box'>
-  <span style='display: none;'>2.2 </span>
+  <span>2.2 </span>
   <span style='color: #c9bc00ff;'>C</span>
 </div>
   Some ecosystems require additional expertise to help educate and train those who aren't fully or constantly steeped in the ecosystem. In those cases, proper accreditation can help, as can a clear path to continue to welcome new experts as the pool inevitably shifts. These experts need access to information and resources that are not siloed by geographic or socioeconomic barriers. They need a clear understanding of their accountability and a process through which the pool of experts is sufficiently large, accessible, and up-to-date.
@@ -440,7 +440,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 </div>
   To varying degrees, healthy ecosystems also exhibit properties of openness. A sustainable technological ecosystem often has one or more free and open-source options in addition to paid or hosted solutions. In order to better sustain collaboration or interoperability, many tech ecosystems adopt or implement a set of industry standards as a show of good faith and assurance of sustainability. When an ecosystem is large enough to support healthy business practices, there also arise charitable organizations or individuals who begin surfacing open-licensed content as more affordable alternatives.
 
-  For this aspect, we at OpenAAC generated the grade ourselves. It's kind of our thing, and it's one that's a little harder to quantify. Many AAC apps are still heavy on the vendor lock-in, and you can't get out the content you put into them. Vendors treat their vocabularies as protected intellectual property instead of releasing them out to the community. Most symbol libraries are copyrighted with heavy restrictions on use. Some AAC assessment tools have moved behind paywalls or logins, and there really isn't much notion of interoperability in the AAC marketplace.
+  For this aspect, we at OpenAAC <a href="https://docs.google.com/document/d/1JoB1LS-EeuIsWsJnUqfSPh73cYau01c0FgEULLSZnMU/edit?usp=sharing">generated the grade ourselves</a>. It's kind of our thing, and it's one that's a little harder to quantify. Many AAC apps are still heavy on the vendor lock-in, and you can't get out the content you put into them. Vendors treat their vocabularies as protected intellectual property instead of releasing them out to the community. Most symbol libraries are copyrighted with heavy restrictions on use. Some AAC assessment tools have moved behind paywalls or logins, and there really isn't much notion of interoperability in the AAC marketplace.
   
   There are a lot of promising things happening in the world of "open" that can improve things for the AAC ecosystem, which is what helps bring up the grade higher than it would be otherwise. More AI voices are becoming broadly available, and the non-vendor community is generally good about sharing resources. Some of the newer AAC apps are adopting open standards to make it easier to import/export from one system to another. We think there is definitely room for improvement, but things are at least moving in the right direction.
 
