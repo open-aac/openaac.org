@@ -447,7 +447,8 @@ abrupt, accept, hope, wish, meal, comply
       }
       
       var div = document.createElement('div');
-      div.innerText = "Full: " + ((Math.round(max_score * 100) / 100) || "N/A");
+      var fullness = (voters == 0 || !max_care_score) ? "Partial:" : "Full: ";
+      div.innerText = fullness + ((Math.round(max_score * 100) / 100) || "N/A");
       var d2 = document.createElement('div');
       d2.innerText = "from " + voters + " reviews";
       if(voters == 0) { d2.innerText = "incomplete, no reviews"; }
