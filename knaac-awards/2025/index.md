@@ -3,8 +3,8 @@ layout: post
 title: The 2025 knAAC Awards
 page_title: The 2025 knAAC Awards
 description: Keepers and Noteworthies in AAC
-display_image: /images/2025/knaac/knaac-awards-banner.png
-image: /images/2025/knaac/knaac-fb-link.png
+display_image: /images/2025/knaac/knaac-banner.png
+image: /images/2025/knaac/knaac-link.png
 bg: 4
 ---
 <style>
@@ -136,8 +136,8 @@ bg: 4
     margin-right: 10px;
   }
   .nominees.expanded .photo, .nominees .nominee.winner .photo { 
-    max-height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     float: left;
     margin-right: 10px;
   }
@@ -167,23 +167,25 @@ bg: 4
   }
 </style>
 <p>
-  Welcome to the 2024 knAAC Awards! Short for
+  Welcome to the second annual knAAC Awards! Short for
   "Keepers and Noteworthies in AAC", the knAAC Awards
   are all about highlighting the wonderful work happening
   in the world of AAC! We want to help celebrate the 
-  unsung heroes of AAC in all their different 
-  efforts, and we need your help to do it!
+  unsung heroes of AAC who go above and beyond, not for fame or money, but because they see the impact it can make for underserved populations around the world.
 </p>
 <p>
   All of these people and products have done impressive
   work, and we are grateful for how their 
   contributions have helped AAC users. Our goal is not
-  to start a popularity contest, but instead to try
+  to run a popularity contest, but instead to try
   to bring attention to all of the nominees, and 
   maybe have a little fun like a chilli cook-off
   or voting for our favorite superheroes.
 </p>
 <p>
+  You may vote in as many or as few categories as you would like, but please take time to review all the candidates in a single category before voting on them. Final results will be tallied once the voting with has closed, and we will announce the winners here!
+</p>
+<p style='display: none;'>
   Voting has ended, and the final results are 
   displayed below! Highlights are selected based primarily
   on popular vote, with additional input provided
@@ -195,50 +197,74 @@ bg: 4
 
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
-  <!-- TODO: collapse/expand link, show small previews when collapsed -->
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
-      <h4>Alyssa Hillary Zisk</h4>
-      <img src="/images/2024/knaac/alyssaz.webp" class='photo' alt='' />
+    <div class='nominee' data-rank='3'>
+      <h4>Jordyn Zimmerman</h4>
+      <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
-      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned 
-      a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021.
+      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of CommunicationFIRST and presents regularly across the country.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <h4>Lydia Dawley</h4>
       <img src="/images/2024/knaac/lydiad.webp" class='photo' alt='' />
       <span class='sub'>
-      Lydia graduated with a B.S. from the University of Wisconsin. She is the founder and CEO of Click. Speak. Connect. She consults with Speech-Language Pathologists, teachers, parents in access methods, faster access, device experiences and language skills related to AAC, and also mentors other AAC users to work on social skills. She is the inventor of the NadPen, an adapted stylus for touchscreen devices.
+      Lydia graduated with a B.S. from the University of Wisconsin. She is the founder and CEO of Click. Speak. Connect. She works as an AAC specialist and consultant with Speech-Language Pathologists, teachers, parents in access methods, faster access, device experiences and language skills related to AAC, and also mentors other AAC users to work on social skills. She is the inventor of the NadPen, an adapted stylus for touchscreen devices.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Hannah Foley</h4>
-      <img src="/images/2024/knaac/hannahf.webp" class='photo' alt='' />
+      <h4>Kevin Williams</h4>
+      <img src="/images/2025/kwilliams.png" class='photo' alt='' />
       <span class='sub'>
-        Hannah Foley, B.A. is an Assistive Technology (AT) Specialist concentrating in augmentative and alternative communication (AAC). Beyond her daily work, Hannah provides national-level consultation on AAC-related topics. In her current role as the Support and Implementation Specialist at Forbes AAC, Hannah delivers clinical support to optimize the implementation of AAC systems, with a particular emphasis on CoughDrop. 
-        Hannah earned her Bachelor of Arts in Communication from the University of Illinois Urbana-Champaign and received her Graduate Certificate in AT with concentration in AAC from the University of Illinois Chicago. She is a member of the United States Society for Augmentative and Alternative Communication (USSAAC) and is a member of USSAAC's Awareness Committee.
+        Kevin Williams is a Charlotte, NC based web developer who serves on the Executive Board for the International Society for Alternative and Augmentative Communication (ISAAC). Born and raised in Cleveland, OH, Kevin primarily uses an Alternative and Augmentative Communication (AAC) device to convey his thoughts in a clear, precise manner while speaking to people. He is passionate about advancing the lives of individuals with disabilities through assistive technology, AAC, and even adapted sporting ventures. Kevin co-authored the AAC Manifesto, Imagining Alternative Futures with Augmentative and Alternative Communication.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>endever* Corbin</h4>
-      <img src="/images/2024/knaac/endeverc.webp" class='photo' alt='' />
+      <h4>Owen McGirr</h4>
+      <img src="/images/2025/omcgirr.jpeg" class='photo' alt='' />
       <span class='sub'>
-      endever* corbin is a mostly-nonspeaking autistic self-advocate who is multiply disabled, trans, and queer. They enjoy sharing their lived experience and expertise as an AAC user with professionals, caregivers, and peers. Xe is also proud to contribute to academic work as a community research partner and as a presenter in a range of professional, preservice, and community settings. 
+      Owen is a software developer and accessibility advocate from Donegal, Ireland. He has cerebral palsy and uses adaptive switches, which has deeply informed his work creating technology for people with disabilities. In college, he researched and developed SayIt!, a speech app that helps people with limited speech communicate more easily. He later created Switchify, an Android app that allows users to control their devices using switches like buddy buttons and sip-and-puff systems. His work has received international recognition, including being named an MIT Innovator Under 35. Owen is passionate about giving disabled users more control and independence through accessible tech.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Donnie Denome</h4>
-      <img src="/images/2024/knaac/donnied.webp" class='photo' alt='' />
+      <h4>Sheridan Forster</h4>
+      <img src="/images/2025/sforster.jpeg" class='photo' alt='' />
       <span class='sub'>
-      Donnie TC Denome is an autistic AAC user. Their work focuses on making information accessible for people with intellectual, developmental, and speech/language disabilities. They are interested in making health care more accessible to people with the most significant disabilities. Donnie holds a master’s degree in public health and was a 2023-2024 Minnesota LEND fellow. They want to go back to school for their doctorate and conduct community-based participatory research with people with intellectual disabilities. Currently, Donnie uses Proloquo4Text for most of their communication. They are also, slowly but surely, recreating the Unity 45, 60, 84, and 144 vocabularies in Touch Chat.
+      Sheridan is a speech pathologist and researcher with a particular interest in adults with profound intellectual and multiple disabilities. Sheridan advocates for individualized approaches to AAC, with or without technology, to best engage with each person. Over the past 20 years she has been driven by the question “how do I need to be in order to be with you?” She works with families and staff to work out how they need to be to optimize the communication of the adults they support or care for.
+      </span>
+    </div>
+  </div>
+</div>
+
+<div>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f60e.svg'/> AAC Teen Self-Advocate of the Year</h3>
+  <div class='nominees'>
+    <div class='nominee' data-rank='3'>
+      <h4>Becca from UT</h4>
+      <img src="/images/2025/knaac/becca.png" class='photo' alt='' />
+      <span class='sub'>
+      Becca started using AAC when she was five years old. She has worked hard to slowly expand her breadth of vocabulary. She is a fierce advocate, and volunteered to speak out as part of a federal Rett Syndrome panel. She posts weekly communication prompts in the Rett Syndrome Facebook group because she wants people to know that everyone with Rett Syndrome deserves to communicate and drive their own life choices. She insisted on taking a modified GED exam before graduating this year to prove to herself and others that she can learn just like anybody else.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Michael Hipple</h4>
-      <img src="/images/2024/knaac/mikeh.webp" class='photo' alt='' />
+      <h4>Himani from CA</h4>
+      <img src="/images/2025/knaac/himani.png" class='photo' alt='' />
       <span class='sub'>
-      Mike has been using AAC for 20 years and is an active participant in the AAC community. He founded Wisconsin AAC Network in 2015, a state network for everyone in the state's AAC community. He sits on many committees for AAC, assistive technology, and special education, and wrote a children's book about starting school in 2010. In addition to speaking events, Mikes mentor and work with therapy teams and families virtually.
+      Himani was educationally neglected in her school, but quickly adopted AAC once it was made available. Since then Himani has made several presentations in settings from her class to large conferences. She has worked as a PRC Ambassador. She has worked with her mother and local librarian to start a Story Time for AAC program in her local community. She keeps her grades high in general education and hopes to be a psychiatrist someday.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Lily from ID</h4>
+      <img src="/images/2025/knaac/lily.png" class='photo' alt='' />
+      <span class='sub'>
+        Hi, my name is Lily and I’m a fabulous teenager! I like listening to music, watching YouTube, swimming, dancing, and travel! But what I’m most passionate about is theater. I love watching plays, performing, and writing scripts. This year I took a high school creative writing course to become a better writer for my scripts. Also, I am passionate about AAC. I have over 10 AAC apps that I use to be successful in school and chat with friends. Every time I see an AAC app or AAC user I feel excited and proud. Being an AAC user is something I would never change about me.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Tristan from MA</h4>
+      <img src="/images/2025/knaac/tristan.png" class='photo' alt='' />
+      <span class='sub'>
+      Tristan is a 14 year old autistic AAC user. He is part of several online AAC communities including AAC Voices, the International Society for Augmentative and Alternative Communication (ISAAC), and ImpAACt Voices. He enjoys reading about Ancient Egypt and Ancient China and loves all kinds of historical artifacts, especially making them with his 3D printer. He loves waterskiing, jet skiing, surfing, rock climbing, swimming, horseback riding, roller coasters and traveling. Tristan prides himself on being a good friend and especially wants to help others by being a medical advocate. When he grows up, he wants to be a stand-up comedian or a professional scuba diver who swims with sharks.
       </span>
     </div>
   </div>
@@ -248,40 +274,122 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4f9.svg'/> AAC Presenter of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <h4>Beth Poss</h4>
-      <img src="/images/2024/knaac/beth-poss.jpeg" class='photo' alt='' />
+      <h4>Jordyn Zimmerman</h4>
+      <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
-      Beth Poss is an educational and technology consultant, accessibility and inclusion advocate, speech/language pathologist, former special education administrator, and former assistant principal. In addition to her independent consulting, she is the Director of Educational Programs for LessonPix. Beth is passionate about designing educational environments that support all students in accessing a rigorous curriculum and meeting educational outcomes. In her work with school districts, universities and national and state level organizations she focuses on literacy, augmentative and alternative communication, Universal Design for Learning and inclusive educational practices. She is one of the authors of Inclusive Learning 365: EdTech Strategies for Every Day of the Year, released in August 2021.
-      </span>
-    </div>
-    <div class='nominee' data-rank='1'>
-      <h4>Lauren Enders Gonzales</h4>
-      <img src="/images/2024/lauren-enders-gonzales.jpg" class='photo' alt='' />
-      <span class='sub'>
-      Lauren (Enders) Gonzales is an ASHA certified SLP currently serving as a full-time AAC and AT Consultant for Bucks County IU, Pennsylvania. Lauren is passionate about advocating for individuals with complex communication needs and strives to share best practices with all AAC stakeholders. She has presented on numerous topics related to AAC at large conferences including Closing the Gap, ATIA, ASHA, and ISAAC Connect as well as more intimate conferences, speaking engagements and webinars. Lauren is an Adjunct Faculty member at the Delaware Valley University where she teaches courses in assistive technology.
-      </span>
-    </div>
-    <div class='nominee' data-rank='2'>
-      <h4>Kate Ahern</h4>
-      <img src="/images/2024/kate-ahern.jpeg" class='photo' alt='' />
-      <span class='sub'>
-      Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
+      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of CommunicationFIRST and presents regularly across the country.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Alyssa Hillary Zisk</h4>
-      <img src="/images/2024/knaac/alyssaz.webp" class='photo' alt='' />
+      <h4>Jessica Smith</h4>
+      <img src="/images/2025/jsmith.png" class='photo' alt='' />
       <span class='sub'>
-      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned 
-      a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021.
+      Jessica Smith is an adult with High Functioning Autism who graduated high school 2023. She makes communication boards for first responders to help them communicate with people who are non speaking.  She also makes adapted switches for people with fine motor issues so they can play with toys and control appliances.  She works with assistive technology and advocates regularly on Instagram. Jessica presented at AAC in the Cloud on her experiences learning about and supporting assistive technology adoption.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Hannah Foley</h4>
+      <img src="/images/2024/knaac/hannahf.webp" class='photo' alt='' />
+      <span class='sub'>
+        Hannah Foley, B.A. is an Assistive Technology (AT) Specialist concentrating in augmentative and alternative communication (AAC). Beyond her daily work, Hannah provides national-level consultation on AAC-related topics. She has worked for multiple AAC companies in consulting, training and technical support. Hannah earned her Bachelor of Arts in Communication from the University of Illinois Urbana-Champaign and received her Graduate Certificate in AT with concentration in AAC from the University of Illinois Chicago. She is a member of the United States Society for Augmentative and Alternative Communication (USSAAC) and is a member of USSAAC's Awareness Committee.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Caroline Musselwhite</h4>
+      <img src="/images/2025/cmusselwhite.jpg" class='photo' alt='' />
+      <span class='sub'>
+      Dr. Caroline Musselwhite is an assistive technology specialist with more than 30 years of experience working with children and adolescents with severe disabilities, in a variety of settings, including Head Start, developmental day programs, and the public schools. She has also taught courses at several universities, including West Virginia University, and Western Carolina University. Dr. Musselwhite has authored a number of textbooks and “how-to” books on a range of topics. She has also authored a number of software programs and books for youth with disabilities. She has presented thousands of workshops throughout the world, and is a founding member of the Board of Directors for the International Society for Augmentative and Alternative Communication (ISAAC).
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Courtney Johnson</h4>
+      <img src="/images/2025/cjohnson.jpg" class='photo' alt='' />
+      <span class='sub'>
+      Courtney is a 26 year old autistic adult with multiple disabilities - including traumatic brain injury, Ehlers-Danlos Syndrome, and other conditions. She is nonspeaking due to aphasia and uses an AAC device to communicate! She is a graduate of the Tennessee's Partners in Policymaking program. She has also presented at multiple workshops, conferences, panels, lectures - and also established her university's first student-led group for students with intellectual, developmental, and cognitive disabilities. She presented at AAC in the Cloud on the importance of safety and autonomy for AAC users who need or receive support services.
+      </span>
+    </div>
+  </div>
+</div>
 
+<div>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f9ea.svg'/> AAC Researcher of the Year</h3>
+  <div class='nominees'>
+    <div class='nominee' data-rank='3'>
+      <h4>Karen Erickson</h4>
+      <img src="/images/2025/kerickson.avif" class='photo' alt='' />
+      <span class='sub'>
+      Karen Erickson, Ph.D. is the David E. and Dolores “Dee” Yoder Distinguished Professor in the Department of Health Sciences, School of Medicine, University of North Carolina at Chapel Hill. Karen is also the Director of the Center for Literacy and Disability Studies and a Professor in the Division of Speech and Hearing Sciences. A former special education teacher, Karen focuses her research on literacy and communication for individuals with extensive support needs. Recent projects have focused on creating open-source professional development and implementation supports such as those available in Project Core (project-core.com) and Project VC (projectvc.org).
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Owen McGirr</h4>
+      <img src="/images/2025/omcgirr.jpeg" class='photo' alt='' />
+      <span class='sub'>
+      Owen is a software developer and accessibility advocate from Donegal, Ireland. He has cerebral palsy and uses adaptive switches, which has deeply informed his work creating technology for people with disabilities. In college, he researched and developed SayIt!, a speech app that helps people with limited speech communicate more easily. He later created Switchify, an Android app that allows users to control their devices using switches like buddy buttons and sip-and-puff systems. His work has received international recognition, including being named an MIT Innovator Under 35. Owen is passionate about giving disabled users more control and independence through accessible tech.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Kevin Williams</h4>
+      <img src="/images/2025/kwilliams.png" class='photo' alt='' />
+      <span class='sub'>
+        Kevin Williams is a Charlotte, NC based web developer who serves on the Executive Board for the International Society for Alternative and Augmentative Communication (ISAAC). Born and raised in Cleveland, OH, Kevin primarily uses an Alternative and Augmentative Communication (AAC) device to convey his thoughts in a clear, precise manner while speaking to people. He is passionate about advancing the lives of individuals with disabilities through assistive technology, AAC, and even adapted sporting ventures. Kevin co-authored the AAC Manifesto, Imagining Alternative Futures with Augmentative and Alternative Communication.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Caroline Gaddy</h4>
+      <img src="/images/2025/cgaddy.png" class='photo' alt='' />
+      <span class='sub'>
+      Caroline Gaddy, MFA, MA, CCC-SLP (they/she) is a speech-language pathologist, AAC specialist, disability advocate, and neurodiversity educator. They are a Learning Consultant for Tobii Dynavox and also provide
+education and consultation on neurodiversity-affirming practices through their business, Vibrant Minds, LLC. Caroline worked for many years in school settings as a teacher and an SLP, and also worked in medical settings with adult and pediatric populations, often specializing in supporting communication access for people with multiple disabilities. They have presented at both state and national conferences and coauthored articles on neuro-affirming practices, AAC, and Autistic communication styles.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Morgan Scherer</h4>
+      <img src="/images/2025/mscherer.jpg" class='photo' alt='' />
+      <span class='sub'>
+      Morgan is a late-identified autistic/ADHDer, part-time AAC user, and dedicated advocate for inclusive communication. They're also a parent, partner, spoonie, and Pacific Northwest nature enthusiast. Morgan's research has focused on effort levels across AAC programs. She has compiled reports on total hits required to generate on a variety of phrases and sentences across over 50 different AAC vocabulary layouts.
+      </span>
+    </div>
+  </div>
+</div>
+
+
+<div>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5e8.svg'/> AAC Community Leader of the Year</h3>
+  <div class='nominees'>
+    <div class='nominee' data-rank='3'>
+      <h4>Krista Howard</h4>
+      <img src="/images/2025/khoward.jpeg" class='photo' alt='' />
+      <span class='sub'>
+      Krista is a role model, parent, advocate and mentor to other AAC Users. As an AAC User, she has supported parents, teachers, SLPs, classroom aids, day program staff and other users of AAC in modeling AAC and sharing her journey. Krista has also completed an SLPA program as the first full-time user of AAC who is an SLPA. Krista is an international presenter who has generously shared her journey from a young girl and now into adulthood. Krista has provided AAC mentoring, training, and support in teletherapy, classrooms, day-treatment programs for adults and Virtual Social Groups
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Valerie Chapman-Jones</h4>
+      <img src="/images/2025/vcjones.jpeg" class='photo' alt='' />
+      <span class='sub'>
+      In her 25+ year career as a speech-language pathologist, Valerie has primarily worked in school-based settings but also has experience in early intervention and pediatric outpatient clinics. Her passion is Augmentative-Alternative Communication (AAC).  Valerie has extensive experience with exploring, trialing, and implementing no-, light-, and high-tech AAC supports with children with a range of disabilities including cerebral palsy, genetic syndromes, autism, and apraxia of speech. Valerie is a Staff Developer – Trainer & Consultant in assistive technology at Lincoln Intermediate Unit 12 and works part-time as an SLP at Therapy and Counseling Services in Camp Hill, PA where she works exclusively with pediatric AAC users.  Valerie’s goal is to help children with complex communication needs explore and find an AAC system that helps them become functional, independent communicators. Valerie believes that learning an AAC language system should be fun, not forced, and that speech therapy to teach AAC should focus on encouraging communication through novel, active language experiences. Valerie empowers the IEP teams and staff she supports to use the SETT framework and feature matching to find AAC systems that will work best for their students.  She is also a strong advocate for all students to have access to evidence-based literacy instruction, which includes having a robust, dynamic AAC system that includes access to all 26 letters of the alphabet. Valerie also recognizes and honors the critical role families play in trialing and implementing AAC to support their children.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Brandi Lee Wentland</h4>
+      <img src="/images/2025/bwentland.jpg" class='photo' alt='' />
+      <span class='sub'>
+      Brandi Wentland is a speech-language pathologist who specializes in AAC. She obtained her master's degree from California State University, Chico in 2014 and later returned to her alma mater to teach a graduate level course on AAC.  Brandi is an AAC consultant and entrepreneur, having helped found PicSeePal, as well as We Speak AAC, an AAC-User-Led training academy, and is a board member of the Nika Project. Brandi is driven to build capacity, impart knowledge and equip others with AAC strategies. She has mentored new clinicians and presented courses on AAC around the world at conferences, schools, clinics, universities and privately held events. 
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>Beth Poss</h4>
+      <img src="/images/2024/knaac/beth-poss.jpeg" class='photo' alt='' />
+      <span class='sub'>
+      Beth is a Speech-Language Pathologist and is currently the Director of Educational Programs with LessonPix. She has previously served as an assistant principal, special education supervisor, curriculum writer, and assistive technology team member with Montgomery County Public Schools in Maryland. She is a co-author of Inclusive Learning 365: EdTech Strategies for Every Day of the Year, and consults and presents at a variety of international, national and state-level conferences and am available for keynote addresses, webinars, and other professional learning opportunities. She is an active participant in various online AAC communities, and is passionate about using visual supports and customized high-quality educational resources to support all students.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Kelly Fonner</h4>
       <img src="/images/2024/knaac/kfonner.png" class='photo' alt='' />
       <span class='sub'>
-      Kelly is a self-employed consultant and trainer in assistive and educational technology. This is her 40th school year in providing Special Education services. Kelly has worked for non-profits, school districts and statewide organizations. She has taught in university programs including The Johns Hopkins University, University of Wisconsin-Milwaukee and for the California State University - Northridge's ATACP course. She has presented in 48 US states & internationally in Australia, Brazil, Canada and South Africa and has been a constant presence at both CTG and ATIA conferences. In addition to presenting, Kelly continues to teach several students online. She is a volunteer leader within the QIAT Community and the Wisconsin AAC Network.
+      Kelly is a self-employed consultant and trainer in assistive and educational technology. Kelly has a B.S. in special education from Millersville University, an M.S. in educational technology with a minor in special education/rehabilitation technology from The Johns Hopkins University, and holds an Assistive Technology Applications Certificate of Learning from CA State University - Northridge. She has presented in 48 US states & internationally in Australia, Brazil, Canada and South Africa and has been a constant presence at both CTG and ATIA conferences. In addition to presenting, Kelly continues to teach several students online. She is a volunteer leader within the QIAT Community and the Wisconsin AAC Network, and is the 2025 recipient of the CAMA Innovation & Impact Award.
       </span>
     </div>
   </div>
@@ -290,7 +398,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5bc.svg'/> Symbol-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://touchchatapp.com/touchchat-hd-aac-with-wordpower" target='_blank'>
       <h4>TouchChat HD</h4>
       <img src="/images/2024/touchchat.jpeg" class='img' alt='' />
@@ -328,25 +436,6 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.assistiveware.com/products/proloquo" target='_blank'>
-      <h4>Proloquo</h4>
-      <img src="/images/2024/proloquo.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-      Proloquo is a comprehensive AAC app available for iPad and iPhone, expertly crafted to fit everyone from toddlers to adults. It’s more than just a communication tool; it's a gateway to language development and effective communication.
-      Proloquo offers an extensive vocabulary unmatched in size and efficiency that can support the growth of language skills at any age. With a user-friendly interface and innovative features, Proloquo ensures everyone can discover, learn and love language.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
-      <a href="https://www.coughdrop.com/" target='_blank'>
-      <h4>CoughDrop</h4>
-      <img src="/images/2024/coughdrop.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        CoughDrop is a cloud-based, modern, augmentative and alternative communication (AAC) app that helps people communicate better. This app is built for individuals who have a hard time speaking, like those with autism, cerebral palsy, Down syndrome, Angelman syndrome, Rett syndrome, or other complex communication needs.It works across multiple devices, and platforms such as Android, iOS, and Windows, as well as the web. CoughDrop lets you personalize your communication boards with symbols, images, and audio. Users can access CoughDrop's communication and reporting features on their tablets, phones, and other devices. This way, you can communicate the way that works best for you.
-      </span>
-    </div>
-    <div class='nominee' data-rank='2'>
       <a href="https://thinksmartbox.com/" target='_blank'>
       <h4>Grid</h4>
       <img src="/images/2024/grid.png" class='img' alt='' />
@@ -361,7 +450,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.assistiveware.com/products/proloquo4text" target='_blank'>
       <h4>Proloquo4Text</h4>
       <img src="/images/2024/p4text.png" class='img' alt='' />
@@ -371,24 +460,15 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://acecentre.org.uk/resources/pasco" target='_blank'>
-      <h4>Pasco/Echo</h4>
-      <img src="/images/2024/knaac/pasco.webp" class='img' alt='' />
+      <a href="Valerie Chapman-Jones" target='_blank'>
+      <h4>ClaroCom Pro</h4>
+      <img src="/images/2025/knaac/ccpro.jpg" class='img' alt='' />
       </a>
       <span class='sub'>
-        pasco is designed for a specific need and is a development project led by Ace Centre. Its primary purpose is an AAC solution for individuals who need an auditory scanning system and who possibly require multi-lingual support.
+        ClaroCom is an iPad or iPhone App for AAC (Augmentative and Alternative Communication). ClaroCom helps to replace speech for those with impairments in the production of spoken language. ClaroCom is suitable for children or adults with some or full literacy, and can assist users who have limited or no speech and language difficulties.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://thinksmartbox.com/alpha-core/" target='_blank'>
-      <h4>Alpha Core</h4>
-      <img src="/images/2024/knaac/alpha-core.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        Designed by Amy Roman MS CCC-SLP, Alpha Core provides robust core vocabulary alongside text-based AAC. Intended for adults with changing access needs, it offers a range of keyboard layouts and text-entry strategies to maximize communication efficiency as your physical abilities evolve. Alpha Core provides quick access to prediction and phrases, a choice of keyboards, and is optimized for access.
-      </span>
-    </div>
-    <div class='nominee' data-rank='2'>
       <a href="https://therapy-box.co.uk/predictable" target='_blank'>
       <h4>Predictable</h4>
       <img src="/images/2024/knaac/predictable.png" class='img' alt='' />
@@ -408,15 +488,6 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://apps.apple.com/us/app/talk-for-me-text-to-speech/id975096888" target='_blank'>
-      <h4>Talk for Me</h4>
-      <img src="/images/2024/knaac/talk-for-me.jpeg" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        Talk For Me - Text to Speech will help you to communicate with ease. Type in the main text area or tap one of the six main custom buttons and your iPhone or iPad will talk for you. Need to make a phone call or a FaceTime audio or video call? Automagically the spoken text will be heard on the other caller's phone or iPad when on a call. Want to set up more custom phrases? Swipe up for more pages with custom editable buttons. Need even more? Save phrases in an archive database. Can you type fast or need to spell a word? Turn on the Auto Speech Function to have every word or letter spoken as you enter it. Together with keyboard shortcuts, predictive text and your custom phrases, this app will allow you to communicate with ease.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
       <a href="https://www.vocable.app/" target='_blank'>
       <h4>Vocable</h4>
       <img src="/images/2024/knaac/vocable.png" class='img' alt='' />
@@ -431,7 +502,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f331.svg'/> Up-And-Coming AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.weavechat.com/" target='_blank'>
       <h4>Weave Chat AAC</h4>
       <img src="/images/2024/weave.png" class='img' alt='' />
@@ -449,22 +520,25 @@ bg: 4
         Proloquo is a comprehensive AAC app available for iPad and iPhone, expertly crafted to fit everyone from toddlers to adults. It's more than just a communication tool; it's a gateway to language development and effective communication.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
-      <a href="https://www.avazapp.com/" target='_blank'>
-      <h4>Avaz</h4>
-      <img src="/images/2024/avaz.png" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.flexspeak.com/" target='_blank'>
+      <h4>Flexspeak</h4>
+      <img src="/images/2025/knaac/flexspeak.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Avaz AAC is an Augmentative and Alternative Communication App that empowers children & adults with Autism, Cerebral Palsy, Down Syndrome, Aphasia, Apraxia and individuals with any other condition/cause of speech delays, with a voice of their own.
+        Experience communication with Flexspeak – the cutting-edge augmentative and alternative communication (AAC) app for people who cannot speak or have difficulty speaking.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.coughdrop.com" target='_blank'>
-      <h4>CoughDrop</h4>
-      <img src="/images/2024/coughdrop.png" class='img' alt='' />
+      <a href="https://grid.asterics.eu" target='_blank'>
+      <h4>AsTeRICS Grid</h4>
+      <img src="/images/2025/knaac/asterics.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        CoughDrop is a cloud-based, modern, augmentative and alternative communication (AAC) app that helps people communicate better. This app is built for individuals who have a hard time speaking, like those with autism, cerebral palsy, Down syndrome, Angelman syndrome, Rett syndrome, or other complex communication needs.It works across multiple devices, and platforms such as Android, iOS, and Windows, as well as the web. CoughDrop lets you personalize your communication boards with symbols, images, and audio. Users can access CoughDrop's communication and reporting features on their tablets, phones, and other devices. This way, you can communicate the way that works best for you.
+        AsTeRICS Grid is a free and open source AAC application.
+        It is web-based and can operate on any web-enabled device. Originally created in 2020, AsTeRICS Grid is
+        seeing renewed development and new features being added on a regular basis. It is free, flexible, and available
+        in many different languages.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -482,35 +556,53 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
-      <a href="https://www.avazapp.com/blog/expressive-tones-on-avaz-aac/" target='_blank'>
-      <h4>Avaz - Expressive Tones</h4>
-      <img src="/images/2024/avaz.png" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.flexspeak.com/" target='_blank'>
+      <h4>Flexspeak<br>Message Translation</h4>
+      <img src="/images/2025/knaac/flexspeak.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Individuals with complex communication needs have often been provided with limited opportunities to learn to express their emotions. With Expressive Tones, modelling an emotion becomes easier. 
-        Use our Angry Tone to differentiate whether they don’t like something or they really don’t like it
-        Differentiate between an Excited Tone “Yay” and a Sarcastic Tone “Yay” to show how you feel about an ice cream vs maybe a salad?!
-        Use Whisper Tone when you want to tell them a secret, and Question Tone when you are curious to know more
-        They didn’t find their favourite socks today – ask them to say it with our Sad Tone. 
+        Flexspeak allows for real-time translation from
+        one language to another. The app allows you to
+        craft a message in one language, and then 
+        automatically speak the full sentence out loud
+        in another language.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://minds-eye.app/home/" target='_blank'>
-      <h4>Grid - Mind's Eye AI Art</h4>
-      <img src="/images/2024/grid.png" class='img' alt='' />
+      <a href="https://www.assistiveware.com/support/proloquo/basics/proloquo-thinking-space" target='_blank'>
+      <h4>Proloquo<br/>Thinking Space</h4>
+      <img src="/images/2024/proloquo.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Developed in partnership with Area 23 and the MND Association, Mind’s Eye is an accessible AI art tool that can be used with Grid AAC software. Creativity and self-expression are fundamental to personality, connection, introspection, and growth. Mind’s Eye provides that outlet for people using AAC and any form of physical access.
+        Thinking Space allows you to visualize and organize your thoughts. You can place words and symbols in Thinking Space and move them around to rearrange them, connect concepts, or communicate. You can quickly and easily save the contents of Thinking Space. Simply tap the Share button in the top right corner of Thinking Space, and save as a photo. You can then save your photo to your camera roll, print, or share with someone else.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
-      <a href="https://www.weavechat.com/" target='_blank'>
-      <h4>Weave Chat - Direct Messaging</h4>
-      <img src="/images/2024/weave.png" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.youtube.com/watch?v=pp2IFjbzKfY" target='_blank'>
+      <h4>TD Snap<br/>Vocab Filter</h4>
+      <img src="/images/2024/tdsnap.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Weave Chat AAC is the first AAC app to offer in-app picture/symbol/icon messaging between devices! Users can communicate individually or within groups, using pictures/symbols/icons as well as traditional text. Messaging can occur across device types (ex: iOS to Android) and all messages sent can be read aloud (using synthetic voices) by the sender(s) and receiver(s) of the message. 
+        TD Snap's vocab filter allows you to pre-select a 
+        subset of the full vocabulary and only show that
+        subset of buttons to the AAC user. By filtering
+        to a specific vocabulary subset, the user can see the
+        current focus words with less distraction
+        while developing motor plans for the full vocabulary.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <a href="https://bridgingvoice.org/elevenlabs/" target='_blank'>
+      <h4>Bridging Voice<br/>AI Voices</h4>
+      <img src="/images/2025/knaac/bridging-voice.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        Bridging Voice has partnered with ElevenLabs to
+        grant free access to their AI-generated, 
+        user-personalized voices, for any person diagnosed
+        with ALS. Voice cloning support is available
+        to those in the US who have an ALS diagnosis.
       </span>
     </div>
   </div>
@@ -519,7 +611,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f91d.svg'/> AAC User Community of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.impaactvoices.org/" target='_blank'>
       <h4>impAACt Voices</h4>
       <img src="/images/2024/impaact.webp" class='img' alt='' />
@@ -539,13 +631,23 @@ bg: 4
         At TechOWL, we have a weekly meetup for people who use AAC. Many of our past ACES participants have become regulars. Each week we look forward to learning new tech, troubleshooting device challenges, and talking AAC.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.facebook.com/groups/192898234141275/" target='_blank'>
       <h4>Adult User Community</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       </a>
       <span class='sub'>
         AssisstiveWare’s Adult AAC User Community group is to provide support and share information. Members can chat with AssistiveWare developers and Support team. Note: If you need assistance we encourage you to contact support@assistiveware.com for 1:1 help.        
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
+      <h4>Ask Me, I'm An AAC User</h4>
+      <img src="/images/2024/knaac/ask-me-im-an-aac-user.jpeg" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        This is a Group where AAC users are the authority on AAC and here AAC users, SLPs, support staff, doctors, parents, family, and others who are interested in AAC, can ask questions and get advice and some insight from actual AAC users!
+        We are * Not* an autism specific AAC group! While we do have a lot of autostoc member we do also have alot of allist (non autistoc AAC users as wellour goal prioritize the voices of the general aAC user community!      
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -573,16 +675,6 @@ bg: 4
         This group is for those who work with and evaluate individuals for AAC. The purpose of this group is to be able to discuss with other professionals anything related to AAC and share useful information. Please add others. Thanks!
       </span>
     </div>
-    <div class='nominee' data-rank='1'>
-      <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
-      <h4>Ask Me, I'm An AAC User</h4>
-      <img src="/images/2024/knaac/ask-me-im-an-aac-user.jpeg" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        This is a Group where AAC users are the authority on AAC and here AAC users, SLPs, support staff, doctors, parents, family, and others who are interested in AAC, can ask questions and get advice and some insight from actual AAC users!
-        We are * Not* an autism specific AAC group! While we do have a lot of autostoc member we do also have alot of allist (non autistoc AAC users as wellour goal prioritize the voices of the general aAC user community!      
-      </span>
-    </div>
     <div class='nominee' data-rank='3'>
       <a href="https://qiat.org/" target='_blank'>
       <h4>QIAT</h4>
@@ -593,15 +685,15 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.facebook.com/groups/aacgestalt" target='_blank'>
-      <h4>AAC & Gestalt Language</h4>
-      <img src="/images/2024/knaac/gestalt-and-aac.jpeg" class='img' alt='' />
+      <a href="https://www.facebook.com/groups/676728011274573" target='_blank'>
+      <h4>Weave Chat AAC Community</h4>
+      <img src="/images/2024/weave.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        AAC & Gestalt Language Processing - This group is designed to discuss AAC and Gestalt Language Processing! Many people have had success stories with these students, but we don't have one place to share all the information. This group is designed to do just that! Share ideas an collaborate as professionals, parents, and others.      
+        The Weave Chat AAC community page is a safe and inclusive space to share ideas, ask questions, and make suggestions. This group was created for the purpose of uniting users of AAC, especially those who use Weave Chat AAC - whether it be the app version, the lite-tech versions, or any combination there of.     
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.facebook.com/groups/AACthruMMM/" target='_blank'>
       <h4>AAC through Motivate...</h4>
       <img src="/images/2024/knaac/aac-through-motivate.jpeg" class='img' alt='' />
@@ -612,29 +704,20 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.facebook.com/groups/639411254643661/" target='_blank'>
-      <h4>The AAC Connection</h4>
-      <img src="/images/2024/knaac/aac-connection.jpeg" class='img' alt='' />
+      <a href="https://www.facebook.com/groups/smartboxcommunity/" target='_blank'>
+      <h4>Smartbox Community</h4>
+      <img src="/images/2025/knaac/smartbox-community.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        This group provides a safe space to discuss anything and everything to do with communication whether you are AAC users, family members or 'just' a communication partner.
-        Topics welcomed include: training and skills development, lived experiences, all ages and all abilities, shared learnings, top tips and hacks.        
+        Welcome to the Smartbox Community! This is a place for our users, their families and professionals to share ideas, ask questions and chat with members of the Smartbox team. We create AAC solutions to help people communicate and live more independently, with resources that can be used with any type of alternative access.       
       </span>
     </div>
   </div>
 </div>
 
 <div>
-  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3a7.svg'/> AAC "Podcast" of the Year</h3>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3a7.svg'/> AAC Podcast/Feed of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' style='display: none;'>
-      <a href="https://www.talkingwithtech.org/" target='_blank'>
-      <h4>Talking with Tech</h4>
-      <img src="/images/2024/talking-with-tech.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-      </span>
-    </div>
     <div class='nominee' data-rank='3'>
       <a href="https://specialedtechcenter.com/awe-and-wonder-podcast/" target='_blank'>
       <h4>Awe and Wonder</h4>
@@ -644,27 +727,37 @@ bg: 4
         Are you losing the human connection in the midst of data collection? Join Brenda and Sarah as they talk with inspirational people who create awe and wonder in unique ways. “Wonder inspires the wish to understand; awe inspires the wish to let shine, to acknowledge and to unite.” Ulrich Weger & Johannes Wagemann (sourced from Atlas of the Heart by Brene Brown) Participants will hear first hand accounts from people supporting students with complex needs. Assistive Technology, Augmentative Alternative Communication (AAC) and IEP goals are discussed, but human connection is highlighted throughout this engaging series.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
-      <a href="https://www.xceptionalleaders.com/category/augmentative-and-alternative-communication-aac/" target='_blank'>
-      <h4>XCeptional Leaders</h4>
-      <img src="/images/2024/knaac/xceptional-leaders.jpeg" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://podcasts.apple.com/us/podcast/asha-voices/id1478037013" target='_blank'>
+      <h4>ASHA Voices</h4>
+      <img src="/images/2025/knaac/asha-voices.webp" class='img' alt='' />
       </a>
       <span class='sub'>
-        Since launching in 2018, the Xceptional Leaders Podcast, has been committed to representing and giving voice to leaders in the Augmentative and Alternative Communication (AAC) community, reaching listeners in 140 countries. Hosted by speech-language pathologists (SLPs), Mai Ling Chan and James Berges, the show has featured seven guests who use AAC, sharing their leadership journeys and lived experiences through prepared remarks and spontaneous conversation. The show also highlights dedicated SLPs and assistive technology professionals who are passionate leaders in AAC. This blend of voices offers listeners a comprehensive view of how AAC can empower, inspire, and unite people globally.
+        A biweekly podcast focused on the issues that matter in the speech-language-hearing world, ASHA Voices is the sound of ASHA. Aimed at a diverse segment of ASHA’s audience and membership, the award-winning ASHA Voices promotes interdisciplinary conversation among prominent and knowledgeable professionals. ASHA Voices is a quick-moving program with a conversational tone, which features panel discussions, one-on-one interviews, and opportunities for member participation.
       </span>
     </div>
-    <div class='nominee' data-rank='1'>
-      <a href="https://presenters.aacconference.com/" target='_blank'>
-      <h4>AAC in the Cloud</h4>
-      <img src="/images/2024/knaac/aac-in-the-cloud.png" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://podcasts.apple.com/us/podcast/aac-chats/id1731747196" target='_blank'>
+      <h4>AAC Chats</h4>
+      <img src="/images/2025/knaac/aac-chats.webp" class='img' alt='' />
       </a>
       <span class='sub'>
-        AAC in the Cloud is a free, fully-online annual conference focused on all things AAC. Sessions are available online throughout the year and can be tracked for CEU participation credits.
+        The professional resource podcast that aims to break down current research in augmentative and alternative communication and bridge the gap between research to practice by providing context to critical research, describing clinical applications, and directing SLPs to resources to learn more.
+      </span>
+    </div>    
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.instagram.com/growingwithaac/" target='_blank'>
+      <h4>GrowingWithAAC</h4>
+      <img src="/images/2025/knaac/growing-with-aac.jpeg" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        @growingwithaac on Instagram. Created by two SLPs, who specialize in AAC & advocate for neurodiversity-affirming practices!
+        🌿AAC resources, materials, how-to videos, & trainings.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <a href="https://www.instagram.com/beautifulspeechlife/?hl=en" target='_blank'>
-      <h4>beautifulspeechlife</h4>
+      <h4>BeautifulSpeechLife</h4>
       <img src="/images/2024/knaac/beautiful-speech-life.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -677,7 +770,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
       <h4>Stepping Into AAC</h4>
       <img src="/images/2024/stepping.jpeg" class='img' alt='' />
@@ -692,41 +785,40 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.sharedreader.org/professional-development/" target='_blank'>
-      <h4>Tarheel Shared Reader</h4>
-      <img src="/images/2024/knaac/tarheel-shared-reader.png" class='img' alt='' />
+      <a href="https://www.instagram.com/growingwithaac/" target='_blank'>
+      <h4>GrowingWithAAC</h4>
+      <img src="/images/2025/knaac/growing-with-aac.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Tar Heel Shared Reader provides free access to quality professional development, materials, and technology that support the implementation of shared reading for school-aged students with significant cognitive disabilities (SCD) who do not read connected text with comprehension above a 2nd grade level.
-        Tar Heel Shared Reader strives to improve literacy, communication, language, and academic skills of this group of students. The goal is to empower teachers to use an evidence-based approach to shared reading to provide their students with interactive access to grade level content while improving their students’ communication and literacy skills.        
+        @growingwithaac on Instagram. Created by two SLPs, who specialize in AAC & advocate for neurodiversity-affirming practices!
+        🌿AAC resources, materials, how-to videos, & trainings.      
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.project-core.com/professional-development-modules/" target='_blank'>
-      <h4>Project Core</h4>
-      <img src="/images/2024/project-core.png" class='img' alt='' />
+      <h4>PrAACtical AAC</h4>
+      <img src="/images/2024/praactical.webp" class='img' alt='' />
       </a>
       <span class='sub'>
-        The Project Core implementation model is aimed at helping teachers provide students with significant cognitive disabilities and complex communication needs with access to a flexible Universal Core vocabulary and evidence-based instruction to teach them to use core vocabulary via personal augmentative and alternative communication (AAC) systems.
-        The model is designed for students with significant disabilities who do not yet use speech, signs or symbols to communicate in flexible ways. This includes students who rely on early forms of communication such as facial expressions, vocalizations and body movements, as well as students who are beginning to use symbols, signs, or words but cannot yet put them together.        
+        PrAACtical AAC supports a community of professionals and families who are determined to improve the communication and literacy abilities of people with significant communication difficulties. It was founded in 2011 by two SLP professors, Carole Zangari and the late Robin Parker, around a shared passion for AAC.     
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://aac-learning-center.psu.edu/" target='_blank'>
-      <h4>AAC Learning Center</h4>
-      <img src="/images/2024/knaac/aac-learning.png" class='img' alt='' />
+      <a href="https://learn.tobiidynavox.com/" target='_blank'>
+      <h4>TD Learning Hub</h4>
+      <img src="/images/2025/knaac/td-learning-hub.avif" class='img' alt='' />
       </a>
       <span class='sub'>
-        The AAC Learning Center is a free educational resource on augmentative and alternative communication (AAC), and provides presentations by persons who use AAC, short lectures by AAC researchers, and links to information on AAC. Please visit the AAC Learning Center Moodle for supports for coursework in AAC.
+        Boost your knowledge with self-guided resources created by Tobii Dynavox professionals including videos, recorded webinars, quick guides, and online courses, many of which provide ASHA continuing education credits (CEUs).
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.theaacacademy.org/" target='_blank'>
-      <h4>The AAC Academy</h4>
-      <img src="/images/2024/knaac/aac-academy.png" class='img' alt='' />
+      <a href="https://aaclanguagelab.com/" target='_blank'>
+      <h4>AAC Language Lab</h4>
+      <img src="/images/2025/knaac/aac-language-lab.svg" class='img' alt='' />
       </a>
       <span class='sub'>
-        The AAC Academy offers live and on-demand, online learning opportunities for professionals, families, and communicators across the globe!
+        The AAC Language Lab offers real-life solutions in support of language development. Explore language stages and interactive materials designed for Speech Language Pathologists (SLPs), Educators and Parents. An annual subscription provides full access to all materials including guided lesson plans, an activities section, a language screener, implementation tips and more.
       </span>
     </div>
   </div>
@@ -735,13 +827,13 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='2'>
-      <a href="https://praacticalaac.org/" target='_blank'>
-      <h4>PrAACtical AAC</h4>
-      <img src="/images/2024/praactical.webp" class='img' alt='' />
+    <div class='nominee' data-rank='3'>
+      <a href="https://communicationfirst.org/" target='_blank'>
+      <h4>CommunicationFIRST</h4>
+      <img src="/images/2025/knaac/comm-first.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        PrAACtical AAC supports a community of professionals and families who are determined to improve the communication and literacy abilities of people with significant communication difficulties. It was founded in 2011 by two SLP professors, Carole Zangari and the late Robin Parker, around a shared passion for AAC.
+        CommunicationFIRST is the only nonprofit organization dedicated to protecting and advancing the civil rights of the more than 5 million children and adults in the United States who, due to disability or other condition, cannot rely on speech alone to be heard and understood. Our mission is to protect and advance the rights, autonomy, opportunity, and dignity of people with speech-related disabilities through public engagement, policy and practice reform, and systemic advocacy.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -754,24 +846,15 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.project-core.com/" target='_blank'>
-      <h4>Project Core</h4>
-      <img src="/images/2024/project-core.png" class='img' alt='' />
+      <a href="https://communications.fullerton.edu/studentlife/aacclub/" target='_blank'>
+      <h4>AAC Club - CSUF</h4>
+      <img src="/images/2025/knaac/aac-club.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        The Project Core implementation model is aimed at helping teachers provide students with significant cognitive disabilities and complex communication needs with access to a flexible Universal Core vocabulary and evidence-based instruction to teach them to use core vocabulary via personal augmentative and alternative communication (AAC) systems.
+        The AAC Club was founded in the spring of 2021 by a group of Communication Sciences and Disorders majors who were passionate about learning how to serve individuals who relied on AAC for effective communication. The founding board, recognizing the continuing evolution, complexity, and importance of AAC was dissatisfied by the lack of exposure undergraduate students had to the field. Inspired by a desire to learn more, educate others, and support other AAC-related organizations the students founded the AAC Club with the help of Dr. Lisa Erwin-Davidson.       
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://aacinstitute.org/" target='_blank'>
-      <h4>AAC Institute</h4>
-      <img src="/images/2024/knaac/aac-institute.jpeg" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        AAC Institute, established in 2000, is a resource for all who are interested in enhancing the communication of people who rely on AAC (augmentative and alternative communication). Organized as a 501(c)3 not-for-profit charitable organization, AAC Institute offers information and provides services worldwide. AAC Institute promotes the goal of AAC, the AAC Rules of Commitment, and evidence-based AAC clinical practice. This mission is accomplished through service delivery, research, activity organization, information dissemination, and education.        
-      </span>
-    </div>
-    <div class='nominee' data-rank='1'>
       <a href="https://omazingkidsllc.com/" target='_blank'>
       <h4>OMazing Kids</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -781,17 +864,8 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://techowlpa.org/" target='_blank'>
-      <h4>TechOwl</h4>
-      <img src="/images/2024/techowl.webp" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        TechOWL (formerly PIAT) helps people with disabilities explore the tools and technology they need to be independent. TechOWL is Pennsylvania’s Assistive Technology Act program. TechOWL has 9 regional centers across the Commonwealth of Pennsylvania.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
       <a href="https://www.aaccessible.org/" target='_blank'>
-      <h4>AACessible</h4>
+      <h4>AACcessible</h4>
       <img src="/images/2024/knaac/aaccessible.png" class='img' alt='' />
       </a>
       <span class='sub'>
@@ -804,7 +878,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -823,7 +897,7 @@ bg: 4
         With our free Board Builder and Symbol Creator, you can quickly create boards of symbols to help communication. Create boards for day-to-day activities, special occasions, special topics such as games or mealtimes etc. The templates are easy to use for making information sheets or any curtomised designs you want to create.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://goboardmaker.com/" target='_blank'>
       <h4>BoardMaker</h4>
       <img src="/images/2024/knaac/boardmaker.png" class='img' alt='' />
@@ -850,22 +924,55 @@ bg: 4
         At the heart of our software lies an enormous and continually expanding library, brimming with over 70,000 contemporary images that resonate with children of all ages. With such a diverse and expansive selection at their fingertips, educators and families can drop and drop them into a template to create a myriad of resources, from lessons to games, that make learning fun, interactive, and impactful.
       </span>
     </div>
+  </div>
+</div>
+
+<div>
+  <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
+  <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <a href="https://widgitonline.com/en/home" target='_blank'>
-      <h4>Widgit Online</h4>
-      <img src="/images/2024/knaac/widgit.png" class='img' alt='' />
+      <a href="https://www.communicationmatrix.org/" target='_blank'>
+      <h4>Communication Matrix</h4>
+      <img src="/images/2025/knaac/commmatrix.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Create visual, communication and learning supports in your web browser using over 20,000 Widgit Symbols and 100s of easy-to-use templates. No installation or updating required!
+        pending
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://arasaac.org/index.html" target='_blank'>
-      <h4>ARASAAC</h4>
-      <img src="/images/2024/knaac/arasaac.webp" class='img' alt='' />
+      <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
+      <h4>DAGG-3</h4>
+      <img src="/images/2025/dagg3.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        ARASAAC is an AAC center funded by the Department of Education, Science and University of Aragon Government (Spain).  It offers a free catalog of more than 13.500 symbols and 6000 downloadable materials resources, translated to more than 30 languages and widely used in the whole world for millions of users. All the resources are distributed with a Creative Commons license (BY-NC-SA) to facilitate communication and cognitive accessibility to all people who, due to different factors (autism, intellectual disability, lack of language, elderly people, etc.), present serious difficulties in these areas, which hinder their inclusion in any area of daily life.
+        Design an intervention plan for those using augmentative and alternative communication with DAGG-3, short for Dynamic AAC Goals Grid (edition 3). This tool helps speech-language therapists collaborate with their patients’ support team (such as educators and family members) to assess and progress their current communication abilities. It then guides SLTs in choosing and tracking appropriate AAC goals. DAGG-3 can be used for all ability levels – from early learners to more advanced communicators. DAGG-3 is available free of charge.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <a href="https://apps.apple.com/us/app/aac-evaluation-genie/id541418407" target='_blank'>
+      <h4>AAC  Genie</h4>
+      <img src="/images/2025/aac-genie.webp" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        AAC Evaluation Genie is a powerful and intuitive app designed specifically for speech-language pathologists, occupational therapists, special educators, and assistive technology specialists. Developed by a certified speech-language pathologist, this innovative tool transforms the way professionals assess and evaluate augmentative and alternative communication (AAC) needs. AAC Evaluation Genie is a clinical tool intended to assist professionals in identifying skill areas related to language representation methods commonly found on augmentative communication systems. The purpose of AAC Evaluation Genie is not to identify a particular speech-generating device, but to build a framework for selecting an appropriate augmentative communication system for ongoing evaluation and/or device trial.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <a href="https://exceptionalchildren.org/blog/sett-framework-and-evaluating-assistive-technology-remotely" target='_blank'>
+      <h4>SETT</h4>
+      <img src="/images/2025/knaac/sett.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        The premise of the SETT Framework is identifying the characteristics of a Student, the Environments in which the student learns and grows, and Tasks required to be an active learner in those environments before trying to identify a system of Tools that enables the student to actively engage in the tasks in the environments. A critical feature of successfully applying the SETT Framework is a shared understanding across the educational team, the student, and the family when it comes to the "who" (student’s characteristics), the "where" (learning environment characteristics), and the "what" (tasks that a student needs to be able to do).
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <a href="https://www.proedinc.com/Products/34040/fcpr-functional-communication-profilerevised.aspx" target='_blank'>
+      <h4>FCP-R</h4>
+      <img src="/images/2025/fcpr.jpg" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        The FCP-R lets you account for some of the unique aspects of communication and the diversity among individuals with developmental and acquired delays. It addresses all communication possibilities and is not limited to oral language expression. Test items help fulfill the standards in state and federal regulations in the United States. The test assesses students' language-based responses to portrayed, peer-to-peer situations which is unlike other tests which rely on observation forms.
       </span>
     </div>
   </div>
@@ -875,16 +982,15 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/261d-varxxxUNI.svg'/> Lite-Tech AAC Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.acciinc.com/eye-com-board/" target='_blank'>
-      <h4>Eye-Com</h4>
-      <img src="/images/2024/knaac/eye-com.jpeg" class='photo' alt='' />
+      <a href="https://saltillo.com/chatcorner/content/29" target='_blank'>
+      <h4>Flip Books by PRC-Saltillo</h4>
+      <img src="/images/2025/knaac/saltillo-flip.jpg" class='photo' alt='' />
       </a>
       <span class='sub'>
-        This clear acrylic board sits in a sturdy wooden stand that makes it convenient as an eye-gaze device.  The non-speaking person looks at a picture and the person on the other side of the acrylic board follows that person gaze to interpret the person's message.
-        Size:  15" X 19" X 1/8" with wood stand.
+        A low-tech option is a great tool as a back-up to the dedicated solution, use for modeling or during water activities. These low-tech printable options are available to support some of the WordPower™ files. Pre-made downloadable options are offered for the WordPower42 Basic, 60 Basic, 60 and the 108 location files. Note the 108 location option will include a full page flip to verbs. WordPower48 Español Básico recently joined the WordPower low-tech family. The flipbook downloads include instructions to make the flipbooks for these great low-tech options. These options are designed with flips to the access more vocabulary within various categories, similar to the way you would navigate the vocabulary on a NovaChat® or ChatFusion™. 
       </span>
     </div>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://picseepal.com/" target='_blank'>
       <h4>PicSeePal</h4>
       <img src="/images/2024/knaac/picseepal.jpeg" class='photo' alt='' />
@@ -894,31 +1000,22 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.amazon.com/Smile4Autism-English-Plastic-Cartoon-Communication/dp/B01EAO0KV0" target='_blank'>
-      <h4>Smile4Autism Book</h4>
-      <img src="/images/2024/knaac/smile4autism.jpg" class='photo' alt='' />
+      <a href="https://acecentre.org.uk/resources" target='_blank'>
+      <h4>Ace Centre Printables</h4>
+      <img src="/images/2025/knaac/aceprintables.webp" class='photo' alt='' />
       </a>
       <span class='sub'>
-        Smile4Autism Communication Book contains a range of visual aids that are commonly used by parents, caregivers, teachers, and therapists across homes, centers, and schools. It is designed to promote language and cognitive development, enhance social skills, and help individuals with autism communicate their needs and wants effectively.
-      </span>
-    </div>
-    <div class='nominee' data-rank='2'>
-      <a href="https://goboardmaker.com/products/flip-n-talk-small-kit" target='_blank'>
-      <h4>Flip 'n Talk</h4>
-      <img src="/images/2024/knaac/flip-n-talk.webp" class='photo' alt='' />
-      </a>
-      <span class='sub'>
-        The Flip 'n Talk Kit is a manual augmentative communication system that organizes vocabulary for individuals who need no-tech and low-tech augmentative and alternative communication (AAC) support. The Flip 'n Talk Kit features the Flip 'n Talk Book (small or large), Flip 'n Talk Add-on CD for Boardmaker (only compatible with Windows), color PCS labels, communication strips and a vinyl communication board.
+        Discover a wide range of resources, publications and downloads to support use and implementation of AAC and AT. Includes alphabet charts and books, seasonal 
+        resources, symbol charts, etc. All free.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.etsy.com/listing/980010854/mini-core-board-mini-communication-board" target='_blank'>
-      <h4>Mini Core Board</h4>
-      <img src="/images/2024/knaac/mini-core.webp" class='photo' alt='' />
+      <a href="https://www.novitatech.com.au/podd-communication-books/?srsltid=AfmBOoqEpzdzvr5Bw51BwiyLsaLa84AzV33pv8P46RJE5phYekFH1vlG" target='_blank'>
+      <h4>PODD Books</h4>
+      <img src="/images/2025/knaac/podd-book.jpeg" class='photo' alt='' />
       </a>
       <span class='sub'>
-        Mini core board, lanyard AAC board.
-        Keep your communication support with you using these lanyard-sized core vocabulary boards. Perfect for the SLP or SPED teacher on the go, these mini boards come in your choice of vertical or horizontal orientation to make modeling language easy.
+        Pragmatic Organisation Dynamic Display (PODD) is normally a book or device that contains symbols and words to support communication between people with complex communication needs and their communication partners, whether that’s carers, family, friends or support workers.
       </span>
     </div>
   </div>
@@ -936,7 +1033,7 @@ bg: 4
         The QuickTalker FeatherTouch speech device provides multi-message communication that is highly portable, durable, and easy to use. The FeatherTouch membrane responds to the lightest touches and smallest fingers, and makes it easy for almost anyone to communicate. QuickTalker FeatherTouch 12 includes 48 unique messages available across five recording levels and provides an individual with robust communication options throughout the day.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.ablenetinc.com/bigmack/" target='_blank'>
       <h4>BigMack</h4>
       <img src="/images/2024/knaac/big-mack.jpeg" class='photo' alt='' />
@@ -954,7 +1051,7 @@ bg: 4
         The Logan® ProxTalker® is the most advanced and adaptable recorded speech communication device available. It uses RFID (radio frequency identification) technology to enable independent verbal picture communication for non-verbal people of all ages.  This technology allows you to simply place any photo, symbol, or object on a sound tag card and have a voice! To trigger voice output place your sound tag card on any one of the 5 buttons and push.  Now silent picture users have easy access to voice output. Life changing!  
       </span>
     </div>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.attainmentcompany.com/gotalk-9" target='_blank'>
       <h4>Go Talk</h4>
       <img src="/images/2024/knaac/go-talk.png" class='photo' alt='' />
@@ -972,15 +1069,6 @@ bg: 4
         The MegaBee is an assisted communication tablet. An easy to use, low tech, eye pointing, rapidly deployed, convenient, frequent means of communication for people who have no speech. Ideal for people with a range of neurological conditions, acute and progressive.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
-      <a href="https://specialsupplies.com/special-supplies-aac-communication-device-for-speech-therapy-talker-buddy-communication-device-for-non-verbal-kids-adults-autism-talking-aids-for-home-or-school-communication-device-w-travel-bag" target='_blank'>
-      <h4>Talker Buddy</h4>
-      <img src="/images/2024/knaac/talker-buddy.jpeg" class='photo' alt='' />
-      </a>
-      <span class='sub'>
-        The Talker Buddy is a low-cost basic communication tool for a variety of professionals and caregivers who work with non-verbal individuals Parents or caregivers of non-verbal children and adults can use the device as an effective means of communication with their loved ones.
-      </span>
-    </div>
   </div>
 </div>
 
@@ -996,22 +1084,13 @@ bg: 4
         Go wireless with your switch access to a tablet, computer, mobile phone, or other devices with a Bluetooth connection. The Blue2 FT accessibility switch uses highly-sensitive proximity sensor technology for activation. Any time the user is near or touching the activation surfaces, the Blue2 FT accessibility switch will activate.
       </span>
     </div>
-    <div class='nominee' data-rank='1'>
-      <a href="https://www.xbox.com/en-US/accessories/controllers/xbox-adaptive-controller" target='_blank'>
-      <h4>XBox Adaptive Controller</h4>
-      <img src="/images/2024/knaac/xbox-controller.png" class='photo' alt='' />
-      </a>
-      <span class='sub'>
-        Designed primarily to meet the needs of gamers with limited mobility, the Xbox Adaptive Controller is a unified hub for devices that helps make gaming more accessible. Connect external devices such as switches, buttons, mounts, and joysticks to create a custom controller experience that is uniquely yours. Button, thumbstick and trigger inputs are controlled with assistive devices (sold separately) connected through 3.5mm jacks and USB ports.
-      </span>
-    </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.inclusive.com/uk/smoothie-switch.html" target='_blank'>
-      <h4>Smoothie Switch</h4>
-      <img src="/images/2024/knaac/smoothie.webp" class='photo' alt='' />
+      <a href="https://volksswitch.org/index.php/volks-devices/customizable-3d-printable-keyguard-for-grid-based-free-form-and-hybrid-aac-apps-on-tablets/" target='_blank'>
+      <h4>3D Printed Keyguards</h4>
+      <img src="/images/2025/knaac/3dprinted-keyguard.webp" class='photo' alt='' />
       </a>
       <span class='sub'>
-        The Smoothie is a beautifully designed, wired switch for computer or AAC access. It’s available in four colors: red, green, blue and yellow. All Smoothies feature a large activation area, require low activation force, give tactile feedback and are easily mounted. Smoothies also have a remarkably low activation profile, so users can activate the switch without lifting their hand off the table. 
+        Keyguards allow individuals with limited muscle control to reliably point at regions of an app running on a tablet. They do this by physically separating access to specific regions of the tablet screen with rails that rise up from the surface of the tablet. In this case, the apps are associated with Augmented and Alternative Communication (AAC). However, any tablet app can be supported by designing a free-form keyguard. Volksswitch has premade printable templates or tools to design your own keyguard.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -1042,22 +1121,13 @@ bg: 4
         HeadMouse replaces the standard computer mouse for people who cannot use or have limited use of their hands. The HeadMouse translates natural movements of a user's head into directly proportional mouse pointer movement – move your head and the mouse pointer follows along. The HeadMouse has a wireless optical sensor which tracks a tiny disposable target worn by the user on his/her forehead, glasses, or even a hat. It works just like a computer mouse, with the mouse pointer being controlled by head movement.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
-      <a href="https://www.irisbond.com/en/aac-products/hiru-the-first-multiplatform-eye-tracker/" target='_blank'>
-      <h4>Irisbond Hiru</h4>
-      <img src="/images/2024/knaac/hiru.jpg" class='photo' alt='' />
-      </a>
-      <span class='sub'>
-        Irisbond, an eye-tracking company, specializes in Augmentative and Alternative Communication (AAC) and develops devices for assistive communication, such as Hiru. Hiru has been certified as Made for iPad, meeting Apple's performance standards, and is the world's first multiplatform eye-tracker that operates seamlessly on both Windows and iPadOS. As a team, our work has a significant social impact on various levels, and we take pride in that. We develop technology that goes beyond merely facilitating communication. Hiru, our eye-tracker, empowers individuals to express themselves, have fun, pursue their dreams, and be free —all through the power of their eyes.
-      </span>
-    </div>
   </div>
 </div>
 
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c2.svg'/> Symbol Library of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://goboardmaker.com/pages/picture-communication-symbols" target='_blank'>
       <h4>PCS (BoardMaker)</h4>
       <img src="/images/2024/knaac/boardmaker.png" class='img' alt='' />
@@ -1066,7 +1136,7 @@ bg: 4
         For more than 30 years, Tobii Dynavox Picture Communication Symbols® (PCS) have been used by millions of students and adults to understand and structure the world around them, communicate their thoughts, and learn to read and write. Symbol-based visual supports have been proven to help people with communication, behavior and learning challenges succeed in school and life and amaze their peers, families, therapists and teachers.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.n2y.com/symbolstix-prime/" target='_blank'>
       <h4>SymbolStix PRIME</h4>
       <img src="/images/2024/knaac/symbolstix.png" class='img' alt='' />
@@ -1082,15 +1152,6 @@ bg: 4
       </a>
       <span class='sub'>
         LessonPix is an easy-to-use online resource that allows users to create various customized learning materials. It doesn't have to be difficult or expensive to be good. We believe in the power of visuals. Our priority is to give the flexibility you need for customization, simplicity of 60,000+ symbols for families, and affordability for individuals.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
-      <a href="https://smartysymbols.com/" target='_blank'>
-      <h4>Smarty Symbols</h4>
-      <img src="/images/2024/knaac/smarty-symbols.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        At the heart of our software lies an enormous and continually expanding library, brimming with over 70,000 contemporary images that resonate with children of all ages. With such a diverse and expansive selection at their fingertips, educators and families can drop and drop them into a template to create a myriad of resources, from lessons to games, that make learning fun, interactive, and impactful.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -1117,7 +1178,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.inmaninnovations.com/InmanInnovationsWordPower.php" target='_blank'>
       <h4>WordPower</h4>
       <img src="/images/2024/wordpower.jpeg" class='img' alt='' />
@@ -1127,7 +1188,7 @@ bg: 4
         Nancy has customized WordPower for multiple AAC systems, and it was originally designed for an individual in need of an augmentative communication device based on words. A vocabulary based on pre-stored sentences would not meet his communication needs. Though he could see the advantage of a picture-based system with symbol sequencing, he did not want to learn the complex language coding system. At the same time, he wanted more than a system based on spelling and word prediction. WordPower provided him a fast and efficient language, with minimal time and effort required for learning the system.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.prentrom.com/prc_advantage/unity-language-system/" target='_blank'>
       <h4>Words For Life/Unity</h4>
       <img src="/images/2024/unity.jpeg" class='img' alt='' />
@@ -1138,11 +1199,11 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <a href="https://www.assistiveware.com/crescendo" target='_blank'>
-      <h4>Crescendo Evolution</h4>
-      <img src="/images/2024/proloquo-vocab.jpeg" class='img' alt='' />
+      <h4>Crescendo</h4>
+      <img src="/images/2024/crescendo.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        The robust and innovative vocabulary in Proloquo is developed with motor-planning at its heart and has more than 4 times the words of other AAC systems. Out of the box, it includes thousands of curriculum words to allow AAC users to fully participate in the classroom.
+        The Crescendo vocabulary offers consistent core word placement, extensive fringe and flexibility. Easy access to “core words” is key for efficient communication. Core words are the high-frequency words, such as “I”, “you”, “go”, “do” that make up most of what we say. But not every AAC vocabulary keeps them in a consistent location. In Crescendo, buttons for core words appear in the same place on the home and fringe pages. This consistency supports learning through motor planning, a process your brain goes through when learning a new skill. Through consistent repetition, you learn to carry out tasks automatically.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -1155,31 +1216,12 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.openboardformat.org/examples" target='_blank'>
-      <h4>Quick Core</h4>
-      <img src="/images/2024/quick-core.svg" class='img' alt='' />
+      <a href="https://avazapp.com/the-all-new-avaz-aac-communicate-with-power/" target='_blank'>
+      <h4>Step Up</h4>
+      <img src="/images/2024/avaz.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Quick Core is an open-licensed, core, motor-planning based vocabulary set with up to 112 buttons per board. It has built-in progression to gradually expand the vocabulary over time. Quick Core is based on similar motor-planning-based board sets, with the goal of minimizing hits to access words. Buttons are organized loosely by concepts or categories, with consistent button sequences providing individual growth over time.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
-      <a href="https://www.altshift.education/professional-learning/courses/pragmatic-organization-dynamic-display-podd#:~:text=PODD%20is%20an%20augmentative%20and,individuals%20with%20complex%20communication%20needs." target='_blank'>
-      <h4>PODD</h4>
-      <img src="/images/2024/podd.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        PODD is an augmentative and alternative communication (AAC) tool that organizes vocabulary to support expression and comprehension for individuals with complex communication needs. Language is organized in a practical layout that requires minimal page turns to communicate. 
-        PODD is available as low tech communication books or supported through multiple high tech software companies. PODD can also be modified to accommodate students with various complex communication, physical, and sensory needs. 
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
-      <a href="https://thinksmartbox.com/super-core/" target='_blank'>
-      <h4>Super Core</h4>
-      <img src="/images/2024/super-core.png" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        Super Core was specifically designed to support language, literacy and learning for children, teens, and adults. It provides quick, motorically consistent access to over 3,500 of the most commonly used words and phrases – organized in a predictable and meaningful way to help you find the words you need. With 50 cell, 30 cell, and Super Core Learning layouts available in many languages, Super Core provides an easy to personalize, comprehensive vocabulary.
+        Meet Avaz’s expanded, clutter-free vocabulary – designed to ensure that communication becomes a seamless extension of thoughts and emotions. This new robust vocabulary is category-based and ensures motor planning at each step. Hence, it brings you the best of both worlds. This vocabulary design also comes with a frozen row of folders at the bottom, exclusively for high frequency words. This feature accelerates communication by instant access to essential vocabulary irrespective of where you are in your AAC. These aspects of the design make the communication quicker, making the user rely on and trust their AAC.
       </span>
     </div>
   </div>
@@ -1188,7 +1230,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.assistiveware.com/blog" target='_blank'>
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
@@ -1222,7 +1264,7 @@ bg: 4
         upcoming events and news, and more.
       </span>
     </div>
-    <div class='nominee' data-rank='2'>
+    <div class='nominee' data-rank='3'>
       <a href="https://info.avazapp.com/blog/" target='_blank'>
       <h4>Avaz</h4>
       <img src="/images/2024/avaz.png" class='img' alt='' />
@@ -1237,10 +1279,10 @@ bg: 4
   </div>
 </div>
 
-<div>
+<div style='display: none;'>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3c6.svg'/> Lifetime Achievement (Judges' Selection)</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Kate Ahern</h4>
       <img src="/images/2024/kate-ahern.jpeg" class='photo' alt='' />
       <span class='sub'>
@@ -1251,11 +1293,11 @@ bg: 4
   </div>
 </div>
 
-<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
+<div style='display: none; width: 400px; margin: 0 auto; max-width: 100%;'>
   <a href="/donate" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Donate to<br/>OpenAAC</a>
 </div>
 
-<p>
+<p style='display: none;'>
   Thank you for supporting the world of AAC! We look forward to hosting the awards again in 2025! The knAAC Awards are one of the 
   important projects we host as a non-profit in the AAC 
   community. 
@@ -1263,6 +1305,13 @@ bg: 4
   us continue funding this and other work to help
   lift everyone in the world of AAC!
 </p>
+
+<p>Thank you for taking time to review all the nominees. Please make sure to give each nominee your fair consideration! Once voting has concluded we will compile the results and share them here on this page. The final awards will be given based on a combination of public vote and input from our panel of judges, with a majority of weight going to the public vote. This year's judging panel consists of 8 judges who include AAC users, practitioners, family members of AAC users, and community advocates.
+
+<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfB--Py9xp5lGdZ9hAkXsJOx9e16dUqkyArwSvG4usPxFh9zw/viewform?usp=dialog" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Vote for the<br/>knAAC Awards Nominees</a>
+</div>
+
 <script>
   var toggle = function(list) {
     list.classList.toggle('expanded');

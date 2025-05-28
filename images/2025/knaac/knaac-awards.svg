@@ -42,7 +42,7 @@
        id="linearGradient17"
        inkscape:collect="always">
       <stop
-         style="stop-color:#1fadff;stop-opacity:1;"
+         style="stop-color:#71cbff;stop-opacity:1;"
          offset="0"
          id="stop17" />
       <stop
@@ -70,7 +70,7 @@
        id="linearGradient9"
        inkscape:collect="always">
       <stop
-         style="stop-color:#00539e;stop-opacity:1;"
+         style="stop-color:#007ceb;stop-opacity:1;"
          offset="0"
          id="stop9" />
       <stop
@@ -166,12 +166,12 @@
        sodipodi:nodetypes="ccccc" />
     <path
        id="path3"
-       style="fill:url(#linearGradient15);stroke:#880000;stroke-width:1.78768;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:url(#linearGradient15);stroke:#710000;stroke-width:1.78768;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 116.79144,154.99552 23.87681,-7.40928 c 2.38429,15.00008 6.9618,29.00324 13.12217,42.28692 l -15.98093,-6.97489 -7.89588,14.38417 c -6.40351,-13.17316 -10.49252,-27.39837 -13.12217,-42.28692 z"
        sodipodi:nodetypes="cccccc" />
     <path
        id="rect3"
-       style="opacity:1;fill:url(#linearGradient12);stroke:#880000;stroke-width:1.78768;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient12);stroke:#710000;stroke-width:1.78768;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 86.173038,149.40299 24.498992,4.97995 c -5.38158,12.34681 -8.58759,26.57913 -8.81973,43.38879 l -9.309625,-13.91311 -15.189365,8.93316 c -0.0739,-14.93879 2.375101,-29.47924 8.819728,-43.38879 z"
        sodipodi:nodetypes="cccccc" />
     <ellipse
@@ -183,7 +183,7 @@
        cx="112.64582" />
     <path
        id="ellipse9"
-       style="fill:#18aaff;fill-opacity:1;stroke-width:1.3876;stroke-linejoin:round;stroke-dasharray:none"
+       style="fill:#6fcaff;fill-opacity:1;stroke-width:1.3876;stroke-linejoin:round;stroke-dasharray:none"
        d="m 70.958688,87.484901 c 4.244098,-7.143971 9.785145,-11.484303 14.047218,-14.459315 -2.486941,3.132584 0.789391,4.936594 4.02109,2.889262 -0.48181,5.519706 -11.430238,12.468305 -13.501202,15.035741 1.65253,-3.446651 -2.147146,-5.929269 -4.567106,-3.465688 z"
        sodipodi:nodetypes="ccccc" />
     <ellipse
@@ -195,12 +195,12 @@
        ry="51.691799" />
     <path
        d="M 150.75499,99.680812 C 140.809,93.35404 141.1418,111.72677 150.21971,105.932 l 3.8512,8.27747 c -6.22737,2.88828 -15.66381,1.69902 -19.18063,-4.39042 -4.60817,-6.84492 -1.38562,-17.300511 6.43833,-20.120625 3.44107,-1.390971 9.35767,-1.791261 11.50092,1.066383 z"
-       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffdd1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffec1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="path1-1"
        sodipodi:nodetypes="ccccccc" />
     <path
        id="rect1"
-       style="fill:#d80000;stroke:#880000;stroke-width:1.50334;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#d80000;stroke:#6e0000;stroke-width:1.50334;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        d="m 62.645835,132.24586 c 35.318548,-3.97043 68.366525,-3.39968 100.000015,0 1.53197,8.33333 0.59069,16.66667 -1.54569,25 -31.68918,-2.74025 -61.353761,-3.3945 -96.723792,0 -1.290577,-8.33333 -2.898471,-16.66667 -1.730533,-25 z"
        sodipodi:nodetypes="ccccc" />
     <text
@@ -249,7 +249,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#fefefe;fill-opacity:1;stroke-width:1.00005;stroke-dasharray:none">     varied categories of AAC</tspan></textPath></text>
     <path
        d="m 127.1645,101.66302 c -0.41241,-1.08667 -0.92759,-2.289989 -1.44723,-3.55511 -0.64663,1.540936 -1.09727,2.70937 -1.43826,3.76034 z m -0.0626,4.58831 h -2.5017 c -0.52118,1.51723 -2.51457,8.78944 -3.03576,10.30669 l -9.33523,-1.91822 c 3.32405,-8.73283 3.77305,-15.678843 7.36233,-23.483287 l 12.78789,-1.733812 c 2.26304,11.120049 3.46513,17.358879 6.78915,26.091699 l -9.43244,1.04356 z"
-       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffdd1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffec1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="path1-4"
        sodipodi:nodetypes="ccccccccccccc" />
     <path
@@ -259,7 +259,7 @@
        sodipodi:nodetypes="ccccccccccc" />
     <path
        d="m 107.21311,102.16246 c -1.0192,-2.907081 -0.41815,-1.01364 -1.4375,-3.920713 -1.01922,2.907073 -0.50166,1.147469 -1.52085,4.054543 z m -2.5545,4.2227 c -0.52119,1.51723 -2.51459,8.78945 -3.03578,10.30669 l -9.133288,-1.31245 c 2.316471,-9.07854 2.444887,-12.4631 7.293014,-24.752167 l 12.655284,-1.070695 c 1.59992,10.456932 3.26916,15.331882 6.59319,24.064702 l -9.23648,3.07055 c -0.52119,-1.51724 -1.42275,-7.31731 -2.2809,-10.3067 -1.21571,0.15 -1.63301,7e-5 -2.85504,7e-5 z"
-       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffdd1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       style="font-weight:bold;font-size:80px;line-height:1.25;font-family:Futura;-inkscape-font-specification:'Futura, Bold';white-space:pre;fill:#ffec1d;fill-opacity:1;stroke:#000000;stroke-width:1.08968;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
        id="path9"
        sodipodi:nodetypes="ccccccccccccc" />
     <path
