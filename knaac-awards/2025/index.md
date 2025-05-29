@@ -250,7 +250,7 @@ bg: 4
       <h4>Himani from CA</h4>
       <img src="/images/2025/knaac/himani.png" class='photo' alt='' />
       <span class='sub'>
-      Himani was educationally neglected in her school, but quickly adopted AAC once it was made available. Since then Himani has made several presentations in settings from her class to large conferences. She has worked as a PRC Ambassador. She has worked with her mother and local librarian to start a Story Time for AAC program in her local community. She keeps her grades high in general education and hopes to be a psychiatrist someday.
+      Himani was educationally neglected in her school, but quickly adopted AAC once it was made available. Since then, Himani has made several presentations in settings from her class to large conferences. She works as a PRC Ambassador, writing blogs and representing them in local conferences. She has worked with her mother, collaborating with her local librarian and California State University, East Bay to start “Storytime with AAC”, a library-based program for emergent AAC users. She has been volunteering for this program at her local library for the last 2 years. She keeps her grades high in general education and hopes to be a psychiatrist someday.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -855,7 +855,7 @@ education and consultation on neurodiversity-affirming practices through their b
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://omazingkidsllc.com/" target='_blank'>
+      <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
       </a>
