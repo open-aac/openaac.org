@@ -936,7 +936,7 @@ education and consultation on neurodiversity-affirming practices through their b
       <img src="/images/2025/knaac/commmatrix.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        pending
+        The Communication Matrix is an online assessment tool created to help professionals and family members support people with severe communication disorders in their journey toward greater self-expression. The Matrix guides you through a series of questions to answer based on your observations and experiences with the individual. It lets you track and understand progress at a glance.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
