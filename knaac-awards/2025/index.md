@@ -173,6 +173,9 @@ bg: 4
   in the world of AAC! We want to help celebrate the 
   unsung heroes of AAC who go above and beyond, not for fame or money, but because they see the impact it can make for underserved populations around the world.
 </p>
+<p style='font-size: 24px; font-weight: bold;'>
+  Please Review all Nominees and Use the Voting Link at the Bottom
+</p>
 <p>
   All of these people and products have done impressive
   work, and we are grateful for how their 
@@ -202,7 +205,7 @@ bg: 4
       <h4>Jordyn Zimmerman</h4>
       <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
-      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of CommunicationFIRST and presents regularly across the country.
+      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of Communication FIRST and presents regularly across the country.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -243,7 +246,7 @@ bg: 4
       <h4>Becca from UT</h4>
       <img src="/images/2025/knaac/becca.png" class='photo' alt='' />
       <span class='sub'>
-      Becca started using AAC when she was five years old. She has worked hard to slowly expand her breadth of vocabulary. She is a fierce advocate, and volunteered to speak out as part of a federal Rett Syndrome panel. She posts weekly communication prompts in the Rett Syndrome Facebook group because she wants people to know that everyone with Rett Syndrome deserves to communicate and drive their own life choices. She insisted on taking a modified GED exam before graduating this year to prove to herself and others that she can learn just like anybody else.
+      Becca started using AAC when she was five years old. She has worked hard to gradually expand her breadth of vocabulary. She is a fierce advocate, and volunteered to speak out as part of a federal Rett Syndrome panel. Becca creates weekly communication prompts on Instagram and the Rett Syndrome Facebook group because she wants people to know that everyone deserves to communicate and drive their own life choices. She has presented at multiple community and youth meetings to raise awareness of Rett Syndrome and the importance of communication for everyone. Becca insisted on taking a modified GED exam before graduating this year to prove to herself and others that she can learn just like anybody else.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -277,7 +280,7 @@ bg: 4
       <h4>Jordyn Zimmerman</h4>
       <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
-      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of CommunicationFIRST and presents regularly across the country.
+      Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of Communication FIRST and presents regularly across the country.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -829,11 +832,11 @@ education and consultation on neurodiversity-affirming practices through their b
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
       <a href="https://communicationfirst.org/" target='_blank'>
-      <h4>CommunicationFIRST</h4>
+      <h4>Communication FIRST</h4>
       <img src="/images/2025/knaac/comm-first.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        CommunicationFIRST is the only nonprofit organization dedicated to protecting and advancing the civil rights of the more than 5 million children and adults in the United States who, due to disability or other condition, cannot rely on speech alone to be heard and understood. Our mission is to protect and advance the rights, autonomy, opportunity, and dignity of people with speech-related disabilities through public engagement, policy and practice reform, and systemic advocacy.
+        Communication FIRST is the only nonprofit organization dedicated to protecting and advancing the civil rights of the more than 5 million children and adults in the United States who, due to disability or other condition, cannot rely on speech alone to be heard and understood. Our mission is to protect and advance the rights, autonomy, opportunity, and dignity of people with speech-related disabilities through public engagement, policy and practice reform, and systemic advocacy.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
