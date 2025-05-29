@@ -128,8 +128,6 @@ bg: 4
     text-align: center;
   }
 
-
-
   .nominees.expanded .img, .nominees .nominee.winner .img { 
     height: 110px;
     float: left;
@@ -164,6 +162,24 @@ bg: 4
     height: 50px;
     vertical-align: middle;
     margin-right: 5px;
+  }
+	@media (max-width: 800px) {
+    .nominees {
+      margin-left: 0;
+    }
+    .nominee {
+      max-width: 45%;
+    }
+    .nominees.expanded .photo, .nominees .nominee.winner .photo { 
+      margin-left: 0;
+      float: none;
+      margin-bottom: 10px;
+    }
+    .nominees.expanded .img, .nominees .nominee.winner .img { 
+      margin-left: 0;
+      float: none;
+      margin-bottom: 10px;
+    }
   }
 </style>
 <p>
@@ -243,28 +259,28 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f60e.svg'/> AAC Teen Self-Advocate of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <h4>Becca from UT</h4>
+      <h4>Becca</h4>
       <img src="/images/2025/knaac/becca.png" class='photo' alt='' />
       <span class='sub'>
       Becca started using AAC when she was five years old. She has worked hard to gradually expand her breadth of vocabulary. She is a fierce advocate, and volunteered to speak out as part of a federal Rett Syndrome panel. Becca creates weekly communication prompts on Instagram and the Rett Syndrome Facebook group because she wants people to know that everyone deserves to communicate and drive their own life choices. She has presented at multiple community and youth meetings to raise awareness of Rett Syndrome and the importance of communication for everyone. Becca insisted on taking a modified GED exam before graduating this year to prove to herself and others that she can learn just like anybody else.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Himani from CA</h4>
+      <h4>Himani</h4>
       <img src="/images/2025/knaac/himani.png" class='photo' alt='' />
       <span class='sub'>
       Himani was educationally neglected in her school, but quickly adopted AAC once it was made available. Since then, Himani has made several presentations in settings from her class to large conferences. She works as a PRC Ambassador, writing blogs and representing them in local conferences. She has worked with her mother, collaborating with her local librarian and California State University, East Bay to start “Storytime with AAC”, a library-based program for emergent AAC users. She has been volunteering for this program at her local library for the last 2 years. She keeps her grades high in general education and hopes to be a psychiatrist someday.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Lily from ID</h4>
+      <h4>Lily</h4>
       <img src="/images/2025/knaac/lily.png" class='photo' alt='' />
       <span class='sub'>
         Hi, my name is Lily and I’m a fabulous teenager! I like listening to music, watching YouTube, swimming, dancing, and travel! But what I’m most passionate about is theater. I love watching plays, performing, and writing scripts. This year I took a high school creative writing course to become a better writer for my scripts. Also, I am passionate about AAC. I have over 10 AAC apps that I use to be successful in school and chat with friends. Every time I see an AAC app or AAC user I feel excited and proud. Being an AAC user is something I would never change about me.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Tristan from MA</h4>
+      <h4>Tristan</h4>
       <img src="/images/2025/knaac/tristan.png" class='photo' alt='' />
       <span class='sub'>
       Tristan is a 14 year old autistic AAC user. He is part of several online AAC communities including AAC Voices, the International Society for Augmentative and Alternative Communication (ISAAC), and ImpAACt Voices. He enjoys reading about Ancient Egypt and Ancient China and loves all kinds of historical artifacts, especially making them with his 3D printer. He loves waterskiing, jet skiing, surfing, rock climbing, swimming, horseback riding, roller coasters and traveling. Tristan prides himself on being a good friend and especially wants to help others by being a medical advocate. When he grows up, he wants to be a stand-up comedian or a professional scuba diver who swims with sharks.
