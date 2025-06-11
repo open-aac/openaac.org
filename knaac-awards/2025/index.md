@@ -423,7 +423,7 @@ education and consultation on neurodiversity-affirming practices through their b
       <img src="/images/2024/touchchat.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        TouchChat HD with WordPower - Designed for individuals with autism, Down syndrome, ALS, apraxia, stroke, or other conditions that affect a person's ability to use natural speech, TouchChat uses the familiarity of iOS technology to provide a dynamic AAC solution for a lifetime of successful communication. With easy-to-customize features and a wide range of intuitive vocabularies (including the most comprehensive WordPower® options), languages, and voices, people who are non-speaking can experience the unlimited power of communication. TouchChat is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
+        TouchChat® HD is the exclusive home to WordPower on an iOS AAC app. Fully customizable with a wide range of vocabularies, languages, and voices, TouchChat features a word-based page set so children and adults with autism, Down Syndrome, ALS, apraxia, stroke, and other conditions that affect a person’s ability to use natural speech can create flexible, spontaneous expression. This robust communication solution for iPhone®, iPad®, and Mac® computer offers access options including touch, switch scanning, and head tracking.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -432,7 +432,7 @@ education and consultation on neurodiversity-affirming practices through their b
       <img src="/images/2024/lampwfl.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        LAMP Words for Life is a renowned, motor-planning-focused language system for children with autism and other developmental disabilities. With an 84-button location grid and multi-meaning symbols, this iOS app combines the power of the Unity® vocabulary and Language Acquisition Motor Planning (LAMP™) approach. It includes developmentally progressive vocabulary files and features to scaffold language learning for each individual's current skill level with a clear path for unlimited language growth. Available in English as well as bilingual Spanish/English and Canadian French/English, LAMP Words for Life is a universal app supporting iPhone®, iPod®, and iPad® as well as multiple access methods.
+        LAMP Words for Life is a renowned, motor-planning-focused vocabulary system for children with autism and other developmental disabilities. With 84-button locations and multi-meaning symbols, this iOS app combines the power of the Unity® vocabulary and Language Acquisition Motor Planning (LAMP™) approach. Available in English, Spanish, and Canadian French, LAMP Words for Life is structured for early success and allows the individual's vocabulary and communication skills to grow. Access options include touch, switch scanning, and head tracking.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -1006,7 +1006,7 @@ education and consultation on neurodiversity-affirming practices through their b
       <img src="/images/2025/knaac/saltillo-flip.jpg" class='photo' alt='' />
       </a>
       <span class='sub'>
-        A low-tech option is a great tool as a back-up to the dedicated solution, use for modeling or during water activities. These low-tech printable options are available to support some of the WordPower™ files. Pre-made downloadable options are offered for the WordPower42 Basic, 60 Basic, 60 and the 108 location files. Note the 108 location option will include a full page flip to verbs. WordPower48 Español Básico recently joined the WordPower low-tech family. The flipbook downloads include instructions to make the flipbooks for these great low-tech options. These options are designed with flips to the access more vocabulary within various categories, similar to the way you would navigate the vocabulary on a NovaChat® or ChatFusion™. 
+        Where could one use a lite-tech option? Everywhere! Lite-tech AAC supplies access to high-frequency and versatile vocabulary when the activity may not be conducive to having a device present, when the device is not available, or for modeling. Available to support Unity® and WordPower®, the free, pre-made flip book downloads from the AAC Language Lab® include instructions on how to make them. These options are designed with flips to access more vocabulary within categories, similar to the way you would navigate the vocabulary on a high-tech system. 
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -1213,7 +1213,7 @@ education and consultation on neurodiversity-affirming practices through their b
       <img src="/images/2024/unity.jpeg" class='img' alt='' />
       </a>
       <span class='sub'>
-        Unity® is the most established AAC language system in the industry. It's used by tens of thousands of individuals with apraxia, cerebral palsy, autism, Down syndrome, Rett syndrome, and other diagnoses that involve receptive or expressive language deficits. It's also the foundation of LAMP Words for Life® and CoreScanner™ vocabularies. Known for its multi-meaning symbols and consistent motor plans, Unity helps communicators of all ages, skill levels, and access methods learn quickly and build language skills for maximum independence. Bilingual options available.
+        Unity® is the original and most established AAC vocabulary system in the industry. Known for its multi-meaning Minspeak® symbols and consistent motor plans, Unity helps communicators of all ages, skill levels, and access methods learn quickly and build language skills for maximum independence. This research-based vocabulary supports individuals with apraxia, cerebral palsy, autism, Down syndrome, Rett syndrome, and other communication challenges. Unity is also the foundation of LAMP Words for Life® and CoreScanner™ vocabularies. Bilingual options available.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
