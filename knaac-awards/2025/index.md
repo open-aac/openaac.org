@@ -1327,7 +1327,7 @@ education and consultation on neurodiversity-affirming practices through their b
 
 <p>Thank you for taking time to review all the nominees. Please make sure to give each nominee your fair consideration! Once voting has concluded we will compile the results and share them here on this page. The final awards will be given based on a combination of public vote and input from our panel of judges, with a majority of weight going to the public vote. This year's judging panel consists of 8 judges who include AAC users, practitioners, family members of AAC users, and community advocates.
 
-<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
+<div style='display: none; width: 400px; margin: 0 auto; max-width: 100%;'>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfB--Py9xp5lGdZ9hAkXsJOx9e16dUqkyArwSvG4usPxFh9zw/viewform?usp=dialog" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Vote for the<br/>knAAC Awards Nominees</a>
 </div>
 
