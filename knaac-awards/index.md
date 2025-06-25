@@ -45,7 +45,7 @@ bg: 5
   <img src="/images/2024/assistiveware.svg" class='tease' />
 </div>
 <div style='width: 400px; margin: 0 auto; max-width: 100%;'>
-  <a href="/knaac-awards/2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2024 Results</a>
+  <a href="/knaac-awards/2025" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Check Out the<br/>2025 Results</a>
 </div>
 <h2>The knAAC Awards</h2>
 <img src='/images/2024/knaac/knaac-awards.png' class='preview' style='width: 200px; max-width: 30%; float: left; margin-right: 10px; margin-bottom: 5px;'/>
@@ -91,7 +91,13 @@ bg: 5
   highlights in each category.
 </p>
 
-<div style='width: 400px; margin: 0 auto; max-width: 100%; display: none;'>
-  <a href="2024" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>On to the 2024<br/>knAAC Awards!</a>
-</div>
+<p>
+  Annual Results:
+
+  <ul>
+    <li><a href="2024">Nominees and Selections from 2024</li>
+    <li><a href="2025">Nominees and Selections from 2025</li>
+  </ul>
+</p>
+
 <div style='clear: both;'></div>
