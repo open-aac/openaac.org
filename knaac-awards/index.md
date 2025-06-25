@@ -95,8 +95,8 @@ bg: 5
   Annual Results:
 
   <ul>
-    <li><a href="2024">Nominees and Selections from 2024</li>
-    <li><a href="2025">Nominees and Selections from 2025</li>
+    <li><a href="2024">Nominees and Selections from 2024</a></li>
+    <li><a href="2025">Nominees and Selections from 2025</a></li>
   </ul>
 </p>
 
