@@ -189,9 +189,6 @@ bg: 4
   in the world of AAC! We want to help celebrate the 
   unsung heroes of AAC who go above and beyond, not for fame or money, but because they see the impact it can make for underserved populations around the world.
 </p>
-<p style='font-size: 24px; font-weight: bold;'>
-  Please Review all Nominees and Use the Voting Link at the Bottom
-</p>
 <p>
   All of these people and products have done impressive
   work, and we are grateful for how their 
@@ -202,7 +199,11 @@ bg: 4
   or voting for our favorite superheroes.
 </p>
 <p>
-  You may vote in as many or as few categories as you would like, but please take time to review all the candidates in a single category before voting on them. Final results will be tallied once the voting with has closed, and we will announce the winners here!
+  We are happy to celebrate all of the nominees this year,
+  including those who were selected for recognition in
+  each category. Please click through to learn more
+  about each of the important contributions happening
+  in the world of AAC this year!
 </p>
 <p style='display: none;'>
   Voting has ended, and the final results are 
@@ -1321,12 +1322,12 @@ education and consultation on neurodiversity-affirming practices through their b
   </div>
 </div>
 
-<div style='display: none; width: 400px; margin: 0 auto; max-width: 100%;'>
+<div style='width: 400px; margin: 0 auto; max-width: 100%;'>
   <a href="/donate" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Donate to<br/>OpenAAC</a>
 </div>
 
-<p style='display: none;'>
-  Thank you for supporting the world of AAC! We look forward to hosting the awards again in 2025! The knAAC Awards are one of the 
+<p>
+  Thank you for supporting the world of AAC! We look forward to hosting the awards again in 2026! The knAAC Awards are one of the 
   important projects we host as a non-profit in the AAC 
   community. 
   <a href="/donate">Please consider donating</a> to help
@@ -1334,7 +1335,6 @@ education and consultation on neurodiversity-affirming practices through their b
   lift everyone in the world of AAC!
 </p>
 
-<p>Thank you for taking time to review all the nominees. Please make sure to give each nominee your fair consideration! Once voting has concluded we will compile the results and share them here on this page. The final awards will be given based on a combination of public vote and input from our panel of judges, with a majority of weight going to the public vote. This year's judging panel consists of 8 judges who include AAC users, practitioners, family members of AAC users, and community advocates.
 
 <div style='display: none; width: 400px; margin: 0 auto; max-width: 100%;'>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSfB--Py9xp5lGdZ9hAkXsJOx9e16dUqkyArwSvG4usPxFh9zw/viewform?usp=dialog" class="button fit special" style='font-size: 20px; height: 90px; line-height: 25px; padding: 20px 10px;'>Vote for the<br/>knAAC Awards Nominees</a>
