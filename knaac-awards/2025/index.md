@@ -1301,12 +1301,21 @@ education and consultation on neurodiversity-affirming practices through their b
 <div style='display: none;'>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3c6.svg'/> Lifetime Achievement (Judges' Selection)</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
-      <h4>Kate Ahern</h4>
-      <img src="/images/2024/kate-ahern.jpeg" class='photo' alt='' />
+    <div class='nominee' data-rank='1'>
+      <h4>Caroline Musselwhite</h4>
+      <img src="/images/2025/cmusselwhite.jpg" class='photo' alt='' />
       <span class='sub'>
-      Kate is a renowned special education teacher, consultant, and author with over two decades of experience. She specializes in helping children with complex communication needs, sensory processing issues, and profound/multiple disabilities. She operates multiple Facebook groups and teaches online classes focused on supporting AAC users.
-      <br/><br/>Kate constantly advocates for and empowers AAC users no matter the severity of their disability, and regularly shares relatable, practical examples of how to support AAC users in their developing communication skills. She is an uncompromising inspiration to the AAC community, and we honor her for all of her ongoing efforts.
+      Dr. Caroline Musselwhite is an assistive technology specialist with more than 50 years of experience working with children and adolescents with severe disabilities, in a variety of settings, including Head Start, developmental day programs, and the public schools. She has also taught courses at several universities, including West Virginia University, and Western Carolina University. Dr. Musselwhite has authored a number of textbooks and “how-to” books on a range of topics. She has also authored a number of software programs and books for youth with disabilities. She has presented thousands of workshops throughout the world, and is a founding member of the Board of Directors for the International Society for Augmentative and Alternative Communication (ISAAC).
+      </span>
+      <span class='sub'>
+      Dr. Musselwhite has dedicated so much of her time and 
+      life to supporting AAC and literacy. She works directly
+      with families and refuses to settle for subpar
+      interventions and supports for AAC users. She is a
+      high-energy presenter and speaks in an 
+      approachable way that helps many families and support
+      teams better understand how to be more effective
+      in their AAC support strategies.
       </span>
     </div>
   </div>
