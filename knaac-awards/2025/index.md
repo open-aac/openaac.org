@@ -1299,7 +1299,7 @@ education and consultation on neurodiversity-affirming practices through their b
   </div>
 </div>
 
-<div style='display: none;'>
+<div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3c6.svg'/> Lifetime Achievement (Judges' Selection)</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='1'>
