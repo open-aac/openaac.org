@@ -1,7 +1,9 @@
 require 'csv'
 require 'json'
+# USAGE: ruby knaac-scoring.rb path/to/csv public_pct judge,emails,comma,separated
+# public_pct is a float between 0.0 and 1.0
 public_weight = ARGV[1].to_f
-judge_emails = ARGV[2].split(',')
+judge_emails = ARGV[2].downcase.split(',')
 path = File.join(Dir.pwd, ARGV[0])
 csv = CSV.read(path, headers: true)
 categories = {}
@@ -35,7 +37,7 @@ csv.each do |row|
     total_votes_per_cat[cat] ||= 0
     total_votes_per_cat[cat] += 1
   end
-  if judge_emails.include?(row['Email Address'])
+  if judge_emails.include?(row['Email Address'].downcase)
     total_private += 1
   else
     total_public += 1
@@ -81,7 +83,7 @@ while categories.any?{|cat, hash| hash['current'].length > 0}
       vote.each do |cat, cands|
         first_cand = cands.compact.detect{|c| category_votes[cat][c] }
         if first_cand && !category_votes[cat]['done']
-          weight = judge_emails.include?(row['Email Address']) ? (private_weights[cat] || private_weight) : 1
+          weight = judge_emails.include?(row['Email Address'].downcase) ? (private_weights[cat] || private_weight) : 1
           category_votes[cat][first_cand] += weight
         end
       end

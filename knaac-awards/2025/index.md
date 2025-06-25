@@ -217,7 +217,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Jordyn Zimmerman</h4>
       <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
@@ -231,7 +231,7 @@ bg: 4
       Lydia graduated with a B.S. from the University of Wisconsin. She is the founder and CEO of Click. Speak. Connect. She works as an AAC specialist and consultant with Speech-Language Pathologists, teachers, parents in access methods, faster access, device experiences and language skills related to AAC, and also mentors other AAC users to work on social skills. She is the inventor of the NadPen, an adapted stylus for touchscreen devices.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Kevin Williams</h4>
       <img src="/images/2025/kwilliams.png" class='photo' alt='' />
       <span class='sub'>
@@ -258,14 +258,14 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f60e.svg'/> AAC Teen Self-Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Becca</h4>
       <img src="/images/2025/knaac/becca.png" class='photo' alt='' />
       <span class='sub'>
       Becca started using AAC when she was five years old. She has worked hard to gradually expand her breadth of vocabulary. She is a fierce advocate, and volunteered to speak out as part of a federal Rett Syndrome panel. Becca creates weekly communication prompts on Instagram and the Rett Syndrome Facebook group because she wants people to know that everyone deserves to communicate and drive their own life choices. She has presented at multiple community and youth meetings to raise awareness of Rett Syndrome and the importance of communication for everyone. Becca insisted on taking a modified GED exam before graduating this year to prove to herself and others that she can learn just like anybody else.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Himani</h4>
       <img src="/images/2025/knaac/himani.png" class='photo' alt='' />
       <span class='sub'>
@@ -292,14 +292,14 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4f9.svg'/> AAC Presenter of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Jordyn Zimmerman</h4>
       <img src="/images/2025/jzimmerman.jpg" class='photo' alt='' />
       <span class='sub'>
       Jordyn Zimmerman is a passionate educator and disability advocate. After being diagnosed as autistic at a young age, she did not receive access to augmentative communication until the age of 18. She continues to advocate for AAC use and disability rights. She is the chair of Communication FIRST and presents regularly across the country.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Jessica Smith</h4>
       <img src="/images/2025/jsmith.png" class='photo' alt='' />
       <span class='sub'>
@@ -333,7 +333,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f9ea.svg'/> AAC Researcher of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Karen Erickson</h4>
       <img src="/images/2025/kerickson.avif" class='photo' alt='' />
       <span class='sub'>
@@ -347,7 +347,7 @@ bg: 4
       Owen is a software developer and accessibility advocate from Donegal, Ireland. He has cerebral palsy and uses adaptive switches, which has deeply informed his work creating technology for people with disabilities. In college, he researched and developed SayIt!, a speech app that helps people with limited speech communicate more easily. He later created Switchify, an Android app that allows users to control their devices using switches like buddy buttons and sip-and-puff systems. His work has received international recognition, including being named an MIT Innovator Under 35. Owen is passionate about giving disabled users more control and independence through accessible tech.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Kevin Williams</h4>
       <img src="/images/2025/kwilliams.png" class='photo' alt='' />
       <span class='sub'>
@@ -376,7 +376,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5e8.svg'/> AAC Community Leader of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Krista Howard</h4>
       <img src="/images/2025/khoward.jpeg" class='photo' alt='' />
       <span class='sub'>
@@ -404,7 +404,7 @@ education and consultation on neurodiversity-affirming practices through their b
       Beth is a Speech-Language Pathologist and is currently the Director of Educational Programs with LessonPix. She has previously served as an assistant principal, special education supervisor, curriculum writer, and assistive technology team member with Montgomery County Public Schools in Maryland. She is a co-author of Inclusive Learning 365: EdTech Strategies for Every Day of the Year, and consults and presents at a variety of international, national and state-level conferences and am available for keynote addresses, webinars, and other professional learning opportunities. She is an active participant in various online AAC communities, and is passionate about using visual supports and customized high-quality educational resources to support all students.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Kelly Fonner</h4>
       <img src="/images/2024/knaac/kfonner.png" class='photo' alt='' />
       <span class='sub'>
@@ -417,7 +417,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5bc.svg'/> Symbol-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://touchchatapp.com/touchchat-hd-aac-with-wordpower" target='_blank'>
       <h4>TouchChat HD</h4>
       <img src="/images/2024/touchchat.jpeg" class='img' alt='' />
@@ -454,7 +454,7 @@ education and consultation on neurodiversity-affirming practices through their b
         TD Snap is a flexible communication app supporting individuals with speech and language disabilities such as autism, cerebral palsy, Down syndrome, Rett syndrome, and aphasia. It meets users where they are while fostering the development and growthof communication, language, and literacy skills. Accessible via touch, eye gaze, and scanning, this symbol
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://thinksmartbox.com/" target='_blank'>
       <h4>Grid</h4>
       <img src="/images/2024/grid.png" class='img' alt='' />
@@ -469,7 +469,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.assistiveware.com/products/proloquo4text" target='_blank'>
       <h4>Proloquo4Text</h4>
       <img src="/images/2024/p4text.png" class='img' alt='' />
@@ -487,7 +487,7 @@ education and consultation on neurodiversity-affirming practices through their b
         ClaroCom is an iPad or iPhone App for AAC (Augmentative and Alternative Communication). ClaroCom helps to replace speech for those with impairments in the production of spoken language. ClaroCom is suitable for children or adults with some or full literacy, and can assist users who have limited or no speech and language difficulties.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://therapy-box.co.uk/predictable" target='_blank'>
       <h4>Predictable</h4>
       <img src="/images/2024/knaac/predictable.png" class='img' alt='' />
@@ -521,7 +521,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f331.svg'/> Up-And-Coming AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.weavechat.com/" target='_blank'>
       <h4>Weave Chat AAC</h4>
       <img src="/images/2024/weave.png" class='img' alt='' />
@@ -539,7 +539,7 @@ education and consultation on neurodiversity-affirming practices through their b
         Proloquo is a comprehensive AAC app available for iPad and iPhone, expertly crafted to fit everyone from toddlers to adults. It's more than just a communication tool; it's a gateway to language development and effective communication.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.flexspeak.com/" target='_blank'>
       <h4>Flexspeak</h4>
       <img src="/images/2025/knaac/flexspeak.png" class='img' alt='' />
@@ -575,7 +575,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.flexspeak.com/" target='_blank'>
       <h4>Flexspeak<br>Message Translation</h4>
       <img src="/images/2025/knaac/flexspeak.png" class='img' alt='' />
@@ -611,7 +611,7 @@ education and consultation on neurodiversity-affirming practices through their b
         while developing motor plans for the full vocabulary.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://bridgingvoice.org/elevenlabs/" target='_blank'>
       <h4>Bridging Voice<br/>AI Voices</h4>
       <img src="/images/2025/knaac/bridging-voice.png" class='img' alt='' />
@@ -630,7 +630,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f91d.svg'/> AAC User Community of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.impaactvoices.org/" target='_blank'>
       <h4>impAACt Voices</h4>
       <img src="/images/2024/impaact.webp" class='img' alt='' />
@@ -659,7 +659,7 @@ education and consultation on neurodiversity-affirming practices through their b
         AssisstiveWare’s Adult AAC User Community group is to provide support and share information. Members can chat with AssistiveWare developers and Support team. Note: If you need assistance we encourage you to contact support@assistiveware.com for 1:1 help.        
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
       <h4>Ask Me, I'm An AAC User</h4>
       <img src="/images/2024/knaac/ask-me-im-an-aac-user.jpeg" class='img' alt='' />
@@ -685,7 +685,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/2139.svg'/> AAC Supporter Community of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.facebook.com/groups/1539830846285663/" target='_blank'>
       <h4>AAC for the SLP</h4>
       <img src="/images/2024/knaac/aac-for-the-slp.jpeg" class='img' alt='' />
@@ -712,7 +712,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The Weave Chat AAC community page is a safe and inclusive space to share ideas, ask questions, and make suggestions. This group was created for the purpose of uniting users of AAC, especially those who use Weave Chat AAC - whether it be the app version, the lite-tech versions, or any combination there of.     
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.facebook.com/groups/AACthruMMM/" target='_blank'>
       <h4>AAC through Motivate...</h4>
       <img src="/images/2024/knaac/aac-through-motivate.jpeg" class='img' alt='' />
@@ -737,7 +737,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3a7.svg'/> AAC Podcast/Feed of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://specialedtechcenter.com/awe-and-wonder-podcast/" target='_blank'>
       <h4>Awe and Wonder</h4>
       <img src="/images/2024/knaac/awe-and-wonder.jpeg" class='img' alt='' />
@@ -764,7 +764,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The professional resource podcast that aims to break down current research in augmentative and alternative communication and bridge the gap between research to practice by providing context to critical research, describing clinical applications, and directing SLPs to resources to learn more.
       </span>
     </div>    
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.instagram.com/growingwithaac/" target='_blank'>
       <h4>GrowingWithAAC</h4>
       <img src="/images/2025/knaac/growing-with-aac.jpeg" class='img' alt='' />
@@ -813,7 +813,7 @@ education and consultation on neurodiversity-affirming practices through their b
         🌿AAC resources, materials, how-to videos, & trainings.      
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.project-core.com/professional-development-modules/" target='_blank'>
       <h4>PrAACtical AAC</h4>
       <img src="/images/2024/praactical.webp" class='img' alt='' />
@@ -831,7 +831,7 @@ education and consultation on neurodiversity-affirming practices through their b
         Boost your knowledge with self-guided resources created by Tobii Dynavox professionals including videos, recorded webinars, quick guides, and online courses, many of which provide ASHA continuing education credits (CEUs).
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://aaclanguagelab.com/" target='_blank'>
       <h4>AAC Language Lab</h4>
       <img src="/images/2025/knaac/aac-language-lab.svg" class='img' alt='' />
@@ -846,7 +846,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://communicationfirst.org/" target='_blank'>
       <h4>Communication FIRST</h4>
       <img src="/images/2025/knaac/comm-first.png" class='img' alt='' />
@@ -873,7 +873,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The AAC Club was founded in the spring of 2021 by a group of Communication Sciences and Disorders majors who were passionate about learning how to serve individuals who relied on AAC for effective communication. The founding board, recognizing the continuing evolution, complexity, and importance of AAC was dissatisfied by the lack of exposure undergraduate students had to the field. Inspired by a desire to learn more, educate others, and support other AAC-related organizations the students founded the AAC Club with the help of Dr. Lisa Erwin-Davidson.       
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -897,7 +897,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -916,7 +916,7 @@ education and consultation on neurodiversity-affirming practices through their b
         With our free Board Builder and Symbol Creator, you can quickly create boards of symbols to help communication. Create boards for day-to-day activities, special occasions, special topics such as games or mealtimes etc. The templates are easy to use for making information sheets or any curtomised designs you want to create.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://goboardmaker.com/" target='_blank'>
       <h4>BoardMaker</h4>
       <img src="/images/2024/knaac/boardmaker.png" class='img' alt='' />
@@ -949,7 +949,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.communicationmatrix.org/" target='_blank'>
       <h4>Communication Matrix</h4>
       <img src="/images/2025/knaac/commmatrix.png" class='img' alt='' />
@@ -958,7 +958,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The Communication Matrix is an online assessment tool created to help professionals and family members support people with severe communication disorders in their journey toward greater self-expression. The Matrix guides you through a series of questions to answer based on your observations and experiences with the individual. It lets you track and understand progress at a glance.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
       <h4>DAGG-3</h4>
       <img src="/images/2025/dagg3.png" class='img' alt='' />
@@ -1000,7 +1000,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/261d-varxxxUNI.svg'/> Lite-Tech AAC Product of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://saltillo.com/chatcorner/content/29" target='_blank'>
       <h4>Flip Books by PRC-Saltillo</h4>
       <img src="/images/2025/knaac/saltillo-flip.jpg" class='photo' alt='' />
@@ -1028,7 +1028,7 @@ education and consultation on neurodiversity-affirming practices through their b
         resources, symbol charts, etc. All free.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.novitatech.com.au/podd-communication-books/?srsltid=AfmBOoqEpzdzvr5Bw51BwiyLsaLa84AzV33pv8P46RJE5phYekFH1vlG" target='_blank'>
       <h4>PODD Books</h4>
       <img src="/images/2025/knaac/podd-book.jpeg" class='photo' alt='' />
@@ -1043,7 +1043,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f50a.svg'/> Mid-Tech AAC Product of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.ablenetinc.com/quicktalker-ft-12/" target='_blank'>
       <h4>QuickTalker</h4>
       <img src="/images/2024/knaac/quicktalker.jpeg" class='photo' alt='' />
@@ -1070,7 +1070,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The Logan® ProxTalker® is the most advanced and adaptable recorded speech communication device available. It uses RFID (radio frequency identification) technology to enable independent verbal picture communication for non-verbal people of all ages.  This technology allows you to simply place any photo, symbol, or object on a sound tag card and have a voice! To trigger voice output place your sound tag card on any one of the 5 buttons and push.  Now silent picture users have easy access to voice output. Life changing!  
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.attainmentcompany.com/gotalk-9" target='_blank'>
       <h4>Go Talk</h4>
       <img src="/images/2024/knaac/go-talk.png" class='photo' alt='' />
@@ -1103,7 +1103,7 @@ education and consultation on neurodiversity-affirming practices through their b
         Go wireless with your switch access to a tablet, computer, mobile phone, or other devices with a Bluetooth connection. The Blue2 FT accessibility switch uses highly-sensitive proximity sensor technology for activation. Any time the user is near or touching the activation surfaces, the Blue2 FT accessibility switch will activate.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://volksswitch.org/index.php/volks-devices/customizable-3d-printable-keyguard-for-grid-based-free-form-and-hybrid-aac-apps-on-tablets/" target='_blank'>
       <h4>3D Printed Keyguards</h4>
       <img src="/images/2025/knaac/3dprinted-keyguard.webp" class='photo' alt='' />
@@ -1131,7 +1131,7 @@ education and consultation on neurodiversity-affirming practices through their b
         The Little Candy Corn 2 accessibility switch uses highly-sensitive proximity sensor technology for activation. Any time the user is near or touching the activation surface, the LITTLE Candy Corn accessibility switch will activate. The medium-sized activation surface is suitable for most users. When activated, an auditory beep and light appear. You may turn off the auditory beep and light if the user does not need these prompts.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.orin.com/access/headmouse/" target='_blank'>
       <h4>HeadMouse Nano</h4>
       <img src="/images/2024/knaac/headmouse.jpeg" class='photo' alt='' />
@@ -1146,7 +1146,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c2.svg'/> Symbol Library of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://goboardmaker.com/pages/picture-communication-symbols" target='_blank'>
       <h4>PCS (BoardMaker)</h4>
       <img src="/images/2024/knaac/boardmaker.png" class='img' alt='' />
@@ -1155,7 +1155,7 @@ education and consultation on neurodiversity-affirming practices through their b
         For more than 30 years, Tobii Dynavox Picture Communication Symbols® (PCS) have been used by millions of students and adults to understand and structure the world around them, communicate their thoughts, and learn to read and write. Symbol-based visual supports have been proven to help people with communication, behavior and learning challenges succeed in school and life and amaze their peers, families, therapists and teachers.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.n2y.com/symbolstix-prime/" target='_blank'>
       <h4>SymbolStix PRIME</h4>
       <img src="/images/2024/knaac/symbolstix.png" class='img' alt='' />
@@ -1197,7 +1197,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.inmaninnovations.com/InmanInnovationsWordPower.php" target='_blank'>
       <h4>WordPower</h4>
       <img src="/images/2024/wordpower.jpeg" class='img' alt='' />
@@ -1207,7 +1207,7 @@ education and consultation on neurodiversity-affirming practices through their b
         Nancy has customized WordPower for multiple AAC systems, and it was originally designed for an individual in need of an augmentative communication device based on words. A vocabulary based on pre-stored sentences would not meet his communication needs. Though he could see the advantage of a picture-based system with symbol sequencing, he did not want to learn the complex language coding system. At the same time, he wanted more than a system based on spelling and word prediction. WordPower provided him a fast and efficient language, with minimal time and effort required for learning the system.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.prentrom.com/prc_advantage/unity-language-system/" target='_blank'>
       <h4>Words For Life/Unity</h4>
       <img src="/images/2024/unity.jpeg" class='img' alt='' />
@@ -1249,7 +1249,7 @@ education and consultation on neurodiversity-affirming practices through their b
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.assistiveware.com/blog" target='_blank'>
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
@@ -1283,7 +1283,7 @@ education and consultation on neurodiversity-affirming practices through their b
         upcoming events and news, and more.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://info.avazapp.com/blog/" target='_blank'>
       <h4>Avaz</h4>
       <img src="/images/2024/avaz.png" class='img' alt='' />
