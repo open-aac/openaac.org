@@ -213,7 +213,7 @@ bg: 4
   highlighted candidates and thank you again
   to the over 100 nominees in 18 different categories!
 </p>
-<h2>2024 knAAC Awards Final Results</h2>
+<h2>2025 knAAC Awards Final Results</h2>
 
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>

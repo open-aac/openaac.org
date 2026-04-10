@@ -2,15 +2,15 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="3371.3386"
-   height="1731.0237"
-   viewBox="0 0 892.00001 458.00002"
+   width="787.79022"
+   height="178.54361"
+   viewBox="0 0 208.43616 47.239664"
    version="1.1"
    id="svg1"
    xml:space="preserve"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    sodipodi:docname="state-of-aac.svg"
-   inkscape:export-filename="state-of-aac.png"
+   inkscape:export-filename="../2026/state-of-aac.png"
    inkscape:export-xdpi="171.044"
    inkscape:export-ydpi="171.044"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.59884699"
-     inkscape:cx="440.01223"
-     inkscape:cy="141.10449"
+     inkscape:zoom="0.84689753"
+     inkscape:cx="399.69416"
+     inkscape:cy="65.533312"
      inkscape:window-width="1672"
      inkscape:window-height="946"
      inkscape:window-x="0"
@@ -149,10 +149,10 @@
        style="color-interpolation-filters:sRGB"
        inkscape:label="Drop Shadow"
        id="filter39"
-       x="-0.2767385"
-       y="-0.74321806"
-       width="1.6303488"
-       height="2.6928856"><feFlood
+       x="-0.26381333"
+       y="-0.75285633"
+       width="1.6009081"
+       height="2.7148394"><feFlood
          result="flood"
          in="SourceGraphic"
          flood-opacity="0.498039"
@@ -210,14 +210,15 @@
          id="feComposite41" /></filter></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><rect
+     id="layer1"
+     transform="translate(-1.1209846,-105.90388)"><rect
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.826214;stroke-linecap:round;stroke-linejoin:bevel"
        id="rect35"
        width="208.43616"
        height="54.238232"
        x="1.1209846"
        y="105.90388"
-       inkscape:export-filename="state-of-aac.png"
+       inkscape:export-filename="../2026/state-of-aac.png"
        inkscape:export-xdpi="171.044"
        inkscape:export-ydpi="171.044" /><image
        width="209.31998"
@@ -232,7 +233,10 @@
        width="208.43616"
        height="47.239662"
        x="1.1209846"
-       y="105.90388" /><path
+       y="105.90388"
+       inkscape:export-filename="../2026/state-of-aac.png"
+       inkscape:export-xdpi="171.044"
+       inkscape:export-ydpi="171.044" /><path
        id="rect3"
        style="fill:#2079d8;fill-opacity:1;stroke:none;stroke-width:0.554665;stroke-linecap:round;stroke-linejoin:bevel;filter:url(#filter32)"
        d="m 133.83907,128.39497 -67.185994,-1e-5 1.79e-4,26.02877 48.165595,7e-5 1.28903,9.48707 8.34482,-9.48723 9.38603,7e-5 z"
@@ -483,7 +487,7 @@
          id="tspan21"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.1111px;font-family:Corbel;-inkscape-font-specification:'Corbel, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
          x="156.83157"
-         y="141.56197">2025</tspan></text><text
+         y="141.56197">2026</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="81.119774"
