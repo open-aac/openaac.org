@@ -1,11 +1,5 @@
 // skel.scss v3.0.0 | (c) n33 | skel.io | MIT licensed */
 
-@use "sass:list";
-@use "sass:map";
-@use "sass:math";
-@use "sass:meta";
-@use "sass:string";
-
 // Vars.
 
 	/// Breakpoints.
@@ -82,24 +76,24 @@
 
 		$result: null;
 
-		@if meta.type-of($index) != number {
-			@warn "$index: #{string.quote($index)} is not a number for `remove-nth`.";
+		@if type-of($index) != number {
+			@warn "$index: #{quote($index)} is not a number for `remove-nth`.";
 		}
 		@else if $index == 0 {
 			@warn "List index 0 must be a non-zero integer for `remove-nth`.";
 		}
-		@else if math.abs($index) > list.length($list) {
-			@warn "List index is #{$index} but list is only #{list.length($list)} item long for `remove-nth`.";
+		@else if abs($index) > length($list) {
+			@warn "List index is #{$index} but list is only #{length($list)} item long for `remove-nth`.";
 		}
 		@else {
 
 			$result: ();
-			$index: if(sass($index < 0): list.length($list) + $index + 1; else: $index);
+			$index: if($index < 0, length($list) + $index + 1, $index);
 
-			@for $i from 1 through list.length($list) {
+			@for $i from 1 through length($list) {
 
 				@if $i != $index {
-					$result: list.append($result, list.nth($list, $i));
+					$result: append($result, nth($list, $i));
 				}
 
 			}
@@ -118,10 +112,10 @@
 	/// @return {string} Updated string.
 	@function str-replace($string, $search, $replace: '') {
 
-		$index: string.index($string, $search);
+		$index: str-index($string, $search);
 
 		@if $index {
-			@return string.slice($string, 1, $index - 1) + $replace + str-replace(string.slice($string, $index + string.length($search)), $search, $replace);
+			@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
 		}
 
 		@return $string;
@@ -136,7 +130,7 @@
 	@function str-replace-all($strings, $search, $replace: '') {
 
 		@each $string in $strings {
-			$strings: list.set-nth($strings, list.index($strings, $string), str-replace($string, $search, $replace));
+			$strings: set-nth($strings, index($strings, $string), str-replace($string, $search, $replace));
 		}
 
 		@return $strings;
@@ -150,12 +144,12 @@
 	/// @return {string} Value.
 	@function val($map, $keys...) {
 
-		@if list.nth($keys, 1) == null {
+		@if nth($keys, 1) == null {
 			$keys: remove-nth($keys, 1);
 		}
 
 		@each $key in $keys {
-			$map: map.get($map, $key);
+			$map: map-get($map, $key);
 		}
 
 		@return $map;
@@ -186,8 +180,8 @@
 		$query: 'screen';
 
 		// Breakpoint.
-			@if $breakpoint and map.has-key($breakpoints, $breakpoint) {
-				$query: $query + ' and ' + map.get($breakpoints, $breakpoint);
+			@if $breakpoint and map-has-key($breakpoints, $breakpoint) {
+				$query: $query + ' and ' + map-get($breakpoints, $breakpoint);
 			}
 
 		// Queries.
@@ -218,8 +212,8 @@
 		// Locked?
 			$lock: false;
 
-			@if list.length($width) == 2 {
-				$width: list.nth($width, 1);
+			@if length($width) == 2 {
+				$width: nth($width, 1);
 				$lock: true;
 			}
 
@@ -309,13 +303,13 @@
 	@mixin grid-gutters($gutters, $class: null, $multiplier: 1) {
 
 		// Expand gutters if it's not a list.
-			@if list.length($gutters) == 1 {
+			@if length($gutters) == 1 {
 				$gutters: ($gutters, 0);
 			}
 
 		// Get column and row gutter values.
-			$c: list.nth($gutters, 1);
-			$r: list.nth($gutters, 2);
+			$c: nth($gutters, 1);
+			$r: nth($gutters, 2);
 
 		// Get class (if provided).
 			$x: '';
@@ -362,14 +356,14 @@
 		// Config.
 			$configPerBreakpoint: ();
 
-			$z: map.get($config, 'breakpoints');
+			$z: map-get($config, 'breakpoints');
 
 			@if $z {
 				$configPerBreakpoint: $z;
 			}
 
 		// Reset.
-			$x: map.get($config, 'reset');
+			$x: map-get($config, 'reset');
 
 			@if $x {
 
@@ -380,7 +374,7 @@
 			}
 
 		// Box model.
-			$x: map.get($config, 'boxModel');
+			$x: map-get($config, 'boxModel');
 
 			@if $x {
 
@@ -391,7 +385,7 @@
 			}
 
 		// Containers.
-			$containers: map.get($config, 'containers');
+			$containers: map-get($config, 'containers');
 
 			@if $containers {
 
@@ -411,14 +405,14 @@
 					@include containers($containers);
 
 				// Apply per-breakpoint.
-					@each $name in map.keys($breakpoints) {
+					@each $name in map-keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
-							$x: map.get($configPerBreakpoint, $name);
+							$x: map-get($configPerBreakpoint, $name);
 
 							// Per-breakpoint config exists?
 								@if $x {
-									$y: map.get($x, 'containers');
+									$y: map-get($x, 'containers');
 
 									// Setting exists? Use it.
 										@if $y {
@@ -428,7 +422,7 @@
 								}
 
 						// Create @media block.
-							@media screen and #{map.get($breakpoints, $name)} {
+							@media screen and #{map-get($breakpoints, $name)} {
 								@include containers($containers);
 							}
 
@@ -437,7 +431,7 @@
 			}
 
 		// Grid.
-			$grid: map.get($config, 'grid');
+			$grid: map-get($config, 'grid');
 
 			@if $grid {
 
@@ -450,7 +444,7 @@
 
 				// Sub-setting: Gutters.
 					$grid-gutters: 40px;
-					$x: map.get($grid, 'gutters');
+					$x: map-get($grid, 'gutters');
 
 					@if $x {
 						$grid-gutters: $x;
@@ -493,20 +487,20 @@
 					@include grid($grid-gutters);
 
 				// Apply per-breakpoint.
-					@each $name in map.keys($breakpoints) {
+					@each $name in map-keys($breakpoints) {
 
 						// Get/use breakpoint setting if it exists.
-							$x: map.get($configPerBreakpoint, $name);
+							$x: map-get($configPerBreakpoint, $name);
 
 							// Per-breakpoint config exists?
 								@if $x {
-									$y: map.get($x, 'grid');
+									$y: map-get($x, 'grid');
 
 									// Setting exists?
 										@if $y {
 
 											// Sub-setting: Gutters.
-												$x: map.get($y, 'gutters');
+												$x: map-get($y, 'gutters');
 
 												@if $x {
 													$grid-gutters: $x;
@@ -517,7 +511,7 @@
 								}
 
 						// Create @media block.
-							@media screen and #{map.get($breakpoints, $name)} {
+							@media screen and #{map-get($breakpoints, $name)} {
 								@include grid($grid-gutters, $name);
 							}
 
@@ -552,16 +546,16 @@
 	@mixin vendor($property, $value) {
 
 		// Determine if property should expand.
-			$expandProperty: list.index($vendor-properties, $property);
+			$expandProperty: index($vendor-properties, $property);
 
 		// Determine if value should expand (and if so, add '-prefix-' placeholder).
 			$expandValue: false;
 
 			@each $x in $value {
 				@each $y in $vendor-values {
-					@if $y == string.slice($x, 1, string.length($y)) {
+					@if $y == str-slice($x, 1, str-length($y)) {
 
-						$value: list.set-nth($value, list.index($value, $x), '-prefix-' + $x);
+						$value: set-nth($value, index($value, $x), '-prefix-' + $x);
 						$expandValue: true;
 
 					}
