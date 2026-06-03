@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@use "sass:color";
+
 $baseurl: '{{ site.baseurl }}/images';
 
 @import 'libs/vars';
@@ -867,11 +869,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			color: _palette(accent6, fg-bold) !important;
 
 			&:hover {
-				background-color: lighten(_palette(accent6, bg), 5) !important;
+				background-color: color.adjust(_palette(accent6, bg), $lightness: 5%) !important;
 			}
 
 			&:active {
-				background-color: darken(_palette(accent6, bg), 5) !important;
+				background-color: color.adjust(_palette(accent6, bg), $lightness: -5%) !important;
 			}
 		}
 
@@ -1823,7 +1825,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	#footer {
 		@include padding(6em, 0);
-		background-color: darken(_palette(bg), 8);
+		background-color: color.adjust(_palette(bg), $lightness: -8%);
 		text-align: center;
 
 		.icons {
@@ -1905,7 +1907,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		#footer {
-			background-color: darken(transparentize(_palette(bg), 0.1), 8);
+			background-color: color.adjust(color.adjust(_palette(bg), $alpha: -0.1), $lightness: -8%);
 		}
 	}
 
@@ -1936,12 +1938,12 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			#footer {
-				background-color: darken(_palette(bg), 8);
+				background-color: color.adjust(_palette(bg), $lightness: -8%);
 			}
 		}
 	}
 
-  @keyFrames imageFade {
+	@keyframes imageFade {
     0% { opacity: 1.0; }
     30% { opacity: 1.0; }
     36% { opacity: 0.0; }
