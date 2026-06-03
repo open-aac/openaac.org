@@ -38,14 +38,14 @@ self-reflection tool that beginning or experienced communication partners
 discover areas where they could improve in their efforts.
 (Survey Results Pending)
 
-- <a class='survey' href="https://forms.gle/1WZTtHAKJDnGcb4A9"><b><img src='https://app.covidspeak.org/icons/clipboard-data.svg'/>AAC Vocabulary Selection</b></a> For all AAC practitioners, families, and users. We are collecting responses on the criteria
+- <a class='survey' href="https://forms.gle/1WZTtHAKJDnGcb4A9"><b><img src='images/clipboard-data.svg'/>AAC Vocabulary Selection</b></a> For all AAC practitioners, families, and users. We are collecting responses on the criteria
 and perspectives of those who are selecting from among the
 large pool of possible AAC vocabularies. (Survey Results Pending)
 
-- <a class='survey' href="https://forms.gle/FBuikSWn9vet4PFp6"><b><img src='https://app.covidspeak.org/icons/card-image.svg'/>Open Symbols Questionnaire</b></a> For all AAC practitioners, families, and users. We are looking for feedback on current expectations around
+- <a class='survey' href="https://forms.gle/FBuikSWn9vet4PFp6"><b><img src='images/card-image.svg'/>Open Symbols Questionnaire</b></a> For all AAC practitioners, families, and users. We are looking for feedback on current expectations around
 AAC symbol libraries, as well as recruiting participants
 in ongoing AAC symbol research and implementation work. ([Survey Results](https://docs.google.com/spreadsheets/d/17SkpQl8x0jrmW_awq13pyWptG0UtQqdf2yEUvtBau9c/edit?usp=sharing))
 
 ### Past Survey Results
 
-- <a class='survey' href="https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing"><b><img src='https://app.covidspeak.org/icons/calendar.svg'/>Core Word Strategies</b></a> We surveyed active teachers and practitioners who are implementing "Core Word of the Week/Month" strategies to better understand their usage and look for patterns ([Survey Results](https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing))
+- <a class='survey' href="https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing"><b><img src='images/calendar.svg'/>Core Word Strategies</b></a> We surveyed active teachers and practitioners who are implementing "Core Word of the Week/Month" strategies to better understand their usage and look for patterns ([Survey Results](https://docs.google.com/spreadsheets/d/1VU_PXdl4zmEAmgFKp5O5GdlA0c8NOekoCCogOtO42W4/edit?usp=sharing))

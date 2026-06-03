@@ -256,7 +256,7 @@ There is definitely overlap between the sections, but we figure that's ok. Pleas
 
   <blockquote>"Most research with actual AAC user participants involves very small sample sizes and then clinicians generalize well beyond what the actual studies support."</blockquote>
 
-  AAC research is happening, and the are many important questions that still need to be answered. Getting enough research participants to have confidence in research results is an ongoing issue. There is also still a discoverability issue when it comes to AAC research, which often happens in isolated circles or echo chambers.
+  AAC research is happening, and there are many important questions that still need to be answered. Getting enough research participants to have confidence in research results is an ongoing issue. There is also still a discoverability issue when it comes to AAC research, which often happens in isolated circles or echo chambers.
 
   With larger online communities, it's becoming possible to recruit more AAC users directly online, but sometimes this doesn't always happen in the best way. Our respondents reported that some survey work requires people to report their connection to the AAC field, and AAC users who are also researchers would be required to select "AAC User" OR "Researcher" instead of having an option to select both. Additionally, online recruiting runs the risk of skewing results when it's easier for part-time AAC users or keyboard-based AAC communicators to respond than the general population of AAC users.
 
