@@ -1460,12 +1460,12 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			@include breakpoint(small) {
 				> a {
-					font-size: 0.7em;
-					padding: 0 0.4em;
+						font-size: 0.9em;
+						padding: 0 0.6em;
 					letter-spacing: 0;
 				}
 				> span {
-					font-size: 0.7em;
+						font-size: 0.9em;
 				}
 			}
 
