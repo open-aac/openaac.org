@@ -38,6 +38,10 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: device-width;
 	}
 
+	html, body {
+		overflow-x: hidden;
+	}
+
 	body {
 		background: _palette(bg);
 
@@ -1454,6 +1458,17 @@ $baseurl: '{{ site.baseurl }}/images';
 			right: 0;
 			top: 0;
 
+			@include breakpoint(small) {
+				> a {
+					font-size: 0.7em;
+					padding: 0 0.4em;
+					letter-spacing: 0;
+				}
+				> span {
+					font-size: 0.7em;
+				}
+			}
+
 			> ul {
 				list-style: none;
 				margin: 0;
@@ -2037,8 +2052,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			padding: 0;
 		}
 	}
-	@media (max-width: 475px) {
+	@media (max-width: 736px) {
 		h1 .title {
 			display: none;
+		}
+		#header h1 img {
+			height: 2em !important;
 		}
 	}
