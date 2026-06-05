@@ -43,6 +43,15 @@ bg: 2
       width: 100%;
     }
   }
+  @media (max-width: 736px) {
+    .slack-button {
+      font-size: 20px !important;
+      height: auto !important;
+      line-height: 1.4em !important;
+      padding: 15px 10px !important;
+      white-space: normal !important;
+    }
+  }
 </style>
 
 <p>
@@ -56,7 +65,7 @@ bg: 2
   <a href="mailto:brian@openaac.org">email us</a>.
 </p>
 <div style='width: 400px; max-width: 100%; margin: 0 auto;'>
-  <a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc" class="button fit special" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
+  <a href="https://join.slack.com/t/openaac/shared_invite/enQtNTQwNDgwODYyNjU5LTAwODNmZjM4ZmJmOTJkYTY2MWZkNjc0MDQ0NTcwMTRmMzY0MWI3OWJiNGYwZGIzMzc2YTk2N2FiY2JlYTI5Njc" class="button fit special slack-button" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
     Join the<br/>OpenAAC Slack
   </a>
 </div>

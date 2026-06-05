@@ -5,6 +5,20 @@ layout: landing
 	ul.features li {
 		text-align: left;
 	}
+	@media (max-width: 736px) {
+		.cpp-promo-logo {
+			position: static !important;
+			display: block !important;
+			width: 80% !important;
+			max-width: 300px !important;
+			margin: 0 auto 10px !important;
+			top: auto !important;
+			left: auto !important;
+		}
+		.cpp-promo {
+			overflow: visible !important;
+		}
+	}
 </style>
 				<!-- Banner -->
 					<section id="banner">
@@ -152,9 +166,9 @@ layout: landing
 									share free, open-licensed materials that can help train 
 									and support people at every phase of their AAC journey.
 								</p>
-								<a href="/cpp" style='position: relative; display: block;'>
-									<img src="/images/cpp.svg" style='max-width: 400px; width: 60%; border-radius: 10px; margin: 0 auto; position: absolute; top: -40px; left: 0; background: #fff; box-shadow: 3px 3px 7px #777;' alt="CPP Logo"/>
-									<img src="/images/cpp_preview.png" style='max-width: 600px; width: 100%; height: auto; border-radius: 10px; margin: 0 auto; display: block;' alt="CPP Preview"/>
+								<a href="/cpp" class='cpp-promo' style='position: relative; display: block;'>
+									<img src="/images/cpp.svg" class='cpp-promo-logo' style='max-width: 400px; width: 60%; border-radius: 10px; margin: 0 auto; position: absolute; top: -40px; left: 0; background: #fff; box-shadow: 3px 3px 7px #777;' alt="CPP Logo"/>
+									<img src="/images/cpp_preview.png" class='cpp-promo-preview' style='max-width: 600px; width: 100%; height: auto; border-radius: 10px; margin: 0 auto; display: block;' alt="CPP Preview"/>
 								</a>
 								<p>One of the most effective tools we've created
 									is the Communication Partner Profile, a self-reflection

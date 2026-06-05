@@ -135,6 +135,17 @@ p a {
   .hold-line {
     white-space: normal;
   }
+
+  .cpp-promo {
+    padding-top: 0;
+  }
+
+  .cpp-promo-logo {
+    position: static !important;
+    display: block;
+    width: 80% !important;
+    margin: 0 auto 10px !important;
+  }
 }
 
 @keyframes swing {
