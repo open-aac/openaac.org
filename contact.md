@@ -80,21 +80,16 @@ bg: 2
   </div>
 </div>
 <div class='person'>
-  <img src="/images/2024/scot-wahlquist.avif" />
-  <div class='name'>Scott Wahlquist</div>
-  <div class='bio'>Parent, advocate, CoughDrop founder
+  <img src="/images/sasha_ell.jpg" />
+  <div class='name'>Sasha Ell</div>
+  <div class='bio'>Director of Operations
   </div>
 </div>
 <div class='person'>
   <img src="/images/silhouette.webp" />
-  <div class='name'>Michael Hansen</div>
+  <div class='name'>Michael Hipple</div>
   <div class='bio'>Project Manager
   </div>
 </div>
-<div class='person'>
-  <img src="/images/2024/angela-moorad.jpeg" />
-  <div class='name'>Angela Moorad</div>
-  <div class='bio'>Advisor, MS, CCC-SLP, AAC specialist, founder OMazing Kids
-  </div>
-</div>
+
 <div style='clear: both;'></div>
