@@ -83,12 +83,16 @@ bg: 2
   <img src="/images/sasha_ell.jpg" />
   <div class='name'>Sasha Ell</div>
   <div class='bio'>Director of Operations
+  <br>
+  Developer, educator, artist, multiple chihuahua herder
   </div>
 </div>
 <div class='person'>
   <img src="/images/silhouette.webp" />
   <div class='name'>Michael Hipple</div>
-  <div class='bio'>Project Manager
+  <div class='bio'>Project Manager 
+  <br> 
+  Baseball fan, disability advocate, Kiwanis member
   </div>
 </div>
 
