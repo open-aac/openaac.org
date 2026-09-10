@@ -3,7 +3,7 @@ layout: page
 title: Certifications
 page_title: Certifications
 description: Ensuring Quality Solutions for All
-include_nav: false
+include_nav: true
 bg: 3
 ---
 <style>
