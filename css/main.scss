@@ -1769,7 +1769,7 @@ $baseurl: '{{ site.baseurl }}/images';
 					object-fit: cover;
 					object-position: center;
 					margin-bottom: 1em;
-					box-shadow: 0 0 15px 2px #000;
+					filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 				}
 				h2 {
 					color: #222;
