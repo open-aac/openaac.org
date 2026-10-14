@@ -144,6 +144,7 @@ bg: 4
     font-weight: bold;
   }
   .nominees.expanded .nominee, .nominees .nominee.winner {
+    display: block;
     max-width: 100%;
     text-align: left;
     margin-bottom: 20px;
@@ -541,7 +542,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>AAC for the SLP</h4>
       <span class='sub'>
-        A supportive group that's great despite the many non-SLPs who also participate.
+        A supportive facebook group for those who work with and evaluate individuals for AAC. 
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -579,7 +580,7 @@ bg: 4
       <h4>Brooke Eby</h4>
       </a>
       <span class='sub'>
-        Brooke Eby unfortunately recently passed away at only 37 years old due to her diagnosis of ALS, but she accomplished so much in the short time that she had to do so. Brooke was a social media influencer and ALS advocate for the entire 4 years that she lived with this disease. She created and shared a magnitude of content related to AAC and ALS during this time, building up hundreds of thousands of followers across TikTok, Instagram, Facebook, and LinkedIn. In 2023, Brooke founded ALStogether, an online Slack community connecting people with ALS and caregivers, including a channel dedicated specifically to AAC discussions, connections, and resources. Her blogs, social media posts, and more will continue to help other AAC users and potential users for many years to come.
+        Brooke Eby unfortunately recently passed away at only 37 years old due to complications with ALS, but she accomplished so much in the short time that she had to do so. Brooke was a social media influencer and ALS advocate for the entire 4 years that she lived with this disease. She created and shared a magnitude of content related to AAC and ALS during this time, building up hundreds of thousands of followers across TikTok, Instagram, Facebook, and LinkedIn. In 2023, Brooke founded ALStogether, an online Slack community connecting people with ALS and caregivers, including a channel dedicated specifically to AAC discussions, connections, and resources. Her blogs, social media posts, and more will continue to help other AAC users and potential users for many years to come.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
