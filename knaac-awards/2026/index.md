@@ -212,7 +212,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Chris Klein</h4>
       <span class='sub'>
         Chris Klein is a lifelong AAC user, disability advocate, author, pastor, and founder of Device Verses. He has spent decades advocating for the inclusion and full participation of people who use AAC. His current work developing free, open-source AAC and light-tech resources for faith-based settings addresses an important area of community access that is often overlooked.
@@ -297,7 +297,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f9ea.svg'/> AAC Researcher of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Lori Geist</h4>
       <span class='sub'>
         Lori Geist's research focuses on improving communication, language, literacy, and academic outcomes for individuals with complex communication needs. Her work has examined AAC-mediated classroom participation, receptive vocabulary instruction, and the use of technology to support effective AAC intervention, including federally funded projects such as Project Converse, Building Bridges, and Project Open.
@@ -358,25 +358,28 @@ bg: 4
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
       <span class='sub'>
+        Avaz continues to grow its symbol-based vocabulary and features based on ongoing feedback from AAC users and professionals.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Grid 3</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       <span class='sub'>
+        Grid 3 remains a widely used, feature-rich AAC and computer access software package from Smartbox, supporting symbol- and text-based communication alike.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>LAMP 3</h4>
       <img src="/images/2026/knaac/lamp-wfl-logo.svg" class='img' alt='' />
       <span class='sub'>
+        LAMP Words for Life 3 builds on the established LAMP motor-planning approach to vocabulary organization, helping AAC users build consistent, automatic access to language.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Proloquo</h4>
       <img src="/images/2026/knaac/proloquo-logo.png" class='img' alt='' />
       <span class='sub'>
-        Continued updates make it more usable.
+        Proloquo is AssistiveWare's comprehensive AAC app for iPad and iPhone, designed to grow with users from their first words through adulthood. It pairs an extensive, research-based vocabulary with features like Thinking Space for visualizing and organizing thoughts and Focus Mode for guiding attention without limiting access to vocabulary.
       </span>
     </div>
   </div>
@@ -385,7 +388,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Speech Assistant AAC</h4>
       <span class='sub'>
         Speech Assistant AAC is one of the most robustly featured text-based AAC apps for the cost, rivaling major TTS apps in communication efficiency features. It includes an ElevenLabs personal voice clone integration for phone calls, and its developer is extremely responsive to feedback and bug fixes.
@@ -394,13 +397,14 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>Predictable</h4>
       <span class='sub'>
-        Predictable provides a robust communication system for literate AAC users who generate their own messages through text. Features such as word and phrase prediction, personalized vocabulary, saved phrases, and text-to-speech preserve the user's ability to determine exactly what they want to say.
+        Predictable provides a robust communication system for AAC users who generate their own messages through text. Features such as word and phrase prediction, personalized vocabulary, saved phrases, and text-to-speech preserve the user's ability to determine exactly what they want to say.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Dialogue AAC</h4>
       <img src="/images/2026/knaac/dialogue-logo.svg" class='img' alt='' />
       <span class='sub'>
+        Dialogue AAC is a text-based communication app designed to support efficient, personalized messaging for AAC users who communicate through text.
       </span>
     </div>
   </div>
@@ -449,11 +453,13 @@ bg: 4
       <img src="/images/2026/knaac/flexspeak-logo.svg" class='img' alt='' />
       </a>
       <span class='sub'>
+        FlexSpeak supports bilingual communication, letting AAC users switch languages within a single message.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>TypingTalk AAC</h4>
       <span class='sub'>
+        TypingTalk AAC is a text-based communication app nominated by the community this year.
       </span>
     </div>
   </div>
@@ -486,12 +492,14 @@ bg: 4
       <h4>Smartbox's Smart Prompt</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       <span class='sub'>
+        Smart Prompt is one of Smartbox's newer AI-assisted additions to the Grid 3 platform, aimed at helping AAC users generate messages more quickly.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Smartbox's AI Features</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       <span class='sub'>
+        Nominators praised Smartbox's thoughtful integration of AI features into the Grid 3 experience this year.
       </span>
     </div>
   </div>
@@ -507,13 +515,19 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>USAAC</h4>
+       <a href="https://ussaac.org/" target='_blank'>
+      <h4>USSAAC's AAC-user<br/>social meetups</h4>
+      <img src="/images/2026/knaac/ussaac-logo.svg" class='img' alt='' />
+      </a>
       <span class='sub'>
-      </span>
+        USSAAC's AAC User Social Meetups create accessible opportunities for AAC users to connect, socialize, and build friendships outside of therapy. Virtual meetups remove geographic barriers, while activities such as AAC Family Game Nights create relaxed spaces for AAC users and families to connect
     </div>
     <div class='nominee' data-rank='3'>
+      <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
       <h4>Ask me, I'm an<br/>AAC User</h4>
+      </a>
       <span class='sub'>
+        Ask me, I'm an AAC User is a facebook group where SLP professionals and others can seek the expertise of actual AAC users.
       </span>
     </div>
   </div>
@@ -523,20 +537,12 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/2139.svg'/> AAC Supporter Community of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <a href="https://ussaac.org/" target='_blank'>
-      <h4>USSAAC's AAC-user<br/>social meetups</h4>
-      <img src="/images/2026/knaac/ussaac-logo.svg" class='img' alt='' />
-      </a>
-      <span class='sub'>
-        USSAAC's AAC User Social Meetups create accessible opportunities for AAC users to connect, socialize, and build friendships outside of therapy. Virtual meetups remove geographic barriers, while activities such as AAC Family Game Nights create relaxed spaces for AAC users and families to connect.
-      </span>
-    </div>
-    <div class='nominee' data-rank='3'>
       <a href="https://qiat.org/" target='_blank'>
       <h4>QIAT</h4>
       <img src="/images/2026/knaac/qiat-logo.gif" class='img' alt='' />
       </a>
       <span class='sub'>
+        The QIAT Community is a nationwide grassroots group that includes hundreds of individuals who provide input into the ongoing process of identifying, disseminating, and implementing a set of widely applicable Quality Indicators for Assistive Technology Services in school settings
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -546,13 +552,17 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+      <a href="https://www.facebook.com/groups/676728011274573/" target='_blank'>
       <h4>Weave Chat AAC<br/>Community</h4>
+      </a>
       <span class='sub'>
+        Weave Chat AAC Community is a space for AAC users and supporters to connect and share experiences.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>AAC and Literacy</h4>
       <span class='sub'>
+        AAC and Literacy is a community resource focused on supporting literacy development for AAC users.
       </span>
     </div>
   </div>
@@ -566,6 +576,7 @@ bg: 4
       <h4>@communicationspot</h4>
       </a>
       <span class='sub'>
+        Helping SLPs create engaging, sensory-rich therapy that builds communication, connection & confidence. 
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -573,6 +584,7 @@ bg: 4
       <h4>@spinsandstomps on Instagram</h4>
       </a>
       <span class='sub'>
+        Erin documents her family's day-to-day AAC and gestalt language processing journey, sharing how her daughter uses an AAC device alongside a total communication approach.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -597,7 +609,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
       <h4>Stepping Into AAC</h4>
       <img src="/images/2024/stepping.jpeg" class='img' alt='' />
@@ -630,6 +642,7 @@ bg: 4
       <img src="/images/2026/knaac/ableu-logo.webp" class='img' alt='' />
       </a>
       <span class='sub'>
+        AbleU is AbleNet's platform offering accessible, self-paced training resources for educators and support staff working with AAC and assistive technology.
       </span>
     </div>
   </div>
@@ -638,7 +651,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids<br/>AAC Consulting</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -653,7 +666,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix Grid Books</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -664,7 +677,9 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Glint</h4>
+      <img src="/images/2026/knaac/glint_only_logo_wide_v6_white.png" class='img' alt='' />
       <span class='sub'>
+        Glint is a printable AAC resource nominated by the community this year for supporting low-tech communication.
       </span>
     </div>
   </div>
@@ -673,7 +688,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
       <h4>DAGG-3</h4>
       <img src="/images/2025/dagg3.png" class='img' alt='' />
@@ -694,6 +709,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>Pragmatic Profile<br/>for AAC Users</h4>
       <span class='sub'>
+        The Pragmatic Profile for AAC Users is an assessment tool designed to evaluate the pragmatic and social communication skills of individuals who use AAC.
       </span>
     </div>
   </div>
@@ -722,12 +738,14 @@ bg: 4
       <h4>PRC-Saltillo's<br/>Poster-size boards</h4>
       <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
       <span class='sub'>
+        PRC-Saltillo's poster-size boards offer large-format, low-tech core vocabulary displays for classrooms and community spaces.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Flip Books by<br/>PRC-Saltillo</h4>
       <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
       <span class='sub'>
+        PRC-Saltillo's Flip Books offer a portable, low-tech way to access core and fringe vocabulary across different settings.
       </span>
     </div>
   </div>
@@ -742,11 +760,13 @@ bg: 4
       <img src="/images/2026/knaac/attainment-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
+        GoTalk Lite Touch devices offer simple, durable, light-tech voice output for direct, low-barrier communication.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>TalkingBrix</h4>
       <span class='sub'>
+        TalkingBrix is a modular, light-tech AAC product nominated by the community this year.
       </span>
     </div>
   </div>
@@ -773,11 +793,13 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>Kinderboard Keyboard</h4>
       <span class='sub'>
+        Kinderboard Keyboard is an alternative access product designed to support early or emerging AAC users.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>PODD auditory<br/>only template</h4>
       <span class='sub'>
+        This template adapts the PODD communication system for AAC users who rely on auditory scanning rather than visual access.
       </span>
     </div>
   </div>
@@ -799,12 +821,13 @@ bg: 4
       <img src="/images/2026/knaac/tobiidynavox-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
+        PCS (Picture Communication Symbols) is one of the most widely used AAC symbol sets, developed and maintained by Tobii Dynavox.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>AACIL (AAC Image<br/>Library)</h4>
       <span class='sub'>
-        An AAC image library created by AAC users themselves.
+        An AAC image library made by AAC users.
       </span>
     </div>
   </div>
@@ -824,13 +847,14 @@ bg: 4
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
       <span class='sub'>
-        I am nominating Avaz's Step Up vocabulary because of both the strength of the vocabulary and the team's commitment to continued improvement, providing robust core and fringe vocabulary designed to support increasingly flexible, generative communication.
+        Avaz's Step Up vocabulary has been nominated on account of both the strength of the vocabulary and the team's commitment to continued improvement, providing robust core and fringe vocabulary designed to support increasingly flexible, generative communication.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Proloquo</h4>
       <img src="/images/2026/knaac/proloquo-logo.png" class='img' alt='' />
       <span class='sub'>
+        Proloquo's vocabulary is built on years of research and data from over 10,000 AAC users, supporting language growth from first words through adulthood while remaining easy to pick up and use right away.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -839,16 +863,19 @@ bg: 4
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
+        GRID 3's vocabulary resources combine flexible grid-based page sets with built-in supports for literacy and language growth.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>PODD</h4>
       <span class='sub'>
+        PODD (Pragmatic Organisation Dynamic Display) is a well-established communication book and page-set system designed to support robust, flexible language use.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Voco Chat</h4>
       <span class='sub'>
+        Voco Chat is an AAC vocabulary system.
       </span>
     </div>
   </div>
@@ -857,7 +884,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       <span class='sub'>
