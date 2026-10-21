@@ -212,7 +212,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Chris Klein</h4>
       <span class='sub'>
         Chris Klein is a lifelong AAC user, disability advocate, author, pastor, and founder of Device Verses. He has spent decades advocating for the inclusion and full participation of people who use AAC. His current work developing free, open-source AAC and light-tech resources for faith-based settings addresses an important area of community access that is often overlooked.
@@ -297,7 +297,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f9ea.svg'/> AAC Researcher of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Lori Geist</h4>
       <span class='sub'>
         Lori Geist's research focuses on improving communication, language, literacy, and academic outcomes for individuals with complex communication needs. Her work has examined AAC-mediated classroom participation, receptive vocabulary instruction, and the use of technology to support effective AAC intervention, including federally funded projects such as Project Converse, Building Bridges, and Project Open.
@@ -388,7 +388,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>Speech Assistant AAC</h4>
       <span class='sub'>
         Speech Assistant AAC is one of the most robustly featured text-based AAC apps for the cost, rivaling major TTS apps in communication efficiency features. It includes an ElevenLabs personal voice clone integration for phone calls, and its developer is extremely responsive to feedback and bug fixes.
