@@ -618,7 +618,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
       <h4>Stepping Into AAC</h4>
       <img src="/images/2024/stepping.jpeg" class='img' alt='' />
@@ -660,7 +660,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids<br/>AAC Consulting</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -675,7 +675,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix Grid Books</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -697,7 +697,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
       <h4>DAGG-3</h4>
       <img src="/images/2025/dagg3.png" class='img' alt='' />
@@ -893,7 +893,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='1'>
+    <div class='nominee' data-rank='3'>
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       <span class='sub'>
