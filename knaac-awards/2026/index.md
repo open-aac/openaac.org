@@ -212,7 +212,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Chris Klein</h4>
       <span class='sub'>
         Chris Klein is a lifelong AAC user, disability advocate, author, pastor, and founder of Device Verses. He has spent decades advocating for the inclusion and full participation of people who use AAC. His current work developing free, open-source AAC and light-tech resources for faith-based settings addresses an important area of community access that is often overlooked.
@@ -297,7 +297,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f9ea.svg'/> AAC Researcher of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Lori Geist</h4>
       <span class='sub'>
         Lori Geist's research focuses on improving communication, language, literacy, and academic outcomes for individuals with complex communication needs. Her work has examined AAC-mediated classroom participation, receptive vocabulary instruction, and the use of technology to support effective AAC intervention, including federally funded projects such as Project Converse, Building Bridges, and Project Open.
@@ -388,7 +388,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Speech Assistant AAC</h4>
       <span class='sub'>
         Speech Assistant AAC is one of the most robustly featured text-based AAC apps for the cost, rivaling major TTS apps in communication efficiency features. It includes an ElevenLabs personal voice clone integration for phone calls, and its developer is extremely responsive to feedback and bug fixes.
@@ -462,6 +462,12 @@ bg: 4
         TypingTalk AAC is a text-based communication app nominated by the community this year.
       </span>
     </div>
+    <div class='nominee' data-rank='3'>
+      <h4>AbilityMic</h4>
+      <span class='sub'>
+        AbilityMic is a new symbol- and text-based AAC app from Poland, developed with AAC specialist and speech therapist Elżbieta Dawidek, that keeps the AAC user in control. It runs fully offline across Apple devices, Windows, Linux, and the browser (with Android in testing), and includes accessibility options like switch scanning, dwell activation, and VoiceOver support built to WCAG 2.2 AA. Optional on-device AI can turn a few tiles into a natural sentence, but only ever as a suggestion the user can accept, edit, or ignore, and a web panel lets SLPs and families build and sync boards remotely by invite.
+      </span>
+    </div>
   </div>
 </div>
 
@@ -521,6 +527,7 @@ bg: 4
       </a>
       <span class='sub'>
         USSAAC's AAC User Social Meetups create accessible opportunities for AAC users to connect, socialize, and build friendships outside of therapy. Virtual meetups remove geographic barriers, while activities such as AAC Family Game Nights create relaxed spaces for AAC users and families to connect
+      </span>
     </div>
     <div class='nominee' data-rank='3'>
       <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
@@ -556,7 +563,9 @@ bg: 4
       <h4>Weave Chat AAC<br/>Community</h4>
       </a>
       <span class='sub'>
-        Weave Chat AAC Community is a space for AAC users and supporters to connect and share experiences.
+        The Weave Chat AAC community page is a safe and inclusive space to share ideas, ask questions, and make suggestions.
+        This group was created for the purpose of uniting users of AAC, especially those who use Weave Chat AAC - whether it be the app version, the lite-tech versions, or any combination there of.
+        Users come from all areas of the world. It is imperative that we aall remain respectful of each other’s backgrounds and ideas. This group is intended to be a space where you feel safe enough to share ideas, ask questions, and make suggestions
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -584,7 +593,7 @@ bg: 4
       <h4>@spinsandstomps on Instagram</h4>
       </a>
       <span class='sub'>
-        Erin documents her family's day-to-day AAC and gestalt language processing journey, sharing how her daughter uses an AAC device alongside a total communication approach.
+        @spinsandstomps is ran by Erin, a mother of an AAC user. Erin documents her family's day-to-day AAC and gestalt language processing journey, sharing how her daughter uses an AAC device alongside a total communication approach.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -609,7 +618,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
       <h4>Stepping Into AAC</h4>
       <img src="/images/2024/stepping.jpeg" class='img' alt='' />
@@ -651,7 +660,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids<br/>AAC Consulting</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -666,7 +675,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix Grid Books</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -688,7 +697,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
       <h4>DAGG-3</h4>
       <img src="/images/2025/dagg3.png" class='img' alt='' />
@@ -884,7 +893,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
       <span class='sub'>
