@@ -88,7 +88,7 @@ bg: 2
   </div>
 </div>
 <div class='person'>
-  <img src="/images/silhouette.webp" />
+  <img src="/images/2026/mikeh.webp" />
   <div class='name'>Michael Hipple</div>
   <div class='bio'>Project Manager 
   <br> 

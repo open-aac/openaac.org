@@ -207,6 +207,21 @@ bg: 4
   the full list of nominees and that year's highlights
   in each category.
 </p>
+<p>
+    We rely on <b>the donations of everyday folks</b>
+    in the AAC community
+    in order to keep our work effective, strategic and unbiased.
+    Please consider making a donation today to help us continue
+    our work!
+</p>
+
+<div style='width: 400px; max-width: 100%; margin: 0 auto;'>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
+    <img src="/images/paypal.png" style='float: left; width: 80px;'/>
+    Donate to<br/>OpenAAC
+  </a>
+</div>
+
 <h2>2026 knAAC Awards Categories</h2>
 
 <div>
@@ -348,8 +363,10 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5bc.svg'/> Symbol-Centric AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href ="https://globalsymbols.com/" target = "_blank">
       <h4>Global Symbols</h4>
       <img src="/images/2026/knaac/globalsymbols-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Global Symbols is expanding access to culturally and linguistically responsive AAC symbols. Its work recognizes that symbols are not culturally neutral and supports resources that better represent users' languages, cultures, communities, and everyday experiences, including exploration of AI-supported symbol generation.
       </span>
@@ -362,22 +379,28 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+      <a href="https://smartboxaac.com/ukie/grid-software/" target='_blank'>
       <h4>Grid 3</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Grid 3 remains a widely used, feature-rich AAC and computer access software package from Smartbox, supporting symbol- and text-based communication alike.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href = "https://lampwflapp.com/" target=  "_blank">
       <h4>LAMP 3</h4>
       <img src="/images/2026/knaac/lamp-wfl-logo.svg" class='img' alt='' />
+      </a>
       <span class='sub'>
         LAMP Words for Life 3 builds on the established LAMP motor-planning approach to vocabulary organization, helping AAC users build consistent, automatic access to language.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href ="https://www.assistiveware.com/products/proloquo4text" target= "_blank">
       <h4>Proloquo</h4>
       <img src="/images/2026/knaac/proloquo-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Proloquo is AssistiveWare's comprehensive AAC app for iPad and iPhone, designed to grow with users from their first words through adulthood. It pairs an extensive, research-based vocabulary with features like Thinking Space for visualizing and organizing thoughts and Focus Mode for guiding attention without limiting access to vocabulary.
       </span>
@@ -389,20 +412,27 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href ="https://www.speechassistant.io/" target= "_blank">
       <h4>Speech Assistant AAC</h4>
+      </a>
       <span class='sub'>
         Speech Assistant AAC is one of the most robustly featured text-based AAC apps for the cost, rivaling major TTS apps in communication efficiency features. It includes an ElevenLabs personal voice clone integration for phone calls, and its developer is extremely responsive to feedback and bug fixes.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href = "https://www.therapybox.co.uk/predictable-english" target= "_blank">
       <h4>Predictable</h4>
+      <img src="/images/2026/knaac/predictable.avif" class='img' alt='' />
+      </a>
       <span class='sub'>
         Predictable provides a robust communication system for AAC users who generate their own messages through text. Features such as word and phrase prediction, personalized vocabulary, saved phrases, and text-to-speech preserve the user's ability to determine exactly what they want to say.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href = "https://dialogueaacapp.com/" target= "_blank">
       <h4>Dialogue AAC</h4>
       <img src="/images/2026/knaac/dialogue-logo.svg" class='img' alt='' />
+      </a>
       <span class='sub'>
         Dialogue AAC is a text-based communication app designed to support efficient, personalized messaging for AAC users who communicate through text.
       </span>
@@ -414,8 +444,10 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f331.svg'/> Up-And-Coming AAC App of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href ="https://avazapp.com/products/avaz-aac-app/" target= "_blank">
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Avaz is an established AAC app that continues to evolve and deserves greater recognition. Its newer Step Up vocabulary and the team's responsiveness to feedback from AAC users and professionals stand out, continuing to listen, collaborate, and make meaningful improvements.
       </span>
@@ -475,7 +507,7 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <h4>Bridging Voice iOS<br/>Mirroring & Control</h4>
+      <h4>Bridging Voice's iOS<br/>Mirroring & Control</h4>
       <img src="/images/2025/knaac/bridging-voice.png" class='img' alt='' />
       <span class='sub'>
         The Bridging Voice tech team has developed technology for individuals who use Windows-based Speech Generating Devices to mirror their iPhone or iPad screens onto their SGD and control it using their access method, giving back full function and control of their iOS-based devices.
@@ -496,7 +528,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Smartbox's Smart Prompt</h4>
-      <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/grid3-logo.png" class='img' alt=''/>
       <span class='sub'>
         Smart Prompt is one of Smartbox's newer AI-assisted additions to the Grid 3 platform, aimed at helping AAC users generate messages more quickly.
       </span>
@@ -685,10 +717,12 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://www.nerchat.com/" target= "_blank">
       <h4>Glint</h4>
-      <img src="/images/2026/knaac/glint_only_logo_wide_v6_white.png" class='img' alt='' />
+      <img src="/images/2026/knaac/glint_only_logo_wide_v6_white.png" class='img' style='background: #14141e; padding: 8px; border-radius: 6px;' alt='' />
+      </a>
       <span class='sub'>
-        Glint is a printable AAC resource nominated by the community this year for supporting low-tech communication.
+            Glint offers printable templates that can be generated quickly using AI. 
       </span>
     </div>
   </div>
@@ -716,7 +750,10 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href = "https://acecentre.org.uk/resources/pragmatics-profile-people-use-aac" target= "_blank">
       <h4>Pragmatic Profile<br/>for AAC Users</h4>
+      <img src="/images/2026/knaac/pragmaticprofile.webp" class='img' alt=''>
+      </a>
       <span class='sub'>
         The Pragmatic Profile for AAC Users is an assessment tool designed to evaluate the pragmatic and social communication skills of individuals who use AAC.
       </span>
@@ -728,8 +765,10 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/261d-varxxxUNI.svg'/> Lite-Tech AAC Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href ="https://aaclanguagelab.com/resources/aac-adventures" target= "_blank">
       <h4>AAC Adventures<br/>by PRC-Saltillo</h4>
-      <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/aacadventure.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         AAC Adventures provides practical, engaging ways to bring AAC into everyday activities and experiences. Through themed adventures such as a day at the lake or a scavenger hunt, it encourages communication partners to model language and creates natural opportunities for AAC users to request, comment, and connect with others.
       </span>
@@ -737,22 +776,24 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <a href="https://www.huntersvoice.net/" target='_blank'>
       <h4>Hunter's Voice</h4>
-      <img src="/images/2026/knaac/huntersvoice-logo.avif" class='img' alt='' />
+      <img src="/images/2026/knaac/huntersvoice-logo.avif" class='img' alt=''/>
       </a>
       <span class='sub'>
         Hunter's Voice is a creative example of AAC innovation originating directly from an AAC user. When Hunter's device stopped working, he drew a QWERTY keyboard on paper and communicated by pointing to letters, eventually inspiring wearable keyboard options. This solution reinforces the importance of having multiple ways to communicate. It is simple, portable, and provides an alternative when electronics are unavailable or impractical—most importantly, it grew directly from an AAC user identifying what worked for him.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href = "https://aaclanguagelab.com/resources/wordpower-manual-communication-boards-prc-saltillo" target= "_blank">
       <h4>PRC-Saltillo's<br/>Poster-size boards</h4>
-      <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/prcboard.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         PRC-Saltillo's poster-size boards offer large-format, low-tech core vocabulary displays for classrooms and community spaces.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Flip Books by<br/>PRC-Saltillo</h4>
-      <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/flipbooks.png" class='img' alt='' />
       <span class='sub'>
         PRC-Saltillo's Flip Books offer a portable, low-tech way to access core and fringe vocabulary across different settings.
       </span>
@@ -764,9 +805,9 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f50a.svg'/> Mid-Tech AAC Product of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <a href="https://www.attainmentcompany.com/" target='_blank'>
+      <a href="https://www.attainmentcompany.com/gotalk-20-lite-touch" target='_blank'>
       <h4>GoTalk Lite<br/>Touch devices</h4>
-      <img src="/images/2026/knaac/attainment-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/gotalk_20_lite_touch.jpg" class='img' alt='' />
       </a>
       <span class='sub'>
         GoTalk Lite Touch devices offer simple, durable, light-tech voice output for direct, low-barrier communication.
@@ -774,6 +815,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>TalkingBrix</h4>
+      <img src="/images/2026/knaac/talkingbrix.jpg" class='img' alt=''>
       <span class='sub'>
         TalkingBrix is a modular, light-tech AAC product nominated by the community this year.
       </span>
@@ -846,8 +888,10 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href = "https://wordpoweraac.com" target= "_blank">
       <h4>WordPower</h4>
-      <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
+      <img src="/images/2026/knaac/logo-word-power-cropped-registered.svg" class='img' alt='' />
+      </a>
       <span class='sub'>
         WordPower continues to stand out because it is regularly updated to reflect the language and communication needs of AAC users. Recent updates have introduced features such as Next Logical Word, and it offers multiple vocabulary sizes and layouts combining high-frequency core vocabulary with fringe words and grammatical supports.
       </span>
@@ -867,7 +911,7 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <a href="https://thinksmartbox.com/product/grid-3/" target='_blank'>
+      <a href="https://smartboxaac.com/ukie/grid-software/" target='_blank'>
       <h4>GRID 3</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       </a>
