@@ -234,23 +234,28 @@ bg: 4
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
       <h4>Chris Klein</h4>
+      <img src="/images/2026/knaac/chrisklein.jpg" class='img' alt='' />
       <span class='sub'>
         Chris Klein is a lifelong AAC user, disability advocate, author, pastor, and founder of Device Verses. He has spent decades advocating for the inclusion and full participation of people who use AAC. His current work developing free, open-source AAC and light-tech resources for faith-based settings addresses an important area of community access that is often overlooked.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Beth Moulam</h4>
+      <img src= "/images/2026/knaac/bethmoulam.webp" class='img' alt='' />
       <span class='sub'>
+      Beth Moulam has had a lifelong passion to empower augmentative and alternative communication (AAC) users to fulfil their own communication potential. As an advocate Beth draws on both her own lived experience of using AAC and assistive technology on a daily basis for nearly 30 years, combining this with post-graduate research skills in social policy. She has a Master of Research (Distinction) in social policy from the University of York, this focused on the effectiveness of policy and provision of AAC for children in England. Beth volunteers as a Trustee with Communication Matters; the UK Chapter of ISAAC, and is Patron of 1 Voice; a UK charity for young AAC users and their families. In 2024 Beth was awarded by Manchester Metropolitan University an honorary PhD for her advocacy work and as a Paralympian, having represented Great Britain in the sport of boccia at Tokyo 2020. In 2024 she was also nominated on the Disability Power 100 list (top UK disabled influencers) as the UK’s Number 1 Grassroots and Community advocate.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Randi Brown</h4>
+      <img src="/images/2026/knaac/randibrown.avif" class='img' alt='' />
       <span class='sub'>
         Randi Brown is an SLP, AAC specialist, and lead SLP and Product Innovator for VoiceBridge AAC. In her work in Azle ISD, she has helped expand access to AAC for students with complex communication needs while supporting teachers and staff in increasing language exposure and AAC use throughout the school day.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>The endever* corbin<br/>et al polycule</h4>
+      <img src= "/images/2025/endever_corbin.jpg" class='img' alt='' />
       <span class='sub'>
         endever* corbin, their partner, and their partner's partner are raising their baby in a trilingual (English, Russian, ASL), AAC-using household. The baby has had access to multimodal AAC since birth and has already communicated their first message using AAC.
       </span>
@@ -287,28 +292,44 @@ bg: 4
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
       <h4>Lance McLemore</h4>
+      <img src="/images/2026/knaac/lancemclemore.jpg" class='img' alt='' />
       <span class='sub'>
         Lance McLemore brings the essential perspective of an AAC user to professional education. Through presentations, keynotes, and research collaborations, he challenges assumptions about communication and disability while addressing self-determination, relationships, community participation, and communication access.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Brenda Del Monte</h4>
+      <img src="/images/2026/knaac/brendadelmonte.jpg" class='img' alt='' />
       <span class='sub'>
+    <p>
+        Brenda Robertson Del Monte is a Speech Language Pathologist and an assistive technology evaluator and facilitator, who has worked with people with disabilities for over 20 years.
+​    </p>
+    <p>
+        Her passion has been working with people who are not functionally verbal and use communication devices to help them communicate. She specializes in working with those with complicated bodies who have limited ways to access augmentative and alternative communication (AAC). She currently speaks globally on AI & AAC.
+    </p>
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Chris Bugaj</h4>
+      <img src= "/images/2026/knaac/chrisbugaj.jpg" class='img' alt='' />
       <span class='sub'>
+    <p>
+        Christopher R. Bugaj, MA CCC‐SLP is a founding member of the Assistive Technology Team for Loudoun County Public Schools. Chris co-hosts the Talking With Tech podcast featuring interviews and conversations about augmentative and alternative communication and has hosted The A.T.TIPSCAST; a multi‐award winning podcast featuring strategies to design educational experiences. Chris is the author of The New Assistive Tech: Make Learning Awesome For All, published by the International Society for Technology in Education (ISTE). Chris is the co-author of Inclusive Learning 365: EdTech Strategies for Every Day of the Year and The Practical (and Fun) Guide to Assistive Technology in Public Schools both of which are also published by ISTE. Chris co-authored two chapters for a book published by Brookes Publishing titled Technology Tools for Students with Autism. Chris co‐produces and co‐authors the popular Night Light Stories podcast which features original stories for children of all ages. Chris has presented over 550 live or digital sessions at local, regional, state, national and international events, including TEDx.
+    </p>
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Rachel Madel</h4>
+      <img src= "/images/2026/knaac/rachelmadel.jpg" class='img' alt='' />
       <span class='sub'>
+      Rachel Madel is a Los Angeles-based speech-language pathologist dedicated to coaching parents and professionals on the use of technology to support communication. Rachel presents both nationally and abroad on using technology and augmentative alternative communication (AAC) to support language development in children with a variety of diagnoses. She owns a private practice in Los Angeles, California where she specializes in the assessment and treatment of children who are using AAC.  Her work has been featured in Autism Parenting Magazine, Speech Science, Praactical AAC, Xceptional Ed, Teachers with Apps and ChildNEXUS. She is the founder of a digital media company that provides educational resources, therapy materials and training videos to help support parents and professionals of children with with complex communication needs. 
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Rachael Langley</h4>
+      <img src= "/images/2026/knaac/rachellangley.jpg" class='img' alt='' />
       <span class='sub'>
+      Rachael Langley is a speech-language pathologist working as an Augmentative/Alternative Communication (AAC) Consultant in Michigan. Her 20-year career has focused primarily on supporting students with complex communication needs. Rachael is one of the founders and organizers of #TalkingAAC, a conference focused specifically on AAC learning. Rachael has presented at local, state, and national conferences in the United States. She enjoys creating graphics and other materials related to AAC implementation.
       </span>
     </div>
   </div>
@@ -319,23 +340,28 @@ bg: 4
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
       <h4>Lori Geist</h4>
+      <img src="/images/2026/knaac/lori_geist.avif" class='img' alt='' />
       <span class='sub'>
         Lori Geist's research focuses on improving communication, language, literacy, and academic outcomes for individuals with complex communication needs. Her work has examined AAC-mediated classroom participation, receptive vocabulary instruction, and the use of technology to support effective AAC intervention, including federally funded projects such as Project Converse, Building Bridges, and Project Open.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Sofia Benson-Goldberg,<br/>PhD</h4>
+      <img src="/images/2026/knaac/sofia.webp" class='img' alt='' />
       <span class='sub'>
         Dr. Benson-Goldberg's research advances important areas of AAC, including literacy, multimodal communication, access, and inclusive technology design. Her innovative work has used eye-tracking to explore literacy abilities and incorporated AAC users into technology design and evaluation.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Janice Light</h4>
+      <img src="/images/2026/knaac/janice_light.webp" class='img' alt='' />
       <span class='sub'>
+      Janice is an American academic who held the Hintz Family Endowed Chair in Children's Communicative Competence in the Department of Communication Sciences and Disorders at Pennsylvania State University. As a Distinguished Professor, she taught graduate courses and seminars in augmentative and alternative communication (AAC) and developed an internationally recognized research program in AAC.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Alyssa Hillary Zisk</h4>
+      <img src="/images/2026/knaac/alyssa_zisk.webp" class='img' alt='' />
       <span class='sub'>
       Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021. 
       </span>
@@ -348,18 +374,22 @@ bg: 4
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
       <h4>Chris Klein</h4>
+      <img src="/images/2026/knaac/chrisklein.jpg" class='img' alt='' />
       <span class='sub'>
         Chris Klein has spent years building spaces where AAC users can connect, develop relationships, and become leaders within their community. Through ImpAACt Voices, AAC Hangouts, in-person events, and Device Verses, he has created opportunities for AAC users to meet peers, share experiences, and develop meaningful connections.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Amanda Hartmann</h4>
+      <img src= "/images/2026/knaac/amanda_hartmann.webp" class='img' alt='' />
       <span class='sub'>
+      Amanda Hartmann has been a Speech-Language Pathologist and an AAC enthusiast for over 25 years. She has helped many children who use AAC and the people that support them. She is passionate about connecting with and advocating for people who use AAC.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Caroline Gaddy</h4>
-      <span class='sub'>
+      <img src= "/images/2026/knaac/caroline_gaddy.png" class='img' alt='' />
+    <span class='sub'>
       Caroline Gaddy, MFA, MA, CCC-SLP (they/she) is a speech-language pathologist, AAC specialist, disability advocate, and neurodiversity educator. They are a Learning Consultant for Tobii Dynavox and also provide education and consultation on neurodiversity-affirming practices through their business, Vibrant Minds, LLC. Caroline worked for many years in school settings as a teacher and an SLP, and also worked in medical settings with adult and pediatric populations, often specializing in supporting communication access for people with multiple disabilities. They have presented at both state and national conferences and coauthored articles on neuro-affirming practices, AAC, and Autistic communication styles. 
       </span>
     </div>
@@ -458,7 +488,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href = "https://www.assistiveware.com/products/proloquo4text" target= "_blank">
       <h4>Proloquo4Text</h4>
-      <img src = "/images/2026/knaac/proloquotext.svg" class='img' alt='' />
+      <img src = "/images/2026/knaac/proloquotext.webp" class='img' alt='' />
       </a>
       <span class='sub'>
         Proloquo4Text is AssistiveWare's text-based AAC app, offering word prediction and efficient message composition for AAC users who communicate through text.
@@ -525,6 +555,7 @@ bg: 4
     <a href= "https://www.abilitymic.com/" target= "_blank">
       <h4>AbilityMic</h4>
       <img src= "/images/2026/knaac/abilitymic.jpg" class='img' alt= '' />
+      </a>
       <span class='sub'>
         AbilityMic is a new symbol- and text-based AAC app from Poland, developed with AAC specialist and speech therapist Elżbieta Dawidek, that keeps the AAC user in control. It runs fully offline across Apple devices, Windows, Linux, and the browser (with Android in testing), and includes accessibility options like switch scanning, dwell activation, and VoiceOver support built to WCAG 2.2 AA. Optional on-device AI can turn a few tiles into a natural sentence, but only ever as a suggestion the user can accept, edit, or ignore, and a web panel lets SLPs and families build and sync boards remotely by invite.
       </span>
@@ -668,6 +699,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <a href="https://www.instagram.com/limpbroozkit/" target='_blank'>
       <h4>Brooke Eby</h4>
+      <img src= "/images/2026/knaac/Brooke-Eby.jpg" class='img' alt='' />
       </a>
       <span class='sub'>
         Brooke Eby unfortunately recently passed away at only 37 years old due to complications with ALS, but she accomplished so much in the short time that she had to do so. Brooke was a social media influencer and ALS advocate for the entire 4 years that she lived with this disease. She created and shared a magnitude of content related to AAC and ALS during this time, building up hundreds of thousands of followers across TikTok, Instagram, Facebook, and LinkedIn. In 2023, Brooke founded ALStogether, an online Slack community connecting people with ALS and caregivers, including a channel dedicated specifically to AAC discussions, connections, and resources. Her blogs, social media posts, and more will continue to help other AAC users and potential users for many years to come.
@@ -676,6 +708,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <a href="https://www.instagram.com/mariadeleonslp/" target='_blank'>
       <h4>Maria De Leon, M.S., CCC-SLP, BCS-AAC</h4>
+      <img src= "/images/2026/knaac/maria_de_leon.jpg" class='img' alt='' />
       </a>
       <span class='sub'>
         Maria De Leon creates exceptional content focused on bilingual, multilingual, and culturally responsive AAC practice. Through VocesAAC, BilingüeAAC, @mariadeleonslp, presentations, and trainings, she translates research and complex AAC concepts into practical information clinicians and families can use. Her work encourages professionals to look beyond simply translating vocabulary and consider how language, culture, family perspectives, and lived experiences should shape AAC assessment and intervention.
@@ -741,7 +774,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href = "https://www.aaccessible.org/" target= "_blank">
       <h4>AACcessible</h4>
-      <img src= "images/2026/knaac/new AACcessible logo black.avif" class='img' alt='' />
+      <img src= "/images/2026/knaac/new%20AACcessible%20logo%20black.avif" class='img' alt='' />
       </a>
       <span class='sub'>
         AACcessible is a community resource nominated this year for supporting accessible AAC information and education.
@@ -750,7 +783,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href ="https://communicationfirst.org/mission/" target= "_blank">
       <h4>Communication First</h4>
-      <img src= "images/2026/knaac/communicationfirst.png" class='img' alt='' />
+      <img src= "/images/2026/knaac/communicationfirst.png" class='img' alt='' />
       </a>
       <span class='sub'>
         CommunicationFIRST is a nonprofit organization led by people with speech-related disabilities, dedicated to protecting and advancing the communication rights of people with speech-related disabilities.
@@ -783,7 +816,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href="https://www.everway.com/products/symbolstix-prime/" target= "_blank">
       <h4>SymbolStix Prime</h4>
-      <img src= "images/2026/knaac/symbolstix.avif" class='img' alt='' />
+      <img src= "/images/2026/knaac/symbolstix.avif" class='img' alt='' />
       </a>
       <span class='sub'>
         SymbolStix Prime is an AAC communication and authoring tool designed for students with disabilities or special educational needs.<br>With over 100,000 symbols, it gives students meaningful ways to understand, express themselves and take part in learning, building the foundations for a more neuroinclusive classroom.
@@ -801,7 +834,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href= "https://www.myboardmaker.com/Subscription/PersonalEditionLearnMore" target= "_blank">
       <h4>Boardmaker</h4>
-      <img src= "images/2026/knaac/boardmaker.png" class='img' alt=''>
+      <img src= "/images/2026/knaac/boardmaker.png" class='img' alt=''>
       </a>
       <span class='sub'>
         Boardmaker is a longstanding symbol-based software platform used to create customized, printable AAC materials and communication boards.
@@ -841,7 +874,10 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://humpsoftware.com/index.html" target= "_blank">
       <h4>AAC Genie</h4>
+      <img src="/images/2026/knaac/aac_genie.png" class='img' alt=''>
+      </a>
       <span class='sub'>
          An informal augmentative and alternative communication (AAC) assessment app for speech-language pathologists, educators, and assistive technology teams planning further evaluation and device trials.
       </span>
@@ -849,6 +885,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href= "https://www.joyzabala.com/links-resources" target= "_blank">
       <h4>SETT</h4>
+      <img src="/images/2025/knaac/sett.png" class='img' alt='' />
       </a>
       <span class='sub'>
         The SETT Framework, developed by Joy Zabala, is a widely used framework for guiding AAC and assistive technology assessment by considering the Student, Environment, Tasks, and Tools.
@@ -889,7 +926,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Flip Books by<br/>PRC-Saltillo</h4>
-      <img src="/images/2026/knaac/flipbooks.png" class='img' alt='' />
+      <img src="/images/2025/knaac/saltillo-flip.jpg" class='img' alt='' />
       <span class='sub'>
         PRC-Saltillo's Flip Books offer a portable, low-tech way to access core and fringe vocabulary across different settings.
       </span>
@@ -921,7 +958,8 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href= "https://quicktalkerfreestyle.com/" target= "_blank" alt=''>
       <h4>QuickTalker</h4>
-      <img src= "/images/2026/knaac/quicktalker.png" class='img' alt=''>
+      <img src= "/images/2026/knaac/quicktalker.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         QuickTalker is a simple, durable voice-output communication device from Attainment Company, offering an accessible entry point into AAC.
       </span>
@@ -929,6 +967,8 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href= "https://logantech.com/products/proxtalker" target= "_blank">
       <h4>ProxTalker</h4>
+      <img src="/images/2026/knaac/logan_proxtalker.webp" class='img' alt='' />
+      </a>
       <span class='sub'>
         ProxTalker is a tactile AAC system that uses physical RFID symbol tokens to trigger spoken output when placed on the device.
     </a>
@@ -957,7 +997,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Kinderboard Keyboard</h4>
-      <img src= "images/2026/knaac/kinderboard.jpg" class='img' alt='' />
+      <img src= "/images/2026/knaac/kinderboard.jpg" class='img' alt='' />
       <span class='sub'>
         BigBlu KinderBoard is a large-key computer keyboard that can assist children with vision or motor-skill impairment, and is an excellent first keyboard for any child. Big Blu KinderBoard has big 1-in/2.5-cm oversized keys and large, bold, easy-to-read numbers and letters. The BigBlu KinderBoard features color-coded consonants, vowels, numbers and punctuation marks to help pre-school children learn their character sets
       </span>
@@ -1011,7 +1051,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
     <a href= "https://lessonpix.com" target= "_blank">
       <h4>LessonPix</h4>
-      <img src= "/images/2026/knaac/lessonpix.png" class='img' alt='' />
+      <img src= "/images/2024/knaac/lessonpix.png" class='img' alt='' />
       </a>
       <span class='sub'>
         LessonPix is a customizable image library widely used to create personalized AAC materials, worksheets, and visual supports.
@@ -1059,6 +1099,7 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>PODD</h4>
+      <img src="/images/2025/knaac/podd-book.jpeg" class='img' alt='' />
       <span class='sub'>
         PODD (Pragmatic Organisation Dynamic Display) is a well-established communication book and page-set system designed to support robust, flexible language use.
       </span>
@@ -1067,6 +1108,7 @@ bg: 4
     <a href= "https://legacy.thinksmartbox.com/voco-chat/" target= "_blank">
       <h4>Voco Chat</h4>
       <img src= "/images/2026/knaac/vocochat.png" class='img' alt='' />
+      </a>
       <span class='sub'>
       SmartBox's Voco Chat is a symbol vocabulary with a low-cell count, which enables users to communicate for a wide range of reasons. From saying what you want or asking a question, to telling someone about yourself or having a conversation.<br>Designed to make it easier to create messages, Voco Chat is built on a foundation of six message pathways. It also includes vocabulary to support individuals to participate more, engage in conversations, and be more independent, as well as talk about important topics such as mental health and wellbeing.
       </span>
