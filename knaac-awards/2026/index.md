@@ -26,6 +26,11 @@ bg: 4
     margin-right: 15px;
     overflow: hidden;
   }
+  .nominee h4 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
   .nominees.expanded .nominee h4:hover {
     text-decoration: underline;
   }
@@ -33,13 +38,14 @@ bg: 4
     text-decoration: underline;
   }
   .nominee .img {
-    height: 70px;
-    max-width: 100px;
+    height: auto;
+    max-height: 70px;
+    width: auto;
+    max-width: 100%;
     object-fit: contain;
     object-position: center;
     display: block;
     margin: 0 auto;
-    max-width: 200px;
   }
   .nominee .photo {
     height: 120px;
@@ -164,6 +170,26 @@ bg: 4
     vertical-align: middle;
     margin-right: 5px;
   }
+  h3:after {
+    content: '\25BE';
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 0.7em;
+    transition: transform 0.2s ease;
+    vertical-align: middle;
+  }
+  h3.expanded:after {
+    transform: rotate(180deg);
+  }
+  .cta-button {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+  .cta-button.donate img {
+    float: left;
+    width: 80px;
+  }
 	@media (max-width: 800px) {
     .nominees {
       margin-left: 0;
@@ -180,6 +206,16 @@ bg: 4
       margin-left: 0;
       float: none;
       margin-bottom: 10px;
+      max-width: 100%;
+    }
+    .cta-button {
+      font-size: 20px !important;
+      height: auto !important;
+      line-height: 1.4 !important;
+      padding: 15px 10px !important;
+    }
+    .cta-button.donate img {
+      width: 50px;
     }
   }
 </style>
@@ -188,7 +224,7 @@ bg: 4
 </p>
 
 <div style='width: 400px; max-width: 100%; margin: 0 auto;'>
-  <a href="https://forms.gle/oFKPiRSMXYejjejW6" target='_blank' class="button fit special" style='font-size: 30px; height: 70px; line-height: 40px; padding: 20px 10px;'>
+  <a href="https://forms.gle/oFKPiRSMXYejjejW6" target='_blank' class="button fit special cta-button" style='font-size: 30px; height: 70px; line-height: 40px; padding: 20px 10px;'>
     VOTE NOW
   </a>
 </div>
@@ -221,8 +257,8 @@ bg: 4
 </p>
 
 <div style='width: 400px; max-width: 100%; margin: 0 auto;'>
-  <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
-    <img src="/images/paypal.png" style='float: left; width: 80px;'/>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=6V5ENEGE6MG28" class="button fit special cta-button donate" style='font-size: 30px; height: 120px; line-height: 40px; padding: 20px 10px;'>
+    <img src="/images/paypal.png"/>
     Donate to<br/>OpenAAC
   </a>
 </div>
