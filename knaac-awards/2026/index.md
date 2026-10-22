@@ -28,8 +28,7 @@ bg: 4
   }
   .nominee h4 {
     overflow-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
+    word-break: keep-all;
   }
   .nominees.expanded .nominee h4:hover {
     text-decoration: underline;
@@ -195,7 +194,8 @@ bg: 4
       margin-left: 0;
     }
     .nominee {
-      max-width: 45%;
+      max-width: 100%;
+      margin-right: 0;
     }
     .nominees.expanded .photo, .nominees .nominee.winner .photo { 
       margin-left: 0;
