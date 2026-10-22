@@ -184,6 +184,15 @@ bg: 4
   }
 </style>
 <p>
+  Voting is <b>NOW OPEN!</b> Click below to place your votes!
+</p>
+
+<div style='width: 400px; max-width: 100%; margin: 0 auto;'>
+  <a href="https://forms.gle/oFKPiRSMXYejjejW6" target='_blank' class="button fit special" style='font-size: 30px; height: 70px; line-height: 40px; padding: 20px 10px;'>
+    VOTE NOW
+  </a>
+</div>
+<p>
   Welcome to the third annual knAAC Awards! Short for
   "Keepers and Noteworthies in AAC", the knAAC Awards
   are all about highlighting the wonderful work happening
@@ -200,13 +209,9 @@ bg: 4
   or voting for our favorite superheroes.
 </p>
 <p>
-  Nominations and voting for the 2026 knAAC Awards
-  haven't opened yet. Check back here as the year
-  progresses -- once nominees have been gathered and
-  voting has concluded, this page will be updated with
-  the full list of nominees and that year's highlights
-  in each category.
+    Special thanks to Brandi Wentland for assistance with descriptions!
 </p>
+
 <p>
     We rely on <b>the donations of everyday folks</b>
     in the AAC community
@@ -372,8 +377,10 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://avazapp.com/products/avaz-aac-app/" target= "_blank">
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Avaz continues to grow its symbol-based vocabulary and features based on ongoing feedback from AAC users and professionals.
       </span>
@@ -384,7 +391,7 @@ bg: 4
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
-        Grid 3 remains a widely used, feature-rich AAC and computer access software package from Smartbox, supporting symbol- and text-based communication alike.
+        SmartBox's Grid 3 remains a widely used, feature-rich AAC and computer access software package from Smartbox, supporting symbol- and text-based communication alike.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -397,12 +404,21 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-    <a href ="https://www.assistiveware.com/products/proloquo4text" target= "_blank">
+    <a href ="https://www.assistiveware.com/products/proloquo" target= "_blank">
       <h4>Proloquo</h4>
       <img src="/images/2026/knaac/proloquo-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
         Proloquo is AssistiveWare's comprehensive AAC app for iPad and iPhone, designed to grow with users from their first words through adulthood. It pairs an extensive, research-based vocabulary with features like Thinking Space for visualizing and organizing thoughts and Focus Mode for guiding attention without limiting access to vocabulary.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://touchchatapp.com/apps/touchchat-hd-aac" target= "_blank">
+      <h4>TouchChat HD</h4>
+      <img src= "/images/2026/knaac/touchchat.svg" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        TouchChat HD is a symbol-based AAC app from PRC-Saltillo offering customizable vocabulary and robust language development features for a wide range of AAC users.
       </span>
     </div>
   </div>
@@ -435,6 +451,15 @@ bg: 4
       </a>
       <span class='sub'>
         Dialogue AAC is a text-based communication app designed to support efficient, personalized messaging for AAC users who communicate through text.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href = "https://www.assistiveware.com/products/proloquo4text" target= "_blank">
+      <h4>Proloquo4Text</h4>
+      <img src = "/images/2026/knaac/proloquotext.svg" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        Proloquo4Text is AssistiveWare's text-based AAC app, offering word prediction and efficient message composition for AAC users who communicate through text.
       </span>
     </div>
   </div>
@@ -495,7 +520,9 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://www.abilitymic.com/" target= "_blank">
       <h4>AbilityMic</h4>
+      <img src= "/images/2026/knaac/abilitymic.jpg" class='img' alt= '' />
       <span class='sub'>
         AbilityMic is a new symbol- and text-based AAC app from Poland, developed with AAC specialist and speech therapist Elżbieta Dawidek, that keeps the AAC user in control. It runs fully offline across Apple devices, Windows, Linux, and the browser (with Android in testing), and includes accessibility options like switch scanning, dwell activation, and VoiceOver support built to WCAG 2.2 AA. Optional on-device AI can turn a few tiles into a natural sentence, but only ever as a suggestion the user can accept, edit, or ignore, and a web panel lets SLPs and families build and sync boards remotely by invite.
       </span>
@@ -507,15 +534,19 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href = "https://bridgingvoice.org/ios-mirroring/" target= "_blank">
       <h4>Bridging Voice's iOS<br/>Mirroring & Control</h4>
       <img src="/images/2025/knaac/bridging-voice.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         The Bridging Voice tech team has developed technology for individuals who use Windows-based Speech Generating Devices to mirror their iPhone or iPad screens onto their SGD and control it using their access method, giving back full function and control of their iOS-based devices.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href ="https://www.voicebridgeaac.com/app" target= "_blank">
       <h4>VoiceBridge's language<br/>sampling feature</h4>
       <img src="/images/2026/knaac/voicebridge-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         VoiceBridge includes built-in language sampling that documents multimodal communication and generates useful language measures, along with interactive picture scenes that give AAC users engaging opportunities to explore vocabulary and build language.
       </span>
@@ -527,15 +558,19 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://smartboxaac.com/ukie/news/create-ai-powered-tools-with-smart-prompt/" target= "_blank">
       <h4>Smartbox's Smart Prompt</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt=''/>
+      </a>
       <span class='sub'>
         Smart Prompt is one of Smartbox's newer AI-assisted additions to the Grid 3 platform, aimed at helping AAC users generate messages more quickly.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href="https://smartboxaac.com/ukie/grid-software/" target= "_blank">
       <h4>Smartbox's AI Features</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Nominators praised Smartbox's thoughtful integration of AI features into the Grid 3 experience this year.
       </span>
@@ -701,6 +736,24 @@ bg: 4
         OMazing Kids AAC Consulting has become an invaluable reference hub for the AAC community. Angela Moorad consistently researches, tests, compares, and documents AAC apps, vocabulary systems, features, access options, and updates. She identifies meaningful differences and limitations rather than simply recommending favorite systems, helping clinicians, families, and supporters navigate an increasingly complex AAC landscape.
       </span>
     </div>
+    <div class='nominee' data-rank='3'>
+    <a href = "https://www.aaccessible.org/" target= "_blank">
+      <h4>AACcessible</h4>
+      <img src= "images/2026/knaac/new AACcessible logo black.avif" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        AACcessible is a community resource nominated this year for supporting accessible AAC information and education.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href ="https://communicationfirst.org/mission/" target= "_blank">
+      <h4>Communication First</h4>
+      <img src= "images/2026/knaac/communicationfirst.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        CommunicationFIRST is a nonprofit organization led by people with speech-related disabilities, dedicated to protecting and advancing the communication rights of people with speech-related disabilities.
+      </span>
+    </div>
   </div>
 </div>
 
@@ -723,6 +776,33 @@ bg: 4
       </a>
       <span class='sub'>
             Glint offers printable templates that can be generated quickly using AI. 
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href="https://www.everway.com/products/symbolstix-prime/" target= "_blank">
+      <h4>SymbolStix Prime</h4>
+      <img src= "images/2026/knaac/symbolstix.avif" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        SymbolStix Prime is an AAC communication and authoring tool designed for students with disabilities or special educational needs.<br>With over 100,000 symbols, it gives students meaningful ways to understand, express themselves and take part in learning, building the foundations for a more neuroinclusive classroom.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href ="https://globalsymbols.com/" target = "_blank">
+      <h4>Global Symbols</h4>
+      <img src="/images/2026/knaac/globalsymbols-logo.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        Global Symbols offers printable, culturally and linguistically responsive AAC symbols and resources for communities around the world.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://www.myboardmaker.com/Subscription/PersonalEditionLearnMore" target= "_blank">
+      <h4>Boardmaker</h4>
+      <img src= "images/2026/knaac/boardmaker.png" class='img' alt=''>
+      </a>
+      <span class='sub'>
+        Boardmaker is a longstanding symbol-based software platform used to create customized, printable AAC materials and communication boards.
       </span>
     </div>
   </div>
@@ -756,6 +836,20 @@ bg: 4
       </a>
       <span class='sub'>
         The Pragmatic Profile for AAC Users is an assessment tool designed to evaluate the pragmatic and social communication skills of individuals who use AAC.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+      <h4>AAC Genie</h4>
+      <span class='sub'>
+         An informal augmentative and alternative communication (AAC) assessment app for speech-language pathologists, educators, and assistive technology teams planning further evaluation and device trials.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://www.joyzabala.com/links-resources" target= "_blank">
+      <h4>SETT</h4>
+      </a>
+      <span class='sub'>
+        The SETT Framework, developed by Joy Zabala, is a widely used framework for guiding AAC and assistive technology assessment by considering the Student, Environment, Tasks, and Tools.
       </span>
     </div>
   </div>
@@ -814,10 +908,28 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://www.ablenetinc.com/talkingbrix-2/" target= "_blank">
       <h4>TalkingBrix</h4>
       <img src="/images/2026/knaac/talkingbrix.jpg" class='img' alt=''>
+      </a>
       <span class='sub'>
         TalkingBrix is a modular, light-tech AAC product nominated by the community this year.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://quicktalkerfreestyle.com/" target= "_blank" alt=''>
+      <h4>QuickTalker</h4>
+      <img src= "/images/2026/knaac/quicktalker.png" class='img' alt=''>
+      <span class='sub'>
+        QuickTalker is a simple, durable voice-output communication device from Attainment Company, offering an accessible entry point into AAC.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://logantech.com/products/proxtalker" target= "_blank">
+      <h4>ProxTalker</h4>
+      <span class='sub'>
+        ProxTalker is a tactile AAC system that uses physical RFID symbol tokens to trigger spoken output when placed on the device.
+    </a>
       </span>
     </div>
   </div>
@@ -843,8 +955,9 @@ bg: 4
     </div>
     <div class='nominee' data-rank='3'>
       <h4>Kinderboard Keyboard</h4>
+      <img src= "images/2026/knaac/kinderboard.jpg" class='img' alt='' />
       <span class='sub'>
-        Kinderboard Keyboard is an alternative access product designed to support early or emerging AAC users.
+        BigBlu KinderBoard is a large-key computer keyboard that can assist children with vision or motor-skill impairment, and is an excellent first keyboard for any child. Big Blu KinderBoard has big 1-in/2.5-cm oversized keys and large, bold, easy-to-read numbers and letters. The BigBlu KinderBoard features color-coded consonants, vowels, numbers and punctuation marks to help pre-school children learn their character sets
       </span>
     </div>
     <div class='nominee' data-rank='3'>
@@ -876,9 +989,30 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://aacil.neocities.org/" target= "_blank">
       <h4>AACIL (AAC Image<br/>Library)</h4>
+      </a>
+      <img src="/images/2026/knaac/aacil.png" class='img' alt='' />
       <span class='sub'>
-        An AAC image library made by AAC users.
+        An AAC image library made by AAC users for AAC users.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://opensymbols.org" target= "_blank">
+      <h4>Open Symbols</h4>
+      <img src= "/images/logo.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        OpenSymbols is an open-access symbol library that aggregates multiple free and open symbol sets for use in AAC systems.
+      </span>
+    </div>
+    <div class='nominee' data-rank='3'>
+    <a href= "https://lessonpix.com" target= "_blank">
+      <h4>LessonPix</h4>
+      <img src= "/images/2026/knaac/lessonpix.png" class='img' alt='' />
+      </a>
+      <span class='sub'>
+        LessonPix is a customizable image library widely used to create personalized AAC materials, worksheets, and visual supports.
       </span>
     </div>
   </div>
@@ -897,8 +1031,10 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://avazapp.com/products/avaz-aac-app/" target = "_blank">
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
+      </a>
       <span class='sub'>
         Avaz's Step Up vocabulary has been nominated on account of both the strength of the vocabulary and the team's commitment to continued improvement, providing robust core and fringe vocabulary designed to support increasingly flexible, generative communication.
       </span>
@@ -926,9 +1062,11 @@ bg: 4
       </span>
     </div>
     <div class='nominee' data-rank='3'>
+    <a href= "https://legacy.thinksmartbox.com/voco-chat/" target= "_blank">
       <h4>Voco Chat</h4>
+      <img src= "/images/2026/knaac/vocochat.png" class='img' alt='' />
       <span class='sub'>
-        Voco Chat is an AAC vocabulary system.
+      SmartBox's Voco Chat is a symbol vocabulary with a low-cell count, which enables users to communicate for a wide range of reasons. From saying what you want or asking a question, to telling someone about yourself or having a conversation.<br>Designed to make it easier to create messages, Voco Chat is built on a foundation of six message pathways. It also includes vocabulary to support individuals to participate more, engage in conversations, and be more independent, as well as talk about important topics such as mental health and wellbeing.
       </span>
     </div>
   </div>
@@ -938,8 +1076,10 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
+    <a href ="https://www.assistiveware.com/blog" target= "_blank">
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
+      </a>
       <span class='sub'>
         The AssistiveWare Blog sets the standard for vendor AAC content. It goes well beyond product information, addressing communication autonomy, language development, AAC implementation, partner strategies, and common misconceptions. We value its commitment to centering AAC-user perspectives and making complex concepts accessible without oversimplifying them.
       </span>
