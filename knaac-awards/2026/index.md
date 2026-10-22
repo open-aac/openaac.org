@@ -262,19 +262,19 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f60e.svg'/> AAC Teen Self-Advocate of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-      <h4>Tristan Weirich</h4>
+      <h4>Tristan</h4>
       <span class='sub'>
-        Tristan Weirich is a 14-year-old AAC user and emerging self-advocate who shares his experiences and perspectives as a nonspeaking autistic teen. Through AAC community groups, publications, and ImpAACt Voices, Tristan has spoken about communication, connection, self-advocacy, and choosing his own goals.
+        Tristan is an AAC user and emerging self-advocate who shares his experiences and perspectives as a nonspeaking autistic teen. Through AAC community groups, publications, and ImpAACt Voices, Tristan has spoken about communication, connection, self-advocacy, and choosing his own goals.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>LJ Seiff</h4>
+      <h4>LJ</h4>
       <span class='sub'>
-        LJ Seiff is a dedicated teen advocate who uses AAC to promote inclusion, accessibility, and greater understanding of the experiences of students with disabilities. He has presented at national conferences including ATIA and ASHA, and serves as a PRC-Saltillo Ambassador advocating for greater representation of AAC users.
+        LJ is a dedicated teen advocate who uses AAC to promote inclusion, accessibility, and greater understanding of the experiences of students with disabilities. He has presented at national conferences including ATIA and ASHA, and serves as a PRC-Saltillo Ambassador advocating for greater representation of AAC users.
       </span>
     </div>
     <div class='nominee' data-rank='3'>
-      <h4>Sirish Saride</h4>
+      <h4>Sirish</h4>
       <span class='sub'>
         As a high school student, Sirish has taken the initiative to advocate for students with complex communication needs by designing and creating core communication boards for special education classrooms, including placemats that support communication during mealtimes.
       </span>
@@ -337,6 +337,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>Alyssa Hillary Zisk</h4>
       <span class='sub'>
+      Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021. 
       </span>
     </div>
   </div>
@@ -359,6 +360,7 @@ bg: 4
     <div class='nominee' data-rank='3'>
       <h4>Caroline Gaddy</h4>
       <span class='sub'>
+      Caroline Gaddy, MFA, MA, CCC-SLP (they/she) is a speech-language pathologist, AAC specialist, disability advocate, and neurodiversity educator. They are a Learning Consultant for Tobii Dynavox and also provide education and consultation on neurodiversity-affirming practices through their business, Vibrant Minds, LLC. Caroline worked for many years in school settings as a teacher and an SLP, and also worked in medical settings with adult and pediatric populations, often specializing in supporting communication access for people with multiple disabilities. They have presented at both state and national conferences and coauthored articles on neuro-affirming practices, AAC, and Autistic communication styles. 
       </span>
     </div>
   </div>
