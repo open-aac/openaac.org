@@ -220,7 +220,7 @@ bg: 4
   }
 </style>
 <p>
-  Voting is <b>NOW OPEN!</b> Click below to place your votes!
+  Voting is <b>NOW OPEN!</b> Click below to place your votes! (Nominee information below)
 </p>
 
 <div style='width: 400px; max-width: 100%; margin: 0 auto;'>
