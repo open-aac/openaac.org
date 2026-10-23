@@ -1100,9 +1100,9 @@ bg: 4
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
     <div class='nominee' data-rank='3'>
-    <a href = "https://wordpoweraac.com" target= "_blank">
+    <a href = "https://www.prc-saltillo.com/wordpower" target= "_blank">
       <h4>WordPower</h4>
-      <img src="/images/2026/knaac/logo-word-power-cropped-registered.svg" class='img' alt='' />
+      <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
       </a>
       <span class='sub'>
         WordPower continues to stand out because it is regularly updated to reflect the language and communication needs of AAC users. Recent updates have introduced features such as Next Logical Word, and it offers multiple vocabulary sizes and layouts combining high-frequency core vocabulary with fringe words and grammatical supports.
