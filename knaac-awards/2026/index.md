@@ -17,6 +17,7 @@ bg: 4
   }
   .nominee {
     display: inline-block;
+    vertical-align: top;
     padding: 5px 10px;
     border: 1px solid #aaa;
     border-radius: 10px;
@@ -29,6 +30,20 @@ bg: 4
   .nominee h4 {
     overflow-wrap: break-word;
     word-break: keep-all;
+  }
+  .nominees:not(.expanded) .nominee:not(.winner) {
+    height: 210px;
+    box-sizing: border-box;
+  }
+  .nominees:not(.expanded) .nominee:not(.winner) h4 {
+    max-width: 190px;
+    margin: 0 auto;
+    max-height: 66px;
+    line-height: 22px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
   .nominees.expanded .nominee h4:hover {
     text-decoration: underline;
@@ -46,6 +61,10 @@ bg: 4
     display: block;
     margin: 0 auto;
   }
+  .nominees:not(.expanded) .nominee:not(.winner) .img {
+    max-width: 190px;
+    height: 70px;
+  }
   .nominee .photo {
     height: 120px;
     max-width: 150px;
@@ -58,7 +77,6 @@ bg: 4
   }
   .nominee .sub {
     display: block;
-    height: 43px;
     color: #888;
     overflow: hidden;
     font-weight: normal;
@@ -66,6 +84,12 @@ bg: 4
     font-size: 13px;
     line-height: 14px;
     margin: 0 auto;
+  }
+  .nominees:not(.expanded) .nominee:not(.winner) .sub {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .nominee .sub:after {
     display: block;
@@ -113,12 +137,14 @@ bg: 4
   }
   .nominees .nominee.runner-up {
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     border-width: 3px;
     border-color: #014f9b;
+    padding-top: 20px;
   }
   .nominees.expanded .nominee.runner-up {
-    padding: 15px 20px 30px;
+    display: flow-root;
+    padding: 40px 20px 15px;
   }
   .nominees .nominee.runner-up:after {
     content: "RUNNER-UP";
@@ -126,23 +152,34 @@ bg: 4
     color: #fff;
     background: #014f9b;
     position: absolute;
-    bottom: 35px;
-    left: -35px;
-    width: 175px;
-    transform: rotate(45deg);
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    line-height: 20px;
     text-align: center;
   }
 
   .nominees.expanded .img, .nominees .nominee.winner .img { 
-    height: 110px;
+    height: 220px;
+    max-height: 220px;
+    max-width: 300px;
     float: left;
     margin-right: 10px;
   }
   .nominees.expanded .photo, .nominees .nominee.winner .photo { 
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     float: left;
     margin-right: 10px;
+  }
+  .nominees.expanded .img, .nominees.expanded .nominee.winner .img {
+    float: none;
+    margin: 0 auto 15px;
+  }
+  .nominees.expanded .photo, .nominees.expanded .nominee.winner .photo {
+    float: none;
+    margin: 0 auto 15px;
   }
   .nominees.expanded h4, .nominees .nominee.winner h4 {
     font-size: 20px;
@@ -197,15 +234,13 @@ bg: 4
       max-width: 100%;
       margin-right: 0;
     }
-    .nominees.expanded .photo, .nominees .nominee.winner .photo { 
-      margin-left: 0;
+    .nominees .nominee.winner .photo { 
       float: none;
-      margin-bottom: 10px;
+      margin: 0 auto 10px;
     }
-    .nominees.expanded .img, .nominees .nominee.winner .img { 
-      margin-left: 0;
+    .nominees .nominee.winner .img { 
       float: none;
-      margin-bottom: 10px;
+      margin: 0 auto 10px;
       max-width: 100%;
     }
     .cta-button {
@@ -268,7 +303,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4e3.svg'/> AAC Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Chris Klein</h4>
       <img src="/images/2026/knaac/chrisklein.jpg" class='img' alt='' />
       <span class='sub'>
@@ -289,7 +324,7 @@ bg: 4
         Randi Brown is an SLP, AAC specialist, and lead SLP and Product Innovator for VoiceBridge AAC. In her work in Azle ISD, she has helped expand access to AAC for students with complex communication needs while supporting teachers and staff in increasing language exposure and AAC use throughout the school day.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>The endever* corbin<br/>et al polycule</h4>
       <img src= "/images/2025/endever_corbin.jpg" class='img' alt='' />
       <span class='sub'>
@@ -302,7 +337,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f60e.svg'/> AAC Teen Self-Advocate of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Tristan</h4>
       <span class='sub'>
         Tristan is an AAC user and emerging self-advocate who shares his experiences and perspectives as a nonspeaking autistic teen. Through AAC community groups, publications, and ImpAACt Voices, Tristan has spoken about communication, connection, self-advocacy, and choosing his own goals.
@@ -314,7 +349,7 @@ bg: 4
         LJ is a dedicated teen advocate who uses AAC to promote inclusion, accessibility, and greater understanding of the experiences of students with disabilities. He has presented at national conferences including ATIA and ASHA, and serves as a PRC-Saltillo Ambassador advocating for greater representation of AAC users.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Sirish</h4>
       <span class='sub'>
         As a high school student, Sirish has taken the initiative to advocate for students with complex communication needs by designing and creating core communication boards for special education classrooms, including placemats that support communication during mealtimes.
@@ -326,7 +361,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4f9.svg'/> AAC Presenter of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Lance McLemore</h4>
       <img src="/images/2026/knaac/lancemclemore.jpg" class='img' alt='' />
       <span class='sub'>
@@ -361,7 +396,7 @@ bg: 4
       Rachel Madel is a Los Angeles-based speech-language pathologist dedicated to coaching parents and professionals on the use of technology to support communication. Rachel presents both nationally and abroad on using technology and augmentative alternative communication (AAC) to support language development in children with a variety of diagnoses. She owns a private practice in Los Angeles, California where she specializes in the assessment and treatment of children who are using AAC.  Her work has been featured in Autism Parenting Magazine, Speech Science, Praactical AAC, Xceptional Ed, Teachers with Apps and ChildNEXUS. She is the founder of a digital media company that provides educational resources, therapy materials and training videos to help support parents and professionals of children with with complex communication needs. 
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Rachael Langley</h4>
       <img src= "/images/2026/knaac/rachellangley.jpg" class='img' alt='' />
       <span class='sub'>
@@ -388,16 +423,17 @@ bg: 4
         Dr. Benson-Goldberg's research advances important areas of AAC, including literacy, multimodal communication, access, and inclusive technology design. Her innovative work has used eye-tracking to explore literacy abilities and incorporated AAC users into technology design and evaluation.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Janice Light</h4>
       <img src="/images/2026/knaac/janice_light.webp" class='img' alt='' />
       <span class='sub'>
       Janice is an American academic who held the Hintz Family Endowed Chair in Children's Communicative Competence in the Department of Communication Sciences and Disorders at Pennsylvania State University. As a Distinguished Professor, she taught graduate courses and seminars in augmentative and alternative communication (AAC) and developed an internationally recognized research program in AAC.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Alyssa Hillary Zisk</h4>
       <img src="/images/2026/knaac/alyssa_zisk.webp" class='img' alt='' />
+
       <span class='sub'>
       Alyssa is an Autistic part-time AAC user, using a variety of text-based tools. They are the AAC Research team lead at AssistiveWare, conducting AAC research both related and unrelated to their own AAC use and needs. Alyssa completed their PhD in neuroscience in May 2021, working on brain-computer interfaces for people with ALS. They are also one of the moderators of the Facebook group, Ask Me, I'm an AAC User, which earned a Service to the Self-Advocacy Movement Award from the Autistic Self-Advocacy Network in 2021. 
       </span>
@@ -408,7 +444,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5e8.svg'/> AAC Community Leader of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Chris Klein</h4>
       <img src="/images/2026/knaac/chrisklein.jpg" class='img' alt='' />
       <span class='sub'>
@@ -422,7 +458,7 @@ bg: 4
       Amanda Hartmann has been a Speech-Language Pathologist and an AAC enthusiast for over 25 years. She has helped many children who use AAC and the people that support them. She is passionate about connecting with and advocating for people who use AAC.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Caroline Gaddy</h4>
       <img src= "/images/2026/knaac/caroline_gaddy.png" class='img' alt='' />
     <span class='sub'>
@@ -462,7 +498,7 @@ bg: 4
         SmartBox's Grid 3 remains a widely used, feature-rich AAC and computer access software package from Smartbox, supporting symbol- and text-based communication alike.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href = "https://lampwflapp.com/" target=  "_blank">
       <h4>LAMP 3</h4>
       <img src="/images/2026/knaac/lamp-wfl-logo.svg" class='img' alt='' />
@@ -480,7 +516,7 @@ bg: 4
         Proloquo is AssistiveWare's comprehensive AAC app for iPad and iPhone, designed to grow with users from their first words through adulthood. It pairs an extensive, research-based vocabulary with features like Thinking Space for visualizing and organizing thoughts and Focus Mode for guiding attention without limiting access to vocabulary.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href= "https://touchchatapp.com/apps/touchchat-hd-aac" target= "_blank">
       <h4>TouchChat HD</h4>
       <img src= "/images/2026/knaac/touchchat.svg" class='img' alt='' />
@@ -495,7 +531,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4ac.svg'/> Text-Centric AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href ="https://www.speechassistant.io/" target= "_blank">
       <h4>Speech Assistant AAC</h4>
       </a>
@@ -521,7 +557,7 @@ bg: 4
         Dialogue AAC is a text-based communication app designed to support efficient, personalized messaging for AAC users who communicate through text.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href = "https://www.assistiveware.com/products/proloquo4text" target= "_blank">
       <h4>Proloquo4Text</h4>
       <img src = "/images/2026/knaac/proloquotext.webp" class='img' alt='' />
@@ -536,7 +572,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f331.svg'/> Up-And-Coming AAC App of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href ="https://avazapp.com/products/avaz-aac-app/" target= "_blank">
       <h4>Avaz</h4>
       <img src="/images/2026/knaac/avaz-logo.png" class='img' alt='' />
@@ -554,7 +590,7 @@ bg: 4
         VoiceBridge is an exciting new AAC app created with language development and real-world AAC use in mind. It offers robust vocabulary and includes features that help support language development and track how AAC users communicate across different modalities.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.talkwithbravo.com/#open-source" target='_blank'>
       <h4>Bravo</h4>
       <img src="/images/2026/knaac/bravo-logo.png" class='img' alt='' />
@@ -602,7 +638,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f31f.svg'/> Best New AAC Feature</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href = "https://bridgingvoice.org/ios-mirroring/" target= "_blank">
       <h4>Bridging Voice's iOS<br/>Mirroring & Control</h4>
       <img src="/images/2025/knaac/bridging-voice.png" class='img' alt='' />
@@ -635,7 +671,7 @@ bg: 4
         Smart Prompt is one of Smartbox's newer AI-assisted additions to the Grid 3 platform, aimed at helping AAC users generate messages more quickly.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href="https://smartboxaac.com/ukie/grid-software/" target= "_blank">
       <h4>Smartbox's AI Features</h4>
       <img src="/images/2026/knaac/grid3-logo.png" class='img' alt='' />
@@ -650,7 +686,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f91d.svg'/> AAC User Community of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Out & About</h4>
       <span class='sub'>
         For more than 25 years, Out & About has created opportunities for AAC users to build friendships, communicate, and participate together in real community settings, welcoming AAC users across ages, abilities, devices, and language systems. Now supported by The Nika Project, it continues to grow while remaining centered on friendship, belonging, and AAC-user leadership.
@@ -665,7 +701,7 @@ bg: 4
         USSAAC's AAC User Social Meetups create accessible opportunities for AAC users to connect, socialize, and build friendships outside of therapy. Virtual meetups remove geographic barriers, while activities such as AAC Family Game Nights create relaxed spaces for AAC users and families to connect
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.facebook.com/groups/456220758119314/" target='_blank'>
       <h4>Ask me, I'm an<br/>AAC User</h4>
       </a>
@@ -688,13 +724,13 @@ bg: 4
         The QIAT Community is a nationwide grassroots group that includes hundreds of individuals who provide input into the ongoing process of identifying, disseminating, and implementing a set of widely applicable Quality Indicators for Assistive Technology Services in school settings
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>AAC for the SLP</h4>
       <span class='sub'>
         A supportive facebook group for those who work with and evaluate individuals for AAC. 
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.facebook.com/groups/676728011274573/" target='_blank'>
       <h4>Weave Chat AAC<br/>Community</h4>
       </a>
@@ -732,7 +768,7 @@ bg: 4
         @spinsandstomps is ran by Erin, a mother of an AAC user. Erin documents her family's day-to-day AAC and gestalt language processing journey, sharing how her daughter uses an AAC device alongside a total communication approach.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.instagram.com/limpbroozkit/" target='_blank'>
       <h4>Brooke Eby</h4>
       <img src= "/images/2026/knaac/Brooke-Eby.jpg" class='img' alt='' />
@@ -741,7 +777,7 @@ bg: 4
         Brooke Eby unfortunately recently passed away at only 37 years old due to complications with ALS, but she accomplished so much in the short time that she had to do so. Brooke was a social media influencer and ALS advocate for the entire 4 years that she lived with this disease. She created and shared a magnitude of content related to AAC and ALS during this time, building up hundreds of thousands of followers across TikTok, Instagram, Facebook, and LinkedIn. In 2023, Brooke founded ALStogether, an online Slack community connecting people with ALS and caregivers, including a channel dedicated specifically to AAC discussions, connections, and resources. Her blogs, social media posts, and more will continue to help other AAC users and potential users for many years to come.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.instagram.com/mariadeleonslp/" target='_blank'>
       <h4>Maria De Leon, M.S., CCC-SLP, BCS-AAC</h4>
       <img src= "/images/2026/knaac/maria_de_leon.jpg" class='img' alt='' />
@@ -756,7 +792,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3eb.svg'/> AAC Training Resource of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.angelman.org/stepping-into-aac/" target='_blank'>
       <h4>Stepping Into AAC</h4>
       <img src="/images/2024/stepping.jpeg" class='img' alt='' />
@@ -774,7 +810,7 @@ bg: 4
         Bridging Voice hosts free, monthly live trainings on AAC that are open to anyone, including clients, families, caregivers, and professionals. Professionals can earn a Professional Development Certificate for attending live, and every session is recorded and posted to the Bridging Voice website and YouTube channel for free, on-demand access.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://aaclearningjourney.com" target='_blank'>
       <h4>AAC Learning Journey</h4>
       <img src="/images/2026/knaac/AACLearn.png" class='img' alt='' />
@@ -798,7 +834,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f310.svg'/> AAC Community Site of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://omazingkidsllc.com/omazing-kids-aac-resource-links/" target='_blank'>
       <h4>OMazing Kids<br/>AAC Consulting</h4>
       <img src="/images/2024/knaac/omazing-kids.jpeg" class='img' alt='' />
@@ -816,7 +852,7 @@ bg: 4
         AACcessible is a community resource nominated this year for supporting accessible AAC information and education.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href ="https://communicationfirst.org/mission/" target= "_blank">
       <h4>Communication First</h4>
       <img src= "/images/2026/knaac/communicationfirst.png" class='img' alt='' />
@@ -831,7 +867,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f5a8.svg'/> Printable AAC Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://lessonpix.com/" target='_blank'>
       <h4>LessonPix Grid Books</h4>
       <img src="/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -840,7 +876,7 @@ bg: 4
         LessonPix Grid Books provide a creative way to combine AAC, language, and literacy while maintaining access to communication vocabulary. They can be customized for individual users, interests, vocabulary, and instructional goals and incorporated into shared reading and interactive learning activities. LessonPix moves printable AAC beyond static communication boards, supporting commenting, answering questions, making choices, retelling, and other meaningful language interactions in an affordable, adaptable format.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href= "https://www.nerchat.com/" target= "_blank">
       <h4>Glint</h4>
       <img src="/images/2026/knaac/glint_only_logo_wide_v6_white.png" class='img' style='background: #14141e; padding: 8px; border-radius: 6px;' alt='' />
@@ -882,7 +918,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4cb.svg'/> AAC Assessment Tool of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.tobiidynavox.com/products/dagg-3" target='_blank'>
       <h4>DAGG-3</h4>
       <img src="/images/2025/dagg3.png" class='img' alt='' />
@@ -891,7 +927,7 @@ bg: 4
         DAGG-3 provides a structured framework for assessing and supporting an individual’s development as an AAC communicator. DAGG-3 looks beyond device operation to consider broader areas of communicative competence and can help identify strengths, areas for growth, and meaningful intervention priorities. It is useful not only for assessment, but also for goal development and tracking progress over time, making it a practical tool for clinicians supporting AAC users.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.communicationmatrix.org/" target='_blank'>
       <h4>Communication Matrix</h4>
       <img src="/images/2025/knaac/commmatrix.png" class='img' alt='' />
@@ -951,7 +987,7 @@ bg: 4
         Hunter's Voice is a creative example of AAC innovation originating directly from an AAC user. When Hunter's device stopped working, he drew a QWERTY keyboard on paper and communicated by pointing to letters, eventually inspiring wearable keyboard options. This solution reinforces the importance of having multiple ways to communicate. It is simple, portable, and provides an alternative when electronics are unavailable or impractical—most importantly, it grew directly from an AAC user identifying what worked for him.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href = "https://aaclanguagelab.com/resources/wordpower-manual-communication-boards-prc-saltillo" target= "_blank">
       <h4>PRC-Saltillo's<br/>Poster-size boards</h4>
       <img src="/images/2026/knaac/prcboard.png" class='img' alt='' />
@@ -960,7 +996,7 @@ bg: 4
         PRC-Saltillo's poster-size boards offer large-format, low-tech core vocabulary displays for classrooms and community spaces.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <h4>Flip Books by<br/>PRC-Saltillo</h4>
       <img src="/images/2025/knaac/saltillo-flip.jpg" class='img' alt='' />
       <span class='sub'>
@@ -973,7 +1009,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f50a.svg'/> Mid-Tech AAC Product of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.attainmentcompany.com/gotalk-20-lite-touch" target='_blank'>
       <h4>GoTalk Lite<br/>Touch devices</h4>
       <img src="/images/2026/knaac/gotalk_20_lite_touch.jpg" class='img' alt='' />
@@ -991,7 +1027,7 @@ bg: 4
         TalkingBrix is a modular, light-tech AAC product nominated by the community this year.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href= "https://quicktalkerfreestyle.com/" target= "_blank" alt=''>
       <h4>QuickTalker</h4>
       <img src= "/images/2026/knaac/quicktalker.png" class='img' alt='' />
@@ -1016,7 +1052,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a8.svg'/> Alternative Access Product of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.controlbionics.com/neuronode" target='_blank'>
       <h4>Control Bionics Trilogy</h4>
       <img src="/images/2026/knaac/controlbionics-logo.png" class='img' alt='' />
@@ -1038,7 +1074,7 @@ bg: 4
         BigBlu KinderBoard is a large-key computer keyboard that can assist children with vision or motor-skill impairment, and is an excellent first keyboard for any child. Big Blu KinderBoard has big 1-in/2.5-cm oversized keys and large, bold, easy-to-read numbers and letters. The BigBlu KinderBoard features color-coded consonants, vowels, numbers and punctuation marks to help pre-school children learn their character sets
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>PODD auditory<br/>only template</h4>
       <span class='sub'>
         This template adapts the PODD communication system for AAC users who rely on auditory scanning rather than visual access.
@@ -1057,7 +1093,7 @@ bg: 4
         Global Symbols is expanding what symbol-based AAC can look like across languages, cultures, and communities, with a collaborative, open-access approach and exploration of AI-supported symbol generation offering exciting possibilities for greater personalization and representation.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <a href="https://www.tobiidynavox.com/" target='_blank'>
       <h4>PCS</h4>
       <img src="/images/2026/knaac/tobiidynavox-logo.png" class='img' alt='' />
@@ -1084,7 +1120,7 @@ bg: 4
         OpenSymbols is an open-access symbol library that aggregates multiple free and open symbol sets for use in AAC systems.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href= "https://lessonpix.com" target= "_blank">
       <h4>LessonPix</h4>
       <img src= "/images/2024/knaac/lessonpix.png" class='img' alt='' />
@@ -1099,7 +1135,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f4c4.svg'/> AAC Vocabulary of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
     <a href = "https://www.prc-saltillo.com/wordpower" target= "_blank">
       <h4>WordPower</h4>
       <img src="/images/2026/knaac/prc-saltillo-logo.png" class='img' alt='' />
@@ -1117,7 +1153,7 @@ bg: 4
         Avaz's Step Up vocabulary has been nominated on account of both the strength of the vocabulary and the team's commitment to continued improvement, providing robust core and fringe vocabulary designed to support increasingly flexible, generative communication.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
       <h4>Proloquo</h4>
       <img src="/images/2026/knaac/proloquo-logo.png" class='img' alt='' />
       <span class='sub'>
@@ -1155,7 +1191,7 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f6a9.svg'/> Vendor AAC Blog of the Year</h3>
   <div class='nominees'>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='2'>
     <a href ="https://www.assistiveware.com/blog" target= "_blank">
       <h4>AssistiveWare</h4>
       <img src="/images/2024/assistiveware.svg" class='img' alt='' />
@@ -1164,7 +1200,7 @@ bg: 4
         The AssistiveWare Blog sets the standard for vendor AAC content. It goes well beyond product information, addressing communication autonomy, language development, AAC implementation, partner strategies, and common misconceptions. We value its commitment to centering AAC-user perspectives and making complex concepts accessible without oversimplifying them.
       </span>
     </div>
-    <div class='nominee' data-rank='3'>
+    <div class='nominee' data-rank='1'>
       <a href="https://www.project-core.com/professional-development-modules/" target='_blank'>
       <h4>PrAACtical AAC</h4>
       <img src="/images/2024/praactical.webp" class='img' alt='' />
@@ -1179,6 +1215,34 @@ bg: 4
 <div>
   <h3><img src='https://d18vdu4p71yql0.cloudfront.net/libraries/twemoji/1f3c6.svg'/> Lifetime Achievement (Judges' Selection)</h3>
   <div class='nominees'>
+    <div class='nominee' data-rank='1'>
+      <h4>Bob Williams</h4>
+      <span class='sub'>
+        <p>
+        Bob Williams is the co-founder and former Policy Director of CommunicationFIRST. His work has advanced the rights and opportunities of children, working-age persons, and older adults with disabilities for over 40 years by creating community living services, helping to pass the ADA, and administering the federally funded developmental disabilities and independent living networks. Born in 1957, one of the first AAC devices Williams used was a hand-painted alphabet on a piece of wood handed to him by a camp counselor. A year or two later, the same counselor handed him a Hall Roe Communication Board. This is the board Williams used to lobby, alongside others, to gain passage of the ADA.
+        </p>
+        <p>
+        Appointed by HHS Secretary Donna Shalala, Williams became the Commissioner of what was then the Administration on Developmental Disabilities, charged with administering the nationwide network of Developmental Disabilities Councils, Protection and Advocacy Systems, and the UCEDDs.
+        </p>
+        <p>
+        Williams' distinguished career in federal and state government spans over four decades, most recently serving as Director of the U.S. Independent Living Administration at the U.S. Department of Health and Human Services.
+        </p>
+        <p>
+        A collection of Bob William's writing, presentations, and film appearances can be accessed at <a href= "https://communicationfirst.org/bobs-retirement/"> this webpage, provided by CommunicationFIRST.</a>
+        </p>
+        <p>
+        We are incredibly grateful for Bob's lifetime of work and achievements, which opened countless doors that enable us to be here now, continuing the same work. 
+        </p>
+
+
+
+
+
+
+
+        
+      </span>
+    </div>
   </div>
 </div>
 
@@ -1244,5 +1308,32 @@ bg: 4
       }
     });
   })
+
+  var sizeNomineeBios = function() {
+    document.querySelectorAll('.nominees:not(.expanded) .nominee:not(.winner)').forEach(function(nom) {
+      var sub = nom.querySelector('.sub');
+      if(!sub) {
+        return;
+      }
+      var cs = getComputedStyle(nom);
+      var contentHeight = nom.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+      var used = 0;
+      nom.querySelectorAll('h4, .img').forEach(function(el) {
+        used += el.getBoundingClientRect().height;
+      });
+      var remaining = Math.max(0, contentHeight - used);
+      var lineHeight = parseFloat(getComputedStyle(sub).lineHeight) || 14;
+      var lines = Math.max(1, Math.floor(remaining / lineHeight));
+      sub.style.maxHeight = remaining + 'px';
+      sub.style.webkitLineClamp = lines;
+    });
+  };
+  sizeNomineeBios();
+  window.addEventListener('load', sizeNomineeBios);
+  var sizeNomineeBiosTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(sizeNomineeBiosTimer);
+    sizeNomineeBiosTimer = setTimeout(sizeNomineeBios, 150);
+  });
 </script>
 </content>
