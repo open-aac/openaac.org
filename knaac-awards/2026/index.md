@@ -255,15 +255,6 @@ bg: 4
   }
 </style>
 <p>
-  Voting is <b>NOW OPEN!</b> Click below to place your votes! (Nominee information below)
-</p>
-
-<div style='width: 400px; max-width: 100%; margin: 0 auto;'>
-  <a href="https://forms.gle/oFKPiRSMXYejjejW6" target='_blank' class="button fit special cta-button" style='font-size: 30px; height: 70px; line-height: 40px; padding: 20px 10px;'>
-    VOTE NOW
-  </a>
-</div>
-<p>
   Welcome to the third annual knAAC Awards! Short for
   "Keepers and Noteworthies in AAC", the knAAC Awards
   are all about highlighting the wonderful work happening
